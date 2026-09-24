@@ -1,0 +1,11 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "functions": {
+    "api/refresh.js": {
+      "maxDuration": 30
+    }
+  }
+}

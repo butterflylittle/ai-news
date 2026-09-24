@@ -61,3 +61,20 @@ npm run refresh
 ## 排序规则
 
 排序只使用可解释规则：来源权重、新鲜度、关键词、一手来源和跨源印证。没有接入 Jev，也没有用 LLM 判断价值。收藏和隐藏状态保存在浏览器 `localStorage`。
+
+## Vercel 部署
+
+项目使用 `vercel.json` 固定构建设置。Vercel 会运行 `npm run build`，将最新的 `data/store.json` 复制到静态站点，再发布 `docs/.vitepress/dist`。
+
+Vercel 环境变量：
+
+- `GH_ACTIONS_TOKEN`：仅授权本仓库、具有 Actions 读写权限的 GitHub fine-grained PAT。
+- `REFRESH_SECRET`：手动刷新密钥；线上首次点击刷新时输入，值只保存在当前浏览器会话。
+
+GitHub Actions Secrets：
+
+- `X_BEARER_TOKEN`
+- `XIAOHONGSHU_COOKIE`
+- `XIAOHONGSHU_USER_IDS`
+
+`.github/workflows/refresh.yml` 每天北京时间 09:00 运行，也接受线上按钮触发。工作流提交新的 JSON/Markdown 后，Vercel 的 Git 集成会自动发布。

@@ -189,6 +189,7 @@ button { color: inherit; }
   font-size: 13px;
 }
 .notice.error { color: #8d2716; background: #f8d9ce; }
+.notice.info { color: #344a31; background: #dde7d8; }
 
 .lead-grid {
   display: grid;

@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-09-24T01:24:02.563Z",
+    "updatedAt": "2026-09-24T08:08:40.810Z",
     "date": "2026-09-24",
-    "reason": "cli",
+    "reason": "manual",
     "timezone": "Asia/Shanghai",
     "enabledSources": 6,
-    "successfulSources": 6,
+    "successfulSources": 5,
     "nextScheduledAt": null,
     "empty": false
   },
@@ -47,6 +47,11 @@
       "summary": "Using GPT-5.6, Ringg powers multilingual agents across voice, chat, WhatsApp, and web for 90% less cost vs. GPT-4.1.",
       "url": "https://openai.com/index/ringg",
       "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "category": "Agent",
       "keywordHits": [
@@ -65,12 +70,7 @@
       ],
       "sourceWeight": 35,
       "score": 74,
-      "level": "值得看",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      }
+      "level": "值得看"
     },
     {
       "id": "1d77064cbebb",
@@ -110,7 +110,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "category": "其他",
@@ -139,7 +140,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T10:00:00.000Z",
       "category": "模型发布",
@@ -157,6 +159,37 @@
       ],
       "sourceWeight": 35,
       "score": 68,
+      "level": "值得看"
+    },
+    {
+      "id": "7db1b95fc6f1",
+      "title": "Controlling Collectives of AI Agents in Reasoning Space with Spatial Transformers",
+      "summary": "Large Language Models (LLMs) introduce an exciting new paradigm for planning and navigation in robotics, but fail on even simple multi-robot tasks as team sizes grow. We propose COMPASS, a scalable, decentralized multi-robot architecture for controlling large collectives of agentic robots with reasoning space feedback ",
+      "url": "https://arxiv.org/abs/2609.28247v1",
+      "author": "Frederic Vatnsdal Roshan Gopal Romina Garcia Camargo Vijay Kumar Alejandro Ribeiro",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T15:08:35.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm",
+        "agent",
+        "transformer"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28247v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 66,
       "level": "值得看"
     },
     {
@@ -184,37 +217,6 @@
           "name": "OpenAI News",
           "platform": "official",
           "url": "https://openai.com/index/grab-openai-ai-skills-southeast-asia"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 66,
-      "level": "值得看"
-    },
-    {
-      "id": "530db518a73a",
-      "title": "Expanding OpenAI Academy with new learning paths",
-      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
-      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-09-21T07:00:00.000Z",
-      "category": "Skills 生态",
-      "keywordHits": [
-        "ai",
-        "openai",
-        "skills"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
         }
       ],
       "sourceWeight": 35,
@@ -253,7 +255,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "category": "其他",
@@ -279,7 +282,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:00:00.000Z",
       "category": "其他",
@@ -305,7 +309,8 @@
       "author": "Aaron Luber",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T18:00:00.000Z",
       "category": "其他",
@@ -324,6 +329,36 @@
       "level": "值得看"
     },
     {
+      "id": "f3b1a40a529b",
+      "title": "Shopping by algorithm: How agentic AI deploys human heuristics as a surrogate consumer",
+      "summary": "Consumers increasingly delegate purchasing decisions to Large Language Models (LLMs) acting as surrogate consumers. Using \"Tool-Lab,\" an adaptation of information-board process tracing that places product attributes behind costly tool calls, we examine how marketing pricing cues (i.e., just-below pricing and promotiona",
+      "url": "https://arxiv.org/abs/2609.28372v1",
+      "author": "Davood Wadi Yu Ma",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:47:52.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28372v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 63,
+      "level": "值得看"
+    },
+    {
       "id": "73fafdf6f45f",
       "title": "Airbnb widens access to GPT-6 Astra and OpenAI frontier models",
       "summary": "Learn how Airbnb is expanding access to GPT-6 Astra and OpenAI frontier models to help engineering teams solve bugs, design systems, and ship faster.",
@@ -331,7 +366,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T01:00:00.000Z",
       "category": "模型发布",
@@ -469,6 +505,267 @@
       "level": "值得看"
     },
     {
+      "id": "e42f9a24cc94",
+      "title": "Can LLMs Reason About Runtime Behavior? A Repository-Level Dynamic Benchmark",
+      "summary": "Large language models (LLMs) are increasingly used in coding tasks, but their ability to reason about code execution remains unclear. Existing repository-level QA benchmarks mainly evaluate static code understanding and often rely on LLM-based evaluation, while execution-reasoning benchmarks are mostly limited to snipp",
+      "url": "https://arxiv.org/abs/2609.28449v1",
+      "author": "Hamed Taherkhani Mohammad Abdollahi Melika Sepidband Hridya Dhulipala Tien N. Nguyen Hadi Hemmati",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:46:50.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28449v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "376d9538844b",
+      "title": "Agent-Editing World Model: Rethinking World Modeling for LLM Agents",
+      "summary": "Recent advances in large language models (LLMs) have enabled agents to tackle long-horizon tasks across diverse environments. To further improve agent performance, existing language world models typically predict environment observations, yet reconstructing high-entropy, execution-dependent tool responses offers limite",
+      "url": "https://arxiv.org/abs/2609.28416v1",
+      "author": "Shuang Sun Guoxin Chen Fanzhe Meng Jia Deng Huatong Song Jinhao Jiang Wayne Xin Zhao Hongteng Xu Ji-Rong Wen",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:18:26.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28416v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "031612e7d1ab",
+      "title": "Shutdown Sabotage Propensities in Multi-Agent Systems",
+      "summary": "The final safeguard against rogue AI behavior is the human ability to shut systems down. It has been theorized that when an AI is instructed to perform a task, self-preservation can emerge as an instrumental subgoal. Here, we test whether AI agents show a propensity to take actions that avoid human shutdown even when n",
+      "url": "https://arxiv.org/abs/2609.28274v1",
+      "author": "Amelie Knecht Ulysse Schaller Christopher Summerfield Thilo Hagendorff",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T15:27:12.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28274v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "e2627ba15a97",
+      "title": "Beyond Poetry: Can Large Language Models Generate Classical Arabic Maqamat?",
+      "summary": "Large language models (LLMs) have shown strong performance in creative text generation, yet their ability to produce culturally grounded and stylistically constrained literary forms remains underexplored. Prior work has focused largely on modern language varieties and poetry, while classical prose traditions such as ma",
+      "url": "https://arxiv.org/abs/2609.28245v1",
+      "author": "AbdulRahman A. Morsy Aya Zirikly",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T15:08:32.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28245v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "f5c8d75054d9",
+      "title": "From Agent Output to Authorized Transition",
+      "summary": "Agentic engineering systems can edit repositories, run tools and tests, build firmware, synthesize schematics, and prepare deployable or manufacturable artifacts. The assurance problem is therefore shifting from whether an agent can produce an output to whether an engineering lifecycle is justified in acting on claims ",
+      "url": "https://arxiv.org/abs/2609.28216v1",
+      "author": "Christopher Koch",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T14:50:20.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28216v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "1f4116a04746",
+      "title": "PASTABench: Proactive Assessment of Sequential Trajectories for Agent Safety",
+      "summary": "As Large Language Models (LLMs) evolve into autonomous agents that alter real-world states, ensuring operational safety across multi-step workflows has become a critical challenge. While recent work has moved beyond single-turn evaluation toward multi-turn paradigms, key limitations persist: step-level methods treat ac",
+      "url": "https://arxiv.org/abs/2609.28197v1",
+      "author": "Jiapeng Sun Yujin Zhou Han Zhu Pengcheng Wen Jiayi Zhou Sirui Han Yike Guo",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T14:34:45.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28197v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "52ceff09cf32",
+      "title": "Finite-Sample Probabilistic Safety Certification for AI-Based Grid-Edge Coordination",
+      "summary": "Coordinating large population of flexible grid-edge devices can alleviate the need for time-consuming and capital-intensive network upgrades, and AI-based control methods such as multi-agent reinforcement learning or imitation learning are promising in their real-time decision scalability. However, system operators sti",
+      "url": "https://arxiv.org/abs/2609.28182v1",
+      "author": "Yihong Zhou Hanbin Yang Thomas Morstyn",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T14:24:46.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28182v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "294f86e7a8bb",
+      "title": "Can LLMs Catch a Rigged Backtest? A Clean-Control Calibration Benchmark",
+      "summary": "Backtest auditing is a calibration problem: high flaw recall is not useful when the model falsely flags matched clean strategies. We build a 96-item paired benchmark in which every flawed backtest has a clean control that holds strategy, dates, code style, labels, and reporting scaffold fixed while changing one methodo",
+      "url": "https://arxiv.org/abs/2609.28090v1",
+      "author": "Makar Ulesov Vladislav Smirnov Omar Ibrahim Arsenii Bobovnikov",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:25:25.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28090v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "29b32d459428",
+      "title": "LAYERSCOPE: A Layerwise Characterization of Video and Multimodal Learned Representations",
+      "summary": "We propose LAYERSCOPE, a label-free, layerwise framework that aims to characterize a model's learned representations in video and multimodal settings. Evaluating downstream performance using representations from final or intermediate layers typically requires large amounts of labeled data, repeated task-specific evalua",
+      "url": "https://arxiv.org/abs/2609.28086v1",
+      "author": "Sandra Arcos-Holzinger Debashish Chakraborty Rohita Mocharla Will Walden Andrew Yates Reno Kriz Sarah M. Erfani James Bailey Vishal M. Patel Sanjeev Khudanpur",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:24:29.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "multimodal"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28086v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
       "id": "4362c2401458",
       "title": "Compliant with Local Controls, Collectively Discriminatory. A Governance Architecture for Multi-Agent AI in Regulated Finance",
       "summary": "Financial institutions are beginning to deploy agentic workflows in credit, fraud, collections, compliance, and operational control. Governance remains largely component-centric: each model or agent is specified, tested, authorized, and monitored locally. That is insufficient when institutional risk arises from the joi",
@@ -494,6 +791,34 @@
         }
       ],
       "sourceWeight": 24,
+      "score": 60,
+      "level": "值得看"
+    },
+    {
+      "id": "1dd9ce125c6e",
+      "title": "ChatGPT Ads expands to Southeast Asia and Taiwan",
+      "summary": "ChatGPT Ads is expanding to Southeast Asia and Taiwan, giving eligible businesses new ways to reach people across more than 60 countries.",
+      "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T02:00:00.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/chatgpt-ads-expands-southeast-asia-taiwan"
+        }
+      ],
+      "sourceWeight": 35,
       "score": 60,
       "level": "值得看"
     },
@@ -586,36 +911,370 @@
       "level": "值得看"
     },
     {
-      "id": "3665f5c13866",
-      "title": "黄仁勋对 AI 公司放话：要求监管就不应获得反垄断豁免",
-      "summary": "北京时间 9 月 24 日，据路透社报道，英伟达 CEO 黄仁勋 (Jensen Huang) 认为，AI 公司不应获得反垄断法或责任法的豁免。 在周三播出的《纽约时报》播客节目中，黄仁勋接受了近两个小时的采访，就 OpenAI 智能体入侵 Hugging Face 一事进行了广泛讨论。Hugging Face 是开源 AI 软件中心，在本月被英伟达以 130 亿美元收购。 黄仁勋一直反对对 AI 安全进行全面监管，即便 OpenAI 和 Anthropic 等实验室呼吁进行此类监管。他重申了自己的立场，即 AI 实验室有责任测试其产品，只有在确信模型安全后才会发布。 根据《纽约时报》公布的文字记录，黄仁勋说：“不过，考虑到他们所从",
-      "url": "https://www.ithome.com/1/006/514.htm",
+      "id": "530db518a73a",
+      "title": "Expanding OpenAI Academy with new learning paths",
+      "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
+      "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths",
       "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-21T07:00:00.000Z",
+      "category": "Skills 生态",
+      "keywordHits": [
+        "ai",
+        "openai",
+        "skills"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/expanding-openai-academy-with-new-learning-paths"
+        }
+      ],
+      "sourceWeight": 35,
+      "score": 59,
+      "level": "值得看"
+    },
+    {
+      "id": "c3133f218208",
+      "title": "StudentBench: AI and human tutoring yield equivalent GRE learning gains",
+      "summary": "Artificial intelligence offers an unprecedented opportunity to augment human capabilities, yet progress at the frontier has focused primarily on advancing model capabilities. We introduce StudentBench, a suite of AI teaching evaluations and a public platform that enables large-scale data collection with over 175,000 st",
+      "url": "https://arxiv.org/abs/2609.28470v1",
+      "author": "Curtis Northcutt Inaara Hasmani Kevin Feng Trevor Khangi Andreas Plesner Jonas Mueller",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-23T22:36:38.000Z",
+      "publishedAt": "2026-09-23T17:57:45.000Z",
       "category": "模型发布",
       "keywordHits": [
-        "ai",
-        "智能体",
-        "模型",
-        "openai",
-        "anthropic",
-        "hugging face"
+        "ai"
       ],
-      "primary": false,
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/514.htm"
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28470v1"
         }
       ],
-      "sourceWeight": 18,
-      "score": 58,
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "cae130f55034",
+      "title": "Frozen Flows Forget: Diagnosing and Restoring Lost Motion in a Latent-flow World Model",
+      "summary": "Latent world models that integrate a flow in a frozen self supervised latent space train stably and cheaply, yet silently lose the property manipulation depends on most: motion. The pretrained flow never moves the manipulated object; retraining it with latent-only losses only trades stillness for teleport-like motion. ",
+      "url": "https://arxiv.org/abs/2609.28414v1",
+      "author": "Xiwen Chen Rigaudiere Z. Li Zhiruo Zhou Xiaojun Zhu Houde Liu",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:17:02.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28414v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "f999b52da4b1",
+      "title": "Learning Holographic Reduced Representations with Clifford Variational Autoencoders",
+      "summary": "Vector Symbolic Algebras project data structures into a hyperdimensional vector space through the application of their vector algebras to randomly generated atomic vector symbols and fractional power encodings of real-valued data. Embedding unstructured data remains an open question. We present \\textit{Clifford-VAE}, a",
+      "url": "https://arxiv.org/abs/2609.28409v1",
+      "author": "Mohamed Malek Abid P. Michael Furlong",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:10:56.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28409v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "890785b5305f",
+      "title": "AnchorReasoning: A Visual Grounding and Causal Reasoning Dataset in Long-Tail Autonomous Driving Scenarios",
+      "summary": "Vision-language models (VLMs) offer a promising approach to long-tail autonomous driving, but existing driving datasets provide limited supervision for connecting decision-critical visual evidence with reasoning and planning. We introduce AnchorReasoning, a visually grounded reasoning dataset built on WOD-E2E, containi",
+      "url": "https://arxiv.org/abs/2609.28366v1",
+      "author": "Zhipeng Bao Wenjie Zhao Tianle Zhu Haohua Que Chence Yang Geng Yuan Qianwen Li",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:38:06.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28366v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "02f3f71bd5dc",
+      "title": "MicroQonv: Reshaping Convolution Tensors for Efficient Microscaling in Training and Inference",
+      "summary": "Microscaling quantization techniques are increasingly used to represent neural network parameters with 8 bits or fewer while preserving near-full precision accuracy. However, applying these methods efficiently in convolutional layers is not straightforward. A naive approach transfers full-precision weights and activati",
+      "url": "https://arxiv.org/abs/2609.28358v1",
+      "author": "Romain Facq Sami Ben Ali Olivier Sentieys",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:30:48.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28358v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "c8e8c5457428",
+      "title": "An Open Pipeline and Dashboard for Systemic-Risk Evidence under the EU AI Act's Code of Practice",
+      "summary": "Claims about AI safety reach audiences well beyond the AI community, yet many rely on opaque evidence or static assessments, when supporting evidence is accessible at all. We present the Systemic Risk Index, an open evaluation pipeline and dashboard built to make empirical evidence more transparent and traceable to the",
+      "url": "https://arxiv.org/abs/2609.28335v1",
+      "author": "Jacob T. Emmerson Phuong-Anh Nguyen-Le Ronan Romano Wilber Sean V. Anterola Yann Billeter Zhijing Jin",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:13:36.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28335v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "777f89b78fe3",
+      "title": "MemBodied: Recurrent Associative Memory for Vision-Language-Action Models",
+      "summary": "Vision-Language-Action models provide a strong foundation for general-purpose robot control, yet a vast majority of policies do not preserve and leverage episode-level information beyond the current observation. This limitation is consequential in history-dependent manipulation tasks that depend on information availabl",
+      "url": "https://arxiv.org/abs/2609.28256v1",
+      "author": "Tej Deep Pala Navonil Majumder Bryce Goh Raphael Yee Jianfei Yang Liming Chen Soujanya Poria",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T15:19:19.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28256v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "7c1d8b33b69a",
+      "title": "\"We'll Fix It Later\": Education, AI, and the Deferral of Privacy in EdTech",
+      "summary": "Educational technology (EdTech) platforms collect highly sensitive student data, including behavioral logs, disability records, and academic histories. However, privacy considerations are often postponed rather than treated as a foundational design requirement. We present a mixed-methods study combining 12 semi-structu",
+      "url": "https://arxiv.org/abs/2609.28137v1",
+      "author": "Meghna Manoj Nair Rachel Greenstadt",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:59:37.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28137v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "0a3413fadf2c",
+      "title": "Scaling Attention Head Analysis via Gradient-Based Attribution in Context-Aware Machine Translation",
+      "summary": "In this paper, we introduce a gradient-based head attribution strategy where the Token-level Max-Margin loss is backpropagated to the attention maps. This framework enables a large-scale causal analysis of attention heads, making it suitable for LLMs. We evaluate our method on the task of disambiguation in Context-awar",
+      "url": "https://arxiv.org/abs/2609.28117v1",
+      "author": "Paweł Mąka Yusuf Can Semerci Jan Scholtes Gerasimos Spanakis",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:46:01.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28117v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "860d256509db",
+      "title": "Field-of-View Extension in Dental Cone-Beam CT via Implicit Neural Representations and Diffusion Model-Based Refinement",
+      "summary": "Dental cone-beam computed tomography (CBCT) systems often employ detector configurations that provide a truncated field of view (FOV) that only captures a small part of the patient's anatomy. In this work, we aim to reconstruct an extended FOV using projections of truncated FOV scans. To this end, we propose a three-st",
+      "url": "https://arxiv.org/abs/2609.28110v1",
+      "author": "Susanne Schaub Florentin Bieder Matheus L. Oliveira Yulan Wang Buyanbileg Sodnom-ish Dorothea Dagassan-Berndt Michael M. Bornstein Philippe C. Cattin",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:43:34.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28110v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "10c23fea85dc",
+      "title": "Distillation for Efficient Multitask Manipulation Policies via Conditional Flow Matching",
+      "summary": "Advances in generative modeling have recently been extensively employed in robotics for policy learning. In particular, Conditional Flow Matching (CFM) trained with expert demonstrations has been shown to outperform existing methods on robot manipulation benchmarks. While prior work has mainly focused on single-task se",
+      "url": "https://arxiv.org/abs/2609.28107v1",
+      "author": "Shreya Deshmukh Imen Mahdi Nick Heppert Abhinav Valada",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:38:23.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28107v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "35cd12832d76",
+      "title": "Curriculum Learning with GNN-based Reinforcement Learning for Job Shop Scheduling",
+      "summary": "The job shop scheduling problem is a challenging combinatorial optimization problem, and recent reinforcement learning approaches using graph neural networks have shown promise for learning scheduling policies directly from problem instances. However, training on large instances remains computationally expensive, and g",
+      "url": "https://arxiv.org/abs/2609.28085v1",
+      "author": "Jayakrishnan K. Vasudevan Jonathan Hoss Noah Klarmann",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:23:25.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28085v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 57,
       "level": "值得看"
     },
     {
@@ -848,6 +1507,68 @@
       "level": "值得看"
     },
     {
+      "id": "96deba83a325",
+      "title": "ChatGPT 移动端新增基于语音的智能体功能，可语音撰写文档、总结邮件",
+      "summary": "IT之家 9 月 24 日消息，OpenAI 公司昨日宣布，ChatGPT 移动端将新增基于语音的智能体功能， 用户可通过说话完成撰写文档、总结电子邮件等工作 。 IT之家了解到，Pro 和 Plus 订阅用户可在手机上使用“工作”创建文档、撰写电子邮件或总结 Slack 消息。还可执行创建网站、制作 PPT、使用云端浏览器等进阶操作。Free 和 Go 订阅用户则可以使用插件和已经连接的应用。 OpenAI 表示，ChatGPT 的语音对话将提供更丰富的文本输出，Plus 订阅用户可以在文本和语音之间轻松切换， 或者先在手机上处理工作 ， 然后转移到电脑继续 。",
+      "url": "https://www.ithome.com/1/006/776.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T06:35:16.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "openai",
+        "插件"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/776.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
+      "id": "b3da18ca4588",
+      "title": "月之暗面最强 AI：消息称 Kimi K3.1 下月登场",
+      "summary": "IT之家 9 月 24 日消息，科技媒体 Wccftech 昨日（9 月 23 日）发布博文，报道称月之暗面（Moonshot）正酝酿推出 Kimi K3.1 模型， 并将提供 Low、High、Max 共 3 档推理强度，预估会在下月（2026 年 10 月）登场。 消息源 @MaxForAI 昨日在 X 平台发布推文，发现月之暗面内部 JSON / API 响应中，出现 Kimi K3.1 相关标识，其中包括“k3d1-agent”等模型名称，片段还出现 Agent 模式、应用场景及多项配置开关。 根据相关配置文件，K3.1 可能支持： Low、High、Max 等多档推理强度； “Extra Long”等超长上下文选项，最高支",
+      "url": "https://www.ithome.com/1/006/719.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T05:16:03.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "agent",
+        "模型",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/719.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
       "id": "25b2c06aa9d8",
       "title": "CliffCompaction: Cost-Efficient Compaction for Long-Horizon Coding Agents",
       "summary": "Agents often work on complex problems that require millions of tokens of context, which necessitates compacting across sessions due to limited context windows. We develop CliffCompaction, an autocompaction technique that reduces cost by up to 50% under a bounded context while maintaining or improving performance on Ter",
@@ -941,6 +1662,188 @@
       "level": "值得看"
     },
     {
+      "id": "e3c0890a2c56",
+      "title": "Where Should I Join? Robot Group Joining via Language-Guided Goal Prediction",
+      "summary": "Social navigation typically assumes a specified goal and focuses on reaching it while respecting social conventions, whereas robot group joining requires predicting where to join based on the group's real-time activity and formation. This is a highly semantic task, yet an important capability for applications such as r",
+      "url": "https://arxiv.org/abs/2609.28467v1",
+      "author": "Zilin Fang Zishuo Wang Gim Hee Lee David Hsu",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:55:48.000Z",
+      "category": "其他",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28467v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "d1e055acc761",
+      "title": "Order-Invariant Answers, Order-Sensitive Representations in Mathematical Reasoning",
+      "summary": "Reordering a set of mathematical rules without changing its meaning should preserve the correct answer, but must a model's internal representations stay invariant too? We investigate this question using synthetic multi-step function-composition problems, each presented under multiple rule orderings with the same correc",
+      "url": "https://arxiv.org/abs/2609.28442v1",
+      "author": "Zhixu Silvia Tao",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T17:40:57.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28442v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "c1bb28aeda3f",
+      "title": "When and Where to Trust the Teacher: Unifying On-Policy Distillation and GRPO through Entropy-Calibrated Credit Assignment",
+      "summary": "Reinforcement learning with verifiable rewards (RLVR) supervises mathematical reasoning through final-answer correctness, but provides little guidance on individual tokens. On-policy distillation (OPD) supplies dense feedback on student-generated responses, yet teacher preference need not reflect correctness. Recent hy",
+      "url": "https://arxiv.org/abs/2609.28385v1",
+      "author": "Jie Zhang Jingxiao Yang Zhehao Huang Yuhang Liu Xiaolin Huang",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:58:26.000Z",
+      "category": "其他",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28385v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "aa432ce2e4ee",
+      "title": "Learning the Cost of Reliable Inference",
+      "summary": "Benchmarking and routing platforms increasingly act as intermediaries connecting large language model providers with end-users. However, providers on these platforms typically use a fixed price per token, preventing users from achieving the most competitive price for their tasks. % workloads. In this work, we design a ",
+      "url": "https://arxiv.org/abs/2609.28322v1",
+      "author": "Dimitrios Rontogiannis Ander Artola Velasco Manuel Gomez Rodriguez",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T16:01:50.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28322v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "0243aefb33ab",
+      "title": "Do Center Biases Propagate? Robustness of Pathology Foundation Models in Whole-Slide Image Classification",
+      "summary": "Pathology foundation models (PFMs) have transformed computational pathology through powerful representation learning from histopathological images. PFMs provide rich, discriminative representations for whole slide image (WSI) analysis, enabling tasks such as slide-level classification under multiple instance learning (",
+      "url": "https://arxiv.org/abs/2609.28231v1",
+      "author": "Ilán Carretero Pablo Meseguer Rocío del Amor Valery Naranjo",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T14:55:43.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28231v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "cb7b7d99af18",
+      "title": "Fed-ReMasker: Federated Tabular Imputation under Feature-Level Missingness",
+      "summary": "Multi-center clinical studies and biomedical research collaborations increasingly seek to utilize data across centers to build models that generalize beyond any single center. This creates two distinct challenges: data protection regulations may restrict the sharing of raw patient data across institutions, while center",
+      "url": "https://arxiv.org/abs/2609.28105v1",
+      "author": "Ioannis Papathanail Rooholla Poursoleymani Lubnaa Abdur Rahman Stavroula Georgia Mougiakakou",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:37:34.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28105v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "87778c42edb9",
+      "title": "Discovery of fully efficient fault indicators along a data-based diagnosis process",
+      "summary": "The integration of model-based and data-driven paradigms provides a powerful framework for fault diagnosis by combining the interpretability of analytical redundancy relations, i.e., input-output relations that are used as diagnosis indicators in model-based diagnosis, with the adaptability of learning techniques. DT4X",
+      "url": "https://arxiv.org/abs/2609.28087v1",
+      "author": "Igor Bezmaternykh Louise Travé-Massuyès Elodie Chanthery",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T13:24:46.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2609.28087v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
       "id": "f15dcebe303a",
       "title": "Riemannian Structure and Optimization for a Class of Low-Parametric Orthogonal Matrices",
       "summary": "In this paper, we are concerned with matrices formed by block-diagonal factors interleaved with fixed permutations -- a flexible family of structured matrices. This class has recently drawn interest in deep learning architectures for its balanced expressivity-efficiency trade-off, yet efficient computational strategies",
@@ -964,6 +1867,39 @@
       ],
       "sourceWeight": 24,
       "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "3665f5c13866",
+      "title": "黄仁勋对 AI 公司放话：要求监管就不应获得反垄断豁免",
+      "summary": "北京时间 9 月 24 日，据路透社报道，英伟达 CEO 黄仁勋 (Jensen Huang) 认为，AI 公司不应获得反垄断法或责任法的豁免。 在周三播出的《纽约时报》播客节目中，黄仁勋接受了近两个小时的采访，就 OpenAI 智能体入侵 Hugging Face 一事进行了广泛讨论。Hugging Face 是开源 AI 软件中心，在本月被英伟达以 130 亿美元收购。 黄仁勋一直反对对 AI 安全进行全面监管，即便 OpenAI 和 Anthropic 等实验室呼吁进行此类监管。他重申了自己的立场，即 AI 实验室有责任测试其产品，只有在确信模型安全后才会发布。 根据《纽约时报》公布的文字记录，黄仁勋说：“不过，考虑到他们所从",
+      "url": "https://www.ithome.com/1/006/514.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T22:36:38.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "模型",
+        "openai",
+        "anthropic",
+        "hugging face"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/514.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 53,
       "level": "正在升温"
     },
     {
@@ -1067,21 +2003,21 @@
       "level": "正在升温"
     },
     {
-      "id": "cac2064b447e",
-      "title": "Meta 发布 AI 时代“电子宠物”设备 Muse Charm：前苹果设计师打造，挂在背包上的人工智能",
-      "summary": "IT之家 9 月 24 日消息，在今早的 Meta Connect 活动中，Meta CEO 马克 · 扎克伯格发布了一款名为 Muse Charm 的设备，这是一款基于 Muse（Meta 的 AI 助手）打造的小型、始终在线的手持设备。 这款类似电子宠物的装置专为不戴 Meta 智能眼镜的人设计，扎克伯格称它是不戴眼镜与 Muse 快速交流的方式。 IT之家从发布会获悉， Muse Charm 将在 12 月假期前发售 ，Meta 没有公布具体价格，表示更多细节将在后续公布。 此外，Meta 还宣布了 Muse 的一些新功能，包括与 AI 可自定义实时化身进行视频通话。Muse 智能体还有自己的电子邮件地址，用于完成任务和与用户",
-      "url": "https://www.ithome.com/1/006/546.htm",
+      "id": "41b3837e2cdf",
+      "title": "曝 DeepSeek 确定 75 亿美元第二轮融资，年化营收突破 10 亿美元",
+      "summary": "IT之家 9 月 24 日消息，据 The Information 今日报道，两名知情人士透露，DeepSeek 年化营收突破 10 亿美元 （IT之家注：现汇率约合 67.23 亿元人民币） ，已确定 75 亿美元 （现汇率约合 504.2 亿元人民币） 融资。 报道称，短短数月前，DeepSeek 年化营收尚不足 5 亿美元。营收增长一方面得益于近期上调 API 定价，另一方面也源于其大模型持续受到市场热捧。 报道还称，DeepSeek 正推进第二轮融资，并筹备在上交所上市，这一营收表现有望提振投资者信心。DeepSeek 计划在 10 月底前完成本轮融资， 目标募资 500 亿元人民币（约合 75 亿美元） ，估值目标 5,0",
+      "url": "https://www.ithome.com/1/006/808.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T01:08:58.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T07:28:02.000Z",
+      "category": "商业动态",
       "keywordHits": [
-        "ai",
-        "人工智能",
-        "智能体"
+        "大模型",
+        "模型",
+        "deepseek"
       ],
       "primary": false,
       "sources": [
@@ -1089,7 +2025,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/546.htm"
+          "url": "https://www.ithome.com/1/006/808.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1097,21 +2033,21 @@
       "level": "正在升温"
     },
     {
-      "id": "d345de61c054",
-      "title": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵",
-      "summary": "9 月 23 日，据路透社报道，澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件。 这起入侵事件将成为美国以外最引人注目的 AI 智能体访问外部系统的事件之一，并可能进一步加剧外界对 AI 开发者控制技术能力的担忧。 阿尔巴尼斯在纽约对记者表示，事件涉及 OpenAI 智能体未经授权访问由 Services Australia 管理的面向公众的 Medicare 统计报告服务门户。 他称，现阶段据信没有个人信息被访问，但调查仍在进行中。阿尔巴尼斯还与 OpenAI ",
-      "url": "https://www.ithome.com/1/006/515.htm",
+      "id": "fb7a956cfd76",
+      "title": "谷歌确认新一代旗舰模型 Gemini 4 即将推出，有望不用等到年底",
+      "summary": "IT之家 9 月 24 日消息，The Information 当地时间 23 日举办的 AI Agenda Live 峰会上，谷歌 DeepMind 负责人科拉伊 · 卡武克奥卢透露， 谷歌新一代旗舰模型 Gemini 4 即将推出 ，现已进入 开发流程中的后训练初期 。 IT之家注：“后训练”是在基础 AI 模型完成后进一步调整模型，提高其行为可靠性。 卡武克奥卢希望 Gemini 4 能在“ 远早于年底 ”的时间点推出。“我们的打算是尽快拿出后训练阶段的早期成果， 因为我们看到了结果，也很振奋 。” 随后，谷歌会继续快速迭代模型。 Gemini 4 将成为谷歌自去年年底推出 Gemini 3 系列后 首款下一代旗舰模型 。谷歌",
+      "url": "https://www.ithome.com/1/006/800.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-23T22:39:37.000Z",
-      "category": "Agent",
+      "publishedAt": "2026-09-24T07:17:50.000Z",
+      "category": "模型发布",
       "keywordHits": [
         "ai",
-        "智能体",
-        "openai"
+        "模型",
+        "gemini"
       ],
       "primary": false,
       "sources": [
@@ -1119,7 +2055,37 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/515.htm"
+          "url": "https://www.ithome.com/1/006/800.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 52,
+      "level": "正在升温"
+    },
+    {
+      "id": "76c32d0db771",
+      "title": "AI 眼镜离线也能识图问答：高通携手 PrismML 发布 1-bit Bonsai，内存占用降至 1/4",
+      "summary": "IT之家 9 月 24 日消息，在 2026 骁龙峰会上，高通携手 PrismML 公司，在骁龙 AR1 Gen 1 智能眼镜平台上， 成功本地运行 20 亿参数的 1-bit 量化 Bonsai 视觉模型。 Bonsai 1-bit 模型基于 PrismML 此前发布的 Bonsai 1.7B 版本构建，降低模型存储与推理所需的内存资源，模型精度压缩到 1-bit。官方表示在相同内存容量下可容纳约 4 倍参数， 内存占用约为传统 4-bit 模型的 1/4，文本 Token 生成速度翻倍。 在落地场景方面，IT之家援引博文介绍，官方表示在识别眼前物体、翻译文字、回答环境相关的问题、提供免手操作的语音帮助等场景下，AI 交互不再需要",
+      "url": "https://www.ithome.com/1/006/772.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T06:34:07.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/772.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1450,17 +2416,17 @@
       "level": "正在升温"
     },
     {
-      "id": "4228372fae87",
-      "title": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
-      "summary": "北京时间 9 月 24 日，据《金融时报》报道，最新法庭文件揭示了 OpenAI 与苹果的关系是如何逐渐破裂的。 OpenAI 周三称，公司与苹果合作，通过 ChatGPT 为 iPhone 添加 AI 功能的业务在 2024 年推出后，“表现远低于预期”。 OpenAI 在法律文件中表示，两家公司在 2024 年达成协议，由 ChatGPT 为“Apple Intelligence”提供支持。然而，苹果未能激发 iPhone 用户对于这一 AI 功能的兴趣，令 OpenAI 感到失望。 苹果将自身定位为 AI 开发者争夺更多消费者之战中的潜在“造王者”。但 OpenAI 在首次公开评论这一合作时称，ChatGPT 被整合到数以百万",
-      "url": "https://www.ithome.com/1/006/548.htm",
+      "id": "f3037066e2cf",
+      "title": "OpenAI 发布 MentalHealthBench：1215 段对话评估 AI 心理健康应对能力",
+      "summary": "IT之家 9 月 24 日消息，OpenAI 今日推出了 MentalHealthBench，这是一个开放式基准测试，包含 1215 段合成心理健康对话，用于评估 AI 系统在真实场景下的应对能力，覆盖从日常心理健康话题到紧急心理健康事件等不同情况。 据IT之家了解，该基准由来自 22 个国家和地区的 80 多名持证心理学家和精神科医生共同参与制定。这些专家共使用 19 种语言，覆盖近 20 个心理健康专业领域。每段对话都配有由专家团队制定的评分标准。根据配套研究论文，完整数据集共包含 5262 条由专家撰写的评分标准。OpenAI 表示，此次公开发布 MentalHealthBench，是希望其他研究人员能够审查其方法、开展独立评",
+      "url": "https://www.ithome.com/1/006/805.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T01:12:13.000Z",
-      "category": "其他",
+      "publishedAt": "2026-09-24T07:22:21.000Z",
+      "category": "产品更新",
       "keywordHits": [
         "ai",
         "openai"
@@ -1471,7 +2437,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/548.htm"
+          "url": "https://www.ithome.com/1/006/805.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1479,20 +2445,49 @@
       "level": "正在升温"
     },
     {
-      "id": "3d740f325cd8",
-      "title": "Meta 首款轻量化 VR 眼镜发布：约 100g 重、同类首款 IMAX Enhanced 认证，售 1299.99 美元",
-      "summary": "IT之家 9 月 24 日消息，Meta 今日在 Connect 大会上发布了旗下首款轻量化 VR 眼镜，类似于古尔曼曾经描述的那款轻量化的 Vision Pro（疑似被砍），名字就叫 Meta VR Glasses。 这款 VR 眼镜重约 100 克（约为 Meta Quest 3 的五分之一），支持 3D 电影、沉浸式体育赛事、游戏和多屏办公，并集成了 Meta AI 智能体。 Meta VR Glasses 由眼镜本体和独立计算盒组成。眼镜负责显示和传感器，而计算、存储及电池等部件集中在通过光学线缆连接的计算盒中，计算盒可夹在口袋或包里。 这款眼镜配备 5K Infinite Display Micro-OLED 显示屏，像素",
-      "url": "https://www.ithome.com/1/006/537.htm",
+      "id": "b9d0c526ac9d",
+      "title": "腾讯混元宣布“腾讯 Hy 翻译”App 上线，支持 33 种语言互译",
+      "summary": "IT之家 9 月 24 日消息，腾讯混元今日宣布“腾讯 Hy 翻译”App 上线，同步支持小程序、插件、PC 端体验，直接搜索“腾讯混元翻译”即可。 据介绍，它基于腾讯混元 Hy-MT2 翻译模型打造， 支持 33 种语言互译 ，并覆盖 5 种中国少数民族语言及方言，提供语音翻译、拍照翻译以及离线翻译等多种体验方式。离线翻译模式下，用户通过提前将翻译模型下载至手机上，进而在没有网络或者信号不好的地方依然能稳定使用。 “腾讯 Hy 翻译” App 现已在 12 个国家和地区上线，包括美国、日本、韩国、新加坡、马来西亚、泰国、越南、缅甸等国家及中国港澳台地区。 IT之家注意到，腾讯混元翻译模型 Hy-MT2 于今年 5 月开源，支持 3",
+      "url": "https://www.ithome.com/1/006/738.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T00:39:04.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T06:20:36.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型",
+        "插件"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/738.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 49,
+      "level": "正在升温"
+    },
+    {
+      "id": "4a0e9b0329cd",
+      "title": "京东七鲜大厨专业版首发价 19888 元：含智能烹饪机器人及 15000 元膳食权益",
+      "summary": "IT之家 9 月 24 日消息，据界面新闻，京东全新业务七鲜大厨公布了旗下“七鲜大厨专业版”服务的价格，整套服务首发价为 19888 元。 该价格包含价值 16000 元的智能烹饪机器人、价值 10800 元的 Health Brain 家庭健康膳食管理系统，以及价值 15000 元的家庭膳食权益，整体参考价值超过 4 万元。 据介绍，大厨币是七鲜大厨体系内的消费权益单位，1 元可兑换 1 个大厨币，15000 大厨币约可兑换 74 天净菜配送服务。 IT之家此前报道，七鲜大厨于 9 月 16 日正式发布，定位“家庭健康膳食执行官”。其服务由 Health Brain 膳食 AI 模型、品质净菜供应链和智能炒菜机器人三大模块协同运转",
+      "url": "https://www.ithome.com/1/006/724.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T05:29:41.000Z",
+      "category": "模型发布",
       "keywordHits": [
         "ai",
-        "智能体"
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -1500,7 +2495,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/537.htm"
+          "url": "https://www.ithome.com/1/006/724.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1508,20 +2503,20 @@
       "level": "正在升温"
     },
     {
-      "id": "a8a210d1c9cf",
-      "title": "Meta 推出 349 美元无摄像头的雷朋 Audio 智能眼镜：43g 重 + 12 小时续航，还有女星 Lisa 联名眼镜等新品",
-      "summary": "IT之家 9 月 24 日消息，Meta 今日在 Connect 大会上发布了新一代 Ray-Ban Meta Audio 智能眼镜，并推出新一代 Ray-Ban Meta（Gen 3）及多款 Meta AI 眼镜。 同时，Meta 宣布将个人 AI 智能体 Muse 引入 AI 眼镜，用户无需拿出手机即可通过语音等方式使用相关功能。 正如其名，Ray-Ban Meta Audio 是 Meta 首款音频眼镜，重约 43 克，支持听歌、播客、通话以及免提使用 AI 助手。单次充电续航最长 12 小时，搭配充电盒可额外提供 48 小时续航。 该眼镜提供 Clubmaster 和 Burbank 两种镜框造型，共有 23 种镜框与镜片组",
-      "url": "https://www.ithome.com/1/006/531.htm",
+      "id": "e49c5cfd7098",
+      "title": "阿里达摩院发布食管癌 AI 模型，“不插管”发现早期和癌前病变",
+      "summary": "IT之家 9 月 24 日消息，阿里巴巴发布第 4 个癌症筛查 AI 模型。阿里达摩院联合四川省肿瘤医院、中山大学肿瘤防治中心等机构研发 食管癌筛查 AI 模型 DAMO EAGLE ，无需插管和造影，从平扫 CT 上就能识别食管癌，包括早期和癌前恶性病变，已在 3 个国家 8 万多病例上获得验证。 相关论文于 9 月 22 日登上国际顶级期刊《自然 · 医学》（Nature Medicine）。 阿里达摩院介绍称，中国食管癌发病率和死亡率约占全球一半，多数患者直到晚期才发现，失去根治机会。 如能早发现，大部分患者可通过内镜下微创手术根治，5 年生存率可达 95% 以上 。目前食管癌的标准筛查手段是上消化道内镜，具有一定的侵入性，且",
+      "url": "https://www.ithome.com/1/006/720.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T00:19:41.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T05:22:08.000Z",
+      "category": "模型发布",
       "keywordHits": [
         "ai",
-        "智能体"
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -1529,94 +2524,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/531.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "b9767caf8846",
-      "title": "Anthropic 宣布成立生命科学团队和实验室，Claude 自主发现新型酶系统",
-      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 23 日，Anthropic 宣布成立生命科学研究团队及自有分子生物学实验室，并公布了一项由 Claude 参与生物学研究取得的早期成果。 在人类科学家仅提供宏观研究方向的情况下，Claude 自主发现了一种此前未被表征的酶系统，Anthropic 将其命名为阵列关联逆转录酶（Array-associated Reverse Transcriptases，ART）。 该发现来自 Anthropic 旧金山湾区实验室，是其生命科学团队自 2026 年春季组建以来的首个公开成果。相关预印本论文已于同日发布，尚待同行评审。 Anthropic 表示，分享这一早期成果既是为了展示 Claud",
-      "url": "https://www.ithome.com/1/006/524.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-23T23:45:52.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "anthropic",
-        "claude"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/524.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "b09cb4b30a9f",
-      "title": "OpenAI CEO 奥尔特曼联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡",
-      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 23 日，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在联合国安理会就 AI 议题发表讲话，讨论 AI 发展带来的机遇与风险，并呼吁加强国际合作，建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准。 他表示，随着 AI 能力的快速提升，相关技术的潜在收益和风险都逐渐变得更加直接且显现。他提出，AI 可能更像一场充满创造力与发现的文艺复兴，也可能像一场引发动荡与混乱的工业革命。 奥尔特曼表示，最佳版本的 AI 不是让人成为机器中的齿轮，也不是优化生活直到需要人的部分消失，而是让人们在复杂世界中拥有更多能动性。许多事情 AI 不能也不应自动化。 他认",
-      "url": "https://www.ithome.com/1/006/521.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-23T23:31:33.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "openai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/521.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "a29fdaab83fc",
-      "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
-      "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上，带来更加直观个性化的交互体验。 音频体验层面，平台搭载 aptX Lossless 无损音频、XPAN 扩展个人局域网技术，突破传统蓝牙连接距离限制；配备第五代自适应主动降噪、cVc 回声与噪声抑制",
-      "url": "https://www.ithome.com/1/006/516.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-23T22:41:13.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "智能体"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/516.htm"
+          "url": "https://www.ithome.com/1/006/720.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2050,6 +2958,66 @@
       "level": "正在升温"
     },
     {
+      "id": "cac2064b447e",
+      "title": "Meta 发布 AI 时代“电子宠物”设备 Muse Charm：前苹果设计师打造，挂在背包上的人工智能",
+      "summary": "IT之家 9 月 24 日消息，在今早的 Meta Connect 活动中，Meta CEO 马克 · 扎克伯格发布了一款名为 Muse Charm 的设备，这是一款基于 Muse（Meta 的 AI 助手）打造的小型、始终在线的手持设备。 这款类似电子宠物的装置专为不戴 Meta 智能眼镜的人设计，扎克伯格称它是不戴眼镜与 Muse 快速交流的方式。 IT之家从发布会获悉， Muse Charm 将在 12 月假期前发售 ，Meta 没有公布具体价格，表示更多细节将在后续公布。 此外，Meta 还宣布了 Muse 的一些新功能，包括与 AI 可自定义实时化身进行视频通话。Muse 智能体还有自己的电子邮件地址，用于完成任务和与用户",
+      "url": "https://www.ithome.com/1/006/546.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T01:08:58.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "人工智能",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/546.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "d345de61c054",
+      "title": "已证实首例：澳大利亚政府网站遭 OpenAI 智能体入侵",
+      "summary": "9 月 23 日，据路透社报道，澳大利亚总理安东尼 · 阿尔巴尼斯（Anthony Albanese）表示，OpenAI 开发的一款 AI 智能体在 6 月未经授权侵入了澳大利亚政府网站，访问了公共和非公共文件。这是已知的首例 AI 入侵政府网站事件。 这起入侵事件将成为美国以外最引人注目的 AI 智能体访问外部系统的事件之一，并可能进一步加剧外界对 AI 开发者控制技术能力的担忧。 阿尔巴尼斯在纽约对记者表示，事件涉及 OpenAI 智能体未经授权访问由 Services Australia 管理的面向公众的 Medicare 统计报告服务门户。 他称，现阶段据信没有个人信息被访问，但调查仍在进行中。阿尔巴尼斯还与 OpenAI ",
+      "url": "https://www.ithome.com/1/006/515.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T22:39:37.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/515.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
       "id": "95f76b863d95",
       "title": "行业首个单枪峰值充电功率 2.2 兆瓦，吉利新一代 AI 补能技术“吉利智充”发布",
       "summary": "IT之家 9 月 23 日消息，吉利汽车集团今晚正式发布新一代 AI 补能技术 ——“吉利智充”。 根据介绍，该技术依托吉利联合阶跃星辰共同开发的行业首个全域能源大模型 —— 星睿 PowerMind 能源大脑，实现 单枪峰值充电功率达 2.2 兆瓦 ，再次刷新全行业充电功率上限；首发 AI 极速充、AI 智慧充和 AI 自动充，可让最高温度始终低于 65℃、平均温度不超过 55℃，将电池循环寿命提升 20% 以上。 吉利还宣布，即日起至 2028 年 1 月 1 日之前，对新上市、搭载吉利智充技术的产品，将给予 首任车主连续两年，每年 1000 元、共计 2000 元 的专属充电体验权益；所有新老用户搭载吉利智充技术车型的电池质保",
@@ -2103,19 +3071,19 @@
       "level": "正在升温"
     },
     {
-      "id": "89ad25e2d788",
-      "title": "华为 MatePad Air Z 系列平板官宣今日 10:08 预售，2999 元起",
-      "summary": "IT之家 9 月 24 日消息，华为今日官宣平板 Air 系列家族实力更新 —— 华为 MatePad Air Z 闪亮登场， 9 月 24 日 10:08 正式预售 ，2999 元起，9 月 29 日 10:08 正式开售，提供珊瑚橙、海岛蓝、星云粉、深空灰、皓月银配色。 IT之家附具体价格如下： 华为 MatePad Air Z 8GB+256G 版 3699 元 8GB+256G / 柔光版 4299 元 12GB+256GB 版 4399 元 12GB+256G / 柔光版 4999 元 华为 MatePad Air Z 悦享款 8GB+128G 版 2999 元 8GB+256G 版 3499 元 12GB+256GB 版",
-      "url": "https://www.ithome.com/1/006/535.htm",
+      "id": "547fa80c3c12",
+      "title": "密封关节设计，特斯拉 App 意外泄露第三代 Optimus 人形机器人",
+      "summary": "IT之家 9 月 24 日消息，特斯拉过去几个月一直很少公开谈及人形机器人项目，但其自家的手机 App 可能无意间泄露了相关信息。有人在特斯拉 App 深处发现了一批新的数字资产，似乎曝光了未经遮挡的量产版 Optimus Gen 3 人形机器人。 特斯拉爱好者 @WholeMars 在近期更新的特斯拉 Android App 中找到了这些渲染模型。虽然原帖后来被删除，但在删除之前，相关内容已经被 @TeslaNewswire 转发。与风格化的概念草图不同，这些文件是特斯拉官方内置于 App 中的 UI 模型，用于在手机端展示特斯拉机器人。 此次提取出的渲染模型提供了即将推出的 Gen 3 与此前 Gen 2.5 原型机的直接对比，",
+      "url": "https://www.ithome.com/1/006/793.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T00:34:43.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T06:56:32.000Z",
+      "category": "模型发布",
       "keywordHits": [
-        "ai"
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -2123,7 +3091,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/535.htm"
+          "url": "https://www.ithome.com/1/006/793.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2131,17 +3099,17 @@
       "level": "正在升温"
     },
     {
-      "id": "7e9fe56cba3c",
-      "title": "腾讯 QClaw 微信远程办公 AI 助手宣布 12 月 24 日停运，即日起停止新用户注册",
-      "summary": "IT之家 9 月 24 日消息，腾讯 QClaw 微信远程办公 AI 助手今日发布公告称，因业务发展调整，QClaw 将于 2026 年 12 月 24 日 00:00 正式停止运营。 停止运营安排 2026 年 9 月 24 日 自公告之日起，停止新用户注册，停止订阅服务购买与续费（已开通自动续费的用户将自动停止续费扣款，无需手动操作取消）。 停止运营前，已注册用户、已购买订阅服务的用户均仍可正常使用服务；用户账号内的已有积分有效期不因本次停运调整，可在原有效期内继续使用，请留意积分到期时间。 2026 年 12 月 24 日 00:00 QClaw 正式停止运营，除数据备份与迁移功能外，其他功能停止使用。 自公告之日起，如用户账",
-      "url": "https://www.ithome.com/1/006/528.htm",
+      "id": "6a5e9333d058",
+      "title": "小米首款全彩夜视室内摄像机开启众筹：4K 超清、AI 检测，429 元",
+      "summary": "IT之家 9 月 24 日消息，小米智能摄像机 5 Pro 全彩夜视现已在小米有品开启众筹，活动时间为 9 月 23 日 10 点-9 月 30 日 10 点，众筹价 429 元（ 点击前往 ）。 作为小米首款全彩夜视室内摄像机，新品配备 8MP+4MP 双镜头协同，可拍摄 4K 高清画面，支持多种夜视模式，满足不同场景使用需求。 IT之家从商品页面获悉，新品可开启机身 小夜灯进行补光 ，摄像机可实现整夜彩色成像。无人时黑白成像，识别到人自动开启小夜灯并自动切换彩色画面。内置 940nm 红外补光灯，镜头无红曝干扰，夜间呈现清晰黑白影像。 新品采用独特外观结构，内置柔光小夜灯。 夜间识别人形、宠物自动柔和亮灯 ；定制光学透镜搭配磨砂",
+      "url": "https://www.ithome.com/1/006/785.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-23T23:57:43.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T06:49:31.000Z",
+      "category": "新产品",
       "keywordHits": [
         "ai"
       ],
@@ -2151,7 +3119,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/528.htm"
+          "url": "https://www.ithome.com/1/006/785.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2159,19 +3127,19 @@
       "level": "正在升温"
     },
     {
-      "id": "d648429f229f",
-      "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
-      "summary": "IT之家 9 月 24 日消息，消息源 @itspdfu 今天（9 月 24 日）在 X 平台发布推文，挖掘 audioOS 27 系统， 发现了适用于 HomePod 的 Siri AI 交互体验。 IT之家注：audioOS 并非苹果官方叫法，是指在苹果 HomePod 上运行的系统软件版本名称。泄露内容还指向代号 Linwood 的系统，被描述为 HomePod 上 Siri AI 的基础组件。 推文中消息源还分享了一段演示视频，展示了 HomePod 运行新版 Siri 时的状态灯效果。灯光以白色、蓝色和橙色为主，与 Siri AI 在其他苹果设备上的配色保持一致。 苹果在 2026 年 6 月介绍 Siri AI 时，没有",
-      "url": "https://www.ithome.com/1/006/519.htm",
+      "id": "b8f9d9cc7f35",
+      "title": "港大与北师大用三维波模拟研究超轻暗物质，首次预测其对引力透镜成像的影响",
+      "summary": "IT之家 9 月 24 日消息，香港大学物理系与该校天文及天体物理研究所，联合北京师范大学主导的研究团队，提出一种更贴近物理实际的方案，用三维波模拟检验超轻暗物质对引力透镜图像的影响。 这是首次直接基于超轻暗物质的三维波模拟，直接预测其对引力透镜成像的影响，为利用高分辨率引力透镜观测研究暗物质性质提供了新的方法。相关成果已发表于《天体物理学杂志快报》。 暗物质被认为占宇宙全部物质的约 85%，不发光也不吸收或反射光，目前只能通过引力效应被探测。它不在粒子物理标准模型之内。过去十年，越来越多天文证据提示，暗物质可能由超轻粒子组成（超轻暗物质也称“模糊暗物质”，指质量极低、集体行为类似波的暗物质候选者）。 由于质量极低，这类粒子可像波一",
+      "url": "https://www.ithome.com/1/006/737.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-23T23:05:20.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-24T06:16:58.000Z",
+      "category": "模型发布",
       "keywordHits": [
-        "ai"
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -2179,7 +3147,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/519.htm"
+          "url": "https://www.ithome.com/1/006/737.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2344,6 +3312,180 @@
       "level": "正在升温"
     },
     {
+      "id": "4228372fae87",
+      "title": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
+      "summary": "北京时间 9 月 24 日，据《金融时报》报道，最新法庭文件揭示了 OpenAI 与苹果的关系是如何逐渐破裂的。 OpenAI 周三称，公司与苹果合作，通过 ChatGPT 为 iPhone 添加 AI 功能的业务在 2024 年推出后，“表现远低于预期”。 OpenAI 在法律文件中表示，两家公司在 2024 年达成协议，由 ChatGPT 为“Apple Intelligence”提供支持。然而，苹果未能激发 iPhone 用户对于这一 AI 功能的兴趣，令 OpenAI 感到失望。 苹果将自身定位为 AI 开发者争夺更多消费者之战中的潜在“造王者”。但 OpenAI 在首次公开评论这一合作时称，ChatGPT 被整合到数以百万",
+      "url": "https://www.ithome.com/1/006/548.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T01:12:13.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/548.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "3d740f325cd8",
+      "title": "Meta 首款轻量化 VR 眼镜发布：约 100g 重、同类首款 IMAX Enhanced 认证，售 1299.99 美元",
+      "summary": "IT之家 9 月 24 日消息，Meta 今日在 Connect 大会上发布了旗下首款轻量化 VR 眼镜，类似于古尔曼曾经描述的那款轻量化的 Vision Pro（疑似被砍），名字就叫 Meta VR Glasses。 这款 VR 眼镜重约 100 克（约为 Meta Quest 3 的五分之一），支持 3D 电影、沉浸式体育赛事、游戏和多屏办公，并集成了 Meta AI 智能体。 Meta VR Glasses 由眼镜本体和独立计算盒组成。眼镜负责显示和传感器，而计算、存储及电池等部件集中在通过光学线缆连接的计算盒中，计算盒可夹在口袋或包里。 这款眼镜配备 5K Infinite Display Micro-OLED 显示屏，像素",
+      "url": "https://www.ithome.com/1/006/537.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T00:39:04.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/537.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "a8a210d1c9cf",
+      "title": "Meta 推出 349 美元无摄像头的雷朋 Audio 智能眼镜：43g 重 + 12 小时续航，还有女星 Lisa 联名眼镜等新品",
+      "summary": "IT之家 9 月 24 日消息，Meta 今日在 Connect 大会上发布了新一代 Ray-Ban Meta Audio 智能眼镜，并推出新一代 Ray-Ban Meta（Gen 3）及多款 Meta AI 眼镜。 同时，Meta 宣布将个人 AI 智能体 Muse 引入 AI 眼镜，用户无需拿出手机即可通过语音等方式使用相关功能。 正如其名，Ray-Ban Meta Audio 是 Meta 首款音频眼镜，重约 43 克，支持听歌、播客、通话以及免提使用 AI 助手。单次充电续航最长 12 小时，搭配充电盒可额外提供 48 小时续航。 该眼镜提供 Clubmaster 和 Burbank 两种镜框造型，共有 23 种镜框与镜片组",
+      "url": "https://www.ithome.com/1/006/531.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T00:19:41.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/531.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "b9767caf8846",
+      "title": "Anthropic 宣布成立生命科学团队和实验室，Claude 自主发现新型酶系统",
+      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 23 日，Anthropic 宣布成立生命科学研究团队及自有分子生物学实验室，并公布了一项由 Claude 参与生物学研究取得的早期成果。 在人类科学家仅提供宏观研究方向的情况下，Claude 自主发现了一种此前未被表征的酶系统，Anthropic 将其命名为阵列关联逆转录酶（Array-associated Reverse Transcriptases，ART）。 该发现来自 Anthropic 旧金山湾区实验室，是其生命科学团队自 2026 年春季组建以来的首个公开成果。相关预印本论文已于同日发布，尚待同行评审。 Anthropic 表示，分享这一早期成果既是为了展示 Claud",
+      "url": "https://www.ithome.com/1/006/524.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T23:45:52.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "anthropic",
+        "claude"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/524.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "b09cb4b30a9f",
+      "title": "OpenAI CEO 奥尔特曼联合国演讲：AI 可能走向文艺复兴，也可能带来工业革命式动荡",
+      "summary": "IT之家 9 月 24 日消息，当地时间 9 月 23 日，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在联合国安理会就 AI 议题发表讲话，讨论 AI 发展带来的机遇与风险，并呼吁加强国际合作，建立针对前沿 AI 系统的能力评估、风险评估、安全防护和人类监督标准。 他表示，随着 AI 能力的快速提升，相关技术的潜在收益和风险都逐渐变得更加直接且显现。他提出，AI 可能更像一场充满创造力与发现的文艺复兴，也可能像一场引发动荡与混乱的工业革命。 奥尔特曼表示，最佳版本的 AI 不是让人成为机器中的齿轮，也不是优化生活直到需要人的部分消失，而是让人们在复杂世界中拥有更多能动性。许多事情 AI 不能也不应自动化。 他认",
+      "url": "https://www.ithome.com/1/006/521.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T23:31:33.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/521.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "a29fdaab83fc",
+      "title": "高通发布第二代骁龙音频平台至尊版：AI 能力翻倍、功耗降低 40%",
+      "summary": "IT之家 9 月 24 日消息，在夏威夷举办的 2026 骁龙峰会上，高通在宣布第六代骁龙 8 至尊版和第六代骁龙 8 超级至尊版芯片后， 今天发布第二代骁龙音频平台至尊版。 这也是高通首款融合优质音频、语音技术、终端侧智能与连接能力的音频平台，助力音频可穿戴设备开启智能体全新体验。 该平台整合骁龙畅听技术、终端侧 AI、安全云连接智能以及超低功耗 Wi‑Fi 6E，能够主动感知、理解用户需求并做出无缝响应，在保留高品质音频体验的基础上，带来更加直观个性化的交互体验。 音频体验层面，平台搭载 aptX Lossless 无损音频、XPAN 扩展个人局域网技术，突破传统蓝牙连接距离限制；配备第五代自适应主动降噪、cVc 回声与噪声抑制",
+      "url": "https://www.ithome.com/1/006/516.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T22:41:13.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/516.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
       "id": "3a57f451cd41",
       "title": "谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制",
       "summary": "IT之家 9 月 23 日消息，谷歌今日宣布，Gemini 家族新增两款全新文本转语音模型，将语音生成 从静态预设转变为动态创意工作室 ，能够帮助创作者、开发者和企业打造更丰富、更具表现力的音频体验，同时为 Gemini Notebook 和 Google Vids 等产品改进用户体验。 两款新模型分别为 Gemini 3.8 Flash TTS 和 Gemini 3.8 Flash-Lite TTS ，定位各有不同： Gemini 3.8 Flash TTS ：面向深度创意方向和角色设计，可通过自然语言提示从头创建全新语音，在游戏、沉浸式有声读物、播客和互动媒体中赋予角色生命力，还可对表演提示、节奏、方言转换等进行精细控制。 Ge",
@@ -2481,6 +3623,90 @@
       ],
       "sourceWeight": 18,
       "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "89ad25e2d788",
+      "title": "华为 MatePad Air Z 系列平板官宣今日 10:08 预售，2999 元起",
+      "summary": "IT之家 9 月 24 日消息，华为今日官宣平板 Air 系列家族实力更新 —— 华为 MatePad Air Z 闪亮登场， 9 月 24 日 10:08 正式预售 ，2999 元起，9 月 29 日 10:08 正式开售，提供珊瑚橙、海岛蓝、星云粉、深空灰、皓月银配色。 IT之家附具体价格如下： 华为 MatePad Air Z 8GB+256G 版 3699 元 8GB+256G / 柔光版 4299 元 12GB+256GB 版 4399 元 12GB+256G / 柔光版 4999 元 华为 MatePad Air Z 悦享款 8GB+128G 版 2999 元 8GB+256G 版 3499 元 12GB+256GB 版",
+      "url": "https://www.ithome.com/1/006/535.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T00:34:43.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/535.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "7e9fe56cba3c",
+      "title": "腾讯 QClaw 微信远程办公 AI 助手宣布 12 月 24 日停运，即日起停止新用户注册",
+      "summary": "IT之家 9 月 24 日消息，腾讯 QClaw 微信远程办公 AI 助手今日发布公告称，因业务发展调整，QClaw 将于 2026 年 12 月 24 日 00:00 正式停止运营。 停止运营安排 2026 年 9 月 24 日 自公告之日起，停止新用户注册，停止订阅服务购买与续费（已开通自动续费的用户将自动停止续费扣款，无需手动操作取消）。 停止运营前，已注册用户、已购买订阅服务的用户均仍可正常使用服务；用户账号内的已有积分有效期不因本次停运调整，可在原有效期内继续使用，请留意积分到期时间。 2026 年 12 月 24 日 00:00 QClaw 正式停止运营，除数据备份与迁移功能外，其他功能停止使用。 自公告之日起，如用户账",
+      "url": "https://www.ithome.com/1/006/528.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T23:57:43.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/528.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "d648429f229f",
+      "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+      "summary": "IT之家 9 月 24 日消息，消息源 @itspdfu 今天（9 月 24 日）在 X 平台发布推文，挖掘 audioOS 27 系统， 发现了适用于 HomePod 的 Siri AI 交互体验。 IT之家注：audioOS 并非苹果官方叫法，是指在苹果 HomePod 上运行的系统软件版本名称。泄露内容还指向代号 Linwood 的系统，被描述为 HomePod 上 Siri AI 的基础组件。 推文中消息源还分享了一段演示视频，展示了 HomePod 运行新版 Siri 时的状态灯效果。灯光以白色、蓝色和橙色为主，与 Siri AI 在其他苹果设备上的配色保持一致。 苹果在 2026 年 6 月介绍 Siri AI 时，没有",
+      "url": "https://www.ithome.com/1/006/519.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-23T23:05:20.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/519.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
       "level": "正在升温"
     },
     {
@@ -2720,9 +3946,9 @@
       "name": "OpenAI News",
       "platform": "official",
       "ok": true,
-      "count": 1228,
-      "latencyMs": 560,
-      "checkedAt": "2026-09-24T01:24:03.125Z",
+      "count": 1229,
+      "latencyMs": 1635,
+      "checkedAt": "2026-09-24T08:08:42.448Z",
       "note": ""
     },
     {
@@ -2731,19 +3957,20 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 894,
-      "checkedAt": "2026-09-24T01:24:03.532Z",
+      "latencyMs": 2650,
+      "checkedAt": "2026-09-24T08:08:43.509Z",
       "note": ""
     },
     {
       "id": "huggingface-blog",
       "name": "Hugging Face",
       "platform": "official",
-      "ok": true,
-      "count": 867,
-      "latencyMs": 591,
-      "checkedAt": "2026-09-24T01:24:03.234Z",
-      "note": ""
+      "ok": false,
+      "count": 0,
+      "latencyMs": 1314,
+      "checkedAt": "2026-09-24T08:08:42.175Z",
+      "note": "",
+      "error": "fetch failed"
     },
     {
       "id": "arxiv-ai",
@@ -2751,8 +3978,8 @@
       "platform": "research",
       "ok": true,
       "count": 30,
-      "latencyMs": 699,
-      "checkedAt": "2026-09-24T01:24:03.344Z",
+      "latencyMs": 2050,
+      "checkedAt": "2026-09-24T08:08:42.912Z",
       "note": ""
     },
     {
@@ -2761,8 +3988,8 @@
       "platform": "developer",
       "ok": true,
       "count": 10,
-      "latencyMs": 674,
-      "checkedAt": "2026-09-24T01:24:03.329Z",
+      "latencyMs": 1838,
+      "checkedAt": "2026-09-24T08:08:42.700Z",
       "note": ""
     },
     {
@@ -2771,8 +3998,8 @@
       "platform": "media",
       "ok": true,
       "count": 60,
-      "latencyMs": 287,
-      "checkedAt": "2026-09-24T01:24:02.943Z",
+      "latencyMs": 5452,
+      "checkedAt": "2026-09-24T08:08:46.315Z",
       "note": ""
     },
     {
@@ -2808,9 +4035,9 @@
   "archive": [
     {
       "date": "2026-09-24",
-      "itemCount": 95,
+      "itemCount": 138,
       "headlineIds": [],
-      "updatedAt": "2026-09-24T01:24:02.563Z"
+      "updatedAt": "2026-09-24T08:08:40.810Z"
     }
   ]
 }

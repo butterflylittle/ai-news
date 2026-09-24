@@ -4,11 +4,11 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node --env-file-if-exists=.env ./node_modules/vitepress/bin/vitepress.mjs dev docs --host 0.0.0.0",
-    "build": "vitepress build docs",
+    "dev": "vitepress dev docs --host 0.0.0.0",
+    "build": "node scripts/prepare-static.mjs && vitepress build docs",
     "start": "node --env-file-if-exists=.env server/server.mjs",
     "refresh": "node --env-file-if-exists=.env scripts/refresh.mjs",
-    "test": "node --test scripts/pipeline.test.mjs"
+    "test": "node --test scripts/*.test.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "5.11.1"

@@ -1,0 +1,65 @@
+name: Refresh AI news
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 9 * * *"
+      timezone: "Asia/Shanghai"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-ai-news
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - run: npm ci
+
+      - name: Start RSSHub for Xiaohongshu
+        env:
+          XIAOHONGSHU_COOKIE: ${{ secrets.XIAOHONGSHU_COOKIE }}
+          XIAOHONGSHU_USER_IDS: ${{ secrets.XIAOHONGSHU_USER_IDS }}
+        run: |
+          if [ -z "$XIAOHONGSHU_USER_IDS" ]; then
+            echo "Xiaohongshu creator pool is not configured; skipping RSSHub."
+            exit 0
+          fi
+          docker run -d --name rsshub -p 1200:1200 \
+            -e XIAOHONGSHU_COOKIE="$XIAOHONGSHU_COOKIE" \
+            diygod/rsshub:chromium-bundled
+          for attempt in {1..30}; do
+            curl -fsS http://127.0.0.1:1200/healthz && exit 0
+            sleep 2
+          done
+          docker logs rsshub
+          exit 1
+
+      - name: Collect and rank feeds
+        env:
+          RSSHUB_BASE: http://127.0.0.1:1200
+          X_BEARER_TOKEN: ${{ secrets.X_BEARER_TOKEN }}
+          XIAOHONGSHU_USER_IDS: ${{ secrets.XIAOHONGSHU_USER_IDS }}
+        run: npm run refresh
+
+      - name: Commit generated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/store.json data/daily/
+          if git diff --cached --quiet; then
+            echo "No data changes."
+            exit 0
+          fi
+          git commit -m "chore: refresh AI news"
+          git push

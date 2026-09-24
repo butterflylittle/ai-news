@@ -47,7 +47,8 @@ const secondary = computed(() => {
 })
 const headlineCount = computed(() => data.value.items.filter((item) => item.level === '头条').length)
 const livePlatforms = computed(() => new Set(data.value.items.flatMap((item) => item.sources.map((source) => source.platform))).size)
-const isRefreshing = computed(() => ['queued', 'collecting'].includes(refreshState.value.phase))
+const isRefreshing = computed(() => ['queued', 'collecting', 'remote'].includes(refreshState.value.phase))
+const isLocalHost = () => ['localhost', '127.0.0.1'].includes(window.location.hostname)
 
 function dateKey(value) {
   if (!value) return ''
@@ -80,14 +81,19 @@ function toggle(setRef, id) {
 }
 
 async function loadData() {
-  try {
-    const response = await fetch('/api/data', { cache: 'no-store' })
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    data.value = await response.json()
-    loadError.value = ''
-  } catch (error) {
-    loadError.value = `数据读取失败：${error.message}`
+  const paths = isLocalHost() ? ['/api/data', '/data/store.json'] : ['/data/store.json', '/api/data']
+  for (const path of paths) {
+    try {
+      const response = await fetch(`${path}?t=${Date.now()}`, { cache: 'no-store' })
+      if (!response.ok) continue
+      data.value = await response.json()
+      loadError.value = ''
+      return
+    } catch {
+      // Try the fallback source.
+    }
   }
+  loadError.value = '数据读取失败：没有可用的数据源'
 }
 
 async function pollRefresh() {
@@ -101,12 +107,48 @@ async function refresh() {
   if (isRefreshing.value) return
   refreshState.value = { phase: 'queued' }
   try {
-    const response = await fetch('/api/refresh', { method: 'POST' })
-    if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    await pollRefresh()
+    const headers = {}
+    if (!isLocalHost()) {
+      let secret = sessionStorage.getItem('ai-news-refresh-secret')
+      if (!secret) secret = window.prompt('请输入工作台刷新密钥')?.trim()
+      if (!secret) {
+        refreshState.value = { phase: 'idle' }
+        return
+      }
+      sessionStorage.setItem('ai-news-refresh-secret', secret)
+      headers.authorization = `Bearer ${secret}`
+    }
+
+    const response = await fetch('/api/refresh', { method: 'POST', headers })
+    const result = await response.json().catch(() => ({}))
+    if (!response.ok) {
+      if (response.status === 401) sessionStorage.removeItem('ai-news-refresh-secret')
+      throw new Error(result.error || `HTTP ${response.status}`)
+    }
+    if (result.remote) {
+      refreshState.value = { phase: 'remote' }
+      await waitForPublishedData(data.value.meta.updatedAt)
+    } else {
+      await pollRefresh()
+    }
   } catch (error) {
     refreshState.value = { phase: 'failed', error: error.message }
   }
+}
+
+async function waitForPublishedData(previousUpdatedAt) {
+  for (let attempt = 0; attempt < 36; attempt += 1) {
+    await new Promise((resolve) => setTimeout(resolve, 5_000))
+    const response = await fetch(`/data/store.json?t=${Date.now()}`, { cache: 'no-store' })
+    if (!response.ok) continue
+    const next = await response.json()
+    if (next.meta.updatedAt && next.meta.updatedAt !== previousUpdatedAt) {
+      data.value = next
+      refreshState.value = { phase: 'complete' }
+      return
+    }
+  }
+  refreshState.value = { phase: 'failed', error: '刷新已完成排队，但 Vercel 发布超时，请稍后重新打开页面' }
 }
 
 function sourceNames(item) {
@@ -116,7 +158,8 @@ function sourceNames(item) {
 onMounted(async () => {
   saved.value = new Set(JSON.parse(localStorage.getItem('ai-news-saved') ?? '[]'))
   hidden.value = new Set(JSON.parse(localStorage.getItem('ai-news-hidden') ?? '[]'))
-  await Promise.all([loadData(), pollRefresh()])
+  await loadData()
+  if (isLocalHost()) await pollRefresh()
 })
 </script>
 
@@ -136,7 +179,7 @@ onMounted(async () => {
 
       <button class="refresh-button" :disabled="isRefreshing" @click="refresh">
         <svg :class="{ spinning: isRefreshing }" viewBox="0 0 24 24" aria-hidden="true"><path d="M20 12a8 8 0 1 1-2.34-5.66L20 8.68M20 4v4.68h-4.68"/></svg>
-        {{ isRefreshing ? '正在刷新' : '立即刷新' }}
+        {{ refreshState.phase === 'remote' ? '等待发布' : isRefreshing ? '正在刷新' : '立即刷新' }}
       </button>
     </header>
 
@@ -155,6 +198,9 @@ onMounted(async () => {
 
         <div v-if="loadError || refreshState.phase === 'failed'" class="notice error">
           {{ loadError || `刷新失败：${refreshState.error}` }}
+        </div>
+        <div v-else-if="refreshState.phase === 'remote'" class="notice info">
+          GitHub Actions 已启动，正在等待 Vercel 发布新数据，通常需要 1–3 分钟。
         </div>
 
         <section v-if="lead" class="lead-grid reveal delay-1">

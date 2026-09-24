@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { existsSync } from 'node:fs'
 import { localApiPlugin } from '../../server/vite-plugin.mjs'
+
+if (existsSync('.env')) process.loadEnvFile('.env')
 
 export default defineConfig({
   lang: 'zh-CN',
