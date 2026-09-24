@@ -1,0 +1,23 @@
+{
+  "name": "ai-news-desk",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env ./node_modules/vitepress/bin/vitepress.mjs dev docs --host 0.0.0.0",
+    "build": "vitepress build docs",
+    "start": "node --env-file-if-exists=.env server/server.mjs",
+    "refresh": "node --env-file-if-exists=.env scripts/refresh.mjs",
+    "test": "node --test scripts/pipeline.test.mjs"
+  },
+  "dependencies": {
+    "fast-xml-parser": "5.11.1"
+  },
+  "devDependencies": {
+    "vitepress": "1.6.4",
+    "vue": "3.5.43"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

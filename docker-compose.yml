@@ -1,0 +1,35 @@
+services:
+  ai-news:
+    build: .
+    container_name: ai-news
+    restart: unless-stopped
+    ports:
+      - "4173:4173"
+    environment:
+      RSSHUB_BASE: http://rsshub:1200
+      X_BEARER_TOKEN: ${X_BEARER_TOKEN:-}
+      XIAOHONGSHU_USER_IDS: ${XIAOHONGSHU_USER_IDS:-}
+      TZ: Asia/Shanghai
+    volumes:
+      - ./config:/app/config
+      - ./data:/app/data
+    depends_on:
+      rsshub:
+        condition: service_healthy
+
+  rsshub:
+    image: diygod/rsshub:chromium-bundled
+    container_name: ai-news-rsshub
+    restart: unless-stopped
+    environment:
+      NODE_ENV: production
+      CACHE_TYPE: memory
+      CACHE_EXPIRE: 3600
+      XIAOHONGSHU_COOKIE: ${XIAOHONGSHU_COOKIE:-}
+      GITHUB_ACCESS_TOKEN: ${GITHUB_ACCESS_TOKEN:-}
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:1200/healthz"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+      start_period: 20s

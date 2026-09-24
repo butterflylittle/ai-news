@@ -1,0 +1,23 @@
+{
+  "global": [
+    "ai", "人工智能", "大模型", "llm", "agent", "智能体", "模型", "推理",
+    "multimodal", "多模态", "mcp", "openai", "anthropic", "claude", "gemini",
+    "deepseek", "qwen", "通义", "hugging face", "transformer", "生成式",
+    "fde", "forward deployed", "落地工程师", "ai coding", "coding agent", "代码智能体",
+    "codex", "claude code", "cursor", "windsurf", "copilot", "vibe coding",
+    "agent skill", "skills", "skill.md", "插件", "plugin", "新产品"
+  ],
+  "exclude": ["股票荐股", "彩票", "AI换脸诈骗"],
+  "categories": {
+    "模型发布": ["模型", "model", "llm", "参数", "benchmark", "推理模型"],
+    "产品更新": ["发布", "上线", "更新", "launch", "release", "preview"],
+    "Agent": ["agent", "智能体", "mcp", "tool use", "computer use"],
+    "FDE / 落地": ["fde", "forward deployed", "落地工程师", "客户现场", "交付工程"],
+    "AI Coding": ["ai coding", "coding agent", "代码智能体", "codex", "claude code", "cursor", "windsurf", "copilot", "vibe coding"],
+    "Skills 生态": ["agent skill", "skills", "skill.md", "插件", "plugin", "mcp server", "tool marketplace"],
+    "新产品": ["新产品", "新品", "product launch", "early access", "public beta", "正式上线"],
+    "开源项目": ["github", "开源", "open source", "repository", "release"],
+    "论文研究": ["arxiv", "paper", "论文", "research", "benchmark"],
+    "商业动态": ["融资", "收购", "营收", "funding", "acquisition", "valuation"]
+  }
+}
