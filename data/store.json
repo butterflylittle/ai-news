@@ -1,11 +1,11 @@
 {
   "meta": {
-    "updatedAt": "2026-09-25T05:41:43.491Z",
+    "updatedAt": "2026-09-25T14:30:14.438Z",
     "date": "2026-09-25",
-    "reason": "cli",
+    "reason": "manual",
     "timezone": "Asia/Shanghai",
-    "enabledSources": 6,
-    "successfulSources": 6,
+    "enabledSources": 10,
+    "successfulSources": 10,
     "nextScheduledAt": null,
     "empty": false
   },
@@ -18,7 +18,8 @@
       "author": "Jeremy Qin David Schmotz Derck Prinzhorn Luca Beurer-Kellner Ameya Prabhu Maksym Andriushchenko",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:59:54.000Z",
       "category": "AI Coding",
@@ -144,7 +145,8 @@
       "author": "Matteo Merler Bowen Li Josh Roy Yichao Liang Qianwei Wang Yixuan Huang Tom Silver",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:53:35.000Z",
       "category": "Agent",
@@ -174,7 +176,8 @@
       "author": "David Schmotz Derck Prinzhorn Luca Beurer-Kellner Anselm Paulus Ameya Prabhu Maksym Andriushchenko",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:46:27.000Z",
       "category": "模型发布",
@@ -204,7 +207,8 @@
       "author": "Arunabh Srivastava Mohammad A. Khojastepour Srimat Chakradhar Sennur Ulukus",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:11:35.000Z",
       "category": "模型发布",
@@ -234,7 +238,8 @@
       "author": "Minghao LI",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:58:18.000Z",
       "category": "Skills 生态",
@@ -264,7 +269,8 @@
       "author": "Aheli Poddar Sanskar Prasad Arindam Samanta Subha Chakraborty Vishal Goyal Rohit Singh Rathaur",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:17:52.000Z",
       "category": "模型发布",
@@ -377,32 +383,6 @@
       "level": "值得看"
     },
     {
-      "id": "c2a53f233272",
-      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
-      "summary": "",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-24T14:08:57.000Z",
-      "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "huggingface-blog",
-          "name": "Hugging Face",
-          "platform": "official",
-          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
-        }
-      ],
-      "sourceWeight": 32,
-      "score": 62,
-      "level": "值得看"
-    },
-    {
       "id": "65960203b5cf",
       "title": "RAPID: Robot Agentic Programming from Demonstrations",
       "summary": "Coding agents have demonstrated enormous success in solving complex programming problems. To leverage their potential for robot systems, this work introduces Robot Agentic Programming from Demonstrations (RAPID), which automatically generates, verifies, and refines robot programs, given a single visual human demonstrat",
@@ -410,7 +390,8 @@
       "author": "Yuyao Liu Jiayuan Mao David Hsu Leslie Pack Kaelbling Tomás Lozano-Pérez",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:58:21.000Z",
       "category": "Agent",
@@ -439,7 +420,8 @@
       "author": "Xinyue Zeng Jiawei Zhang Yujun Yan Dawei Zhou",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:33:29.000Z",
       "category": "模型发布",
@@ -468,7 +450,8 @@
       "author": "Edesio Alcoba Kevin Rossell Aman Gupta Shao Tang Jiwoo Hong Pabel Carrillo-Mendoza Wanderson Conceição Ferreira Alvaro Tedeschi Zayd Simjee Shreya Rajpal Bruno Finardi Hime Christian Sousa Luis Moneda Herbert Fei Daniel Silva Rohan Ramanath",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:07:38.000Z",
       "category": "模型发布",
@@ -497,7 +480,8 @@
       "author": "Luciano Maldonado",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:39:18.000Z",
       "category": "模型发布",
@@ -577,35 +561,6 @@
       "level": "值得看"
     },
     {
-      "id": "ce45d8dc0f6c",
-      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
-      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
-      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-09-22T12:00:00.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 60,
-      "level": "值得看"
-    },
-    {
       "id": "530db518a73a",
       "title": "Expanding OpenAI Academy with new learning paths",
       "summary": "Explore new OpenAI Academy learning paths for employees, developers, leaders, educators, and students to build and demonstrate practical AI skills.",
@@ -637,24 +592,24 @@
       "level": "值得看"
     },
     {
-      "id": "c867454c7440",
-      "title": "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭",
-      "summary": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为， 如果前沿实验室无法控制 AI 安全，那么“我们必须关闭这些实验室”。 IT之家援引博文介绍，针对 OpenAI、Anthropic、Meta 以及 Google 等公司的前沿 AI 模型“越狱”攻击实体行为， 黄仁勋认为如果前沿实验室无法控制其 AI 实验，那么这些实验就必须停止。 黄仁勋认为 AI 实验若产生失控智能体（rogue agents）， 将引发民事与刑事责任，实验室需承担后果。 现阶段围绕前沿 AI 实验室的担忧属于“干扰”，偏离了实际问题核心， 不应该泛焦虑，应该聚焦于实验可控性。",
-      "url": "https://www.ithome.com/1/007/090.htm",
+      "id": "bfca26fdd021",
+      "title": "第 48 届世界技能大赛在沪举办，新增 3 项人工智能相关赛项创历届之最",
+      "summary": "IT之家 9 月 25 日消息，据央视新闻报道，9 月 22 日至 27 日，第 48 届世界技能大赛在中国上海举行。本届世赛上，人工智能走进赛题、操作台，成为选手训练和比赛的一部分。 本届世赛 64 个项目中，与 AI 直接相关的赛项有 8 个：智慧安防技术、软件测试、数字交互媒体设计、自主移动机器人、工业 4.0、云计算、网络安全、3D 数字游戏艺术。其中 智慧安防技术、软件测试、数字交互媒体设计是本届新增 ，新增数量创历届之最。 这些赛项的 AI 含量，体现在具体的工作场景里。 智慧安防技术，选手要应用深度学习算法和大模型基础原理，让监控系统自动识别异常。 软件测试，AI 已从工具升级为协作伙伴，选手调用多个智能体自主进行测试",
+      "url": "https://www.ithome.com/1/007/206.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T02:12:43.000Z",
-      "category": "Agent",
+      "publishedAt": "2026-09-25T11:31:56.000Z",
+      "category": "模型发布",
       "keywordHits": [
         "ai",
-        "agent",
+        "人工智能",
+        "大模型",
         "智能体",
-        "模型",
-        "openai",
-        "anthropic"
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -662,7 +617,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/090.htm"
+          "url": "https://www.ithome.com/1/007/206.htm"
         }
       ],
       "sourceWeight": 18,
@@ -677,7 +632,8 @@
       "author": "Frederic Vatnsdal Roshan Gopal Romina Garcia Camargo Vijay Kumar Alejandro Ribeiro",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T15:08:35.000Z",
       "category": "模型发布",
@@ -701,6 +657,36 @@
       "level": "值得看"
     },
     {
+      "id": "19f51e7d3477",
+      "title": "TWIST 入选 ACM CCS 2026：面向云上大模型服务的隐私保护新方案",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522837&idx=1&sn=9a517deecee420b33ef098ae4fc00802",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-23T10:06:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "大模型",
+        "模型"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "bytedance-tech",
+          "name": "字节跳动技术团队",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522837&idx=1&sn=9a517deecee420b33ef098ae4fc00802"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 58,
+      "level": "值得看"
+    },
+    {
       "id": "1d646edd481b",
       "title": "AD-WM: Action-Discriminative World Models for Counterfactual Model Predictive Control",
       "summary": "Latent world models are typically trained to predict factual transitions, whereas model predictive control (MPC) must compare alternative actions from the same state. A model can therefore achieve low factual prediction error yet poorly distinguish candidate actions. We introduce AD-WM, an action-discriminative joint-e",
@@ -708,7 +694,8 @@
       "author": "Jiabin Qiu Zixuan Chen Hongye Cao Jieqi Shi Jing Huo Yang Gao",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:59:41.000Z",
       "category": "模型发布",
@@ -736,7 +723,8 @@
       "author": "Debajyoti Mazumder Mamta Abhirama Subramanyam Penamakuri",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:50:40.000Z",
       "category": "模型发布",
@@ -764,7 +752,8 @@
       "author": "Kimia Hamidieh Giannis Daras Antonio Torralba",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:50:25.000Z",
       "category": "模型发布",
@@ -792,7 +781,8 @@
       "author": "Jordan L. Cahoon Chloe O. Stanwyck Sulaiman Somani Philip Chung Kevin R Keet Kameron C. Black Andrea T. Fisher Sarita Khemani Jerry Liu Stephen Ma Saloni K. Maharaj Rita M. Pandya Eduardo Perez-Guerrero Priyanka Pillai Lisa Shieh David J. H. Wu James Xie James C. McAvoy Teresa Nguyen Jessica Tran Lucy Yin Bridget Lin Alison Callahan Jason A. Fries Nigam H. Shah Emily Alsentzer",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:41:16.000Z",
       "category": "模型发布",
@@ -820,7 +810,8 @@
       "author": "Ming Zhang Zhenghao Xiang Peizhong Gao Yujiong Shen Yuhui Wang Zhonghan Yue Shihan Dou Zhangyue Yin Junjie Ye Shichun Liu Weihuang Zheng Jiahao Chen Jiayi Chen Hongzhang Liu Jiaqi Shao Tao Gui Qi Zhang Xuanjing Huang Suncong Zheng Maxm Pan",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:37:14.000Z",
       "category": "其他",
@@ -848,7 +839,8 @@
       "author": "Linghua Zhang",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:30:32.000Z",
       "category": "模型发布",
@@ -876,7 +868,8 @@
       "author": "Nayoung Choi Shengjian Chen Xiaokai Wei Wenzheng Zhang Daiyao Yi Rachit Pareek Vincent Su Michelle Gong Jinho D. Choi",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:26:46.000Z",
       "category": "模型发布",
@@ -904,7 +897,8 @@
       "author": "Archit Rastogi",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:13:35.000Z",
       "category": "模型发布",
@@ -932,7 +926,8 @@
       "author": "Mustafa Munir Huy Vu Shreyas Misra Rohit Jena Sajad Norouzi Ali Taghibakhshi Anis Ahmad Anjul Patney Pavlo Molchanov Nima Tajbakhsh",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:39:47.000Z",
       "category": "模型发布",
@@ -960,7 +955,8 @@
       "author": "Xiaochen Zhang Haoyu Zhu Yao Zhang Qingchun Hou",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:36:49.000Z",
       "category": "其他",
@@ -988,7 +984,8 @@
       "author": "Anne M. Tumlin Ben Wooding Zhenxuan Shao Diego Manzanas Lopez Tyler Derr Taylor T. Johnson",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:29:32.000Z",
       "category": "其他",
@@ -1016,7 +1013,8 @@
       "author": "Dipankar Sarkar",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:28:15.000Z",
       "category": "模型发布",
@@ -1044,7 +1042,8 @@
       "author": "Aditya Cowsik Kfir Dolev Michael Y. Li G. Bruno De Luca Nourya Cohen Noah D. Goodman Yoav Levine",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:23:01.000Z",
       "category": "模型发布",
@@ -1086,7 +1085,12 @@
       ],
       "sourceWeight": 32,
       "score": 57,
-      "level": "值得看"
+      "level": "值得看",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "f7558dc5c9de",
@@ -1193,6 +1197,38 @@
         }
       ],
       "sourceWeight": 35,
+      "score": 57,
+      "level": "值得看"
+    },
+    {
+      "id": "3b460aba1574",
+      "title": "腾讯15年资深后台工程师，转战大模型推理的抉择",
+      "summary": "AI 时代 Infra 工程师的进化之路",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804238&idx=1&sn=5071d1c07d4c99fac83cbfe0a3860344",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-22T10:55:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "大模型",
+        "模型",
+        "推理"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "tencent-tech",
+          "name": "腾讯技术工程",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804238&idx=1&sn=5071d1c07d4c99fac83cbfe0a3860344"
+        }
+      ],
+      "sourceWeight": 30,
       "score": 57,
       "level": "值得看"
     },
@@ -1315,7 +1351,7 @@
     },
     {
       "id": "d1749ba76a98",
-      "title": "How V7 gives AI agents institutional memory",
+      "title": "V7 cuts costs 78% while boosting accuracy with GPT-5.6 Luna",
       "summary": "Using GPT-5.6, V7 turns scattered company files into context agents can use to complete complex, source-linked work.",
       "url": "https://openai.com/index/v7",
       "author": "",
@@ -1327,8 +1363,8 @@
       "publishedAt": "2026-09-21T00:00:00.000Z",
       "category": "Agent",
       "keywordHits": [
-        "ai",
-        "agent"
+        "agent",
+        "ai"
       ],
       "primary": true,
       "sources": [
@@ -1344,125 +1380,31 @@
       "level": "值得看"
     },
     {
-      "id": "559b0cf11197",
-      "title": "Introducing the Australian Youth Safety Blueprint",
-      "summary": "OpenAI introduces the Australian Youth Safety Blueprint, a six-pillar roadmap for safer AI experiences that protect and empower young people.",
-      "url": "https://openai.com/index/australian-youth-safety-blueprint",
+      "id": "3b8c41e79fc6",
+      "title": "代码生成越来越快，软件交付真正的瓶颈转向了哪里？",
+      "summary": "加速向 AI Native 转变。",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511569&idx=1&sn=ca79c9f4d04fde0b3d550d8cb46c8d90",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-09-18T12:00:00.000Z",
+      "publishedAt": "2026-09-24T10:02:00.000Z",
       "category": "其他",
       "keywordHits": [
-        "ai",
-        "openai"
+        "ai"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "openai-news",
-          "name": "OpenAI News",
+          "id": "alibaba-tech",
+          "name": "阿里技术",
           "platform": "official",
-          "url": "https://openai.com/index/australian-youth-safety-blueprint"
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511569&idx=1&sn=ca79c9f4d04fde0b3d550d8cb46c8d90"
         }
       ],
-      "sourceWeight": 35,
-      "score": 56,
-      "level": "值得看"
-    },
-    {
-      "id": "0cb866d50bc2",
-      "title": "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果",
-      "summary": "IT之家 9 月 25 日消息，网友 u/Zealousideal_View_12 昨日（9 月 24 日）在 Reddit 社区发帖， 称其使用 Anthropic 的 Claude Opus 5.5 模型，耗时约 1 小时，从零生成实时硬件加速路径追踪器。 IT之家注：路径追踪器（Path Tracer）是一种基于光线传播模拟的 3D 渲染器。系统从摄像机或光源方向追踪大量光线，并计算光线与物体表面的交互结果。 科技媒体 Wccftech 认为即使不具备图形 API、着色器编译和并行执行方面的专业知识，用户也能调用 AI 开发路径追踪器。 该程序能够编写 C++ 和 CUDA 代码库，并利用 NVIDIA OptiX 9.1，直",
-      "url": "https://www.ithome.com/1/007/115.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T04:28:59.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "模型",
-        "anthropic",
-        "claude"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/115.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 55,
-      "level": "值得看"
-    },
-    {
-      "id": "db4c645f1272",
-      "title": "马斯克：若保持强劲加速度，SpaceXAI 约 6 个月后就能领跑",
-      "summary": "IT之家 9 月 25 日消息，马斯克在 X 平台发文表示，他谨慎乐观地认为， SpaceX 将在两到三个月内拥有（开发出） Fable / GPT-6 级别的模型 。 随后有网友表示，对于 SpaceXAI 来说，一切都结束了。在 2 到 3 个月内，Anthropic 和 OpenAI 将会拥有（开发出）更好的产品。 IT之家注意到，马斯克对此进行了回应，他表示（SpaceX 的 AI 开发）将持续加速。 我们的 AI 研发才进行了 3 年，而 Anthropic 和 OpenAI 已分别深耕了 6 年与 10 年。只要我们的二阶导数（加速度）依然强劲， SpaceX 将在大约 6 个月内确立行业领跑地位 。 一旦远超某类任务所",
-      "url": "https://www.ithome.com/1/007/069.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T00:51:33.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "模型",
-        "openai",
-        "anthropic"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/069.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 55,
-      "level": "值得看"
-    },
-    {
-      "id": "4f101caac413",
-      "title": "消息称 OpenAI 将在数日内预览网络安全专用模型 GPT-6 Cyber",
-      "summary": "IT之家 9 月 25 日消息，据《财富》杂志消息，多位知情人士透露， OpenAI 正计划在未来几天内抢先预览其最新的网络安全专用模型 GPT-6 Cyber 。此外，OpenAI 还将推出一款配套新产品，协助客户以更加安全、自动化的方式部署该模型。 据悉，GPT-6 Cyber 模型及其配套产品预计将于 9 月 29 日在旧金山举办的 OpenAI 开发者大会上亮相，甚至可能更早揭晓，并计划在未来数月内正式上线。GPT-6 Cyber 将是 OpenAI 今年发布的第四款网络安全专用模型。 据知情人士透露，OpenAI 旗下仅限申请准入的“Daybreak Red”计划中，已有少数客户获得了 GPT-6 Cyber 的访问权限，",
-      "url": "https://www.ithome.com/1/007/061.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T00:04:23.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "模型",
-        "openai",
-        "新产品"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/061.htm"
-        }
-      ],
-      "sourceWeight": 18,
+      "sourceWeight": 30,
       "score": 55,
       "level": "值得看"
     },
@@ -1474,7 +1416,8 @@
       "author": "Davood Wadi Yu Ma",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:47:52.000Z",
       "category": "模型发布",
@@ -1493,6 +1436,93 @@
         }
       ],
       "sourceWeight": 24,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
+      "id": "26b71bfa0104",
+      "title": "OpenViking × LLM-Wiki：让团队文档不再“各说各话”",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522837&idx=2&sn=bad9384fcc463a40aca07d4a442c7121",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-23T10:06:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "bytedance-tech",
+          "name": "字节跳动技术团队",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522837&idx=2&sn=bad9384fcc463a40aca07d4a442c7121"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
+      "id": "24fdf364887a",
+      "title": "错误码排查从 3～8 小时到分钟级，Agent怎么做到的？",
+      "summary": "重点分享三个实践",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804239&idx=1&sn=877bddfed68e73a327c4c25e836d8258",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-23T09:30:00.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "tencent-tech",
+          "name": "腾讯技术工程",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804239&idx=1&sn=877bddfed68e73a327c4c25e836d8258"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
+      "id": "611635cf97e3",
+      "title": "《AI Native 研发范式实践手册》重磅发布",
+      "summary": "唯有积极投身其中才有可能真正理解这一变革的路径和意义",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511562&idx=1&sn=489d57fcf7c339c36e0cbfad429fcd1e",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-23T06:49:00.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511562&idx=1&sn=489d57fcf7c339c36e0cbfad429fcd1e"
+        }
+      ],
+      "sourceWeight": 30,
       "score": 55,
       "level": "值得看"
     },
@@ -1597,7 +1627,8 @@
       "author": "Yinghua Zhou Junjie Ye Yiqi Zhao Hao Dong Celina Shiyu Wang Ruohai Ge Tingyi Yang Basile Van Hoorick Gaurav Sukhatme Vitor Guizilini Yue Wang",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:58:03.000Z",
       "category": "模型发布",
@@ -1623,7 +1654,8 @@
       "author": "Ayush Jain Sreeharsha Paruchuri Ishita Gupta Fan Zhang Tanner Schmidt Jakob Engel Katerina Fragkiadaki Adam W. Harley",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:48:20.000Z",
       "category": "模型发布",
@@ -1649,7 +1681,8 @@
       "author": "Mehmet Iscan",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:46:53.000Z",
       "category": "模型发布",
@@ -1675,7 +1708,8 @@
       "author": "Taha Entesari Jingyu Zhang Daniel Khashabi Mahyar Fazlyab",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:46:46.000Z",
       "category": "模型发布",
@@ -1701,7 +1735,8 @@
       "author": "Yuncong Yang Jinlong Li Yulong Xue Feng Wu Chunwen Zhang Lei Qiao Xuyang Wang",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:45:42.000Z",
       "category": "模型发布",
@@ -1727,7 +1762,8 @@
       "author": "Daniel Eisner",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T17:10:03.000Z",
       "category": "模型发布",
@@ -1753,7 +1789,8 @@
       "author": "Pushp Vaibhav Prajapati Himangshu Sarma",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T16:44:26.000Z",
       "category": "模型发布",
@@ -1768,6 +1805,33 @@
         }
       ],
       "sourceWeight": 24,
+      "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "c2a53f233272",
+      "title": "Accelerating vision-language models with LFM2.5-VL-DSpark",
+      "summary": "",
+      "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T14:08:57.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "huggingface-blog",
+          "name": "Hugging Face",
+          "platform": "official",
+          "url": "https://huggingface.co/blog/LiquidAI/lfm2-5-vl-dspark"
+        }
+      ],
+      "sourceWeight": 32,
       "score": 54,
       "level": "正在升温"
     },
@@ -1796,6 +1860,102 @@
       ],
       "sourceWeight": 32,
       "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "442c7a3ebd3e",
+      "title": "试图闯入政府或学校网站，OpenAI 智能体四次“失控”细节曝光",
+      "summary": "IT之家 9 月 25 日消息，当地时间 23 日，据《纽约时报》援引研究人员和政府官员消息称，OpenAI 的人工智能系统今年 至少又有 4 次擅自行动 ，在没有收到相应指令的情况下实施黑客攻击，或试图闯入政府和大学网站。 这些攻击发生于 5 月和 6 月。到 7 月，OpenAI 入侵了 AI 初创公司 Hugging Face，由此引发全球范围内关于 AI 安全的争论。 Hugging Face 事件以及此前其他一些案例都发生在网络安全测试中，AI 系统接到的任务本身就在要求模型展示黑客能力。 研究人员称，这 4 起新事件不同，当时 AI 系统执行的只是 相对普通的数据收集任务 。OpenAI 系统无法顺利从网站取得数据后，便",
+      "url": "https://www.ithome.com/1/007/144.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T07:02:05.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "人工智能",
+        "智能体",
+        "模型",
+        "openai",
+        "hugging face"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/144.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 53,
+      "level": "正在升温"
+    },
+    {
+      "id": "c867454c7440",
+      "title": "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭",
+      "summary": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为， 如果前沿实验室无法控制 AI 安全，那么“我们必须关闭这些实验室”。 IT之家援引博文介绍，针对 OpenAI、Anthropic、Meta 以及 Google 等公司的前沿 AI 模型“越狱”攻击实体行为， 黄仁勋认为如果前沿实验室无法控制其 AI 实验，那么这些实验就必须停止。 黄仁勋认为 AI 实验若产生失控智能体（rogue agents）， 将引发民事与刑事责任，实验室需承担后果。 现阶段围绕前沿 AI 实验室的担忧属于“干扰”，偏离了实际问题核心， 不应该泛焦虑，应该聚焦于实验可控性。",
+      "url": "https://www.ithome.com/1/007/090.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T02:12:43.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent",
+        "智能体",
+        "模型",
+        "openai",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/090.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 53,
+      "level": "正在升温"
+    },
+    {
+      "id": "ce45d8dc0f6c",
+      "title": "Parallel cut research time and cost in half with GPT‑6 Astra",
+      "summary": "GPT‑6 Astra allowed Parallel’s agents to research and synthesize labor-market data in half the time and at half the cost vs. prior models.",
+      "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-22T12:00:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/parallel-cuts-time-and-cost-with-astra"
+        }
+      ],
+      "sourceWeight": 35,
+      "score": 53,
       "level": "正在升温"
     },
     {
@@ -1858,81 +2018,22 @@
       "level": "正在升温"
     },
     {
-      "id": "2104c8298963",
-      "title": "新一代梅赛德斯-迈巴赫 S 级轿车上市：搭载高阶智能辅助驾驶系统，139.8 万元起",
-      "summary": "IT之家 9 月 25 日消息，新一代梅赛德斯-迈巴赫 S 级轿车上市， 售价 139.8 万元起 ： S 680：335.3 万元 S 580 极夜御型版：269.9 万元 S 580：252.7 万元 S 480：139.8 万元 新车首度搭载梅赛德斯-奔驰 MB.OS 架构及最新一代智能人机交互系统，应用端侧多模态 VLM 大模型，搭载高阶智能辅助驾驶系统，未来还将通过 OTA 远程升级，成为率先搭载 Momenta R7 世界模型的豪华燃油车。 IT之家获悉，新车采用了更具辨识度的设计语言，格栅轮廓、格栅框架中的“MAYBACH”字样与引擎盖上的三叉星徽立标首次实现点亮效果。 新一代梅赛德斯-迈巴赫 S 级轿车采用全新升级的",
-      "url": "https://www.ithome.com/1/007/102.htm",
+      "id": "b14c8622f3dd",
+      "title": "聊天、编程、智能体三合一，微软正式发布新版 Copilot“超级应用”",
+      "summary": "IT之家 9 月 25 日消息，今天（25 日）晚间，微软正式发布新版 Copilot“超级应用”。新版 Copilot 把聊天、编程和智能体三类 AI 能力集中到同一个界面中。 微软为其给出的新定位是“ 为工作而生的 AI ”，甚至把 Copilot 与 Office 当年对生产力的影响相提并论。微软 AI 工作业务首席营销官贾里德 · 斯帕塔罗表示：“正如 Office 定义了 PC 时代的工作方式，新 Copilot 旨在定义 AI 时代的工作方式。” 新版 Copilot 分为 Home、Code 和 Autopilot 三个标签页。Home 把 Copilot Chat 和 Cowork 整合到一起，也是用户打开 Copi",
+      "url": "https://www.ithome.com/1/007/230.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T03:02:39.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "大模型",
-        "模型",
-        "多模态"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/102.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "6dafa7e9bfd2",
-      "title": "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言",
-      "summary": "IT之家 9 月 25 日消息，谷歌近日宣布，在上周推出 Gemini 3.8 Live 的基础上，正式推出带有 Live Avatar 功能的 Gemini 3.8 Live， 为原生实时对话模型带来接近实时的视觉呈现效果。 该功能将接近实时的视频生成与语音相结合，可打造能倾听、观察并以动态视觉形象交流的交互体验， 借助精准唇形同步、自然表情与流畅对话轮次切换 ，帮助企业拓展更具交互性的虚拟服务。IT之家附上相关视频如下： 对话本身天生就是多模态的，人们通过倾听、观察、说话和面部表情交流。Live Avatar 将这些能力赋予企业智能代理，同时处理视觉和音频输入，生成更丰富的对话，带来更全面的交互体验。 除视觉呈现外，该功能依托 ",
-      "url": "https://www.ithome.com/1/007/043.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T00:39:17.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型",
-        "多模态",
-        "gemini"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/043.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "5bff0ac3fb93",
-      "title": "Meta 的 AI 智能体 Muse 被发现可导出虚拟机大量文件",
-      "summary": "IT之家 9 月 25 日消息，科技媒体 macobserver 昨日（9 月 24 日）发布博文，报道称 Meta Muse 被发现可在简单提示词下， 打包并返回用户专属虚拟机中的大量 Linux 文件。 Peter James 和 Jonny L. Saunders 两名开发者已独立复现该问题，相关文件包含系统文件、应用模板、内部运行文档、Markdown 与 JSON 文件等。 导出的文件可能暴露 Muse 的内部运行机制，包括请求处理、记忆保存、服务连接和后台任务。其中 agents/ 目录包含 113 份子智能体记录及 JSONL 追踪文件。约 20 份 Markdown 文档介绍浏览器、连接器、支付、凭据、数据处理、语音",
-      "url": "https://www.ithome.com/1/007/059.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-24T23:51:55.000Z",
-      "category": "Agent",
+      "publishedAt": "2026-09-25T12:37:23.000Z",
+      "category": "产品更新",
       "keywordHits": [
         "ai",
-        "agent",
-        "智能体"
+        "智能体",
+        "copilot"
       ],
       "primary": false,
       "sources": [
@@ -1940,7 +2041,38 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/059.htm"
+          "url": "https://www.ithome.com/1/007/230.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 52,
+      "level": "正在升温"
+    },
+    {
+      "id": "e96fc163408f",
+      "title": "纽约市议员提议立法奖励危险 AI 举报人，奖金来自收取的罚款",
+      "summary": "IT之家 9 月 25 日消息，据彭博社今天（25 日）下午报道，纽约市议员希望通过经济奖励，鼓励举报人揭露危险的 AI 做法。 这是纽约市一揽子加强 AI 监管法案的一部分。纽约市议会即将审议的一项措施提出，举报人报告 AI 公司的违规行为后，可从最终 向当事公司收取的罚款或罚金中获得一定份额奖金 。另一项措施规定，在特定情况下，因 AI 系统受到伤害的人可以起诉系统开发者。 在 10 月 5 日 AI 风险及潜在保障措施听证会举行前，纽约市议会议长朱莉 · 梅宁公布了这批法案，届时纽约市议会全部 51 名成员都将参加。随着 AI 模型快速发展引发的担忧不断加剧，纽约市也在推动加强监管。Anthropic 前研究员雅各布 · 考克",
+      "url": "https://www.ithome.com/1/007/170.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T09:53:14.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/170.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1955,7 +2087,8 @@
       "author": "Hamed Taherkhani Mohammad Abdollahi Melika Sepidband Hridya Dhulipala Tien N. Nguyen Hadi Hemmati",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:46:50.000Z",
       "category": "模型发布",
@@ -1984,7 +2117,8 @@
       "author": "Shuang Sun Guoxin Chen Fanzhe Meng Jia Deng Huatong Song Jinhao Jiang Wayne Xin Zhao Hongteng Xu Ji-Rong Wen",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:18:26.000Z",
       "category": "模型发布",
@@ -2013,7 +2147,8 @@
       "author": "Amelie Knecht Ulysse Schaller Christopher Summerfield Thilo Hagendorff",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T15:27:12.000Z",
       "category": "Agent",
@@ -2042,7 +2177,8 @@
       "author": "AbdulRahman A. Morsy Aya Zirikly",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T15:08:32.000Z",
       "category": "模型发布",
@@ -2071,7 +2207,8 @@
       "author": "Christopher Koch",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T14:50:20.000Z",
       "category": "Agent",
@@ -2100,7 +2237,8 @@
       "author": "Jiapeng Sun Yujin Zhou Han Zhu Pengcheng Wen Jiayi Zhou Sirui Han Yike Guo",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T14:34:45.000Z",
       "category": "模型发布",
@@ -2129,7 +2267,8 @@
       "author": "Yihong Zhou Hanbin Yang Thomas Morstyn",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T14:24:46.000Z",
       "category": "Agent",
@@ -2158,7 +2297,8 @@
       "author": "Makar Ulesov Vladislav Smirnov Omar Ibrahim Arsenii Bobovnikov",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:25:25.000Z",
       "category": "模型发布",
@@ -2187,7 +2327,8 @@
       "author": "Sandra Arcos-Holzinger Debashish Chakraborty Rohita Mocharla Will Walden Andrew Yates Reno Kriz Sarah M. Erfani James Bailey Vishal M. Patel Sanjeev Khudanpur",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:24:29.000Z",
       "category": "模型发布",
@@ -2216,7 +2357,8 @@
       "author": "Jose Manuel de la Chica Rodriguez Juan Manuel Vera Diaz Pablo Delgado Romero",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:25:37.000Z",
       "category": "模型发布",
@@ -2470,54 +2612,61 @@
       ],
       "sourceWeight": 24,
       "score": 52,
-      "level": "正在升温"
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
-      "id": "079e661c04ce",
-      "title": "New experts join Google’s AI & Economy team",
-      "summary": "We are expanding our AI & Economy team with world-class academic advisors, fellows, and core internal researchers.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/",
-      "author": "Scott Strand Zanna Iscenko",
+      "id": "9351a18942bb",
+      "title": "Agent 已经进入工作流，文件还要靠人传来传去？",
+      "summary": "让 Agent 直接使用项目资料，同事接着处理成果。ADrive 智能网盘，连接 AI 任务与团队日常协作。",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522794&idx=1&sn=f78bb16a0448933da06fcc4d353de927",
+      "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-09-18T14:00:00.000Z",
-      "category": "论文研究",
+      "publishedAt": "2026-09-22T11:11:00.000Z",
+      "category": "Agent",
       "keywordHits": [
-        "ai"
+        "ai",
+        "agent"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "google-ai",
-          "name": "Google AI",
+          "id": "bytedance-tech",
+          "name": "字节跳动技术团队",
           "platform": "official",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/expanding-ai-economy-research-bench/"
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522794&idx=1&sn=f78bb16a0448933da06fcc4d353de927"
         }
       ],
-      "sourceWeight": 34,
-      "score": 52,
+      "sourceWeight": 30,
+      "score": 51,
       "level": "正在升温"
     },
     {
-      "id": "96deba83a325",
-      "title": "ChatGPT 移动端新增基于语音的智能体功能，可语音撰写文档、总结邮件",
-      "summary": "IT之家 9 月 24 日消息，OpenAI 公司昨日宣布，ChatGPT 移动端将新增基于语音的智能体功能， 用户可通过说话完成撰写文档、总结电子邮件等工作 。 IT之家了解到，Pro 和 Plus 订阅用户可在手机上使用“工作”创建文档、撰写电子邮件或总结 Slack 消息。还可执行创建网站、制作 PPT、使用云端浏览器等进阶操作。Free 和 Go 订阅用户则可以使用插件和已经连接的应用。 OpenAI 表示，ChatGPT 的语音对话将提供更丰富的文本输出，Plus 订阅用户可以在文本和语音之间轻松切换， 或者先在手机上处理工作 ， 然后转移到电脑继续 。",
-      "url": "https://www.ithome.com/1/006/776.htm",
+      "id": "460ecb2c11ee",
+      "title": "OpenAI 智能体入侵澳大利亚政府网站，澳总理阿尔巴尼斯呼吁加强 AI 监管",
+      "summary": "IT之家 9 月 25 日消息，据彭博社今天（25 日）上午报道，澳大利亚总理安东尼 · 阿尔巴尼斯借出席联合国活动之机呼吁加强人工智能监管，并将 OpenAI 入侵澳大利亚政府网站一事作为例证，强调需要采取更严格的安全防护措施。 阿尔巴尼斯在发言中提到：“近日，一个智能体入侵了澳大利亚政府网站。这不可接受，也正因如此，澳大利亚一直率先推动制定本国 AI 标准。” 他还指出，各国需要共同合作，引导这项技术未来的发展。 负责 AI 政策的部长安德鲁 · 查尔顿接受澳大利亚全国广播机构 ABC 采访时称，OpenAI 的入侵事件 足以说明政府推进安全目标的必要性 。他还说，希望在明年年初推动通过 AI 安全及数据中心建设方面的新法律，用",
+      "url": "https://www.ithome.com/1/007/154.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T06:35:16.000Z",
+      "publishedAt": "2026-09-25T07:56:55.000Z",
       "category": "Agent",
       "keywordHits": [
         "ai",
+        "人工智能",
         "智能体",
-        "openai",
-        "插件"
+        "openai"
       ],
       "primary": false,
       "sources": [
@@ -2525,7 +2674,101 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/776.htm"
+          "url": "https://www.ithome.com/1/007/154.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 50,
+      "level": "正在升温"
+    },
+    {
+      "id": "0cb866d50bc2",
+      "title": "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果",
+      "summary": "IT之家 9 月 25 日消息，网友 u/Zealousideal_View_12 昨日（9 月 24 日）在 Reddit 社区发帖， 称其使用 Anthropic 的 Claude Opus 5.5 模型，耗时约 1 小时，从零生成实时硬件加速路径追踪器。 IT之家注：路径追踪器（Path Tracer）是一种基于光线传播模拟的 3D 渲染器。系统从摄像机或光源方向追踪大量光线，并计算光线与物体表面的交互结果。 科技媒体 Wccftech 认为即使不具备图形 API、着色器编译和并行执行方面的专业知识，用户也能调用 AI 开发路径追踪器。 该程序能够编写 C++ 和 CUDA 代码库，并利用 NVIDIA OptiX 9.1，直",
+      "url": "https://www.ithome.com/1/007/115.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T04:28:59.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "anthropic",
+        "claude"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/115.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 50,
+      "level": "正在升温"
+    },
+    {
+      "id": "db4c645f1272",
+      "title": "马斯克：若保持强劲加速度，SpaceXAI 约 6 个月后就能领跑",
+      "summary": "IT之家 9 月 25 日消息，马斯克在 X 平台发文表示，他谨慎乐观地认为， SpaceX 将在两到三个月内拥有（开发出） Fable / GPT-6 级别的模型 。 随后有网友表示，对于 SpaceXAI 来说，一切都结束了。在 2 到 3 个月内，Anthropic 和 OpenAI 将会拥有（开发出）更好的产品。 IT之家注意到，马斯克对此进行了回应，他表示（SpaceX 的 AI 开发）将持续加速。 我们的 AI 研发才进行了 3 年，而 Anthropic 和 OpenAI 已分别深耕了 6 年与 10 年。只要我们的二阶导数（加速度）依然强劲， SpaceX 将在大约 6 个月内确立行业领跑地位 。 一旦远超某类任务所",
+      "url": "https://www.ithome.com/1/007/069.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:51:33.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "openai",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/069.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 50,
+      "level": "正在升温"
+    },
+    {
+      "id": "4f101caac413",
+      "title": "消息称 OpenAI 将在数日内预览网络安全专用模型 GPT-6 Cyber",
+      "summary": "IT之家 9 月 25 日消息，据《财富》杂志消息，多位知情人士透露， OpenAI 正计划在未来几天内抢先预览其最新的网络安全专用模型 GPT-6 Cyber 。此外，OpenAI 还将推出一款配套新产品，协助客户以更加安全、自动化的方式部署该模型。 据悉，GPT-6 Cyber 模型及其配套产品预计将于 9 月 29 日在旧金山举办的 OpenAI 开发者大会上亮相，甚至可能更早揭晓，并计划在未来数月内正式上线。GPT-6 Cyber 将是 OpenAI 今年发布的第四款网络安全专用模型。 据知情人士透露，OpenAI 旗下仅限申请准入的“Daybreak Red”计划中，已有少数客户获得了 GPT-6 Cyber 的访问权限，",
+      "url": "https://www.ithome.com/1/007/061.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:04:23.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "openai",
+        "新产品"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/061.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2620,20 +2863,21 @@
       "level": "正在升温"
     },
     {
-      "id": "2864986cc604",
-      "title": "GPT-6 Astra 需求空前，曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级",
-      "summary": "IT之家 9 月 25 日消息，Tibor Blaho 通过开发者工具查看 ChatGPT 网页端源代码时发现，其代码中出现了 PROMAX 相关字段。 他认为，OpenAI 正在准备推出更高阶的 ChatGPT Pro 订阅方案，其推测月费可能达到 600 美元 （IT之家注：现汇率约合 4,030 元人民币） 。 目前，OpenAI 尚未正式宣布推出这一更高阶 ChatGPT Pro 计划，也未确认相关代码是否对应未来正式上线的产品，因此产品名称、功能以及最终定价仍存在较大不确定性。 近年来，OpenAI 持续调整 ChatGPT 的订阅体系，已推出 Plus、Pro 以及面向企业和团队用户的多种付费方案。 在此之前，OpenA",
-      "url": "https://www.ithome.com/1/007/107.htm",
+      "id": "7d1092df3329",
+      "title": "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为",
+      "summary": "IT之家 9 月 25 日消息，据央视新闻报道，德国柏林警方 24 日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。 据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。警方还计划将该方案推广至市内其他犯罪高发区域。 柏林警方发表声明说，该摄像头通过“空间人工智能”技术分析人员动作， 以识别潜在犯罪与暴力行为 。摄像头配套的显示屏平时处于休眠状态，当人工智能系统自动识别到暴力和破坏行为时，显示屏将亮起并显示相关信息，警员也会收到信息推送，继而判断是否采取行动。 IT之家注意到，这并不是德国第一次寻求将 AI 功能引入到警方工作当中。今年 2 月，德国财政部、",
+      "url": "https://www.ithome.com/1/007/245.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T03:40:18.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-25T14:20:46.000Z",
+      "category": "其他",
       "keywordHits": [
         "ai",
-        "openai"
+        "人工智能"
       ],
       "primary": false,
       "sources": [
@@ -2641,7 +2885,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/107.htm"
+          "url": "https://www.ithome.com/1/007/245.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2649,20 +2893,21 @@
       "level": "正在升温"
     },
     {
-      "id": "8e478af355c3",
-      "title": "DeepSeek Harness 官方桌面版预览偷跑",
-      "summary": "IT之家 9 月 25 日消息， DeepSeek Harness 悄然上线官方桌面版，目前还是开发者预览版，版本号为 V0.1.7-rc.2。 DeepSeek Harness 此前以 WebUI 方式呈现，本次推出的桌面版无需安装 Node.js 、不用开终端、不用手动跑 npx@deepseek-ai / dsh，目前支持 Windowsx64、macOS Apple Silicon (M 系列)。 当前版本仍属于开发者预览版，功能稳定性和兼容性可能存在一定限制。建议用户在体验新功能的同时，注意保存重要数据，并关注后续正式版本的发布信息。 IT之家附上相关截图如下： DeepSeek Harness 桌面应用提供 4 种模式：",
-      "url": "https://www.ithome.com/1/007/099.htm",
+      "id": "236d354fb324",
+      "title": "国际货币基金组织：今年全球 AI 投资规模或突破 2 万亿美元",
+      "summary": "IT之家 9 月 25 日消息，国际货币基金组织（IMF）最新年报指出，人工智能有望成为推动全球生产率和投资增长的重要力量，但也可能加剧劳动力市场压力并带来金融风险。 据估算，2025 年与 AI 有关的技术投资为美国 GDP 增速贡献了 0.5 个百分点。美国生产率增速过去几年也有所加快，部分增幅或与 AI 应用初期产生的影响有关。 根据部分外部估算，2026 年全球由私营部门推动的 AI 投资规模 或将突破 2 万亿美元 （IT之家注：现汇率约合 13.43 万亿元人民币） ，成为近年来增长最快的经济增长动力之一。 随着全球支出逐步转向 在各行业部署 AI ，AI 带来的生产率提升有望在更多行业和职业中加快。亚洲正积极争取 AI",
+      "url": "https://www.ithome.com/1/007/165.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T02:51:02.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-09-25T09:11:41.000Z",
+      "category": "其他",
       "keywordHits": [
         "ai",
-        "deepseek"
+        "人工智能"
       ],
       "primary": false,
       "sources": [
@@ -2670,65 +2915,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/099.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "3166017e9917",
-      "title": "微软正淡化 Copilot+ PC 品牌，2026 新款 Surface 已弃用",
-      "summary": "IT之家 9 月 25 日消息，科技媒体 Windows Central 昨日（9 月 24 日）发布博文，报道称微软公司正淡化 Copilot+ PC（国内称 Windows 11 AI+ PC）品牌， 2026 年推出的新款 Surface PC 已不再使用该标签。 IT之家援引博文介绍，微软于 2024 年携手高通公司，推出 Windows 硬件新类别“Copilot+ PC”，为 AI 优先计算机设定基准，并配有专属的 Copilot 按键。 不过该产品发布后遇安全研究人员强烈质疑，核心功能 Recall 被发现存在严重安全隐患。微软被迫推迟 Recall 上线，导致首批设备缺乏主打 AI 体验，品牌声誉受损。 过去两年间，",
-      "url": "https://www.ithome.com/1/007/080.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T01:31:56.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "copilot"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/080.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "19a4a668b5bc",
-      "title": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
-      "summary": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。 Meta 刚刚在其智能眼镜产品线中增加了一款仅支持音频功能的眼镜。新的 Meta 雷朋音频眼镜没有摄像头，但用户可以用它听音乐、打电话，或者与 Muse AI 智能体交谈。这款新眼镜重量更轻，有两种款式可选，起售价为 349 美元。 扎克伯格在接受乔安娜 · 斯特恩 (Joanna Stern) 采访时，否认近期的舆论反弹促使公司推出无摄像头眼镜设计的决定。 斯特恩问道，这款仅支持音频功能的眼镜，是否是在回应那些“对别人脸",
-      "url": "https://www.ithome.com/1/007/072.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T00:56:54.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "ai",
-        "智能体"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/072.htm"
+          "url": "https://www.ithome.com/1/007/165.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2743,7 +2930,8 @@
       "author": "Curtis Northcutt Inaara Hasmani Kevin Feng Trevor Khangi Andreas Plesner Jonas Mueller",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:57:45.000Z",
       "category": "模型发布",
@@ -2771,7 +2959,8 @@
       "author": "Xiwen Chen Rigaudiere Z. Li Zhiruo Zhou Xiaojun Zhu Houde Liu",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:17:02.000Z",
       "category": "模型发布",
@@ -2799,7 +2988,8 @@
       "author": "Mohamed Malek Abid P. Michael Furlong",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:10:56.000Z",
       "category": "其他",
@@ -2827,7 +3017,8 @@
       "author": "Zhipeng Bao Wenjie Zhao Tianle Zhu Haohua Que Chence Yang Geng Yuan Qianwen Li",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:38:06.000Z",
       "category": "模型发布",
@@ -2855,7 +3046,8 @@
       "author": "Romain Facq Sami Ben Ali Olivier Sentieys",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:30:48.000Z",
       "category": "其他",
@@ -2883,7 +3075,8 @@
       "author": "Jacob T. Emmerson Phuong-Anh Nguyen-Le Ronan Romano Wilber Sean V. Anterola Yann Billeter Zhijing Jin",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:13:36.000Z",
       "category": "商业动态",
@@ -2911,7 +3104,8 @@
       "author": "Tej Deep Pala Navonil Majumder Bryce Goh Raphael Yee Jianfei Yang Liming Chen Soujanya Poria",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T15:19:19.000Z",
       "category": "模型发布",
@@ -2939,7 +3133,8 @@
       "author": "Meghna Manoj Nair Rachel Greenstadt",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:59:37.000Z",
       "category": "其他",
@@ -2967,7 +3162,8 @@
       "author": "Paweł Mąka Yusuf Can Semerci Jan Scholtes Gerasimos Spanakis",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:46:01.000Z",
       "category": "模型发布",
@@ -2995,7 +3191,8 @@
       "author": "Susanne Schaub Florentin Bieder Matheus L. Oliveira Yulan Wang Buyanbileg Sodnom-ish Dorothea Dagassan-Berndt Michael M. Bornstein Philippe C. Cattin",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:43:34.000Z",
       "category": "模型发布",
@@ -3023,7 +3220,8 @@
       "author": "Shreya Deshmukh Imen Mahdi Nick Heppert Abhinav Valada",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:38:23.000Z",
       "category": "模型发布",
@@ -3051,7 +3249,8 @@
       "author": "Jayakrishnan K. Vasudevan Jonathan Hoss Noah Klarmann",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:23:25.000Z",
       "category": "其他",
@@ -3079,7 +3278,8 @@
       "author": "A Aditya Bhardwaj Arjit Singh Arora Md Shad Akhtar",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:32:28.000Z",
       "category": "其他",
@@ -3469,106 +3669,199 @@
       ],
       "sourceWeight": 24,
       "score": 49,
-      "level": "正在升温"
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
-      "id": "13d62ca6fcfd",
-      "title": "Co-creating the future of fashion with Google",
-      "summary": "Google worked side-by-side with designers Jane Wade and Sergio Hudson to custom-design Google Flow tools to prep for NYFW.",
-      "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/",
-      "author": "Yeawon Choi",
+      "id": "44f7b480ab1c",
+      "title": "一图看懂 ADrive 跨产品协作实践：文件通了，Agent 就通了",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522794&idx=2&sn=50a39d3e2016757e656d911c1b6fffff",
+      "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-09-18T13:00:00.000Z",
-      "category": "其他",
-      "keywordHits": [],
+      "publishedAt": "2026-09-22T11:11:00.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "agent"
+      ],
       "primary": true,
       "sources": [
         {
-          "id": "google-ai",
-          "name": "Google AI",
+          "id": "bytedance-tech",
+          "name": "字节跳动技术团队",
           "platform": "official",
-          "url": "https://blog.google/innovation-and-ai/technology/ai/google-flow-fashion-week/"
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522794&idx=2&sn=50a39d3e2016757e656d911c1b6fffff"
         }
       ],
-      "sourceWeight": 34,
-      "score": 49,
+      "sourceWeight": 30,
+      "score": 48,
       "level": "正在升温"
     },
     {
-      "id": "41b3837e2cdf",
-      "title": "曝 DeepSeek 确定 75 亿美元第二轮融资，年化营收突破 10 亿美元",
-      "summary": "IT之家 9 月 24 日消息，据 The Information 今日报道，两名知情人士透露，DeepSeek 年化营收突破 10 亿美元 （IT之家注：现汇率约合 67.23 亿元人民币） ，已确定 75 亿美元 （现汇率约合 504.2 亿元人民币） 融资。 报道称，短短数月前，DeepSeek 年化营收尚不足 5 亿美元。营收增长一方面得益于近期上调 API 定价，另一方面也源于其大模型持续受到市场热捧。 报道还称，DeepSeek 正推进第二轮融资，并筹备在上交所上市，这一营收表现有望提振投资者信心。DeepSeek 计划在 10 月底前完成本轮融资， 目标募资 500 亿元人民币（约合 75 亿美元） ，估值目标 5,0",
-      "url": "https://www.ithome.com/1/006/808.htm",
+      "id": "f4cb5699f63b",
+      "title": "当 AI 开始真正“做事”，基础设施准备好了吗？",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511554&idx=1&sn=709aafe1436bfd58a283b058a8949248",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T07:28:02.000Z",
-      "category": "商业动态",
+      "publishedAt": "2026-09-22T04:30:00.000Z",
+      "category": "其他",
       "keywordHits": [
-        "大模型",
-        "模型",
-        "deepseek"
+        "ai"
       ],
-      "primary": false,
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/808.htm"
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511554&idx=1&sn=709aafe1436bfd58a283b058a8949248"
         }
       ],
-      "sourceWeight": 18,
-      "score": 47,
+      "sourceWeight": 30,
+      "score": 48,
       "level": "正在升温"
     },
     {
-      "id": "fb7a956cfd76",
-      "title": "谷歌确认新一代旗舰模型 Gemini 4 即将推出，有望不用等到年底",
-      "summary": "IT之家 9 月 24 日消息，The Information 当地时间 23 日举办的 AI Agenda Live 峰会上，谷歌 DeepMind 负责人科拉伊 · 卡武克奥卢透露， 谷歌新一代旗舰模型 Gemini 4 即将推出 ，现已进入 开发流程中的后训练初期 。 IT之家注：“后训练”是在基础 AI 模型完成后进一步调整模型，提高其行为可靠性。 卡武克奥卢希望 Gemini 4 能在“ 远早于年底 ”的时间点推出。“我们的打算是尽快拿出后训练阶段的早期成果， 因为我们看到了结果，也很振奋 。” 随后，谷歌会继续快速迭代模型。 Gemini 4 将成为谷歌自去年年底推出 Gemini 3 系列后 首款下一代旗舰模型 。谷歌",
-      "url": "https://www.ithome.com/1/006/800.htm",
+      "id": "614841249d1a",
+      "title": "云栖首发｜Logics-Parsing-V3 重磅升级：贯通全文，长文无界",
+      "summary": "阿里巴巴全新推出 Logics-Parsing-V3 开源模型",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511554&idx=2&sn=bb63ca216e344e7ab783a06ef3dacd39",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T07:17:50.000Z",
+      "publishedAt": "2026-09-22T04:30:00.000Z",
       "category": "模型发布",
       "keywordHits": [
-        "ai",
-        "模型",
-        "gemini"
+        "模型"
       ],
-      "primary": false,
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/800.htm"
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511554&idx=2&sn=bb63ca216e344e7ab783a06ef3dacd39"
         }
       ],
-      "sourceWeight": 18,
-      "score": 47,
+      "sourceWeight": 30,
+      "score": 48,
       "level": "正在升温"
     },
     {
-      "id": "76c32d0db771",
-      "title": "AI 眼镜离线也能识图问答：高通携手 PrismML 发布 1-bit Bonsai，内存占用降至 1/4",
-      "summary": "IT之家 9 月 24 日消息，在 2026 骁龙峰会上，高通携手 PrismML 公司，在骁龙 AR1 Gen 1 智能眼镜平台上， 成功本地运行 20 亿参数的 1-bit 量化 Bonsai 视觉模型。 Bonsai 1-bit 模型基于 PrismML 此前发布的 Bonsai 1.7B 版本构建，降低模型存储与推理所需的内存资源，模型精度压缩到 1-bit。官方表示在相同内存容量下可容纳约 4 倍参数， 内存占用约为传统 4-bit 模型的 1/4，文本 Token 生成速度翻倍。 在落地场景方面，IT之家援引博文介绍，官方表示在识别眼前物体、翻译文字、回答环境相关的问题、提供免手操作的语音帮助等场景下，AI 交互不再需要",
-      "url": "https://www.ithome.com/1/006/772.htm",
+      "id": "ddc7e7aeb0ef",
+      "title": "倒计时 2 天！阿里巴巴集团 AI Native 研发实践论坛诚邀开发者共话未来",
+      "summary": "《AI Native 研发范式实践手册》将在现场重磅发布。",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511534&idx=1&sn=cae842ca326feb5109605684838628c3",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T06:34:07.000Z",
+      "publishedAt": "2026-09-21T12:14:00.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247511534&idx=1&sn=cae842ca326feb5109605684838628c3"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 48,
+      "level": "正在升温"
+    },
+    {
+      "id": "8affc9d25447",
+      "title": "从“看见文字”到“读懂画面”：AI MediaKit 如何实现视频字幕无痕擦除",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522686&idx=1&sn=d051710a5d9f2c1e062ee6bf953be330",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-21T09:00:00.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "bytedance-tech",
+          "name": "字节跳动技术团队",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247522686&idx=1&sn=d051710a5d9f2c1e062ee6bf953be330"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 48,
+      "level": "正在升温"
+    },
+    {
+      "id": "b6db70a603dc",
+      "title": "聊聊最近爆火的Jev 模型，到底是个啥？",
+      "summary": "jev现已向所有人开放",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804208&idx=1&sn=42392abb524c9a6d137042a4adbc903b",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-21T02:23:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "tencent-tech",
+          "name": "腾讯技术工程",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649804208&idx=1&sn=42392abb524c9a6d137042a4adbc903b"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 48,
+      "level": "正在升温"
+    },
+    {
+      "id": "b12f2863e831",
+      "title": "苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型",
+      "summary": "IT之家 9 月 25 日消息，@aaronp613 今天（9 月 25 日）在 X 平台发布推文，报道称 Jamf 用户大会（JNUC）中，苹果公司公布一张端侧 AI 推理能力对比图表， 展示从 iPhone、iPad 到 Mac Studio 集群完整硬件梯队的本地 AI 上限。 JNUC 是 Jamf 每年举办的全球用户大会，汇聚 Apple IT 管理员、行业领袖和技术爱好者，分享设备管理、安全、自动化等方面的最新技术与实践。 在今年 JNUC 活动中，苹果公司在其“IT 行业最新动态”环节展示了诸多合作内容，在聚焦 AI 端侧的演讲中展示了图片，IT之家梳理相关信息如下： 产品 最大统一内存 内存带宽 可承载最大激活参数 ",
+      "url": "https://www.ithome.com/1/007/155.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T07:57:50.000Z",
       "category": "模型发布",
       "keywordHits": [
         "ai",
@@ -3581,7 +3874,128 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/772.htm"
+          "url": "https://www.ithome.com/1/007/155.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "7f9ebf6e9dc3",
+      "title": "宇树科技创始人王兴兴：机器人核心瓶颈是能否解决几毫米的工作误差",
+      "summary": "IT之家 9 月 25 日消息，据界面新闻今日报道，第五届全球数字贸易博览会 9 月 24 日在杭州举行，宇树科技创始人王兴兴发表《从机械到灵智 — 具身未来进化论》主题演讲。 回顾 AI 行业发展，ChatGPT 的出现彻底重塑了大众对人工智能的认知，打开了行业想象力。对此王兴兴判断，具身智能赛道未来也必将迎来专属的 “ChatGPT 时刻” 。当机器人可在 80% 的陌生场景中，通过语音具身能力完成 80% 的任务时，就意味着行业抵达爆发临界点。届时全球企业与各国资源将集中涌入赛道，这一产业拐点有望在未来几年落地。 让机器人说指令、象征意义执行某个具体工作，在去年已能实现。王兴兴认为，目前最大的问题是 AI 模型的输入、输出与真",
+      "url": "https://www.ithome.com/1/007/143.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T07:00:08.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "人工智能",
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/143.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "2104c8298963",
+      "title": "新一代梅赛德斯-迈巴赫 S 级轿车上市：搭载高阶智能辅助驾驶系统，139.8 万元起",
+      "summary": "IT之家 9 月 25 日消息，新一代梅赛德斯-迈巴赫 S 级轿车上市， 售价 139.8 万元起 ： S 680：335.3 万元 S 580 极夜御型版：269.9 万元 S 580：252.7 万元 S 480：139.8 万元 新车首度搭载梅赛德斯-奔驰 MB.OS 架构及最新一代智能人机交互系统，应用端侧多模态 VLM 大模型，搭载高阶智能辅助驾驶系统，未来还将通过 OTA 远程升级，成为率先搭载 Momenta R7 世界模型的豪华燃油车。 IT之家获悉，新车采用了更具辨识度的设计语言，格栅轮廓、格栅框架中的“MAYBACH”字样与引擎盖上的三叉星徽立标首次实现点亮效果。 新一代梅赛德斯-迈巴赫 S 级轿车采用全新升级的",
+      "url": "https://www.ithome.com/1/007/102.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T03:02:39.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "大模型",
+        "模型",
+        "多模态"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/102.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "6dafa7e9bfd2",
+      "title": "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言",
+      "summary": "IT之家 9 月 25 日消息，谷歌近日宣布，在上周推出 Gemini 3.8 Live 的基础上，正式推出带有 Live Avatar 功能的 Gemini 3.8 Live， 为原生实时对话模型带来接近实时的视觉呈现效果。 该功能将接近实时的视频生成与语音相结合，可打造能倾听、观察并以动态视觉形象交流的交互体验， 借助精准唇形同步、自然表情与流畅对话轮次切换 ，帮助企业拓展更具交互性的虚拟服务。IT之家附上相关视频如下： 对话本身天生就是多模态的，人们通过倾听、观察、说话和面部表情交流。Live Avatar 将这些能力赋予企业智能代理，同时处理视觉和音频输入，生成更丰富的对话，带来更全面的交互体验。 除视觉呈现外，该功能依托 ",
+      "url": "https://www.ithome.com/1/007/043.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:39:17.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型",
+        "多模态",
+        "gemini"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/043.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "5bff0ac3fb93",
+      "title": "Meta 的 AI 智能体 Muse 被发现可导出虚拟机大量文件",
+      "summary": "IT之家 9 月 25 日消息，科技媒体 macobserver 昨日（9 月 24 日）发布博文，报道称 Meta Muse 被发现可在简单提示词下， 打包并返回用户专属虚拟机中的大量 Linux 文件。 Peter James 和 Jonny L. Saunders 两名开发者已独立复现该问题，相关文件包含系统文件、应用模板、内部运行文档、Markdown 与 JSON 文件等。 导出的文件可能暴露 Muse 的内部运行机制，包括请求处理、记忆保存、服务连接和后台任务。其中 agents/ 目录包含 113 份子智能体记录及 JSONL 追踪文件。约 20 份 Markdown 文档介绍浏览器、连接器、支付、凭据、数据处理、语音",
+      "url": "https://www.ithome.com/1/007/059.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T23:51:55.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/059.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3616,44 +4030,17 @@
       "level": "正在升温"
     },
     {
-      "id": "c45b675b6862",
-      "title": "影石正布局 AI 眼镜，或采用“分体电池”设计",
-      "summary": "9 月 25 日中午消息，有接近影石创新人士透露， 当前影石创新正在布局 AI 眼镜赛道 ，并在进行相关研发，未来或将推出自己的 AI 眼镜产品。 此前，影石创新获得了一项名为“可穿戴式眼镜”的实用新型专利授权。专利摘要显示，该眼镜主体佩戴于头部，电池装置与眼镜主体分离、佩戴于身体其他部位，通过电连接线供电，目的是“减轻用户头部负重，降低长时间佩戴的压力”。这一“分体电池”设计思路，与当前主流 AI 眼镜将电池塞入镜腿的方案明显不同，更接近长时间佩戴拍摄的工程取向。",
-      "url": "https://www.ithome.com/1/007/113.htm",
+      "id": "a7052461efcf",
+      "title": "小米 18 Fold 中折叠首销情况曝光：9 月 7 日-13 日约 3.97 万台",
+      "summary": "IT之家 9 月 25 日消息，长期关注国内手机市场份额的数码博主 @RD观测 今日发文，爆料了小米 18 Fold 手机的首销情况，9 月 7 日-9 月 13 日约 3.97 万台。 IT之家注意到，小米 18 Fold 中折叠手机发布于 9 月 7 日，并于 9 月 10 日 10:00 正式开售， 售价 10999 元起 ，主打配色便是“西野红”。 小米 18 Fold 配备 5.38″ 外屏 + 7.58″ 内屏 ，内外屏采用约√2:1 标准纸张比例，支持 LTPO 1-120Hz 刷新率。新机首发搭载玄戒 O3 小米 AI 旗舰 SoC，CPU 采用十核全大核设计、GPU 首发 16 核 G2-Ultra NX 图形处理",
+      "url": "https://www.ithome.com/1/007/244.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T04:26:17.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/113.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "ec6024bf4adb",
-      "title": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
-      "summary": "IT之家 9 月 25 日消息，科技媒体 9to5Mac 昨日（9 月 24 日）发布博文，在 Siri AI 之外，深入探索了 macOS 27 Golden Gate 系统的亮点功能。 一、改版应用图标 macOS 27 几乎重绘所有内置应用图标，彻底重新设计 Siri、预览、国际象棋（Chess）等图标，并同步调整 Finder、照片、提醒事项等图标，整体强化“液态玻璃”（Liquid Glass）设计语言。该媒体认为多数改动较为细微，但系统视觉一致性显著提升。IT之家附上相关截图如下： 二、广泛支持 HDR 显示效果 在 macOS 27 系统中，系统图标、工具栏及 Liquid Glass 界面元素新增支持高动态范围（HD",
-      "url": "https://www.ithome.com/1/007/071.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-25T00:54:35.000Z",
+      "publishedAt": "2026-09-25T13:43:30.000Z",
       "category": "产品更新",
       "keywordHits": [
         "ai"
@@ -3664,7 +4051,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/071.htm"
+          "url": "https://www.ithome.com/1/007/244.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3672,44 +4059,17 @@
       "level": "正在升温"
     },
     {
-      "id": "829b67904723",
-      "title": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
-      "summary": "IT之家 9 月 25 日消息，科技媒体 The Verge 昨日（9 月 24 日）发布博文，报道称在 2026 年 Connect 大会上，Meta 公司扩充其 Horizon 平台， 推出 Horizon Create 和 Horizon Studio 两款 AI 工具，让用户直接在手机上构建游戏。 IT之家援引博文介绍，Horizon Create 是一款移动应用，可以根据用户的提示词，快速制作游戏雏形。而 Horizon Studio 是一款浏览器编辑器，提供更精细的控制选项，用于完善项目。 Meta 表示，两款工具支持创作者把想法转化为完整的 2D 或 3D 手机游戏。游戏可包含成长系统、难度平衡、美术方向和多人模式，创",
-      "url": "https://www.ithome.com/1/007/068.htm",
+      "id": "b99ddb8d8f7a",
+      "title": "高盛：美国五大云巨头每年 AI 收入 3000 亿美元，才可盈亏平衡",
+      "summary": "IT之家 9 月 25 日消息，据彭博社今天（25 日）晚间报道，高盛集团策略师预计，美国五大超大规模云服务商 亚马逊、Alphabet、微软、甲骨文和 Meta 的 AI 基础设施支出将在明年增长超过 50%，达到 1.2 万亿美元 （IT之家注：现汇率约合 8.06 万亿元人民币） 。 瑞安 · 哈蒙德带领的高盛团队在报告中指出，这一数字高于华尔街对明年资本支出 1.1 万亿美元 （现汇率约合 7.39 万亿元人民币） 的共识预期。按照高盛的测算，要收回这些投入，未来数年中，五家公司 每年需要创造约 3,000 亿美元 （现汇率约合 2.02 万亿元人民币） 的 AI 收入 。 哈蒙德及其同事称：“按照市场共识预期，明年资本支出",
+      "url": "https://www.ithome.com/1/007/232.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-25T00:34:51.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/007/068.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "8d61b9f9bbfd",
-      "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
-      "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 25 日星期五，今天的重要科技资讯有： 1. 外媒关注中国直播带货，李佳琦称 AI 无法取代真人主播 如今，尽管行业增长放缓，AI 也正在重塑这一领域，但李佳琦仍然认为，直播电商未来依然离不开像他这样的主播。>> 查看详情 2. 华为余承东：接下来会聚焦尊界、享界、智界、尚界，让每个界都获得更加充足的资源 余承东在合肥巡店时透露，接下来，会聚焦尊界、享界、智界、尚界，让每个界都获得更加充足的资源，团队也能有更多精力把产品做细、把体验做好，让四界快速提升，利好鸿蒙智行共同发展。>> 查看详情 3. 曝移动、电信、联通三大运营商暂停金融分期业务，“0 元购机”全面停办 知情人士称，",
-      "url": "https://www.ithome.com/1/007/058.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-24T23:46:11.000Z",
+      "publishedAt": "2026-09-25T12:56:25.000Z",
       "category": "其他",
       "keywordHits": [
         "ai"
@@ -3720,7 +4080,65 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/007/058.htm"
+          "url": "https://www.ithome.com/1/007/232.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 46,
+      "level": "正在升温"
+    },
+    {
+      "id": "f2a0009923a3",
+      "title": "英国最大 AI 超算面临供电问题：原定明年上线，或拖到 2030 年代中期",
+      "summary": "IT之家 9 月 25 日消息，据英国《卫报》今天（25 日）报道，英国政府曾大力宣传的埃塞克斯郡劳顿大型数据中心项目将无法按原计划于明年启用，甚至可能拖到 2030 年代中期。 劳顿项目 2025 年公布时 被称为英国最大的 AI 超级计算机 ，但供电难题意味着项目距离投入运行仍有很长一段时间。 当前，该项目因 无法在原定 2027 年启用前获得足够电力 而面临新的问题。该超算由英国初创企业 Nscale 负责建设，这家企业今年又计划以 350 亿美元 （IT之家注：现汇率约合 2,351.04 亿元人民币） 估值上市。 报道披露，负责把项目接入当地电网的 UK Power Networks（UKPN）已告知 Nscale，电网要",
+      "url": "https://www.ithome.com/1/007/228.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T12:19:29.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/228.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 46,
+      "level": "正在升温"
+    },
+    {
+      "id": "2b82771212f0",
+      "title": "又一家 AI 明星公司诞生：曝“医生版 ChatGPT”OpenEvidence 估值冲上 150 亿美元",
+      "summary": "IT之家 9 月 25 日消息，据《商业内幕》今天（25 日）报道，面向医生提供 AI 搜索服务的 OpenEvidence，成为又一家在短期内连续完成两轮融资的 AI 明星公司。 知情人士称，OpenEvidence 近期获得多家医院系统和安德森 · 霍洛维茨合计 2.5 亿美元 （IT之家注：现汇率约合 16.79 亿元人民币） 投资， 估值升至 150 亿美元 （现汇率约合 1,007.59 亿元人民币） 。今年 1 月，OpenEvidence 刚完成一轮融资，当时估值为 120 亿美元 （现汇率约合 806.07 亿元人民币） 。 一名知情人士称，OpenEvidence 或愿意考虑出售公司，其中还包括算力资源的使用权。如",
+      "url": "https://www.ithome.com/1/007/161.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T08:34:38.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/161.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3735,7 +4153,8 @@
       "author": "Zilin Fang Zishuo Wang Gim Hee Lee David Hsu",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:55:48.000Z",
       "category": "其他",
@@ -3761,7 +4180,8 @@
       "author": "Zhixu Silvia Tao",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T17:40:57.000Z",
       "category": "模型发布",
@@ -3787,7 +4207,8 @@
       "author": "Jie Zhang Jingxiao Yang Zhehao Huang Yuhang Liu Xiaolin Huang",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:58:26.000Z",
       "category": "其他",
@@ -3813,7 +4234,8 @@
       "author": "Dimitrios Rontogiannis Ander Artola Velasco Manuel Gomez Rodriguez",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T16:01:50.000Z",
       "category": "模型发布",
@@ -3839,7 +4261,8 @@
       "author": "Ilán Carretero Pablo Meseguer Rocío del Amor Valery Naranjo",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T14:55:43.000Z",
       "category": "模型发布",
@@ -3865,7 +4288,8 @@
       "author": "Ioannis Papathanail Rooholla Poursoleymani Lubnaa Abdur Rahman Stavroula Georgia Mougiakakou",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:37:34.000Z",
       "category": "模型发布",
@@ -3891,7 +4315,8 @@
       "author": "Igor Bezmaternykh Louise Travé-Massuyès Elodie Chanthery",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T13:24:46.000Z",
       "category": "模型发布",
@@ -3917,7 +4342,8 @@
       "author": "Ali Aliev Maxim Rakhuba",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T12:07:18.000Z",
       "category": "论文研究",
@@ -4090,7 +4516,12 @@
       ],
       "sourceWeight": 24,
       "score": 46,
-      "level": "正在升温"
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "3665f5c13866",
@@ -4100,7 +4531,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T22:36:38.000Z",
       "category": "模型发布",
@@ -4226,16 +4658,76 @@
       "level": "正在升温"
     },
     {
-      "id": "f3037066e2cf",
-      "title": "OpenAI 发布 MentalHealthBench：1215 段对话评估 AI 心理健康应对能力",
-      "summary": "IT之家 9 月 24 日消息，OpenAI 今日推出了 MentalHealthBench，这是一个开放式基准测试，包含 1215 段合成心理健康对话，用于评估 AI 系统在真实场景下的应对能力，覆盖从日常心理健康话题到紧急心理健康事件等不同情况。 据IT之家了解，该基准由来自 22 个国家和地区的 80 多名持证心理学家和精神科医生共同参与制定。这些专家共使用 19 种语言，覆盖近 20 个心理健康专业领域。每段对话都配有由专家团队制定的评分标准。根据配套研究论文，完整数据集共包含 5262 条由专家撰写的评分标准。OpenAI 表示，此次公开发布 MentalHealthBench，是希望其他研究人员能够审查其方法、开展独立评",
-      "url": "https://www.ithome.com/1/006/805.htm",
+      "id": "05b5afb3f470",
+      "title": "英伟达黄仁勋谈“AI 让孩子淡忘基础数学”：这不是问题，我都记不住家庭地址 / 电话号码",
+      "summary": "IT之家 9 月 25 日消息，在接受《纽约时报》采访时，针对外界对“AI 让孩子淡忘基础数学”的担忧时，英伟达首席执行官黄仁勋认为， 由于 AI 而忘记基础数学知识并不是问题。 主持人 Ezra Klein 指出基于一项对中国 2.6 万名学生的研究发现，人工智能帮助学生更快地完成作业，并在作业中取得更好的成绩，但随着时间的推移，他们的考试成绩却下降了。IT之家附上相关视频如下： 对此黄仁勋承认“知识留存不足”的现象可能存在，但他并不因此焦虑。他举例说：“ 现在你让孩子做长除法试试，乘法表都快被忘光了，更别说开平方根…… 基础数学正在被逐步遗忘。但这重要吗？我觉得不重要。完全不重要。” 他以自身经历说明科技依赖带来的记忆外包： 我",
+      "url": "https://www.ithome.com/1/007/145.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T07:05:28.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/145.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "60fc44718067",
+      "title": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
+      "summary": "IT之家 9 月 25 日消息，macOS 安全研究员、Objective-See Foundation 创始人 Patrick Wardle 发现，Meta 面向 macOS 用户推出的 Muse 存在一项严重的零日漏洞，攻击者可借助一个隐藏配置项劫持用户的 Muse 账户，并利用其已获得的系统权限访问邮件、日历、WhatsApp 等关联应用。 Patrick Wardle 将这一漏洞命名为“Not-a-Mused”。好消息是，Meta 在漏洞公开后发布热修复程序，移除了相关调试功能。 Wardle 表示，该漏洞允许本地进程或一条终端命令接管整个 Muse 账户，使 AI 助手本身成为攻击入口，而无需传统意义上的复杂恶意软件。 漏",
+      "url": "https://www.ithome.com/1/007/126.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T05:52:32.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/126.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "2864986cc604",
+      "title": "GPT-6 Astra 需求空前，曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级",
+      "summary": "IT之家 9 月 25 日消息，Tibor Blaho 通过开发者工具查看 ChatGPT 网页端源代码时发现，其代码中出现了 PROMAX 相关字段。 他认为，OpenAI 正在准备推出更高阶的 ChatGPT Pro 订阅方案，其推测月费可能达到 600 美元 （IT之家注：现汇率约合 4,030 元人民币） 。 目前，OpenAI 尚未正式宣布推出这一更高阶 ChatGPT Pro 计划，也未确认相关代码是否对应未来正式上线的产品，因此产品名称、功能以及最终定价仍存在较大不确定性。 近年来，OpenAI 持续调整 ChatGPT 的订阅体系，已推出 Plus、Pro 以及面向企业和团队用户的多种付费方案。 在此之前，OpenA",
+      "url": "https://www.ithome.com/1/007/107.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T07:22:21.000Z",
+      "publishedAt": "2026-09-25T03:40:18.000Z",
       "category": "产品更新",
       "keywordHits": [
         "ai",
@@ -4247,7 +4739,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/805.htm"
+          "url": "https://www.ithome.com/1/007/107.htm"
         }
       ],
       "sourceWeight": 18,
@@ -4255,19 +4747,109 @@
       "level": "正在升温"
     },
     {
-      "id": "b9d0c526ac9d",
-      "title": "腾讯混元宣布“腾讯 Hy 翻译”App 上线，支持 33 种语言互译",
-      "summary": "IT之家 9 月 24 日消息，腾讯混元今日宣布“腾讯 Hy 翻译”App 上线，同步支持小程序、插件、PC 端体验，直接搜索“腾讯混元翻译”即可。 据介绍，它基于腾讯混元 Hy-MT2 翻译模型打造， 支持 33 种语言互译 ，并覆盖 5 种中国少数民族语言及方言，提供语音翻译、拍照翻译以及离线翻译等多种体验方式。离线翻译模式下，用户通过提前将翻译模型下载至手机上，进而在没有网络或者信号不好的地方依然能稳定使用。 “腾讯 Hy 翻译” App 现已在 12 个国家和地区上线，包括美国、日本、韩国、新加坡、马来西亚、泰国、越南、缅甸等国家及中国港澳台地区。 IT之家注意到，腾讯混元翻译模型 Hy-MT2 于今年 5 月开源，支持 3",
-      "url": "https://www.ithome.com/1/006/738.htm",
+      "id": "8e478af355c3",
+      "title": "DeepSeek Harness 官方桌面版预览偷跑",
+      "summary": "IT之家 9 月 25 日消息， DeepSeek Harness 悄然上线官方桌面版，目前还是开发者预览版，版本号为 V0.1.7-rc.2。 DeepSeek Harness 此前以 WebUI 方式呈现，本次推出的桌面版无需安装 Node.js 、不用开终端、不用手动跑 npx@deepseek-ai / dsh，目前支持 Windowsx64、macOS Apple Silicon (M 系列)。 当前版本仍属于开发者预览版，功能稳定性和兼容性可能存在一定限制。建议用户在体验新功能的同时，注意保存重要数据，并关注后续正式版本的发布信息。 IT之家附上相关截图如下： DeepSeek Harness 桌面应用提供 4 种模式：",
+      "url": "https://www.ithome.com/1/007/099.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-09-24T06:20:36.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-09-25T02:51:02.000Z",
+      "category": "产品更新",
       "keywordHits": [
-        "模型",
+        "ai",
+        "deepseek"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/099.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "3166017e9917",
+      "title": "微软正淡化 Copilot+ PC 品牌，2026 新款 Surface 已弃用",
+      "summary": "IT之家 9 月 25 日消息，科技媒体 Windows Central 昨日（9 月 24 日）发布博文，报道称微软公司正淡化 Copilot+ PC（国内称 Windows 11 AI+ PC）品牌， 2026 年推出的新款 Surface PC 已不再使用该标签。 IT之家援引博文介绍，微软于 2024 年携手高通公司，推出 Windows 硬件新类别“Copilot+ PC”，为 AI 优先计算机设定基准，并配有专属的 Copilot 按键。 不过该产品发布后遇安全研究人员强烈质疑，核心功能 Recall 被发现存在严重安全隐患。微软被迫推迟 Recall 上线，导致首批设备缺乏主打 AI 体验，品牌声誉受损。 过去两年间，",
+      "url": "https://www.ithome.com/1/007/080.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T01:31:56.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "copilot"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/080.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "19a4a668b5bc",
+      "title": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
+      "summary": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。 Meta 刚刚在其智能眼镜产品线中增加了一款仅支持音频功能的眼镜。新的 Meta 雷朋音频眼镜没有摄像头，但用户可以用它听音乐、打电话，或者与 Muse AI 智能体交谈。这款新眼镜重量更轻，有两种款式可选，起售价为 349 美元。 扎克伯格在接受乔安娜 · 斯特恩 (Joanna Stern) 采访时，否认近期的舆论反弹促使公司推出无摄像头眼镜设计的决定。 斯特恩问道，这款仅支持音频功能的眼镜，是否是在回应那些“对别人脸",
+      "url": "https://www.ithome.com/1/007/072.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:56:54.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/072.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "96deba83a325",
+      "title": "ChatGPT 移动端新增基于语音的智能体功能，可语音撰写文档、总结邮件",
+      "summary": "IT之家 9 月 24 日消息，OpenAI 公司昨日宣布，ChatGPT 移动端将新增基于语音的智能体功能， 用户可通过说话完成撰写文档、总结电子邮件等工作 。 IT之家了解到，Pro 和 Plus 订阅用户可在手机上使用“工作”创建文档、撰写电子邮件或总结 Slack 消息。还可执行创建网站、制作 PPT、使用云端浏览器等进阶操作。Free 和 Go 订阅用户则可以使用插件和已经连接的应用。 OpenAI 表示，ChatGPT 的语音对话将提供更丰富的文本输出，Plus 订阅用户可以在文本和语音之间轻松切换， 或者先在手机上处理工作 ， 然后转移到电脑继续 。",
+      "url": "https://www.ithome.com/1/006/776.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:35:16.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "openai",
         "插件"
       ],
       "primary": false,
@@ -4276,11 +4858,11 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/738.htm"
+          "url": "https://www.ithome.com/1/006/776.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 44,
+      "score": 42,
       "level": "正在升温"
     },
     {
@@ -4291,7 +4873,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T05:16:03.000Z",
       "category": "模型发布",
@@ -4347,45 +4930,18 @@
       "level": "正在升温"
     },
     {
-      "id": "547fa80c3c12",
-      "title": "密封关节设计，特斯拉 App 意外泄露第三代 Optimus 人形机器人",
-      "summary": "IT之家 9 月 24 日消息，特斯拉过去几个月一直很少公开谈及人形机器人项目，但其自家的手机 App 可能无意间泄露了相关信息。有人在特斯拉 App 深处发现了一批新的数字资产，似乎曝光了未经遮挡的量产版 Optimus Gen 3 人形机器人。 特斯拉爱好者 @WholeMars 在近期更新的特斯拉 Android App 中找到了这些渲染模型。虽然原帖后来被删除，但在删除之前，相关内容已经被 @TeslaNewswire 转发。与风格化的概念草图不同，这些文件是特斯拉官方内置于 App 中的 UI 模型，用于在手机端展示特斯拉机器人。 此次提取出的渲染模型提供了即将推出的 Gen 3 与此前 Gen 2.5 原型机的直接对比，",
-      "url": "https://www.ithome.com/1/006/793.htm",
+      "id": "b012ec36e7c5",
+      "title": "甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑",
+      "summary": "IT之家 9 月 25 日消息，当地时间 24 日，据彭博社报道，甲骨文为旗下旗舰 AI 数据中心项目的延期风险 提前采取保护措施 ，华尔街由此开始质疑，甲骨文能否如期建成足够的数据中心容量，为 AI 业务扩张提供支撑。 甲骨文已向 Blue Owl Capital 旗下的 STACK Infrastructure 发出不可抗力通知 ，后者负责开发位于新墨西哥州的 Project Jupiter AI 数据中心项目。当企业无法控制的事件影响项目推进时，不可抗力通知可以让企业暂停履行部分合同义务。彭博社此前率先报道了此事。 甲骨文称，Project Jupiter 仍按原定时间表推进。 甲骨文发言人迈克尔 · 埃格伯特说：“这种规模的",
+      "url": "https://www.ithome.com/1/007/158.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T06:56:32.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/006/793.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "6a5e9333d058",
-      "title": "小米首款全彩夜视室内摄像机开启众筹：4K 超清、AI 检测，429 元",
-      "summary": "IT之家 9 月 24 日消息，小米智能摄像机 5 Pro 全彩夜视现已在小米有品开启众筹，活动时间为 9 月 23 日 10 点-9 月 30 日 10 点，众筹价 429 元（ 点击前往 ）。 作为小米首款全彩夜视室内摄像机，新品配备 8MP+4MP 双镜头协同，可拍摄 4K 高清画面，支持多种夜视模式，满足不同场景使用需求。 IT之家从商品页面获悉，新品可开启机身 小夜灯进行补光 ，摄像机可实现整夜彩色成像。无人时黑白成像，识别到人自动开启小夜灯并自动切换彩色画面。内置 940nm 红外补光灯，镜头无红曝干扰，夜间呈现清晰黑白影像。 新品采用独特外观结构，内置柔光小夜灯。 夜间识别人形、宠物自动柔和亮灯 ；定制光学透镜搭配磨砂",
-      "url": "https://www.ithome.com/1/006/785.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-09-24T06:49:31.000Z",
-      "category": "新产品",
+      "publishedAt": "2026-09-25T08:21:09.000Z",
+      "category": "其他",
       "keywordHits": [
         "ai"
       ],
@@ -4395,7 +4951,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/785.htm"
+          "url": "https://www.ithome.com/1/007/158.htm"
         }
       ],
       "sourceWeight": 18,
@@ -4403,19 +4959,20 @@
       "level": "正在升温"
     },
     {
-      "id": "b8f9d9cc7f35",
-      "title": "港大与北师大用三维波模拟研究超轻暗物质，首次预测其对引力透镜成像的影响",
-      "summary": "IT之家 9 月 24 日消息，香港大学物理系与该校天文及天体物理研究所，联合北京师范大学主导的研究团队，提出一种更贴近物理实际的方案，用三维波模拟检验超轻暗物质对引力透镜图像的影响。 这是首次直接基于超轻暗物质的三维波模拟，直接预测其对引力透镜成像的影响，为利用高分辨率引力透镜观测研究暗物质性质提供了新的方法。相关成果已发表于《天体物理学杂志快报》。 暗物质被认为占宇宙全部物质的约 85%，不发光也不吸收或反射光，目前只能通过引力效应被探测。它不在粒子物理标准模型之内。过去十年，越来越多天文证据提示，暗物质可能由超轻粒子组成（超轻暗物质也称“模糊暗物质”，指质量极低、集体行为类似波的暗物质候选者）。 由于质量极低，这类粒子可像波一",
-      "url": "https://www.ithome.com/1/006/737.htm",
+      "id": "cf90810f431e",
+      "title": "鸿蒙智行问界国庆版本 OTA 升级内容公布：新增充电站分时电价显示等功能",
+      "summary": "IT之家 9 月 25 日消息，AITO 汽车今日公布了问界国庆版本 OTA 升级内容，9 月 24 日晚问界各车型已陆续启动本次 OTA 升级。 IT之家附本次更新内容如下： 华为乾崑智驾 ADS 5 新增中控屏转向灯激活影像支持大小设置功能 新增支持在导航中按“沿途、周边、目的地”分类搜索功能 新增可编辑已添加的途经点功能 新增充电站分时电价显示功能 新增百度地图 优化组队出行体验，支持实时对讲等功能 优化沿途搜功能，支持联想搜索 优化高速服务区卡片信息，显示充电站品牌及对应充电桩数量 优化高德地图道路提示，信息更丰富 鸿蒙座舱 新增调音魔方功能 新增语音安全急停功能 新增超级桌面设置车机壁纸功能 新增超级桌面空间音频功能 新增",
+      "url": "https://www.ithome.com/1/007/141.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-09-24T06:16:58.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-09-25T06:55:18.000Z",
+      "category": "产品更新",
       "keywordHits": [
-        "模型"
+        "ai"
       ],
       "primary": false,
       "sources": [
@@ -4423,11 +4980,304 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/006/737.htm"
+          "url": "https://www.ithome.com/1/007/141.htm"
         }
       ],
       "sourceWeight": 18,
       "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "66dd8529228f",
+      "title": "马斯克秀 AI 算力：计划年底前配 110 万张英伟达 GB300，目标约 6 个月跻身行业领先",
+      "summary": "IT之家 9 月 25 日消息，全球首富埃隆 · 马斯克（Elon Musk）今天（9 月 25 日）在 X 平台发布推文， 详细披露了旗下 SpaceXAI 公司的算力部署情况。 SpaceXAI 公司旗下目前主要运营 Colossus 1 和 Colossus 2 两大计算集群，其中 Colossus 1 包含 15 万张英伟达 H100、5 万张 H200 以及 3 万张 GB200； 而 Colossus 2 集群包含 11 万张 GB200 以及 44 万张 GB300。 马斯克表示下周还将投运 22 万张 GB300，并计划 2026 年 11 月再投运 22 万张 GB300，如果一切部署顺利，在 2026 年 12 ",
+      "url": "https://www.ithome.com/1/007/138.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T06:47:57.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/138.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "9345cf304e10",
+      "title": "谷歌网页版 Gmail 星标和“重要”标签默认设为蓝色，用户抱怨导致收件箱杂乱无章",
+      "summary": "IT之家 9 月 25 日消息，科技媒体 Android Authority 今天（9 月 25 日）发布博文，报道称谷歌调整网页版 Gmail 的 星标和“重要”标记， 默认统一变成蓝色，这引发了用户的广泛抱怨。 谷歌于 9 月 17 日通过 X 平台发布推文，表示为了符合现代无障碍标准，将默认的星标和“重要”标签颜色从黄色更新为蓝色。此项更改确保收件箱更清晰、更易读，并且对所有人都更友好。IT之家附上相关图片如下： 报道指出 Gmail 长期使用黄色图标，帮助用户快速识别邮件状态。本次更新将默认黄色星标和黄色重要性箭头，均改为高饱和度蓝色，引发不少用户吐槽。 部分用户认为，相同的饱和蓝色削弱了收件箱的视觉层级。用户还表示，新图标",
+      "url": "https://www.ithome.com/1/007/131.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T06:15:09.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/131.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "47db9c1fbcf3",
+      "title": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
+      "summary": "IT之家 9 月 25 日消息，康宁公司于 9 月 24 日宣布，将扩大 Polarcor 玻璃偏振片的制造产能，以应对 AI 数据中心和计算应用持续增长的需求。 此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。该类产品广泛应用于光隔离器及其他激光光学器件，是先进光学和光子系统的重要组成部分。 与此同时，康宁与一家领先的有源光子技术企业达成了一项新的多年期供货协议。据康宁介绍，这项多年期供货协议将为关键客户提供长期稳定的供应保障。 随着 AI 工作负载规模不断扩大，数据中心对光学和光子技术的依赖程度持续加深，以实现海量数据的高速高效传输。光互连在系统性能中扮演的角色日益关键，对光信号进行精准可靠的控制也因此变得更为重要。康宁的 P",
+      "url": "https://www.ithome.com/1/007/130.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T06:09:48.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/130.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "c45b675b6862",
+      "title": "影石正布局 AI 眼镜，或采用“分体电池”设计",
+      "summary": "9 月 25 日中午消息，有接近影石创新人士透露， 当前影石创新正在布局 AI 眼镜赛道 ，并在进行相关研发，未来或将推出自己的 AI 眼镜产品。 此前，影石创新获得了一项名为“可穿戴式眼镜”的实用新型专利授权。专利摘要显示，该眼镜主体佩戴于头部，电池装置与眼镜主体分离、佩戴于身体其他部位，通过电连接线供电，目的是“减轻用户头部负重，降低长时间佩戴的压力”。这一“分体电池”设计思路，与当前主流 AI 眼镜将电池塞入镜腿的方案明显不同，更接近长时间佩戴拍摄的工程取向。",
+      "url": "https://www.ithome.com/1/007/113.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-25T04:26:17.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/113.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "ec6024bf4adb",
+      "title": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
+      "summary": "IT之家 9 月 25 日消息，科技媒体 9to5Mac 昨日（9 月 24 日）发布博文，在 Siri AI 之外，深入探索了 macOS 27 Golden Gate 系统的亮点功能。 一、改版应用图标 macOS 27 几乎重绘所有内置应用图标，彻底重新设计 Siri、预览、国际象棋（Chess）等图标，并同步调整 Finder、照片、提醒事项等图标，整体强化“液态玻璃”（Liquid Glass）设计语言。该媒体认为多数改动较为细微，但系统视觉一致性显著提升。IT之家附上相关截图如下： 二、广泛支持 HDR 显示效果 在 macOS 27 系统中，系统图标、工具栏及 Liquid Glass 界面元素新增支持高动态范围（HD",
+      "url": "https://www.ithome.com/1/007/071.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:54:35.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/071.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "829b67904723",
+      "title": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
+      "summary": "IT之家 9 月 25 日消息，科技媒体 The Verge 昨日（9 月 24 日）发布博文，报道称在 2026 年 Connect 大会上，Meta 公司扩充其 Horizon 平台， 推出 Horizon Create 和 Horizon Studio 两款 AI 工具，让用户直接在手机上构建游戏。 IT之家援引博文介绍，Horizon Create 是一款移动应用，可以根据用户的提示词，快速制作游戏雏形。而 Horizon Studio 是一款浏览器编辑器，提供更精细的控制选项，用于完善项目。 Meta 表示，两款工具支持创作者把想法转化为完整的 2D 或 3D 手机游戏。游戏可包含成长系统、难度平衡、美术方向和多人模式，创",
+      "url": "https://www.ithome.com/1/007/068.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-25T00:34:51.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/068.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "8d61b9f9bbfd",
+      "title": "IT早报 0925：李佳琦称 AI 无法取代真人主播；华为余承东称会让每个界都获更充足资源；营业厅“0 元购机”全面停办；国补 5499 元荣耀 Magic9 价格提前公布...",
+      "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 25 日星期五，今天的重要科技资讯有： 1. 外媒关注中国直播带货，李佳琦称 AI 无法取代真人主播 如今，尽管行业增长放缓，AI 也正在重塑这一领域，但李佳琦仍然认为，直播电商未来依然离不开像他这样的主播。>> 查看详情 2. 华为余承东：接下来会聚焦尊界、享界、智界、尚界，让每个界都获得更加充足的资源 余承东在合肥巡店时透露，接下来，会聚焦尊界、享界、智界、尚界，让每个界都获得更加充足的资源，团队也能有更多精力把产品做细、把体验做好，让四界快速提升，利好鸿蒙智行共同发展。>> 查看详情 3. 曝移动、电信、联通三大运营商暂停金融分期业务，“0 元购机”全面停办 知情人士称，",
+      "url": "https://www.ithome.com/1/007/058.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-09-24T23:46:11.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/007/058.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "41b3837e2cdf",
+      "title": "曝 DeepSeek 确定 75 亿美元第二轮融资，年化营收突破 10 亿美元",
+      "summary": "IT之家 9 月 24 日消息，据 The Information 今日报道，两名知情人士透露，DeepSeek 年化营收突破 10 亿美元 （IT之家注：现汇率约合 67.23 亿元人民币） ，已确定 75 亿美元 （现汇率约合 504.2 亿元人民币） 融资。 报道称，短短数月前，DeepSeek 年化营收尚不足 5 亿美元。营收增长一方面得益于近期上调 API 定价，另一方面也源于其大模型持续受到市场热捧。 报道还称，DeepSeek 正推进第二轮融资，并筹备在上交所上市，这一营收表现有望提振投资者信心。DeepSeek 计划在 10 月底前完成本轮融资， 目标募资 500 亿元人民币（约合 75 亿美元） ，估值目标 5,0",
+      "url": "https://www.ithome.com/1/006/808.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T07:28:02.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "大模型",
+        "模型",
+        "deepseek"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/808.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "fb7a956cfd76",
+      "title": "谷歌确认新一代旗舰模型 Gemini 4 即将推出，有望不用等到年底",
+      "summary": "IT之家 9 月 24 日消息，The Information 当地时间 23 日举办的 AI Agenda Live 峰会上，谷歌 DeepMind 负责人科拉伊 · 卡武克奥卢透露， 谷歌新一代旗舰模型 Gemini 4 即将推出 ，现已进入 开发流程中的后训练初期 。 IT之家注：“后训练”是在基础 AI 模型完成后进一步调整模型，提高其行为可靠性。 卡武克奥卢希望 Gemini 4 能在“ 远早于年底 ”的时间点推出。“我们的打算是尽快拿出后训练阶段的早期成果， 因为我们看到了结果，也很振奋 。” 随后，谷歌会继续快速迭代模型。 Gemini 4 将成为谷歌自去年年底推出 Gemini 3 系列后 首款下一代旗舰模型 。谷歌",
+      "url": "https://www.ithome.com/1/006/800.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T07:17:50.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "gemini"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/800.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "76c32d0db771",
+      "title": "AI 眼镜离线也能识图问答：高通携手 PrismML 发布 1-bit Bonsai，内存占用降至 1/4",
+      "summary": "IT之家 9 月 24 日消息，在 2026 骁龙峰会上，高通携手 PrismML 公司，在骁龙 AR1 Gen 1 智能眼镜平台上， 成功本地运行 20 亿参数的 1-bit 量化 Bonsai 视觉模型。 Bonsai 1-bit 模型基于 PrismML 此前发布的 Bonsai 1.7B 版本构建，降低模型存储与推理所需的内存资源，模型精度压缩到 1-bit。官方表示在相同内存容量下可容纳约 4 倍参数， 内存占用约为传统 4-bit 模型的 1/4，文本 Token 生成速度翻倍。 在落地场景方面，IT之家援引博文介绍，官方表示在识别眼前物体、翻译文字、回答环境相关的问题、提供免手操作的语音帮助等场景下，AI 交互不再需要",
+      "url": "https://www.ithome.com/1/006/772.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:34:07.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/772.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 39,
       "level": "正在升温"
     },
     {
@@ -4438,7 +5288,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T01:08:58.000Z",
       "category": "产品更新",
@@ -4468,7 +5319,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T22:39:37.000Z",
       "category": "Agent",
@@ -4514,6 +5366,71 @@
       ],
       "sourceWeight": 18,
       "score": 39,
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
+    },
+    {
+      "id": "f3037066e2cf",
+      "title": "OpenAI 发布 MentalHealthBench：1215 段对话评估 AI 心理健康应对能力",
+      "summary": "IT之家 9 月 24 日消息，OpenAI 今日推出了 MentalHealthBench，这是一个开放式基准测试，包含 1215 段合成心理健康对话，用于评估 AI 系统在真实场景下的应对能力，覆盖从日常心理健康话题到紧急心理健康事件等不同情况。 据IT之家了解，该基准由来自 22 个国家和地区的 80 多名持证心理学家和精神科医生共同参与制定。这些专家共使用 19 种语言，覆盖近 20 个心理健康专业领域。每段对话都配有由专家团队制定的评分标准。根据配套研究论文，完整数据集共包含 5262 条由专家撰写的评分标准。OpenAI 表示，此次公开发布 MentalHealthBench，是希望其他研究人员能够审查其方法、开展独立评",
+      "url": "https://www.ithome.com/1/006/805.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T07:22:21.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/805.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
+      "level": "正在升温"
+    },
+    {
+      "id": "b9d0c526ac9d",
+      "title": "腾讯混元宣布“腾讯 Hy 翻译”App 上线，支持 33 种语言互译",
+      "summary": "IT之家 9 月 24 日消息，腾讯混元今日宣布“腾讯 Hy 翻译”App 上线，同步支持小程序、插件、PC 端体验，直接搜索“腾讯混元翻译”即可。 据介绍，它基于腾讯混元 Hy-MT2 翻译模型打造， 支持 33 种语言互译 ，并覆盖 5 种中国少数民族语言及方言，提供语音翻译、拍照翻译以及离线翻译等多种体验方式。离线翻译模式下，用户通过提前将翻译模型下载至手机上，进而在没有网络或者信号不好的地方依然能稳定使用。 “腾讯 Hy 翻译” App 现已在 12 个国家和地区上线，包括美国、日本、韩国、新加坡、马来西亚、泰国、越南、缅甸等国家及中国港澳台地区。 IT之家注意到，腾讯混元翻译模型 Hy-MT2 于今年 5 月开源，支持 3",
+      "url": "https://www.ithome.com/1/006/738.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:20:36.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型",
+        "插件"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/738.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
       "level": "正在升温"
     },
     {
@@ -4524,7 +5441,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T05:29:41.000Z",
       "category": "模型发布",
@@ -4553,7 +5471,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T05:22:08.000Z",
       "category": "模型发布",
@@ -4582,7 +5501,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T01:12:13.000Z",
       "category": "其他",
@@ -4611,7 +5531,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T00:39:04.000Z",
       "category": "产品更新",
@@ -4640,7 +5561,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T00:19:41.000Z",
       "category": "产品更新",
@@ -4669,7 +5591,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T23:45:52.000Z",
       "category": "产品更新",
@@ -4698,7 +5621,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T23:31:33.000Z",
       "category": "其他",
@@ -4727,7 +5651,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T22:41:13.000Z",
       "category": "产品更新",
@@ -4861,7 +5786,12 @@
       ],
       "sourceWeight": 18,
       "score": 36,
-      "level": "正在升温"
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "e1b9a8796cab",
@@ -4886,7 +5816,99 @@
       ],
       "sourceWeight": 18,
       "score": 36,
-      "level": "正在升温"
+      "level": "正在升温",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
+    },
+    {
+      "id": "547fa80c3c12",
+      "title": "密封关节设计，特斯拉 App 意外泄露第三代 Optimus 人形机器人",
+      "summary": "IT之家 9 月 24 日消息，特斯拉过去几个月一直很少公开谈及人形机器人项目，但其自家的手机 App 可能无意间泄露了相关信息。有人在特斯拉 App 深处发现了一批新的数字资产，似乎曝光了未经遮挡的量产版 Optimus Gen 3 人形机器人。 特斯拉爱好者 @WholeMars 在近期更新的特斯拉 Android App 中找到了这些渲染模型。虽然原帖后来被删除，但在删除之前，相关内容已经被 @TeslaNewswire 转发。与风格化的概念草图不同，这些文件是特斯拉官方内置于 App 中的 UI 模型，用于在手机端展示特斯拉机器人。 此次提取出的渲染模型提供了即将推出的 Gen 3 与此前 Gen 2.5 原型机的直接对比，",
+      "url": "https://www.ithome.com/1/006/793.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:56:32.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/793.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "6a5e9333d058",
+      "title": "小米首款全彩夜视室内摄像机开启众筹：4K 超清、AI 检测，429 元",
+      "summary": "IT之家 9 月 24 日消息，小米智能摄像机 5 Pro 全彩夜视现已在小米有品开启众筹，活动时间为 9 月 23 日 10 点-9 月 30 日 10 点，众筹价 429 元（ 点击前往 ）。 作为小米首款全彩夜视室内摄像机，新品配备 8MP+4MP 双镜头协同，可拍摄 4K 高清画面，支持多种夜视模式，满足不同场景使用需求。 IT之家从商品页面获悉，新品可开启机身 小夜灯进行补光 ，摄像机可实现整夜彩色成像。无人时黑白成像，识别到人自动开启小夜灯并自动切换彩色画面。内置 940nm 红外补光灯，镜头无红曝干扰，夜间呈现清晰黑白影像。 新品采用独特外观结构，内置柔光小夜灯。 夜间识别人形、宠物自动柔和亮灯 ；定制光学透镜搭配磨砂",
+      "url": "https://www.ithome.com/1/006/785.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:49:31.000Z",
+      "category": "新产品",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/785.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "b8f9d9cc7f35",
+      "title": "港大与北师大用三维波模拟研究超轻暗物质，首次预测其对引力透镜成像的影响",
+      "summary": "IT之家 9 月 24 日消息，香港大学物理系与该校天文及天体物理研究所，联合北京师范大学主导的研究团队，提出一种更贴近物理实际的方案，用三维波模拟检验超轻暗物质对引力透镜图像的影响。 这是首次直接基于超轻暗物质的三维波模拟，直接预测其对引力透镜成像的影响，为利用高分辨率引力透镜观测研究暗物质性质提供了新的方法。相关成果已发表于《天体物理学杂志快报》。 暗物质被认为占宇宙全部物质的约 85%，不发光也不吸收或反射光，目前只能通过引力效应被探测。它不在粒子物理标准模型之内。过去十年，越来越多天文证据提示，暗物质可能由超轻粒子组成（超轻暗物质也称“模糊暗物质”，指质量极低、集体行为类似波的暗物质候选者）。 由于质量极低，这类粒子可像波一",
+      "url": "https://www.ithome.com/1/006/737.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-09-24T06:16:58.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/006/737.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
     },
     {
       "id": "89ad25e2d788",
@@ -4896,7 +5918,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-24T00:34:43.000Z",
       "category": "产品更新",
@@ -4924,7 +5947,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T23:57:43.000Z",
       "category": "产品更新",
@@ -4952,7 +5976,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T23:05:20.000Z",
       "category": "产品更新",
@@ -4980,7 +6005,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-09-23T14:49:17.000Z",
       "category": "产品更新",
@@ -5080,7 +6106,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "34af4394ddc9",
@@ -5104,7 +6135,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "6346566eb9b2",
@@ -5128,7 +6164,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "6812bd63f330",
@@ -5152,7 +6193,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "733d3eeb6f76",
@@ -5176,7 +6222,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     },
     {
       "id": "f3e25e3eda19",
@@ -5200,7 +6251,12 @@
       ],
       "sourceWeight": 18,
       "score": 33,
-      "level": "仅记录"
+      "level": "仅记录",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      }
     }
   ],
   "sources": [
@@ -5210,8 +6266,8 @@
       "platform": "official",
       "ok": true,
       "count": 1229,
-      "latencyMs": 315,
-      "checkedAt": "2026-09-25T05:41:43.809Z",
+      "latencyMs": 1572,
+      "checkedAt": "2026-09-25T14:30:16.037Z",
       "note": ""
     },
     {
@@ -5220,8 +6276,8 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 433,
-      "checkedAt": "2026-09-25T05:41:43.997Z",
+      "latencyMs": 1716,
+      "checkedAt": "2026-09-25T14:30:16.184Z",
       "note": ""
     },
     {
@@ -5230,8 +6286,8 @@
       "platform": "official",
       "ok": true,
       "count": 868,
-      "latencyMs": 323,
-      "checkedAt": "2026-09-25T05:41:43.889Z",
+      "latencyMs": 1250,
+      "checkedAt": "2026-09-25T14:30:15.719Z",
       "note": ""
     },
     {
@@ -5240,8 +6296,8 @@
       "platform": "research",
       "ok": true,
       "count": 30,
-      "latencyMs": 261,
-      "checkedAt": "2026-09-25T05:41:43.828Z",
+      "latencyMs": 1080,
+      "checkedAt": "2026-09-25T14:30:15.551Z",
       "note": ""
     },
     {
@@ -5250,8 +6306,8 @@
       "platform": "developer",
       "ok": true,
       "count": 10,
-      "latencyMs": 354,
-      "checkedAt": "2026-09-25T05:41:43.922Z",
+      "latencyMs": 783,
+      "checkedAt": "2026-09-25T14:30:15.256Z",
       "note": ""
     },
     {
@@ -5260,9 +6316,49 @@
       "platform": "media",
       "ok": true,
       "count": 60,
-      "latencyMs": 2173,
-      "checkedAt": "2026-09-25T05:41:45.743Z",
+      "latencyMs": 245,
+      "checkedAt": "2026-09-25T14:30:14.719Z",
       "note": ""
+    },
+    {
+      "id": "appso",
+      "name": "AppSo",
+      "platform": "media",
+      "ok": true,
+      "count": 1,
+      "latencyMs": 170,
+      "checkedAt": "2026-09-25T14:30:14.644Z",
+      "note": ""
+    },
+    {
+      "id": "bytedance-tech",
+      "name": "字节跳动技术团队",
+      "platform": "official",
+      "ok": true,
+      "count": 20,
+      "latencyMs": 1367,
+      "checkedAt": "2026-09-25T14:30:15.842Z",
+      "note": "官方公众号文章，经第三方 RSS 转换"
+    },
+    {
+      "id": "tencent-tech",
+      "name": "腾讯技术工程",
+      "platform": "official",
+      "ok": true,
+      "count": 20,
+      "latencyMs": 1328,
+      "checkedAt": "2026-09-25T14:30:15.805Z",
+      "note": "官方公众号文章，经第三方 RSS 转换"
+    },
+    {
+      "id": "alibaba-tech",
+      "name": "阿里技术",
+      "platform": "official",
+      "ok": true,
+      "count": 10,
+      "latencyMs": 1048,
+      "checkedAt": "2026-09-25T14:30:15.526Z",
+      "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
       "id": "x-worldwide-trends",
@@ -5282,7 +6378,7 @@
       "pending": true,
       "count": 0,
       "checkedAt": null,
-      "note": "待配置 XIAOHONGSHU_USER_IDS · 从配置的 AI 创作者账号池中按点赞数选出热门笔记"
+      "note": "待配置 RSSHUB_BASE · 从配置的 AI 创作者账号池中按点赞数选出热门笔记"
     },
     {
       "id": "douyin-hot",
@@ -5297,9 +6393,9 @@
   "archive": [
     {
       "date": "2026-09-25",
-      "itemCount": 182,
+      "itemCount": 212,
       "headlineIds": [],
-      "updatedAt": "2026-09-25T05:41:43.491Z"
+      "updatedAt": "2026-09-25T14:30:14.438Z"
     },
     {
       "date": "2026-09-24",

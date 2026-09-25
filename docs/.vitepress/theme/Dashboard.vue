@@ -5,6 +5,8 @@ const data = ref({ meta: {}, items: [], sources: [], archive: [] })
 const activeView = ref('today')
 const activeCategory = ref('全部')
 const activePlatform = ref('全部')
+const activeSource = ref('全部')
+const sourcePlatform = ref('全部')
 const query = ref('')
 const showHidden = ref(false)
 const refreshState = ref({ phase: 'idle' })
@@ -26,12 +28,16 @@ const platformLabels = {
 
 const categories = computed(() => ['全部', ...new Set(data.value.items.map((item) => item.category))])
 const platforms = computed(() => ['全部', ...new Set(data.value.items.flatMap((item) => item.sources.map((source) => source.platform)))])
+const sourcePlatforms = computed(() => ['全部', ...new Set(data.value.sources.map((source) => source.platform))])
+const visibleSources = computed(() => data.value.sources.filter((source) => sourcePlatform.value === '全部' || source.platform === sourcePlatform.value))
+const sourcesWithArticles = computed(() => data.value.sources.filter((source) => data.value.items.some((item) => item.sources.some((entry) => entry.id === source.id))))
 const filteredItems = computed(() => {
   const needle = query.value.trim().toLowerCase()
   return data.value.items.filter((item) => {
     if (!showHidden.value && hidden.value.has(item.id)) return false
     if (activeCategory.value !== '全部' && item.category !== activeCategory.value) return false
     if (activePlatform.value !== '全部' && !item.sources.some((source) => source.platform === activePlatform.value)) return false
+    if (activeSource.value !== '全部' && !item.sources.some((source) => source.id === activeSource.value)) return false
     return !needle || `${item.title} ${item.summary} ${item.keywordHits.join(' ')}`.toLowerCase().includes(needle)
   })
 })
@@ -155,6 +161,26 @@ function sourceNames(item) {
   return item.sources.map((source) => source.name).join(' · ')
 }
 
+function sourceArticleCount(id) {
+  return data.value.items.filter((item) => item.sources.some((source) => source.id === id)).length
+}
+
+function viewSource(id) {
+  activeCategory.value = '全部'
+  activePlatform.value = '全部'
+  activeSource.value = id
+  query.value = ''
+  activeView.value = 'radar'
+}
+
+function viewPlatform(platform) {
+  activeCategory.value = '全部'
+  activePlatform.value = platform
+  activeSource.value = '全部'
+  query.value = ''
+  activeView.value = 'radar'
+}
+
 onMounted(async () => {
   saved.value = new Set(JSON.parse(localStorage.getItem('ai-news-saved') ?? '[]'))
   hidden.value = new Set(JSON.parse(localStorage.getItem('ai-news-hidden') ?? '[]'))
@@ -271,6 +297,10 @@ onMounted(async () => {
           <select v-model="activePlatform" aria-label="筛选平台">
             <option v-for="platform in platforms" :key="platform" :value="platform">{{ platformLabels[platform] || platform }}</option>
           </select>
+          <select v-model="activeSource" aria-label="筛选信源">
+            <option value="全部">全部信源</option>
+            <option v-for="source in sourcesWithArticles" :key="source.id" :value="source.id">{{ source.name }}</option>
+          </select>
           <label class="hidden-toggle"><input v-model="showHidden" type="checkbox"> 包括隐藏</label>
         </div>
 
@@ -294,11 +324,21 @@ onMounted(async () => {
 
       <section v-else-if="activeView === 'sources'" class="workspace-view">
         <div class="workspace-head"><div><p class="eyebrow">SOURCE HEALTH</p><h1>信源状态</h1></div><p class="head-note">Cookie 与密钥只存在本地服务端。</p></div>
+        <div class="source-platform-tabs" aria-label="信源平台分类">
+          <button v-for="platform in sourcePlatforms" :key="platform" :class="{ active: sourcePlatform === platform }" :aria-pressed="sourcePlatform === platform" @click="sourcePlatform = platform">
+            {{ platformLabels[platform] || platform }}
+          </button>
+        </div>
         <div class="source-table">
-          <div class="table-head"><span>信源</span><span>平台</span><span>条目</span><span>延迟</span><span>状态</span></div>
-          <div v-for="source in data.sources" :key="source.id" class="source-row">
-            <div><strong>{{ source.name }}</strong><small>{{ source.note || source.error || source.id }}</small></div>
-            <span>{{ platformLabels[source.platform] || source.platform }}</span>
+          <div class="table-head"><span>信源 · 已收录文章</span><span>平台</span><span>条目</span><span>延迟</span><span>状态</span></div>
+          <div v-for="source in visibleSources" :key="source.id" class="source-row">
+            <div>
+              <button class="source-link" :disabled="!sourceArticleCount(source.id)" :aria-label="`查看 ${source.name} 的 ${sourceArticleCount(source.id)} 篇文章`" @click="viewSource(source.id)">
+                <strong>{{ source.name }}</strong><span v-if="sourceArticleCount(source.id)">{{ sourceArticleCount(source.id) }} 篇文章 ↗</span>
+              </button>
+              <small>{{ source.note || source.error || source.id }}</small>
+            </div>
+            <button class="source-platform-link" :aria-label="`查看${platformLabels[source.platform] || source.platform}类文章`" @click="viewPlatform(source.platform)">{{ platformLabels[source.platform] || source.platform }} ↗</button>
             <span>{{ source.count ?? '—' }}</span>
             <span>{{ source.latencyMs ? `${source.latencyMs} ms` : '—' }}</span>
             <span class="status-chip" :class="source.ok === true ? 'ok' : source.ok === false ? 'bad' : 'off'">{{ source.ok === true ? '正常' : source.ok === false ? '异常' : source.pending ? '待配置' : '未启用' }}</span>

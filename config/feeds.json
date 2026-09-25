@@ -64,6 +64,50 @@
       "enabled": true
     },
     {
+      "id": "appso",
+      "name": "AppSo",
+      "url": "https://www.ifanr.com/feed",
+      "includeCategory": "AppSo",
+      "platform": "media",
+      "weight": 18,
+      "primary": false,
+      "allowAll": false,
+      "enabled": true
+    },
+    {
+      "id": "bytedance-tech",
+      "name": "字节跳动技术团队",
+      "url": "https://wechat2rss.xlab.app/feed/4025ea55575daf8bfd8227e68b28d9638b073267.xml",
+      "platform": "official",
+      "weight": 30,
+      "primary": true,
+      "allowAll": false,
+      "enabled": true,
+      "note": "官方公众号文章，经第三方 RSS 转换"
+    },
+    {
+      "id": "tencent-tech",
+      "name": "腾讯技术工程",
+      "url": "https://wechat2rss.xlab.app/feed/9685937b45fe9c7a526dbc32e4f24ba879a65b9a.xml",
+      "platform": "official",
+      "weight": 30,
+      "primary": true,
+      "allowAll": false,
+      "enabled": true,
+      "note": "官方公众号文章，经第三方 RSS 转换"
+    },
+    {
+      "id": "alibaba-tech",
+      "name": "阿里技术",
+      "url": "https://wechat2rss.bestblogs.dev/feed/6535a444e9651fecae3383363be7589acdebe2b6.xml",
+      "platform": "official",
+      "weight": 30,
+      "primary": true,
+      "allowAll": false,
+      "enabled": true,
+      "note": "官方公众号文章，经第三方 RSS 转换"
+    },
+    {
       "id": "x-worldwide-trends",
       "name": "X 全球热榜",
       "type": "x-trends",

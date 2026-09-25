@@ -21,9 +21,12 @@ RSSHub 运行在 Compose 内部，不对宿主机暴露端口。数据和每日 
 - `weight`：来源基础权重，建议 10–35
 - `primary`：是否为一手来源
 - `allowAll`：是否允许不命中 AI 关键词的条目
+- `includeCategory`：可选，仅保留 RSS 中带有指定分类的条目；AppSo 使用此项从爱范儿主站 RSS 中筛选
 - `platform`：`official`、`developer`、`research`、`media`、`x`、`douyin` 或 `xiaohongshu`
 
 重点主题配置在 `config/keywords.json`。首版重点关注 FDE、AI Coding、Agent Skills 和新 AI 产品。
+
+字节跳动技术团队、腾讯技术工程和阿里技术的文章通过第三方公众号转 RSS 服务读取，保留原文链接和发布时间，并按 AI 关键词筛选；这些信源无需额外密钥。
 
 ### X 全球热榜
 

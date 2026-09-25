@@ -62,18 +62,20 @@ export function parseFeed(xml, source) {
   const channel = parsed.rss?.channel ?? parsed['rdf:RDF']?.channel
   const entries = channel ? list(channel.item ?? parsed['rdf:RDF']?.item) : list(parsed.feed?.entry)
 
-  return entries.map((entry) => ({
-    title: compact(entry.title),
-    url: channel ? text(entry.link ?? entry.guid) : atomLink(entry.link),
-    summary: compact(entry.description ?? entry['content:encoded'] ?? entry.summary ?? entry.content),
-    publishedAt: text(entry.pubDate ?? entry['dc:date'] ?? entry.published ?? entry.updated),
-    author: compact(entry.author?.name ?? entry.author ?? entry['dc:creator']),
-    engagement: {
-      upvotes: parseCount(entry['rsshub:upvotes'] ?? entry.upvotes),
-      comments: parseCount(entry['rsshub:comments'] ?? entry.comments)
-    },
-    source
-  })).filter((entry) => entry.title && entry.url)
+  return entries
+    .filter((entry) => !source.includeCategory || list(entry.category).some((category) => compact(category) === source.includeCategory))
+    .map((entry) => ({
+      title: compact(entry.title),
+      url: channel ? text(entry.link ?? entry.guid) : atomLink(entry.link),
+      summary: compact(entry.description ?? entry['content:encoded'] ?? entry.summary ?? entry.content),
+      publishedAt: text(entry.pubDate ?? entry['dc:date'] ?? entry.published ?? entry.updated),
+      author: compact(entry.author?.name ?? entry.author ?? entry['dc:creator']),
+      engagement: {
+        upvotes: parseCount(entry['rsshub:upvotes'] ?? entry.upvotes),
+        comments: parseCount(entry['rsshub:comments'] ?? entry.comments)
+      },
+      source
+    })).filter((entry) => entry.title && entry.url)
 }
 
 export function parseXTrends(payload, source, now = new Date()) {

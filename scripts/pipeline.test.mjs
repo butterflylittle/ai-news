@@ -12,6 +12,12 @@ test('parses RSS and Atom feeds', () => {
   assert.equal(parseFeed(atom, source)[0].url, 'https://example.com/b')
 })
 
+test('filters a shared RSS feed to AppSo articles', () => {
+  const rss = '<rss><channel><item><title>AppSo AI</title><link>https://example.com/appso</link><category>AppSo</category></item><item><title>iFanr AI</title><link>https://example.com/ifanr</link><category>公司</category></item></channel></rss>'
+  const entries = parseFeed(rss, { id: 'appso', includeCategory: 'AppSo' })
+  assert.deepEqual(entries.map((entry) => entry.title), ['AppSo AI'])
+})
+
 test('parses social popularity signals', () => {
   const atom = `<?xml version="1.0"?><feed xmlns="http://www.w3.org/2005/Atom" xmlns:rsshub="https://docs.rsshub.app"><entry><title>AI Coding 新工具</title><link href="https://example.com/xhs"/><updated>2026-09-23T02:00:00Z</updated><rsshub:upvotes>1.2万</rsshub:upvotes></entry></feed>`
   assert.equal(parseCount('1.2万'), 12_000)
