@@ -1,7 +1,7 @@
 {
   "meta": {
-    "updatedAt": "2026-11-07T06:45:32.715Z",
-    "date": "2026-11-07",
+    "updatedAt": "2026-11-08T06:52:29.054Z",
+    "date": "2026-11-08",
     "reason": "cli",
     "timezone": "Asia/Shanghai",
     "enabledSources": 10,
@@ -11,94 +11,6 @@
   },
   "items": [
     {
-      "id": "bc8f9eac1966",
-      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
-      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
-      "url": "https://openai.com/index/partnering-with-hacktron",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "openai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/partnering-with-hacktron"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 71,
-      "level": "值得看"
-    },
-    {
-      "id": "f4cf1146896c",
-      "title": "决策模型 Jev 可以直接上生产？用实验和公式理解 logit 调优与训练要领（长文干货）",
-      "summary": "本文围绕一个核心工程问题展开：用决策模型替代传统生成式 LLM-as-a-Judge 做自动化评测/决策时，如何避免「直接用默认阈值和原始输出概率」带来的性能折损与误判？",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "llm",
-        "模型",
-        "生成式"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "alibaba-tech",
-          "name": "阿里技术",
-          "platform": "official",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786"
-        }
-      ],
-      "sourceWeight": 30,
-      "score": 69,
-      "level": "值得看"
-    },
-    {
-      "id": "9bd1a4c97414",
-      "title": "多Agent协作的下一场竞争，不在模型，而在上下文",
-      "summary": "Siboot 的协作产品哲学",
-      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T09:38:00.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "agent",
-        "模型"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "tencent-tech",
-          "name": "腾讯技术工程",
-          "platform": "official",
-          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314"
-        }
-      ],
-      "sourceWeight": 30,
-      "score": 66,
-      "level": "值得看"
-    },
-    {
       "id": "cfd4354afa14",
       "title": "Measuring how AI agents handle everyday wet-lab science",
       "summary": "OpenAI introduces BioBasicsBench, a 100-task benchmark measuring how well AI agents interpret raw experimental data and handle everyday wet-lab science.",
@@ -106,7 +18,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "category": "模型发布",
@@ -191,48 +104,17 @@
       "level": "值得看"
     },
     {
-      "id": "3a06f84c0f51",
-      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
-      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
-      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "id": "bc8f9eac1966",
+      "title": "Partnering with Hacktron to find vulnerabilities in OpenAI’s systems",
+      "summary": "OpenAI is partnering with Hacktron to find vulnerabilities, test connections with third-party services, and strengthen defenses with frontier AI.",
+      "url": "https://openai.com/index/partnering-with-hacktron",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-11-04T14:30:00.000Z",
-      "category": "AI Coding",
-      "keywordHits": [
-        "ai",
-        "openai",
-        "codex"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/openai-to-acquire-pierre"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 66,
-      "level": "值得看"
-    },
-    {
-      "id": "f93567576105",
-      "title": "Setting a new standard for responsible AI infrastructure",
-      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
-      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "publishedAt": "2026-11-06T08:00:00.000Z",
       "category": "其他",
       "keywordHits": [
         "ai",
@@ -244,7 +126,7 @@
           "id": "openai-news",
           "name": "OpenAI News",
           "platform": "official",
-          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
+          "url": "https://openai.com/index/partnering-with-hacktron"
         }
       ],
       "sourceWeight": 35,
@@ -252,89 +134,34 @@
       "level": "值得看"
     },
     {
-      "id": "c0d7b0808284",
-      "title": "Franklin Templeton uses OpenAI to support investment research",
-      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
-      "url": "https://openai.com/index/franklin-templeton",
+      "id": "f4cf1146896c",
+      "title": "决策模型 Jev 可以直接上生产？用实验和公式理解 logit 调优与训练要领（长文干货）",
+      "summary": "本文围绕一个核心工程问题展开：用决策模型替代传统生成式 LLM-as-a-Judge 做自动化评测/决策时，如何避免「直接用默认阈值和原始输出概率」带来的性能折损与误判？",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "category": "论文研究",
+      "publishedAt": "2026-11-06T10:00:00.000Z",
+      "category": "模型发布",
       "keywordHits": [
-        "ai",
-        "openai"
+        "llm",
+        "模型",
+        "生成式"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "openai-news",
-          "name": "OpenAI News",
+          "id": "alibaba-tech",
+          "name": "阿里技术",
           "platform": "official",
-          "url": "https://openai.com/index/franklin-templeton"
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512450&idx=1&sn=65ef4a129320212fc63ac325a5e96786"
         }
       ],
-      "sourceWeight": 35,
-      "score": 63,
-      "level": "值得看"
-    },
-    {
-      "id": "a4f4c423c542",
-      "title": "A thousand fewer paths to root",
-      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
-      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-04T08:00:00.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "openai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 63,
-      "level": "值得看"
-    },
-    {
-      "id": "be1ba71e55b7",
-      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
-      "summary": "",
-      "url": "https://huggingface.co/blog/allenai/toyblocks",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T14:00:48.000Z",
-      "category": "商业动态",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "huggingface-blog",
-          "name": "Hugging Face",
-          "platform": "official",
-          "url": "https://huggingface.co/blog/allenai/toyblocks"
-        }
-      ],
-      "sourceWeight": 32,
-      "score": 62,
+      "sourceWeight": 30,
+      "score": 61,
       "level": "值得看"
     },
     {
@@ -396,64 +223,6 @@
       "level": "值得看"
     },
     {
-      "id": "1f9981de5700",
-      "title": "Flipsnack grows product signups with conversion optimization",
-      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
-      "url": "https://openai.com/ads/customers/flipsnack",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-05T00:45:15.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/ads/customers/flipsnack"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 60,
-      "level": "值得看"
-    },
-    {
-      "id": "75679f5aa60b",
-      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
-      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
-      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-04T07:00:00.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "openai-news",
-          "name": "OpenAI News",
-          "platform": "official",
-          "url": "https://openai.com/index/daybreak-red-aws-govcloud"
-        }
-      ],
-      "sourceWeight": 35,
-      "score": 60,
-      "level": "值得看"
-    },
-    {
       "id": "63c3d56bc72b",
       "title": "Gemini Omni 1.2 Flash: Fast and cost-effective with longer clips",
       "summary": "Gemini Omni 1.2 Flash brings native 15-second video generation and editing, stronger consistency, and 30% lower pricing.",
@@ -479,6 +248,37 @@
         }
       ],
       "sourceWeight": 34,
+      "score": 59,
+      "level": "值得看"
+    },
+    {
+      "id": "3a06f84c0f51",
+      "title": "OpenAI to acquire Pierre Computer Company, Inc.",
+      "summary": "OpenAI will acquire Pierre Computer Company, expanding Codex’s tools for building, understanding, and reviewing code.",
+      "url": "https://openai.com/index/openai-to-acquire-pierre",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-04T14:30:00.000Z",
+      "category": "AI Coding",
+      "keywordHits": [
+        "ai",
+        "openai",
+        "codex"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/openai-to-acquire-pierre"
+        }
+      ],
+      "sourceWeight": 35,
       "score": 59,
       "level": "值得看"
     },
@@ -545,6 +345,36 @@
       "level": "值得看"
     },
     {
+      "id": "9bd1a4c97414",
+      "title": "多Agent协作的下一场竞争，不在模型，而在上下文",
+      "summary": "Siboot 的协作产品哲学",
+      "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-06T09:38:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "agent",
+        "模型"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "tencent-tech",
+          "name": "腾讯技术工程",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=MjM5ODYwMjI2MA==&mid=2649808052&idx=1&sn=b3d44a9aff307ff725a3300d14efe314"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 58,
+      "level": "值得看"
+    },
+    {
       "id": "ba1218169806",
       "title": "《2026 阿里巴巴 AI 向善行动报告》发布！",
       "summary": "今年，是我们连续第二年发布 AI 向善行动报告。&#xA;&#xA;AI 的发展，需要的不只是更强的模型，还有让技术长期为人所用的条件：社会可接受、环境可承载、经济可持续。服务值得信任，资源消耗可承受，创造的价值能够支撑持续投入，向善才不会停留在短期目标。&#xA;&#xA;报告分享了过去一年阿里“AI 向善”的 26 个实践案例，涵盖医疗、教育、环保、科研等领域。&#xA;&#xA;阿里巴巴集团首席技术官、科技伦理治理委员会主席吴泽明表示，AI发展需要满足三个要件：社会可接受、环境可承载、经济可持续。当前行业正处于规则成型期，科技企业应积极创造社会价值，确保AI发展方向符合人类福祉。&#xA;&#xA;阿里巴巴集团公益总裁、阿里巴",
@@ -552,7 +382,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-06T03:09:00.000Z",
       "category": "模型发布",
@@ -636,65 +467,93 @@
       "level": "值得看"
     },
     {
-      "id": "252abaf75018",
-      "title": "CompressionBench: How can your coding agents compress LLMs?",
-      "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We ",
-      "url": "https://arxiv.org/abs/2611.06858v1",
-      "author": "Xinrui Zhong Zhifeng Li Zhiming Wang Yongqi Liu Shanglin Yang Yang Zhou Zikun Li Zhuoming Chen Beidi Chen",
+      "id": "f93567576105",
+      "title": "Setting a new standard for responsible AI infrastructure",
+      "summary": "OpenAI introduces its National Community Compact and Compute Campus Policy Blueprint to protect local resources, create jobs, and guide responsible AI infrastructure development.",
+      "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure",
+      "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-11-04T18:14:50.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-05T02:00:00.000Z",
+      "category": "其他",
       "keywordHits": [
         "ai",
-        "llm",
-        "agent",
-        "coding agent"
+        "openai"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06858v1"
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/setting-new-standard-responsible-ai-infrastructure"
         }
       ],
-      "sourceWeight": 24,
-      "score": 58,
+      "sourceWeight": 35,
+      "score": 56,
       "level": "值得看"
     },
     {
-      "id": "7fa7ffe383f7",
-      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
-      "summary": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness require",
-      "url": "https://arxiv.org/abs/2611.06841v1",
-      "author": "Xinrui Zhong Zhiming Wang Yongqi Liu Zhaohui Wang Shanglin Yang Zikun Li Zhuoming Chen Beidi Chen",
+      "id": "c0d7b0808284",
+      "title": "Franklin Templeton uses OpenAI to support investment research",
+      "summary": "Starting with equity research, Franklin Templeton is developing AI workflows to help portfolio managers compare research views and examine investment risks.",
+      "url": "https://openai.com/index/franklin-templeton",
+      "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-11-04T17:59:07.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "category": "论文研究",
       "keywordHits": [
         "ai",
-        "llm",
-        "agent",
-        "coding agent"
+        "openai"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06841v1"
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/franklin-templeton"
         }
       ],
-      "sourceWeight": 24,
-      "score": 58,
+      "sourceWeight": 35,
+      "score": 56,
+      "level": "值得看"
+    },
+    {
+      "id": "a4f4c423c542",
+      "title": "A thousand fewer paths to root",
+      "summary": "OpenAI built an autonomous pipeline that found, validated, and generated patches for 948 local privilege-escalation vulnerabilities in the Linux kernel.",
+      "url": "https://openai.com/index/a-thousand-fewer-paths-to-root",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-04T08:00:00.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/a-thousand-fewer-paths-to-root"
+        }
+      ],
+      "sourceWeight": 35,
+      "score": 56,
       "level": "值得看"
     },
     {
@@ -1090,92 +949,31 @@
       "level": "值得看"
     },
     {
-      "id": "2f288afcd4c5",
-      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
-      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly cons",
-      "url": "https://arxiv.org/abs/2611.06911v1",
-      "author": "Fei Lin Tengchao Zhang Ziyang Gong Xiaotong Yu Bohan Zhang Yifan Zhou Qihao Yang Ji Dai Dong Li Yining Jiang Qinghua Ni Jun Huang Qiang Zhang Yue Zhou Zhihang Zhong Yonglin Tian Fei-Yue Wang Xue Yang",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:57:17.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "llm",
-        "multimodal"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06911v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 55,
-      "level": "值得看"
-    },
-    {
-      "id": "fcc72a6a9050",
-      "title": "高德 Data Agent 实践：从业务问题到可信数据（上篇）",
+      "id": "be1ba71e55b7",
+      "title": "ToyBlocks: A controlled world for robot learning and evaluation",
       "summary": "",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=1&sn=ce00de88385556da121f3cf2ebe8396b",
+      "url": "https://huggingface.co/blog/allenai/toyblocks",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-11-04T10:04:00.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "agent"
-      ],
+      "publishedAt": "2026-11-06T14:00:48.000Z",
+      "category": "商业动态",
+      "keywordHits": [],
       "primary": true,
       "sources": [
         {
-          "id": "alibaba-tech",
-          "name": "阿里技术",
+          "id": "huggingface-blog",
+          "name": "Hugging Face",
           "platform": "official",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=1&sn=ce00de88385556da121f3cf2ebe8396b"
+          "url": "https://huggingface.co/blog/allenai/toyblocks"
         }
       ],
-      "sourceWeight": 30,
-      "score": 55,
-      "level": "值得看"
-    },
-    {
-      "id": "458abd13f21f",
-      "title": "高德 Data Agent 实践：从数字到业务决策（下篇）",
-      "summary": "",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=2&sn=acd04fef032852acffc169f4a50acb7a",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-04T10:04:00.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "alibaba-tech",
-          "name": "阿里技术",
-          "platform": "official",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=2&sn=acd04fef032852acffc169f4a50acb7a"
-        }
-      ],
-      "sourceWeight": 30,
-      "score": 55,
-      "level": "值得看"
+      "sourceWeight": 32,
+      "score": 54,
+      "level": "正在升温"
     },
     {
       "id": "82196d4ece0a",
@@ -1185,7 +983,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-06T00:00:00.000Z",
       "category": "其他",
@@ -1231,60 +1030,6 @@
       "level": "正在升温"
     },
     {
-      "id": "89209ab642b1",
-      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
-      "summary": "",
-      "url": "https://huggingface.co/blog/phonon-tts",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-05T00:00:00.000Z",
-      "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "huggingface-blog",
-          "name": "Hugging Face",
-          "platform": "official",
-          "url": "https://huggingface.co/blog/phonon-tts"
-        }
-      ],
-      "sourceWeight": 32,
-      "score": 54,
-      "level": "正在升温"
-    },
-    {
-      "id": "5afc49da7bd4",
-      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
-      "summary": "",
-      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-04T17:50:10.000Z",
-      "category": "其他",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "huggingface-blog",
-          "name": "Hugging Face",
-          "platform": "official",
-          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
-        }
-      ],
-      "sourceWeight": 32,
-      "score": 54,
-      "level": "正在升温"
-    },
-    {
       "id": "16c6234b9ef2",
       "title": "Can LLM Agents Be Forward-Deployed Engineers? Requirement Discovery and Delivery for Enterprise Text-to-SQL",
       "summary": "LLM coding agents can increasingly automate model post-training, but whether they can act as forward-deployed engineer (FDE) agents, discovering customer requirements and turning them into deployment decisions, remains unclear. We study this on a real enterprise text-to-SQL engagement: a simulated customer, grounded in",
@@ -1314,6 +1059,64 @@
       ],
       "sourceWeight": 24,
       "score": 54,
+      "level": "正在升温"
+    },
+    {
+      "id": "1f9981de5700",
+      "title": "Flipsnack grows product signups with conversion optimization",
+      "summary": "Flipsnack focused its ChatGPT Ads campaigns on getting people to try its product, growing registrations while lowering the cost per signup.",
+      "url": "https://openai.com/ads/customers/flipsnack",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-05T00:45:15.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/ads/customers/flipsnack"
+        }
+      ],
+      "sourceWeight": 35,
+      "score": 53,
+      "level": "正在升温"
+    },
+    {
+      "id": "75679f5aa60b",
+      "title": "Daybreak Red is now available in AWS GovCloud (US-East)",
+      "summary": "Daybreak Red brings GPT-5.6 Cyber to approved customers in AWS GovCloud (US-East) through Amazon Bedrock for authorized cybersecurity work.",
+      "url": "https://openai.com/index/daybreak-red-aws-govcloud",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-04T07:00:00.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "openai-news",
+          "name": "OpenAI News",
+          "platform": "official",
+          "url": "https://openai.com/index/daybreak-red-aws-govcloud"
+        }
+      ],
+      "sourceWeight": 35,
+      "score": 53,
       "level": "正在升温"
     },
     {
@@ -1404,21 +1207,21 @@
       "level": "正在升温"
     },
     {
-      "id": "4445b6a3fdeb",
-      "title": "曝 Anthropic 计划下周启动 IPO 路演，目标是在感恩节前完成上市",
-      "summary": "IT之家 11 月 7 日消息，据 The Information 今日报道，美国人工智能初创公司 Anthropic 正加快推进首次公开募股（IPO）计划。 消息人士称，Anthropic 计划于下周启动 IPO 正式推介，向潜在投资者介绍公司业务及上市计划，计划于 11 月 16 日当周在美国资本市场挂牌，争取在美国感恩节（11 月 26 日）假期前完成上市。 不过，近期美国科技股市场波动加剧，投资者对 AI 企业巨额资本开支及商业回报的担忧也在增加，可能影响此次 IPO 的估值和融资规模。 此前市场预计，Anthropic 此次 IPO 估值约为 1.5 万亿美元 （IT之家注：现汇率约合 10.03 万亿元人民币） ，融资金",
-      "url": "https://www.ithome.com/1/023/672.htm",
+      "id": "c01a8d76b93b",
+      "title": "Menlo Ventures 报告：中国 AI 模型占全球开源模型企业支出 89%，Kimi、DeepSeek、GLM 位列前三",
+      "summary": "IT之家 11 月 8 日消息，据《南华早报》前天报道，一项新研究显示，以月之暗面 Kimi 系列为代表的中国 AI 模型，在全球企业开源模型支出的占比为 89%，接近九成。 IT之家从原报道获悉，硅谷风投公司 Menlo Ventures 近期发布的报告指出上述观点。 其中月之暗面 Kimi 以 61% 份额 ， 在全球企业开源模型支出位居第一 ；深度求索 DeepSeek 以 15% 排名第二；智谱的 GLM 以 11% 位列第三。 相比之下，Meta Platforms 旗下的 Llama 系列是该领域市场份额最高的西方模型，但其在开源模型企业支出中的占比仅为 7%。",
+      "url": "https://www.ithome.com/1/023/885.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T05:17:43.000Z",
-      "category": "商业动态",
+      "publishedAt": "2026-11-08T05:21:12.000Z",
+      "category": "模型发布",
       "keywordHits": [
         "ai",
-        "人工智能",
-        "anthropic"
+        "模型",
+        "deepseek"
       ],
       "primary": false,
       "sources": [
@@ -1426,7 +1229,37 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/672.htm"
+          "url": "https://www.ithome.com/1/023/885.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 52,
+      "level": "正在升温"
+    },
+    {
+      "id": "ac318e06ee8f",
+      "title": "特斯拉更新 AI 加速器路线图：SI6 算力达 HW4 的 80 倍，Dojo D3 将面向太空部署",
+      "summary": "IT之家 11 月 8 日消息，特斯拉公布了更新后的 AI 加速器路线图，进一步揭示了公司未来几年的芯片研发方向。根据这份路线图，特斯拉第六代推理加速器的算力预计将达到现有第四代芯片的 80 倍；而用于训练任务的 Dojo D3 将放弃以 SRAM 为核心的架构，转向采用多芯粒设计，并搭载堆叠式 HBM 高带宽内存。 此外，特斯拉还开始用“超级智能”（Super Intelligence，SI）取代“人工智能”（Artificial Intelligence，AI）这一名称，为旗下 AI 加速器启用 SI 系列命名。出于相同原因，马斯克近期也确认，SpaceXAI 将更名为 SpaceXSI。 特斯拉 AI 加速器路线图 根据披露的",
+      "url": "https://www.ithome.com/1/023/876.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-08T03:31:15.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "人工智能",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/876.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1614,296 +1447,6 @@
       "level": "正在升温"
     },
     {
-      "id": "6afcad573d13",
-      "title": "v2.3.0",
-      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published @modelcontextprotocol/server-memory 2.1.0 npm published @modelcontextprotocol/server-sequential-thinking 2.1.1 npm published mcp-server-fetch 2026.11.",
-      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
-      "author": "cliffhall",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-04T21:28:41.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "mcp"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "mcp-releases",
-          "name": "MCP Servers Releases",
-          "platform": "developer",
-          "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0"
-        }
-      ],
-      "sourceWeight": 27,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "090f638a40ae",
-      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
-      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark wit",
-      "url": "https://arxiv.org/abs/2611.06910v1",
-      "author": "Bingran You Wenjun Ke Ria Rosenauer Bo Liu Wenbo Chen Min Chen Shuqi Xu Yue Ma Jiechao Feng Bo Chen Xiangkai Sun Jiarui Liu Jinen Guo Zeyu Zhou Xu Huang Zhuohan Li Haoyu Li Heguang Lin Lijie Ding Yadong Zeng Kangqi Zhang Xinge Liu Hanwen Liu Zhenghong Li Alexander von Recum Yuchen Zhu Felix Schwarzfischer Yizhou Zhao Jicheng Wang Binxu Li Qian Yu Chan Li Cheng Dai Di Wang Haoyu Zhang Jiankai Sun Kaituo Feng Mian Qin Ruihong Yin Yiqun Luo Weiwei Wu Shihong Pan Tsung Yeh Hsieh Xiao Huang Yan Zhang Sihan Li Zirui Ren Zengji Tu Kyoung Whan Choe Ke Sun Vincenzo Galia Vaisakhi Mishra Jiashu He Hongyang Wang Zhiheng Yang Shubham Gaur Yifan Gu Shuyi Wang Zihao Zuo Steven Dillmann Yiyou Sun Xinyang Han Hanchung Lee Molei Tao Yue Zhao Shilong Liu Yuchen Wu Xuandong Zhao Xiangyi Li Florian Brand Gerbrand Ceder Hartmut Haeffner",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:56:22.000Z",
-      "category": "论文研究",
-      "keywordHits": [
-        "ai",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06910v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "98efc0c01e25",
-      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
-      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposur",
-      "url": "https://arxiv.org/abs/2611.06888v1",
-      "author": "Siyi Yu",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:41:40.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "llm"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06888v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "7f95225d1424",
-      "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
-      "summary": "In this work, we evaluate a simple inference-time scaling approach based on \\textit{turn-level best-of-N sampling} (\\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \\textit{generator-selector} framework with two LLMs; at each turn, a \\emph{generator} model gener",
-      "url": "https://arxiv.org/abs/2611.06868v1",
-      "author": "Jalaj Bhandari Dhawal Gupta Hongli Zhan Zhenting Wang Varad Pimpalkhute Zhengzhong Liu Eric Xing Rupesh Srivastava",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:23:14.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "llm",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06868v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "e52c93361910",
-      "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
-      "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on the 120 hidden semi-private tasks. For the NVARC Qwen3-4B grid model, we built a corpus of 12,000 ex",
-      "url": "https://arxiv.org/abs/2611.06827v1",
-      "author": "Nguyen Minh Thang Trinh Thi Phuong",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T17:41:09.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "qwen"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06827v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "b0de1ca787ec",
-      "title": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
-      "summary": "Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception",
-      "url": "https://arxiv.org/abs/2611.06760v1",
-      "author": "Shubhabrata Mukherjee Jeffrey Donatelli Daniela Ushizima",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:39:17.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "ai",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06760v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "284209206447",
-      "title": "Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge",
-      "summary": "Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retriev",
-      "url": "https://arxiv.org/abs/2611.06715v1",
-      "author": "Zohreh Abbasi Liasi Batoul Hammoud Anas Madkoor Ehsaneddin Asgari",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:11:26.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "llm"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06715v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "a63bd09e1869",
-      "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
-      "summary": "We introduce LifeVal, a benchmark evaluating AI model performance on personalized agentic consumer tasks. LifeVal covers the most valuable life tasks that a personalized digital superassistant could automate, representing over 1.7 trillion US dollars in annual willingness-to-pay across 148 consumer task categories (e.g",
-      "url": "https://arxiv.org/abs/2611.06687v1",
-      "author": "Jenny Yang Elizabeth Proehl Anjan Bharadwaj Emily Fan Charlotte Cole James Kim Noam Brown Phoebe Thacker Amelia Glaese Tejal Patwardhan",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T15:55:20.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06687v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "366fe74d5415",
-      "title": "AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents",
-      "summary": "Infrastructure security does not establish whether an LLM agent selected an allowed tool, grounded its answer in tool output, or followed a required workflow. AgentTrustCI is a Java/JUnit 5 framework that expresses these application-layer expectations as policy, grounding, and trajectory checks over recorded traces. A ",
-      "url": "https://arxiv.org/abs/2611.06674v1",
-      "author": "Sachin Gupta",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T15:46:11.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "llm",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06674v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
-      "id": "05eeb040fdf7",
-      "title": "Where Search Agents Go Off the Rails: Graph-Grounded Step-Level Verification",
-      "summary": "Search-augmented reasoning systems can reach correct answers while making errors in intermediate steps. Reliable auditing must check whether evidence $D$ covers the question $Q$, reasoning $T$ addresses $Q$, and $T$ is grounded in $D$. We introduce GraphRail, which represents requirements, evidence, and reasoning as st",
-      "url": "https://arxiv.org/abs/2611.06662v1",
-      "author": "Hyeseo Jeon Seonho Yoo Jay-Yoon Lee",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T15:37:36.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "ai",
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06662v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温"
-    },
-    {
       "id": "b810030289ed",
       "title": "The latest AI news we announced in October 2026",
       "summary": "Here are Google’s latest AI updates from October 2026",
@@ -1930,6 +1473,68 @@
       ],
       "sourceWeight": 34,
       "score": 52,
+      "level": "正在升温"
+    },
+    {
+      "id": "252abaf75018",
+      "title": "CompressionBench: How can your coding agents compress LLMs?",
+      "summary": "Recursive self-improvement requires AI systems to improve the models and infrastructure used by subsequent systems. LLM compression offers a concrete efficiency objective: retain a pretrained model's behavior within a smaller model storage budget. We study whether coding agents can carry out this step autonomously. We ",
+      "url": "https://arxiv.org/abs/2611.06858v1",
+      "author": "Xinrui Zhong Zhifeng Li Zhiming Wang Yongqi Liu Shanglin Yang Yang Zhou Zikun Li Zhuoming Chen Beidi Chen",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:14:50.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm",
+        "agent",
+        "coding agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06858v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 51,
+      "level": "正在升温"
+    },
+    {
+      "id": "7fa7ffe383f7",
+      "title": "ServerBench: How can your coding agents design specialized LLM serving systems?",
+      "summary": "Large language model (LLM) coding agents develop software through experimentation, offering an opportunity to design the serving systems supporting their own operation. Effective serving requires coordinating implementation and operating decisions under session dependencies, latency constraints, and correctness require",
+      "url": "https://arxiv.org/abs/2611.06841v1",
+      "author": "Xinrui Zhong Zhiming Wang Yongqi Liu Zhaohui Wang Shanglin Yang Zikun Li Zhuoming Chen Beidi Chen",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:59:07.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm",
+        "agent",
+        "coding agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06841v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 51,
       "level": "正在升温"
     },
     {
@@ -2020,16 +1625,16 @@
       "level": "正在升温"
     },
     {
-      "id": "0bb4e4f8d516",
-      "title": "OpenAI 窃听案进入抗辩阶段：被告拒不认罪，若定罪最高监禁五年",
-      "summary": "北京时间 11 月 7 日，据《华尔街日报》报道，沙特公民阿卜杜勒拉赫曼 · 阿尔福赞 (Abdulrahman Alfozan) 被指控在 OpenAI 一间限制进入的会议室内安装窃听设备。当地时间周五，他在旧金山联邦法院出庭，对相关指控表示不认罪。 周五，阿尔福赞参加了美国联邦治安法官的提审听证会。他的律师戴维 ·W· 里兹 (David W. Rizk) 表示，其当事人对检方提出的唯一一项指控拒不认罪。该罪名为截取口头通信内容，最高可判处 5 年监禁，并处以 25 万美元罚款。 阿尔福赞目前被联邦执法部门羁押，下一次出庭时间将是 11 月 17 日。 阿尔福赞被指控在今年 9 月 28 日前后，将一块拇指大小的电路板和麦克风用",
-      "url": "https://www.ithome.com/1/023/674.htm",
+      "id": "95044960011d",
+      "title": "曝 ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃",
+      "summary": "北京时间 11 月 8 日，近日多名用户在 Reddit 及 OpenAI 官方开发者社区反映，自己的 ChatGPT 账号突然遭到停用，其中包括每月订阅费用为 200 美元 （IT之家注：现汇率约合 1,338 元人民币） 的 Pro 用户。部分用户表示， 账号被封前没有收到任何通知 ，长期积累的聊天记录和工作资料也因此无法访问。 11 月 7 日，一名用户在 OpenAI 官方开发者社区发帖称，自己的 ChatGPT Pro 账号当天突然被停用，系统显示错误代码“account_deactivated”，但没有收到任何预警或封禁通知邮件。 该用户表示，自己不仅是 ChatGPT Pro 订阅用户，还加入了 OpenAI 的网络安",
+      "url": "https://www.ithome.com/1/023/879.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T05:22:44.000Z",
+      "publishedAt": "2026-11-08T03:55:11.000Z",
       "category": "其他",
       "keywordHits": [
         "ai",
@@ -2041,7 +1646,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/674.htm"
+          "url": "https://www.ithome.com/1/023/879.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2049,20 +1654,20 @@
       "level": "正在升温"
     },
     {
-      "id": "6a131eea1d53",
-      "title": "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵",
-      "summary": "IT之家 11 月 7 日消息，路透社昨日（11 月 6 日）发布博文，报道称 AI 公司 Anthropic 的首次公开募股（IPO）计划面临投资者估值质疑， 部分投资者认为 1.5 万亿美元 （现汇率约合 10.03 万亿元人民币） 估值依然偏高 。Anthropic 拒绝就相关疑虑置评。 报道指出在冲击“史上最大 IPO”的道路上，Anthropic 的公司估值预期不断下调。Anthropic 公司原计划于 11 月 9 日当周启动路演、次周定价，争取 11 月挂牌，公司最初寻求高达 2 万亿美元 （现汇率约合 13.37 万亿元人民币） 的估值。 IT之家曾于 11 月 3 日援引《华尔街日报》报道，上周科技股的暴跌，正在改",
-      "url": "https://www.ithome.com/1/023/640.htm",
+      "id": "0954e6d4cdff",
+      "title": "台积电否认应英伟达要求研发 3D DRAM：公司始终专注于集成电路代工这个核心业务",
+      "summary": "IT之家 11 月 8 日消息，据 The Information 近日报道，随着人工智能硬件需求激增，全球 DRAM 内存供应持续紧张、价格不断上涨，台积电正在应英伟达要求，研究开发 3D DRAM 内存的可能性。如果这一计划最终落地，台积电将有望开辟一项新业务，但也需要面对内存市场周期性波动带来的风险，同时进一步扩大其在 AI 供应链中的影响力。 不过，台积电对此予以否认，并强调公司将继续专注于逻辑芯片代工业务。台积电一名发言人向 Tom's Hardware 表示：“请注意，台积电始终专注于核心业务，即专业集成电路代工。我们的使命是多年来持续成为全球逻辑集成电路产业值得信赖的技术与产能供应商。” 尽管台积电否认了相关报道，但 ",
+      "url": "https://www.ithome.com/1/023/870.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T01:36:48.000Z",
-      "category": "产品更新",
+      "publishedAt": "2026-11-08T02:48:50.000Z",
+      "category": "其他",
       "keywordHits": [
         "ai",
-        "anthropic"
+        "人工智能"
       ],
       "primary": false,
       "sources": [
@@ -2070,7 +1675,36 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/640.htm"
+          "url": "https://www.ithome.com/1/023/870.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 49,
+      "level": "正在升温"
+    },
+    {
+      "id": "9b27324b9e6e",
+      "title": "芝加哥大学教授：AI 时代数学人才招聘将更看重研究愿景与表达能力",
+      "summary": "IT之家 11 月 8 日消息，人工智能正在降低数学研究取得突破的门槛，但这也意味着，学术界可能需要重新审视人才招聘方式。芝加哥大学一位知名数学教授认为，未来招聘数学研究人员时，个人交流能力和清晰表达研究构想的能力将变得更加重要。 芝加哥大学数学领域的杰出学者弗兰克 · 卡莱加里（Frank Calegari）近日在一篇文章中谈到了自己对研究人员的招聘标准。他写道：“我想了解你希望数学走向何方，也需要具备能解释这为何可能实现的专业能力。” 卡莱加里担忧，随着人工智能工具不断进步，学术界各个领域的初级研究岗位可能会被一些学生占据，而这些人之所以能够获得相关成果，可能只是因为他们大量使用人工智能生成证明。 不过，他认为，一场 30 分钟",
+      "url": "https://www.ithome.com/1/023/859.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-08T01:10:20.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/859.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2513,103 +2147,21 @@
       "level": "正在升温"
     },
     {
-      "id": "98fe774a304e",
-      "title": "Perceptive Humanoid Motion from Simulation",
-      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently",
-      "url": "https://arxiv.org/abs/2611.06908v1",
-      "author": "Siyuan Hu Abulikemu Abuduweili Yue Meng Shipeng Liu Quentin Leboutet Chen Chen Matthias Müller Vladlen Koltun",
+      "id": "2f288afcd4c5",
+      "title": "BEAKER: An Expert-Curated Benchmark for Embodied Brains in Self-Driving Chemical Laboratories",
+      "summary": "Self-Driving Chemical Laboratories (SDCLs) are moving chemical experimentation toward embodied automation, where machines must perceive laboratory scenes, reason about experimental states, and act under physical, procedural, and safety constraints. Although Multimodal Large Language Models (MLLMs) are increasingly cons",
+      "url": "https://arxiv.org/abs/2611.06911v1",
+      "author": "Fei Lin Tengchao Zhang Ziyang Gong Xiaotong Yu Bohan Zhang Yifan Zhou Qihao Yang Ji Dai Dong Li Yining Jiang Qinghua Ni Jun Huang Qiang Zhang Yue Zhou Zhihang Zhong Yonglin Tian Fei-Yue Wang Xue Yang",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-04T18:55:33.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06908v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "2884265984b8",
-      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
-      "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already co",
-      "url": "https://arxiv.org/abs/2611.06899v1",
-      "author": "Chibueze Praise Onyenweaku Toyibat Adele Sikirulahi Opeyemi Abdulkareem Obed Honour Eje",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:49:13.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06899v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "1518c5ecfa50",
-      "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
-      "summary": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) tha",
-      "url": "https://arxiv.org/abs/2611.06874v1",
-      "author": "Samira Malek",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T18:29:31.000Z",
-      "category": "论文研究",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06874v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "20d4fa453f3d",
-      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
-      "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast the m",
-      "url": "https://arxiv.org/abs/2611.06837v1",
-      "author": "Tommy He Thomas Jiralerspong",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T17:53:52.000Z",
+      "publishedAt": "2026-11-04T18:57:17.000Z",
       "category": "模型发布",
       "keywordHits": [
-        "llm"
+        "ai",
+        "llm",
+        "multimodal"
       ],
       "primary": true,
       "sources": [
@@ -2617,263 +2169,69 @@
           "id": "arxiv-ai",
           "name": "arXiv · cs.AI",
           "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06837v1"
+          "url": "https://arxiv.org/abs/2611.06911v1"
         }
       ],
       "sourceWeight": 24,
-      "score": 49,
+      "score": 48,
       "level": "正在升温"
     },
     {
-      "id": "21a3fbfd47df",
-      "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
-      "summary": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic literature despite eight years of AWS FPGA availability. We introduce a four-level methodology (FP3",
-      "url": "https://arxiv.org/abs/2611.06829v1",
-      "author": "David Rostcheck",
+      "id": "fcc72a6a9050",
+      "title": "高德 Data Agent 实践：从业务问题到可信数据（上篇）",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=1&sn=ce00de88385556da121f3cf2ebe8396b",
+      "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-11-04T17:44:04.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06829v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "962f0a8900e8",
-      "title": "Task-Efficient Agent Evaluation Using Cached Traces",
-      "summary": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that can r",
-      "url": "https://arxiv.org/abs/2611.06803v1",
-      "author": "Ben Johnson Hayden Helm",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T17:20:09.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-04T10:04:00.000Z",
+      "category": "Agent",
       "keywordHits": [
         "agent"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06803v1"
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=1&sn=ce00de88385556da121f3cf2ebe8396b"
         }
       ],
-      "sourceWeight": 24,
-      "score": 49,
+      "sourceWeight": 30,
+      "score": 48,
       "level": "正在升温"
     },
     {
-      "id": "aed09c321ad2",
-      "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
-      "summary": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficiency, which penalizes exploratory waste quadratically. When frontier models read raw integer grids, ser",
-      "url": "https://arxiv.org/abs/2611.06793v1",
-      "author": "Harsidak Singh Banwait",
+      "id": "458abd13f21f",
+      "title": "高德 Data Agent 实践：从数字到业务决策（下篇）",
+      "summary": "",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=2&sn=acd04fef032852acffc169f4a50acb7a",
+      "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-11-04T17:11:04.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-04T10:04:00.000Z",
+      "category": "Agent",
       "keywordHits": [
         "agent"
       ],
       "primary": true,
       "sources": [
         {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06793v1"
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512389&idx=2&sn=acd04fef032852acffc169f4a50acb7a"
         }
       ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "c85da5d6efb5",
-      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
-      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering p",
-      "url": "https://arxiv.org/abs/2611.06741v1",
-      "author": "Ruikang Li Zixuan Chen Jiarui Wu Mingde Yao Yiyuan Zhang Yujin Wang Hanming Deng Lewei Lu Tianfan Xue",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:23:24.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06741v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "b2caeaef54ea",
-      "title": "Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation",
-      "summary": "This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking methods that often rely on ",
-      "url": "https://arxiv.org/abs/2611.06734v1",
-      "author": "Abhiram Kothagundu Pheelip Pritipal Raipure Abhijit Chandrakant Patil Himangshu Sarma Christian Eichhorn David A. Plecher Johanna Pirker",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:18:35.000Z",
-      "category": "论文研究",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06734v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "78be29eee7e9",
-      "title": "ConceptARC at Scale: Studying Conceptual Understanding in Reasoning Models",
-      "summary": "Large reasoning models (LRMs) perform well on challenging benchmarks, yet it remains unclear whether they form generalizable abstractions across conceptually related reasoning tasks. The Abstraction and Reasoning Corpus (ARC) provides a controlled testbed for studying abstraction, requiring solvers to infer transformat",
-      "url": "https://arxiv.org/abs/2611.06732v1",
-      "author": "Philipp Mondorf Adrien Deliège Solim LeGris Claas Beger Ryan Yi Barbara Plank Brenden M. Lake Todd M. Gureckis",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:17:36.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06732v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "fb533a793ac0",
-      "title": "Beyond the principle-practice gap: Responsible AI as situated epistemic and ethical practice",
-      "summary": "Responsible AI scholarship has found that ethical principles are frequently not reflected in AI design and development. Conceptualised as a `gap' between principle and practice, this is framed as a problem of implementation, awareness or compliance, and by implication, a deficit of systems or individual behaviour. This",
-      "url": "https://arxiv.org/abs/2611.06709v1",
-      "author": "Thao Do Ngoc Emma Carmel",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:08:17.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06709v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "4fd299f0d633",
-      "title": "ALTO: African and Levantine Tech-Facilitated Gender-Based Violence Corpus",
-      "summary": "Tech-facilitated gender based violence (TFGBV) is a pervasive online harm affecting women and gender minority groups through its many direct and covert forms. Current models and annotated datasets for gendered harm detection are dominated by data from, and models trained in, Global North languages. In collaboration wit",
-      "url": "https://arxiv.org/abs/2611.06706v1",
-      "author": "Tianwei Zhang Ivy Njoki Nyagwencha Zahraa Dirani Shalini Joshi Scott A. Hale",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:06:15.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06706v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "f64bd9677321",
-      "title": "Don't Replace, Complement: A Detector-Agnostic Subspace Signal for Near-OOD Detection",
-      "summary": "Post-hoc out-of-distribution (OOD) detection is mature on far-OOD yet remains weak on near-OOD. These two settings differ in their use of class-characteristic feature directions: far-OOD inputs largely fail to activate those of their predicted class, whereas near-OOD inputs activate them much as in-distribution samples",
-      "url": "https://arxiv.org/abs/2611.06688v1",
-      "author": "Wonseok Shin Songkuk Kim",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T15:55:37.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06688v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 49,
+      "sourceWeight": 30,
+      "score": 48,
       "level": "正在升温"
     },
     {
@@ -3203,6 +2561,60 @@
       "level": "正在升温"
     },
     {
+      "id": "89209ab642b1",
+      "title": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
+      "summary": "",
+      "url": "https://huggingface.co/blog/phonon-tts",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-05T00:00:00.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "huggingface-blog",
+          "name": "Hugging Face",
+          "platform": "official",
+          "url": "https://huggingface.co/blog/phonon-tts"
+        }
+      ],
+      "sourceWeight": 32,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
+      "id": "5afc49da7bd4",
+      "title": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "summary": "",
+      "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-04T17:50:10.000Z",
+      "category": "其他",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "huggingface-blog",
+          "name": "Hugging Face",
+          "platform": "official",
+          "url": "https://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+        }
+      ],
+      "sourceWeight": 32,
+      "score": 47,
+      "level": "正在升温"
+    },
+    {
       "id": "a55665cf4895",
       "title": "StateBench: Testing how language models track state changes over long documents",
       "summary": "",
@@ -3284,72 +2696,16 @@
       "level": "正在升温"
     },
     {
-      "id": "8ee224b81c8d",
-      "title": "国内首个科技法学院在雄安新区成立，聚焦人工智能、自动驾驶等",
-      "summary": "IT之家 11 月 7 日消息，据央视新闻报道，今天（11 月 7 日），国内首个科技法学院 —— 北京科技大学科技法学院在雄安新区成立。 IT之家从报道获悉，学院内设 知识产权、科技法、科技政策、法学基础 4 个教学科研机构，与研究生招生分步推进。初期设置工法复合知识产权本科专业，专业硕士培养也将逐步布局雄安。 科技法学院未来规划逐步建成百人左右的高水平师资队伍，主干专业教师中具有产业实战经历者不低于 50%。科技法学院聚焦 人工智能、自动驾驶、新材料、绿色低碳冶金、空天信息、关键矿产 等战略技术与未来产业，推动法学与材料、冶金、矿业、计算机等优势学科深度交叉融合，着力培养“科技＋法律”复合型人才。 ▲ 北京科技大学雄安校区效果图",
-      "url": "https://www.ithome.com/1/023/680.htm",
+      "id": "56a960eca8dd",
+      "title": "先锋推出“米家 AI 智能石墨烯电热油汀”：接入小米米家 App，2500W 功率，499 元",
+      "summary": "IT之家 11 月 8 日消息，先锋现已在有品上架一款“米家 AI 智能石墨烯电热油汀”（ 点此访问） ，该产品支持小米米家 App， 定价为 499 元 。 该产品机身配备 LED 数码显示屏，支持 15-35℃ 温度调节，提供 2500W 额定最大功率，搭配石墨烯导热技术，主打快速升温。产品内部配备 17 片专利热浪片体，相比传统直板结构，全屋升温速度提升 19%。 该产品接入小米米家 App，除了可以使用手机操控外，亦可利用遥控和机身触控操作，产品支持 24 小时定时开关机。即使不在电暖器旁边，也能提前设置好运行时间。 此外，该电热油汀配备加大烘衣架，可以放置毛巾、袜子等衣物，同时配备了独立加湿盒，可以兼顾取暖和房间湿度控制。",
+      "url": "https://www.ithome.com/1/023/893.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T06:01:54.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/680.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "6d50c2e86f5f",
-      "title": "CPU-Z、HWiNFO 接连加入支持，英特尔 Razor Lake 桌面及移动处理器曝光",
-      "summary": "IT之家 11 月 7 日消息，英特尔下下代处理器平台 Razor Lake 近日接连获得硬件检测工具的更新支持。 首先，CPUID 发布的 CPU-Z 3.02 已加入对 Razor Lake 的支持，HWiNFO 最新测试版 v8.55-6115 则进一步增强了对 Razor Lake-H、Razor Lake-HX 和 Razor Lake-S 的识别支持。 CPU-Z 3.02 于 11 月 4 日发布，新增 Intel Razor Lake 支持，同时加入对 AMD Radeon AI PRO R9700 显卡的识别，并修复 Broadwell-E 平台的 SPD 读取问题以及 Windows XP 下的验证问题。 HWi",
-      "url": "https://www.ithome.com/1/023/676.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T05:35:51.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/676.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "abf8173d18c1",
-      "title": "机械革命推出无界 15X 暴风雪电竞版：锐龙 AI 9 365、16GB + 1TB，首发 6499 元",
-      "summary": "IT之家 11 月 7 日消息，机械革命新上架了一款“无界 15X 暴风雪电竞版”，搭载 AMD 锐龙 AI 9 365 处理器、240Hz 电竞屏，首发价 6499 元，叠加国补后 5524.15 元。 IT之家从商品页面获悉，这款新机采用了 15.3 英寸 2.5K 240Hz 电竞屏，拥有 2560*1600 分辨率、100% sRGB 色域、500nits 亮度，支持 DC 调光 + 雾面防眩光，支持约 180° 开合；采用全金属机身，重约 1.68kg。 其他方面，该机配备 16GB 内存 + 1TB 固态硬盘，均预留拓展插槽；升级并联双热管散热架构，支持 25W/45W/65W 三档性能释放；配备 80Wh 电池、100",
-      "url": "https://www.ithome.com/1/023/668.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T04:17:07.000Z",
+      "publishedAt": "2026-11-08T06:37:41.000Z",
       "category": "其他",
       "keywordHits": [
         "ai"
@@ -3360,7 +2716,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/668.htm"
+          "url": "https://www.ithome.com/1/023/893.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3368,16 +2724,16 @@
       "level": "正在升温"
     },
     {
-      "id": "1860f351825a",
-      "title": "男子利用 AI 眼镜、智能戒指驾考作弊被成都交管查获：罚款 1900 元 + 禁考一年",
-      "summary": "IT之家 11 月 7 日消息，据成都交警，近日，成都公安交管部门查处一起机动车驾驶人考试舞弊案。 10 月 16 日上午，成都公安交管十分局摩托车考场驻场民警在开展机动车驾驶员理论考试巡查过程中，发现一男子 神色紧张， 答题状态异常， 行为举止不自然， 当即对其开展核查。 男子佩戴的眼镜暗藏玄机，手上还配有一枚智能戒指，长按可触发扫描，答案就显示在眼镜上。面对询问，该男子 承认自己利用 高科技设备作弊的违法行为。 经了解，该男子早年申领汽车驾驶证时，理论科目历经四次考试才勉强通过。此次申请增驾摩托车驾驶证， 因担心再次考试失利， 心生焦虑便动起歪念， 在网络渠道购买 AI 眼镜、智能戒指等电子作弊设备，妄图借助所谓的“高科技”通过",
-      "url": "https://www.ithome.com/1/023/665.htm",
+      "id": "00cf2e0602ab",
+      "title": "上汽荣威家越 07 上市首周交付突破 5000 台，限时权益价 11.98-14.48 万元",
+      "summary": "IT之家 11 月 8 日消息，上汽荣威今天宣布，家越 07 汽车上市首周交付量突破 5000 台（11 月 1 日至 11 月 7 日数据）。该车包含四款车型， 限时权益价区间 11.98-14.48 万元 。 荣威家越 07 长宽高为 4900*1910*1745mm，轴距 2908mm，提供龙晶紫、玛瑙灰、宝石蓝、珍溪黑、钻石白、翡翠绿等宝石车色，可选绵云青空、坚果可可、云绒暖灰内饰色，车内还配有 AI 灵光氛围灯、双 15.6 英寸 2.5K 超清大屏。此次新车搭载 AI 极速制冰冷暖两用冰箱，可实现最快十分钟制冰。 IT之家注意到，该车行业首搭豆包座舱助手支持拟人化表情、FaceID 账号识别记忆、豆包 App 联动、方言",
+      "url": "https://www.ithome.com/1/023/884.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T03:49:42.000Z",
+      "publishedAt": "2026-11-08T05:00:01.000Z",
       "category": "其他",
       "keywordHits": [
         "ai"
@@ -3388,119 +2744,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/665.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "52ac476ada41",
-      "title": "肉眼不可见：苹果 iOS 27.2 新增隐形水印，图像工具 AI 生图 / 修图均有迹可查",
-      "summary": "IT之家 11 月 7 日消息，苹果公司于 11 月 5 日更新官方支持文档，宣布从 iOS / iPadOS / macOS 27.2 等版本系统开始， 为部分 Apple Intelligence 图像工具引入 SynthID 隐形水印。 IT之家援引博文介绍，在涉及的图像工具方面，涵盖图乐园（Image Playground）和图像魔法棒（Image Wand），以及“照片”中的清理（Clean Up）、扩展（Extend）和空间重构（Spatial Reframing）功能。 值得注意的是，标记对象并不局限于完全由 AI 生成的图片。即使是用户实际拍摄的照片， 只要使用上述指定 AI 工具进行处理，也会加入 SynthID ",
-      "url": "https://www.ithome.com/1/023/663.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T03:41:42.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/663.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "4d0f2f6ccec5",
-      "title": "美国司法部 SI 工作组投运，保护创新与防范攻击并行",
-      "summary": "IT之家 11 月 7 日消息，美国司法部于当地时间 11 月 5 日发布公告，宣布“超级智能工作组”（Super Intelligence Task Force，简称 DOJ-SITF）已投入运作， 保护创新与防范攻击并行，负责统筹司法部涉及 SI（国内主流使用 AI）的刑事和民事诉讼。 IT之家附上相关截图如下： 根据司法部公开的 10 月 13 日备忘录，工作组将协调部门内部调查与案件，提出执法优先事项，制定违法行为起诉及合规评估指引，并对接美国政府层面的“超级智能任务”（SIF）。美国反垄断局、民事局、刑事局、联邦调查局及国家安全局等司法部所属单位将派代表参与。 工作组由斯坦利 · 伍德沃德和斯蒂芬 · 韦斯牵头，将提出 S",
-      "url": "https://www.ithome.com/1/023/655.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T03:01:09.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/655.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "22b3c9e8fcff",
-      "title": "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议",
-      "summary": "IT之家 11 月 7 日消息，路透社最新发布博文， 报道称荷兰当地时间昨日（11 月 6 日）百余名活动人士聚集并闯入微软在建的数据中心工地，抗议 AI 基建扩张。 报道称百余名活动人士在现场集结，随后进入施工区域，部分人爬上起重机、悬挂气球并展示抗议标语。抗议者主要关注大型数据中心的电力、水资源消耗及环境影响，要求暂停大规模新建项目。组织方“Stop Dirty Data Centres”表示，环保与数字权利团体计划于 11 月 6 日至 7 日在 16 个国家开展行动，阿姆斯特丹的示威是其中一部分。 项目场地所有方 Pure Data Centres 计划为该项目投入超过 10 亿美元 （IT之家注：现汇率约合 66.86 亿",
-      "url": "https://www.ithome.com/1/023/650.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T02:27:50.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/650.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "37b5371f07fa",
-      "title": "保时捷推出 911 Carrera RS 2.7 联名咖啡机，单卖 48200 元",
-      "summary": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，保时捷宣布与意大利咖啡机制造商 La Marzocco 合作，推出了一款限量版 Linea Micra 意式浓缩咖啡机和 Pico 咖啡磨豆机，以及咖啡杯、咖啡师毛巾、服饰和汽车模型等周边产品。 其中 ， 磨豆机单卖 12800 元，咖啡机为 48200 元，二者组合套装为 61000 元 。 这款咖啡机以保时捷 1972 年推出的经典跑车 911 Carrera RS 2.7 为设计灵感，在机身顶部的杯架位置融入了标志性的鸭尾扰流板造型。 这款咖啡机在美国市场税前价为 7,911 美元 （IT之家注：现汇率约合 52,894 元人民币） ，欧洲为 5,790 欧元 （现汇",
-      "url": "https://www.ithome.com/1/023/632.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T01:06:56.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/632.htm"
+          "url": "https://www.ithome.com/1/023/884.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3616,197 +2860,292 @@
       "level": "正在升温"
     },
     {
-      "id": "db642da2babc",
-      "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
-      "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features or ",
-      "url": "https://arxiv.org/abs/2611.06864v1",
-      "author": "Ankit K. Upadhyay Aleksandr Algasov Ekaterina Nepovinnykh Fedor Zolotarev Tuomas Eerola Heikki Kälviäinen Charles V. Stewart Lukas Picek",
+      "id": "6afcad573d13",
+      "title": "v2.3.0",
+      "summary": "Packages Package Version Registry In this release @modelcontextprotocol/server-everything 2.2.1 npm published @modelcontextprotocol/server-filesystem 2.2.0 npm published @modelcontextprotocol/server-memory 2.1.0 npm published @modelcontextprotocol/server-sequential-thinking 2.1.1 npm published mcp-server-fetch 2026.11.",
+      "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0",
+      "author": "cliffhall",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
-      "publishedAt": "2026-11-04T18:19:26.000Z",
+      "publishedAt": "2026-11-04T21:28:41.000Z",
       "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06864v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "e99dc10310d0",
-      "title": "Message-passing graph persistence",
-      "summary": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations, but existing approaches typically compute persistence separately from the representation learning ",
-      "url": "https://arxiv.org/abs/2611.06801v1",
-      "author": "Jorge Luiz Franco Arthur Queiroz Moura Moacir Ponti Amauri Souza",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T17:18:34.000Z",
-      "category": "其他",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06801v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "512c96a03e06",
-      "title": "FedFiOT: Fisher-Weighted Optimal Transport for Model Merging in One-Shot and Few-Round Federated Learning",
-      "summary": "One-shot and few-round federated learning (FL) reduce communication burden by constructing a global model within one or a few communication rounds, but often achieve lower performance than conventional multi-round FL. Without frequent synchronization, client models may drift apart, causing neurons that learn similar fe",
-      "url": "https://arxiv.org/abs/2611.06783v1",
-      "author": "Quan Minh Nguyen Hoang M. Ngo Bhakti Chowkwale Yasaman Keshtkarjahromi My T. Thai",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:56:10.000Z",
-      "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06783v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "e85b9a9d5e9d",
-      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
-      "summary": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the en",
-      "url": "https://arxiv.org/abs/2611.06748v1",
-      "author": "Yequan Bie Dengyang Jiang Zhixuan Chen Xiaozhuan Liang Haoxuan Che Quande Liu Xi Chen Hao Chen",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:26:45.000Z",
-      "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06748v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "5492c8f6750e",
-      "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
-      "summary": "Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early November 2026, with earlier studies included to establish technical lineage",
-      "url": "https://arxiv.org/abs/2611.06724v1",
-      "author": "Ji Pei",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T16:13:29.000Z",
-      "category": "模型发布",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "arxiv-ai",
-          "name": "arXiv · cs.AI",
-          "platform": "research",
-          "url": "https://arxiv.org/abs/2611.06724v1"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "7acff2185d20",
-      "title": "OpenAI 总裁布罗克曼：目前公司大部分营收来自企业客户，明年具备上市条件",
-      "summary": "IT之家 11 月 5 日消息，OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）当地时间周三表示，公司目前的营收大部分来自企业客户业务，并且他认为 OpenAI 将在 2027 年具备上市条件。 布罗克曼表示，OpenAI 正在加大面向企业客户的销售力度，与竞争对手 Anthropic 展开竞争。后者预计将在今年年底前上市。OpenAI 正在积极推广旗下的 Codex 智能体等产品，以拓展企业市场。 IT之家注意到，布罗克曼在美国加利福尼亚州纳帕举行的《华尔街日报》科技大会上发表了上述言论。当被现场问及 OpenAI 是否已准备好在明年进行首次公开募股（IPO）时，他回答说：“我认为可以。” 据路透社此前报道，总",
-      "url": "https://www.ithome.com/1/022/734.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:46:53.000Z",
-      "category": "Agent",
       "keywordHits": [
-        "ai",
-        "智能体",
-        "openai",
-        "anthropic",
-        "codex"
+        "mcp"
       ],
-      "primary": false,
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/734.htm"
+          "id": "mcp-releases",
+          "name": "MCP Servers Releases",
+          "platform": "developer",
+          "url": "https://github.com/modelcontextprotocol/servers/releases/tag/v2.3.0"
         }
       ],
-      "sourceWeight": 18,
+      "sourceWeight": 27,
       "score": 45,
       "level": "正在升温"
     },
     {
-      "id": "c5dec403c22a",
-      "title": "前 Anthropic Claude Code 产品负责人 Cat Wu 跳槽加入 OpenAI，负责核心产品管理",
-      "summary": "IT之家 11 月 5 日消息，前 Anthropic Claude Code 产品负责人 Cat Wu 今日宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。 她将参与 OpenAI 核心产品及智能体相关工作，与企业产品负责人 Nick Turley、消费级产品负责人 Ashley Alexander 等人协作，并向 Tibo Sottiaux 汇报。OpenAI 总裁 Greg Brockman 随后也在 X 上转发她的入职消息并表示欢迎。 公开报道显示，她此前曾主导 Claude Code 的产品规划与商业化发展，帮助这款最初仅供 Anthropic 内部使用的工具成长为公司的重要商业产品。 C",
-      "url": "https://www.ithome.com/1/022/604.htm",
-      "author": "",
+      "id": "090f638a40ae",
+      "title": "FrontierPhysics: Evaluating Agents for End-to-End Physics Research",
+      "summary": "AI agents are playing an increasingly important role in physics research. However, existing physics benchmarks only evaluate fixed questions, isolated sub-tasks, or paper reproduction with given solutions, and rarely check research quality alongside correctness. We introduce FrontierPhysics, an end-to-end benchmark wit",
+      "url": "https://arxiv.org/abs/2611.06910v1",
+      "author": "Bingran You Wenjun Ke Ria Rosenauer Bo Liu Wenbo Chen Min Chen Shuqi Xu Yue Ma Jiechao Feng Bo Chen Xiangkai Sun Jiarui Liu Jinen Guo Zeyu Zhou Xu Huang Zhuohan Li Haoyu Li Heguang Lin Lijie Ding Yadong Zeng Kangqi Zhang Xinge Liu Hanwen Liu Zhenghong Li Alexander von Recum Yuchen Zhu Felix Schwarzfischer Yizhou Zhao Jicheng Wang Binxu Li Qian Yu Chan Li Cheng Dai Di Wang Haoyu Zhang Jiankai Sun Kaituo Feng Mian Qin Ruihong Yin Yiqun Luo Weiwei Wu Shihong Pan Tsung Yeh Hsieh Xiao Huang Yan Zhang Sihan Li Zirui Ren Zengji Tu Kyoung Whan Choe Ke Sun Vincenzo Galia Vaisakhi Mishra Jiashu He Hongyang Wang Zhiheng Yang Shubham Gaur Yifan Gu Shuyi Wang Zihao Zuo Steven Dillmann Yiyou Sun Xinyang Han Hanchung Lee Molei Tao Yue Zhao Shilong Liu Yuchen Wu Xuandong Zhao Xiangyi Li Florian Brand Gerbrand Ceder Hartmut Haeffner",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-05T03:45:01.000Z",
+      "publishedAt": "2026-11-04T18:56:22.000Z",
+      "category": "论文研究",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06910v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "98efc0c01e25",
+      "title": "Dull, Dirty, Dangerous? Working Conditions and the Limits of Occupational AI Exposure",
+      "summary": "Automation is often justified as relief from dull, dirty, and dangerous work. I examine how these conditions relate to occupational AI exposure using 21 O*NET items across 754 US occupations. Higher exposure is associated with lower condition scores under a large language model (LLM) measure and AI Occupational Exposur",
+      "url": "https://arxiv.org/abs/2611.06888v1",
+      "author": "Siyi Yu",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:41:40.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06888v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "7f95225d1424",
+      "title": "On Turn-Level Best-of-N Sampling for Scaling LLM Agents",
+      "summary": "In this work, we evaluate a simple inference-time scaling approach based on \\textit{turn-level best-of-N sampling} (\\method) for large language model (LLM) agents on complex, long-horizon tasks. We instantiate this using a \\textit{generator-selector} framework with two LLMs; at each turn, a \\emph{generator} model gener",
+      "url": "https://arxiv.org/abs/2611.06868v1",
+      "author": "Jalaj Bhandari Dhawal Gupta Hongli Zhan Zhenting Wang Varad Pimpalkhute Zhengzhong Liu Eric Xing Rupesh Srivastava",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:23:14.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06868v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "e52c93361910",
+      "title": "Rules, Traces and Routing Statistics: Training and Calibration Data for Open Models on ARC-AGI-2",
+      "summary": "We study which training and calibration data help three open models solve ARC-AGI-2 tasks when the solver runs offline on four L4 GPUs for at most 12 hours. We compare data offline on public tasks and report 189 runs on the 120 hidden semi-private tasks. For the NVARC Qwen3-4B grid model, we built a corpus of 12,000 ex",
+      "url": "https://arxiv.org/abs/2611.06827v1",
+      "author": "Nguyen Minh Thang Trinh Thi Phuong",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:41:09.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "qwen"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06827v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "b0de1ca787ec",
+      "title": "Route First, See Later: Enabling Vision Agents to Reason Scientifically by Separating Routing Policy from Action Spaces",
+      "summary": "Scientific image-analysis workflows require agents to select among diverse capabilities like description, detection, counting, and segmentation. Current multi-tool architectures conflate intent interpretation with visual execution, masking whether a failure arises from flawed reasoning (misrouting) or failed perception",
+      "url": "https://arxiv.org/abs/2611.06760v1",
+      "author": "Shubhabrata Mukherjee Jeffrey Donatelli Daniela Ushizima",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:39:17.000Z",
       "category": "Agent",
       "keywordHits": [
         "ai",
-        "智能体",
-        "openai",
-        "anthropic",
-        "claude",
-        "claude code"
+        "agent"
       ],
-      "primary": false,
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/604.htm"
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06760v1"
         }
       ],
-      "sourceWeight": 18,
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "284209206447",
+      "title": "Reasoning over Non-Parametric Memory in Multilingual LLMs: A Cognitive-Based Analysis of Relational Knowledge",
+      "summary": "Retrieval-augmented generation (RAG) assumes that language models can reason over relations stated in their context rather than fall back on associations memorized during pretraining. We study this evidence-conditioned relational reasoning in isolation, with the facts supplied directly in the prompt rather than retriev",
+      "url": "https://arxiv.org/abs/2611.06715v1",
+      "author": "Zohreh Abbasi Liasi Batoul Hammoud Anas Madkoor Ehsaneddin Asgari",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:11:26.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06715v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "a63bd09e1869",
+      "title": "LifeVal: Evaluating AI Model Performance on Personalized Agentic Consumer Tasks",
+      "summary": "We introduce LifeVal, a benchmark evaluating AI model performance on personalized agentic consumer tasks. LifeVal covers the most valuable life tasks that a personalized digital superassistant could automate, representing over 1.7 trillion US dollars in annual willingness-to-pay across 148 consumer task categories (e.g",
+      "url": "https://arxiv.org/abs/2611.06687v1",
+      "author": "Jenny Yang Elizabeth Proehl Anjan Bharadwaj Emily Fan Charlotte Cole James Kim Noam Brown Phoebe Thacker Amelia Glaese Tejal Patwardhan",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T15:55:20.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06687v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "366fe74d5415",
+      "title": "AgentTrustCI: Build-Time Policy, Grounding, and Trajectory Tests for Java LLM Agents",
+      "summary": "Infrastructure security does not establish whether an LLM agent selected an allowed tool, grounded its answer in tool output, or followed a required workflow. AgentTrustCI is a Java/JUnit 5 framework that expresses these application-layer expectations as policy, grounding, and trajectory checks over recorded traces. A ",
+      "url": "https://arxiv.org/abs/2611.06674v1",
+      "author": "Sachin Gupta",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T15:46:11.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06674v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 45,
+      "level": "正在升温"
+    },
+    {
+      "id": "05eeb040fdf7",
+      "title": "Where Search Agents Go Off the Rails: Graph-Grounded Step-Level Verification",
+      "summary": "Search-augmented reasoning systems can reach correct answers while making errors in intermediate steps. Reliable auditing must check whether evidence $D$ covers the question $Q$, reasoning $T$ addresses $Q$, and $T$ is grounded in $D$. We introduce GraphRail, which represents requirements, evidence, and reasoning as st",
+      "url": "https://arxiv.org/abs/2611.06662v1",
+      "author": "Hyeseo Jeon Seonho Yoo Jay-Yoon Lee",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T15:37:36.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06662v1"
+        }
+      ],
+      "sourceWeight": 24,
       "score": 45,
       "level": "正在升温"
     },
@@ -4536,20 +3875,20 @@
       "level": "正在升温"
     },
     {
-      "id": "b5ed486ee255",
-      "title": "Perplexity 推出 Teammate 功能：可执行持续性复杂工作的智能体",
-      "summary": "IT之家 11 月 6 日消息，人工智能企业 Perplexity 当地时间本月 4 日宣布推出一项名为 \"Teammate\" 的功能。作为使用者的“团队成员”， Teammate 是一款能执行持续性复杂工作的智能体 ，简化了使用 Perplexity Computer 时的规划工作。 Perplexity Teammates 负责规划和协调项目，根据优先级变化灵活调整工作方向，并提交成果供审核。一位 Teammate 会协调 Computer 会话以及其它 Teammate，确保项目持续推进。用户可以在整个过程中检查并指导其工作。 Teammates 需要 Perplexity Max 订阅，这项功能最初将在网页端推出，随后扩展至",
-      "url": "https://www.ithome.com/1/023/335.htm",
+      "id": "c2ce6e012a3d",
+      "title": "消息称 Anthropic 仍在推进上市：最多募资 1000 亿美元，“史上最大 IPO”或有变数",
+      "summary": "IT之家 11 月 8 日消息，据《金融时报》昨天报道，尽管美国科技股近期遭遇剧烈波动，Anthropic 仍在推进上市计划。这家来自美国的人工智能初创企业，已经做好接受低于乐观预期估值的准备。 据多位 Anthropic 投资者透露，这家美国公司仍计划在感恩节前进行 IPO（首次公开募股），预计募资 800 亿美元-1,000 亿美元 （IT之家注：现汇率约合 5,352.66 亿元- 6,690.83 亿元人民币） ，目标估值为 1.25 万亿美元-1.75 万亿美元 （现汇率约合 8.36 万亿元- 11.71 万亿元人民币） 。 上述传闻中数字高于 Anthropic 目前的 9,650 亿美元 （现汇率约合 6.46 万亿",
+      "url": "https://www.ithome.com/1/023/854.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-06T06:58:55.000Z",
-      "category": "Agent",
+      "publishedAt": "2026-11-08T00:44:04.000Z",
+      "category": "其他",
       "keywordHits": [
         "人工智能",
-        "智能体"
+        "anthropic"
       ],
       "primary": false,
       "sources": [
@@ -4557,7 +3896,36 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/335.htm"
+          "url": "https://www.ithome.com/1/023/854.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "98c72dbcf52f",
+      "title": "埃森哲报告被曝存在虚假引用案例，公司否认系 AI 幻觉所致",
+      "summary": "IT之家 11 月 8 日消息，埃森哲（Accenture）被指发布了一份充斥人工智能“幻觉”的研究报告，其中不仅包含大量虚假信息，还出现了多处疑似捏造的研究案例。 据 GPTZero 最新分析，这家咨询巨头发布的一份报告涉嫌包含 15 条虚假引用，以及完全虚构的案例研究，因此正受到外界审查。 这份名为《跨越式发展》（Leapfrogging Development）的报告由埃森哲与马德里 IE 大学的研究人员合作发布，旨在探讨人工智能如何提高非洲农业产业的生产力。 埃森哲否认相关错误是由人工智能造成的。 不过，这一事件仍可能令埃森哲陷入尴尬境地。此前，该公司管理层曾威胁称，不愿使用人工智能的员工可能面临解雇。 埃森哲首席执行官朱莉",
+      "url": "https://www.ithome.com/1/023/845.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T23:51:36.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/845.htm"
         }
       ],
       "sourceWeight": 18,
@@ -4623,6 +3991,370 @@
         }
       ],
       "sourceWeight": 18,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "98fe774a304e",
+      "title": "Perceptive Humanoid Motion from Simulation",
+      "summary": "Humanoid robots have the potential to automate a wide range of physical tasks. Progress toward generalist humanoid autonomy, however, remains constrained by a data bottleneck: mapping pixels and free-form language to low-level joint commands requires paired supervision, and no corpus of such data exists at sufficiently",
+      "url": "https://arxiv.org/abs/2611.06908v1",
+      "author": "Siyuan Hu Abulikemu Abuduweili Yue Meng Shipeng Liu Quentin Leboutet Chen Chen Matthias Müller Vladlen Koltun",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:55:33.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06908v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "2884265984b8",
+      "title": "Occlusion for Free: Detecting Occlusion from the Disagreement Between Two Monocular Distance Cues",
+      "summary": "Knowing that a pedestrian is occluded is useful to a robot even when the detector cannot recover the hidden pixels, but occlusion estimators are normally trained on occlusion annotations that deployment settings rarely have. We show that occlusion can be read off two distance estimates a camera-only pipeline already co",
+      "url": "https://arxiv.org/abs/2611.06899v1",
+      "author": "Chibueze Praise Onyenweaku Toyibat Adele Sikirulahi Opeyemi Abdulkareem Obed Honour Eje",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:49:13.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06899v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "1518c5ecfa50",
+      "title": "Learning to Decode Linear Codes with Generalized Belief Propagation Network",
+      "summary": "Error correcting codes are a fundamental component of communication systems, enabling reliable data transmission over noisy channels. Recently, neural decoders have demonstrated notable performance gains over classical iterative algorithms. In this paper, we propose a Generalized Belief Propagation Network (GBPNet) tha",
+      "url": "https://arxiv.org/abs/2611.06874v1",
+      "author": "Samira Malek",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T18:29:31.000Z",
+      "category": "论文研究",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06874v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "20d4fa453f3d",
+      "title": "Context--Answer Metamodels: Forecasting LLM Activations Before the First Answer Token",
+      "summary": "Under stochastic decoding, a single context can elicit many different answers from a language model. Characterizing this variation typically requires many expensive autoregressive rollouts, each revealing only one realization. We ask whether the activations produced while reading the context can directly forecast the m",
+      "url": "https://arxiv.org/abs/2611.06837v1",
+      "author": "Tommy He Thomas Jiralerspong",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:53:52.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "llm"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06837v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "21a3fbfd47df",
+      "title": "Enabling AWS Cloud FPGA Development Using High-Level Vitis HLS",
+      "summary": "We present a toolchain for development of ML models on AWS EC2 F2 cloud FPGA infrastructure from high-level language, implementing a complete Vitis HLS to HDK bridge to AFI workflow that has been absent from the academic literature despite eight years of AWS FPGA availability. We introduce a four-level methodology (FP3",
+      "url": "https://arxiv.org/abs/2611.06829v1",
+      "author": "David Rostcheck",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:44:04.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06829v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "962f0a8900e8",
+      "title": "Task-Efficient Agent Evaluation Using Cached Traces",
+      "summary": "Efficient benchmarking estimates a system's full benchmark performance from a small number of task executions. Standard approaches rely solely on the binary correctness of executions from a collection of already-evaluated reference systems. An agentic system, however, produces a rich trace for each execution that can r",
+      "url": "https://arxiv.org/abs/2611.06803v1",
+      "author": "Ben Johnson Hayden Helm",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:20:09.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06803v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "aed09c321ad2",
+      "title": "Transforming Integer Grids to Spatial Intuition: Perception, Not Planning, Governs ARC-AGI-3",
+      "summary": "Sample-efficient fluid intelligence requires agents that rapidly form working models of unfamiliar interactive environments. ARC-AGI-3 tests this across uninstructed visual games scored by Relative Human Action Efficiency, which penalizes exploratory waste quadratically. When frontier models read raw integer grids, ser",
+      "url": "https://arxiv.org/abs/2611.06793v1",
+      "author": "Harsidak Singh Banwait",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:11:04.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06793v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "c85da5d6efb5",
+      "title": "TailSteer: Trajectory-Tail Steering for Drift-Resistant Multi-turn Image Editing",
+      "summary": "Strong single-turn editing performance does not guarantee reliable multi-turn interaction: as edited outputs are repeatedly reused, small unintended changes can accumulate into severe visual drift. This long-term drift is often mitigated through training on multi-turn data or cross-turn rollouts, potentially altering p",
+      "url": "https://arxiv.org/abs/2611.06741v1",
+      "author": "Ruikang Li Zixuan Chen Jiarui Wu Mingde Yao Yiyuan Zhang Yujin Wang Hanming Deng Lewei Lu Tianfan Xue",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:23:24.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06741v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "b2caeaef54ea",
+      "title": "Smartphone-Aided VR Exergames for HIIT: Gamifying Fitness with Real-Time Pose Estimation",
+      "summary": "This paper introduces an innovative virtual reality (VR) exergame system designed to gamify High-Intensity Interval Training (HIIT) workouts through 11 predefined combo moves, including squat-punch combinations, bilateral arm strikes, and diagonal stretch combos. Unlike conventional tracking methods that often rely on ",
+      "url": "https://arxiv.org/abs/2611.06734v1",
+      "author": "Abhiram Kothagundu Pheelip Pritipal Raipure Abhijit Chandrakant Patil Himangshu Sarma Christian Eichhorn David A. Plecher Johanna Pirker",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:18:35.000Z",
+      "category": "论文研究",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06734v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "78be29eee7e9",
+      "title": "ConceptARC at Scale: Studying Conceptual Understanding in Reasoning Models",
+      "summary": "Large reasoning models (LRMs) perform well on challenging benchmarks, yet it remains unclear whether they form generalizable abstractions across conceptually related reasoning tasks. The Abstraction and Reasoning Corpus (ARC) provides a controlled testbed for studying abstraction, requiring solvers to infer transformat",
+      "url": "https://arxiv.org/abs/2611.06732v1",
+      "author": "Philipp Mondorf Adrien Deliège Solim LeGris Claas Beger Ryan Yi Barbara Plank Brenden M. Lake Todd M. Gureckis",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:17:36.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06732v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "fb533a793ac0",
+      "title": "Beyond the principle-practice gap: Responsible AI as situated epistemic and ethical practice",
+      "summary": "Responsible AI scholarship has found that ethical principles are frequently not reflected in AI design and development. Conceptualised as a `gap' between principle and practice, this is framed as a problem of implementation, awareness or compliance, and by implication, a deficit of systems or individual behaviour. This",
+      "url": "https://arxiv.org/abs/2611.06709v1",
+      "author": "Thao Do Ngoc Emma Carmel",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:08:17.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06709v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "4fd299f0d633",
+      "title": "ALTO: African and Levantine Tech-Facilitated Gender-Based Violence Corpus",
+      "summary": "Tech-facilitated gender based violence (TFGBV) is a pervasive online harm affecting women and gender minority groups through its many direct and covert forms. Current models and annotated datasets for gendered harm detection are dominated by data from, and models trained in, Global North languages. In collaboration wit",
+      "url": "https://arxiv.org/abs/2611.06706v1",
+      "author": "Tianwei Zhang Ivy Njoki Nyagwencha Zahraa Dirani Shalini Joshi Scott A. Hale",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:06:15.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06706v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 42,
+      "level": "正在升温"
+    },
+    {
+      "id": "f64bd9677321",
+      "title": "Don't Replace, Complement: A Detector-Agnostic Subspace Signal for Near-OOD Detection",
+      "summary": "Post-hoc out-of-distribution (OOD) detection is mature on far-OOD yet remains weak on near-OOD. These two settings differ in their use of class-characteristic feature directions: far-OOD inputs largely fail to activate those of their predicted class, whereas near-OOD inputs activate them much as in-distribution samples",
+      "url": "https://arxiv.org/abs/2611.06688v1",
+      "author": "Wonseok Shin Songkuk Kim",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T15:55:37.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06688v1"
+        }
+      ],
+      "sourceWeight": 24,
       "score": 42,
       "level": "正在升温"
     },
@@ -5159,16 +4891,100 @@
       "level": "正在升温"
     },
     {
-      "id": "51afbd0f0397",
-      "title": "消息称台积电考虑进军先进内存芯片制造，有望为英伟达打造 3D DRAM",
-      "summary": "IT之家 11 月 7 日消息，科技媒体《The Information》昨日（11 月 6 日）援引两名知情人士报道， 台积电正考虑扩大业务版图，进军先进内存芯片制造，以在快速扩张的 AI 硬件供应链中获取更大份额。 报道称， 台积电近期已应其最大客户英伟达的要求，开始规划生产一种名为“3D DRAM”的先进内存芯片 。该架构通过垂直堆叠存储单元来提升容量，被视为应对 AI 算力对高带宽、高密度内存需求的关键方向之一。 台积电目前尚未确定量产时间，也未最终决定产能来源。IT之家援引博文介绍，台积电正在评估两条路径：一是兴建专用新厂，二是收购现有晶圆厂并改造为内存生产设施。 这一动向若落地，将意味着台积电从长期专注的晶圆代工、逻辑芯",
-      "url": "https://www.ithome.com/1/023/619.htm",
+      "id": "304d21d8d439",
+      "title": "美国 17 岁女孩失踪 521 天后获救，《Among Us》游戏对话成关键线索",
+      "summary": "IT之家 11 月 8 日消息，美国犹他州一名失踪长达 521 天的 17 岁女孩近日在俄勒冈州一处住宅内获救。而帮助警方找到她的线索，竟始于一场多人在线社交推理游戏《Among Us》中的对话。 这名女孩于 2025 年 5 月 29 日在犹他州加登城失踪，当时年仅 15 岁。据 Newsweek 援引法庭文件报道，2026 年 10 月中旬，她在《Among Us》中开始与另一名儿童交谈。 据称，涉嫌绑架她的男子曾给她一部没有移动数据流量的手机，因此她只能通过 Wi-Fi 上网。两人随后将聊天转移至另一款社交媒体应用。期间，女孩透露了自己的身份，并表示自己被关在俄勒冈州一名男子的住所内。 得知情况后，另一名儿童的母亲随即联系了美",
+      "url": "https://www.ithome.com/1/023/850.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-06T23:59:05.000Z",
+      "publishedAt": "2026-11-08T00:14:39.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/850.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "885bc368b079",
+      "title": "索尼全球首发“基于视觉语言模型的驾驶接管危险预警”，为驾驶员提供分级提示",
+      "summary": "IT之家 11 月 8 日消息，2026 年 11 月 5 日，索尼（中国）有限公司（下称“索尼”）在第九届中国国际进口博览会上，全球首发“基于视觉语言模型的驾驶接管危险预警”移动出行技术。 据介绍，当道路环境接近或超出系统的适用范围时，清晰的接管提示有助于驾驶员理解当前情境、做好响应准备。该技术利用视觉语言模型（VLM）分析车辆前方的道路画面，判断路况是否接近或超出智能驾驶系统的设计运行范围（ODD）， 为驾驶员提供分级提示 。 IT之家注意到，接管提示分为三个层级：接近边界时，提醒驾驶员准备接管；超出范围但尚不紧急时，引导驾驶员主动接管；遇到突发障碍或感知失效等高风险情况时，提示紧急接管。 研发过程中，团队利用数字孪生仿真环境，",
+      "url": "https://www.ithome.com/1/023/849.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-08T00:05:52.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/849.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "bb55871144d2",
+      "title": "微软 Outlook 邮箱出 Bug：邮件无故丢失，部分认证配置正确的发件人也遭拦截",
+      "summary": "IT之家 11 月 8 日消息，据科技媒体 Windows Latest 今天报道，部分 Outlook.com 和 Hotmail 邮箱用户近期发现，他们无法正常接收邮件。 发件人侧收到的提示是 ， 邮件未能通过身份验证检查 。 据报道，该问题最初出现于 11 月 5 日，今天仍然能成功复现。在大多数情况下，用户很难直接察觉究竟发生了什么。但如果进一步查看日志，就会发现邮件无法发送的原因是身份验证检查错误。 不过部分发件人表示，即使他们的邮件域名已经配置了有效的身份验证记录，依然会收到报错提示。某些情况下，点击重新发送又能缓解问题。 一名用户在微软论坛上写道：“即使域名已经正确配置 SPF、DMARC 和 DKIM，邮件仍然会遭到",
+      "url": "https://www.ithome.com/1/023/838.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T23:17:19.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/838.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "dda0b917a147",
+      "title": "Adobe 向初创企业抛出橄榄枝：免费使用 Firefly 和 Acrobat 等软件，最长 1 年",
+      "summary": "IT之家 11 月 8 日消息，Adobe 公司最近针对初创企业推出 Adobe for Startups 计划， 入选企业可免费使用 Firefly Pro Plus、Acrobat Studio（包含 Adobe Express Premium）以及 Semrush 等软件 ， 期限为 12 个月 。 据介绍，Adobe for Startups 计划面向成立时间不超过 5 年，且融资总额低于 1,500 万美元 （IT之家注：现汇率约合 1 亿元人民币） 的企业。在免费使用的软件中，Firefly Pro Plus 是一款创意型 AI 工具，可帮助用户将创意构思转化为图像、视频和音频内容。 Semrush 则为企业提供搜索情报",
+      "url": "https://www.ithome.com/1/023/835.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T23:02:43.000Z",
       "category": "商业动态",
       "keywordHits": [
         "ai"
@@ -5179,7 +4995,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/619.htm"
+          "url": "https://www.ithome.com/1/023/835.htm"
         }
       ],
       "sourceWeight": 18,
@@ -5187,19 +5003,21 @@
       "level": "正在升温"
     },
     {
-      "id": "24f0a871f988",
-      "title": "电影《愤怒的小鸟 3》确认引进中国内地，上映时间未定",
-      "summary": "IT之家 11 月 6 日消息，爆笑合家欢喜剧电影《愤怒的小鸟 3》昨日确定引进中国内地， 上映时间暂未公布 。该片将于 2026 年 12 月 23 日在北美上映。 这部影片由约翰 · 赖斯（John Rice）执导，他曾联合执导《愤怒的小鸟 2》，并参与过《瘪四与大头蛋做宇宙》《瑞克和莫蒂》《辛普森一家》等动画作品。剧本由图鲁普 · 范 · 奥尔曼（Thurop Van Orman）执笔。本片由派拉蒙影业出品，与 Rovio Entertainment 联合制作。 在新片中，由杰森 · 苏戴奇斯（IT之家注：Jason Sudeikis）配音的胖红（Red）如今已升级为三个孩子的父亲，面临着前所未有的挑战 —— 育儿。 胖红与炫",
-      "url": "https://www.ithome.com/1/023/372.htm",
+      "id": "4445b6a3fdeb",
+      "title": "曝 Anthropic 计划下周启动 IPO 路演，目标是在感恩节前完成上市",
+      "summary": "IT之家 11 月 7 日消息，据 The Information 今日报道，美国人工智能初创公司 Anthropic 正加快推进首次公开募股（IPO）计划。 消息人士称，Anthropic 计划于下周启动 IPO 正式推介，向潜在投资者介绍公司业务及上市计划，计划于 11 月 16 日当周在美国资本市场挂牌，争取在美国感恩节（11 月 26 日）假期前完成上市。 不过，近期美国科技股市场波动加剧，投资者对 AI 企业巨额资本开支及商业回报的担忧也在增加，可能影响此次 IPO 的估值和融资规模。 此前市场预计，Anthropic 此次 IPO 估值约为 1.5 万亿美元 （IT之家注：现汇率约合 10.03 万亿元人民币） ，融资金",
+      "url": "https://www.ithome.com/1/023/672.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-06T07:29:49.000Z",
-      "category": "其他",
+      "publishedAt": "2026-11-07T05:17:43.000Z",
+      "category": "商业动态",
       "keywordHits": [
-        "ai"
+        "ai",
+        "人工智能",
+        "anthropic"
       ],
       "primary": false,
       "sources": [
@@ -5207,95 +5025,11 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/372.htm"
+          "url": "https://www.ithome.com/1/023/672.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "07a6f546f38b",
-      "title": "荣耀预告：MagicOS 11 新版本今日率先向 Magic V6 等机型推送",
-      "summary": "IT之家 11 月 6 日消息，荣耀产品维护与升级 @荣耀小芳哥 发布预告，今天 16 点开始，MagicOS 11 新版本将率先向 Magic V6、Magic8 RSR 保时捷设计、Magic8 Pro、Magic8 Pro Air、Magic8 推送；明天推送 Magic V5、Magic7 系列等机型。 据其透露， 荣耀 Magic9 系列、WIN2 系列已分别于 10 月底、11 月初推送新版本，带上了本次升级的大部分特性。下周还会再更新一个版本，带上 双卡信号堆叠 等其他特性，同时还会优化更多使用体验。 IT之家注意到，官方此前预告显示本月更新亮点包括：双卡信号堆叠、流畅效果优化、通透模式效果增强开关、PC 模式焕新等新",
-      "url": "https://www.ithome.com/1/023/341.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T07:05:10.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/341.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "1ad4ce87a703",
-      "title": "小岛秀夫：AI 能提升游戏开发效率，但可能剥夺创作中最有价值的试错过程",
-      "summary": "IT之家 11 月 6 日消息，知名游戏制作人小岛秀夫近日接受日媒 Game*Spark 采访时表示，AI 是把双刃剑，它能够提升游戏开发效率，也可能剥夺创意工作中最有价值的试错过程。如果不加以限制，AI 可能会涉足创意工作领域。 IT之家从原报道获悉，小岛秀夫认为，AI 与 Photoshop、文字处理软件的发展脉络相同，这些数字工具极大程度地方便了创作，并提升人们的效率，他并不反对。 不过这名游戏制作人的担忧点在于，AI 带来的效率提升，可能省略掉创作最有价值部分。例如在绘画中，创作的乐趣并不在于完成一幅画，而是中间的过程。 有时候，制作某样东西的过程本身才是真正在创作。因此让电脑按指令制作某些东西，如果不符合要求就让它重复一轮",
-      "url": "https://www.ithome.com/1/023/333.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T06:58:44.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/333.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "a9ea5ff72c2e",
-      "title": "西门子医疗与阿里达摩院签约：加速普及 AI“一扫多筛”，一次 CT 扫描早期发现癌症等重大疾病",
-      "summary": "IT之家 11 月 6 日消息，11 月 6 日，在上海举行的第九届中国国际进口博览会上，西门子医疗与阿里巴巴达摩院签署战略合作协议，计划将达摩院首创的“一扫多筛”AI 技术与西门子医疗的影像设备、临床应用相结合，助力癌症和心血管病等重大疾病的早期发现。 据介绍，达摩院自研基于平扫 CT + AI 的“一扫多筛”技术， 即用 AI 识别 CT 影像中肉眼难以分辨的多种细微病灶 ，先后突破消化肿瘤影像筛查、主动脉夹层预警等国际重大医学难题，相关成果登上《科学》（Science）、《自然 · 医学》（Nature Medicine）等顶级期刊，进入国家药监局的创新医疗器械审评绿色通道，并获美国 FDA“突破性医疗器械”认定。 IT之家获",
-      "url": "https://www.ithome.com/1/023/327.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-06T06:49:57.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/327.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
+      "score": 39,
       "level": "正在升温"
     },
     {
@@ -5449,32 +5183,132 @@
       "level": "正在升温"
     },
     {
-      "id": "8259762bfed1",
-      "title": "AI 帮用户“越狱”跑步机：Claude 干掉了 iFIT 订阅墙",
-      "summary": "IT之家 11 月 5 日消息，网友 u/Beloved_Misanthrope 于 11 月 2 日在 Reddit 社区发帖，称其借助 AI 编程工具 Claude Code，成功越狱 NordicTrack Commercial 2250 跑步机， 绕开了设备对 iFIT 订阅的强制要求，成功将跑步机的大屏幕改造成可自由使用的流媒体界面。 IT之家援引博文介绍，本次 AI 越狱过程在约一天半内完成，相关项目已公开至 GitHub。该网友称其女友几年前购买了这台配备 10 英寸尺寸显示屏的 NordicTrack 跑步机，原本希望在运动时观看 Netflix 或 Crunchyroll。 但在实际使用体验中，即便已为流媒体服务付",
-      "url": "https://www.ithome.com/1/022/603.htm",
-      "author": "",
+      "id": "db642da2babc",
+      "title": "CounterFactual Retrieval for Evidence-Aware Individual Animal Identification",
+      "summary": "Automated identification of individual animals is moving from small curated studies toward shared benchmarks and reusable foundation models. This progress is useful, but current evaluation leaves the evidence behind a match unresolved, i.e., high retrieval accuracy does not show whether a model used animal features or ",
+      "url": "https://arxiv.org/abs/2611.06864v1",
+      "author": "Ankit K. Upadhyay Aleksandr Algasov Ekaterina Nepovinnykh Fedor Zolotarev Tuomas Eerola Heikki Kälviäinen Charles V. Stewart Lukas Picek",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-05T03:43:32.000Z",
-      "category": "AI Coding",
-      "keywordHits": [
-        "ai",
-        "claude",
-        "claude code"
-      ],
-      "primary": false,
+      "publishedAt": "2026-11-04T18:19:26.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/603.htm"
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06864v1"
         }
       ],
-      "sourceWeight": 18,
+      "sourceWeight": 24,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "e99dc10310d0",
+      "title": "Message-passing graph persistence",
+      "summary": "Message-passing graph neural networks (GNNs) are limited in expressive power by the one-dimensional Weisfeiler-Leman test. Persistent homology (PH) provides topological descriptors that can complement GNN representations, but existing approaches typically compute persistence separately from the representation learning ",
+      "url": "https://arxiv.org/abs/2611.06801v1",
+      "author": "Jorge Luiz Franco Arthur Queiroz Moura Moacir Ponti Amauri Souza",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T17:18:34.000Z",
+      "category": "其他",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06801v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "512c96a03e06",
+      "title": "FedFiOT: Fisher-Weighted Optimal Transport for Model Merging in One-Shot and Few-Round Federated Learning",
+      "summary": "One-shot and few-round federated learning (FL) reduce communication burden by constructing a global model within one or a few communication rounds, but often achieve lower performance than conventional multi-round FL. Without frequent synchronization, client models may drift apart, causing neurons that learn similar fe",
+      "url": "https://arxiv.org/abs/2611.06783v1",
+      "author": "Quan Minh Nguyen Hoang M. Ngo Bhakti Chowkwale Yasaman Keshtkarjahromi My T. Thai",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:56:10.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06783v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "e85b9a9d5e9d",
+      "title": "EvoWorld: Towards Out-of-Sight World Evolution in Generative Video Models",
+      "summary": "Generative video models are increasingly used as visual world simulators, yet their primary strength lies in rendering plausible pixels rather than reasoning about how a world should evolve. Coherent world evolution requires more than visual fidelity: when an event occurs, a model must infer its consequences for the en",
+      "url": "https://arxiv.org/abs/2611.06748v1",
+      "author": "Yequan Bie Dengyang Jiang Zhixuan Chen Xiaozhuan Liang Haoxuan Che Quande Liu Xi Chen Hao Chen",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:26:45.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06748v1"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 39,
+      "level": "正在升温"
+    },
+    {
+      "id": "5492c8f6750e",
+      "title": "Dexterous Robotic Hands in the Foundation-Model Era: A Full-Stack Survey of Hardware, Data, Cross-Embodiment Transfer, Learning, and Evaluation",
+      "summary": "Dexterous robotic hands are increasingly coupled to large-scale human data and foundation models, yet progress in hardware, representation learning and evaluation is often assessed separately. This survey reviews work from January 2024 to early November 2026, with earlier studies included to establish technical lineage",
+      "url": "https://arxiv.org/abs/2611.06724v1",
+      "author": "Ji Pei",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T16:13:29.000Z",
+      "category": "模型发布",
+      "keywordHits": [],
+      "primary": true,
+      "sources": [
+        {
+          "id": "arxiv-ai",
+          "name": "arXiv · cs.AI",
+          "platform": "research",
+          "url": "https://arxiv.org/abs/2611.06724v1"
+        }
+      ],
+      "sourceWeight": 24,
       "score": 39,
       "level": "正在升温"
     },
@@ -5661,6 +5495,71 @@
       "level": "正在升温"
     },
     {
+      "id": "7acff2185d20",
+      "title": "OpenAI 总裁布罗克曼：目前公司大部分营收来自企业客户，明年具备上市条件",
+      "summary": "IT之家 11 月 5 日消息，OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）当地时间周三表示，公司目前的营收大部分来自企业客户业务，并且他认为 OpenAI 将在 2027 年具备上市条件。 布罗克曼表示，OpenAI 正在加大面向企业客户的销售力度，与竞争对手 Anthropic 展开竞争。后者预计将在今年年底前上市。OpenAI 正在积极推广旗下的 Codex 智能体等产品，以拓展企业市场。 IT之家注意到，布罗克曼在美国加利福尼亚州纳帕举行的《华尔街日报》科技大会上发表了上述言论。当被现场问及 OpenAI 是否已准备好在明年进行首次公开募股（IPO）时，他回答说：“我认为可以。” 据路透社此前报道，总",
+      "url": "https://www.ithome.com/1/022/734.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:46:53.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "openai",
+        "anthropic",
+        "codex"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/734.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 38,
+      "level": "正在升温"
+    },
+    {
+      "id": "c5dec403c22a",
+      "title": "前 Anthropic Claude Code 产品负责人 Cat Wu 跳槽加入 OpenAI，负责核心产品管理",
+      "summary": "IT之家 11 月 5 日消息，前 Anthropic Claude Code 产品负责人 Cat Wu 今日宣布加入 OpenAI，担任核心产品（Core Products）产品管理负责人。 她将参与 OpenAI 核心产品及智能体相关工作，与企业产品负责人 Nick Turley、消费级产品负责人 Ashley Alexander 等人协作，并向 Tibo Sottiaux 汇报。OpenAI 总裁 Greg Brockman 随后也在 X 上转发她的入职消息并表示欢迎。 公开报道显示，她此前曾主导 Claude Code 的产品规划与商业化发展，帮助这款最初仅供 Anthropic 内部使用的工具成长为公司的重要商业产品。 C",
+      "url": "https://www.ithome.com/1/022/604.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T03:45:01.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "openai",
+        "anthropic",
+        "claude",
+        "claude code"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/604.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 38,
+      "level": "正在升温"
+    },
+    {
       "id": "74ec328e8d98",
       "title": "Anthropic 工程师警告：AI 越准人类越容易丧失独立思考能力，越依赖越难保持警惕",
       "summary": "IT之家 11 月 4 日消息，Anthropic Claude Code 团队工程师、前谷歌技术高管 Addy Osmani 在 X 上发表长文《当 AI 智能体完成工作时，如何保持批判性思维》。 他认为，随着 AI 智能体越来越强大，人类可能在逐步依赖 AI 的同时，逐渐丧失独立思考、验证结果和理解复杂系统的能力，最终将 AI 的判断直接当作自己的判断。他将这种现象称为“认知投降”。 Osmani 曾在谷歌工作超过 14 年，负责过 Chrome 开发者体验及谷歌云 AI 相关业务，目前在 Anthropic 从事 Claude Code 相关工作。 他表示自己是 AI 智能体工作流的坚定支持者，日常工作中经常同时运行多个 Ag",
@@ -5723,6 +5622,93 @@
       ],
       "sourceWeight": 18,
       "score": 38,
+      "level": "正在升温"
+    },
+    {
+      "id": "0bb4e4f8d516",
+      "title": "OpenAI 窃听案进入抗辩阶段：被告拒不认罪，若定罪最高监禁五年",
+      "summary": "北京时间 11 月 7 日，据《华尔街日报》报道，沙特公民阿卜杜勒拉赫曼 · 阿尔福赞 (Abdulrahman Alfozan) 被指控在 OpenAI 一间限制进入的会议室内安装窃听设备。当地时间周五，他在旧金山联邦法院出庭，对相关指控表示不认罪。 周五，阿尔福赞参加了美国联邦治安法官的提审听证会。他的律师戴维 ·W· 里兹 (David W. Rizk) 表示，其当事人对检方提出的唯一一项指控拒不认罪。该罪名为截取口头通信内容，最高可判处 5 年监禁，并处以 25 万美元罚款。 阿尔福赞目前被联邦执法部门羁押，下一次出庭时间将是 11 月 17 日。 阿尔福赞被指控在今年 9 月 28 日前后，将一块拇指大小的电路板和麦克风用",
+      "url": "https://www.ithome.com/1/023/674.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T05:22:44.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/674.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
+      "level": "正在升温"
+    },
+    {
+      "id": "6a131eea1d53",
+      "title": "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵",
+      "summary": "IT之家 11 月 7 日消息，路透社昨日（11 月 6 日）发布博文，报道称 AI 公司 Anthropic 的首次公开募股（IPO）计划面临投资者估值质疑， 部分投资者认为 1.5 万亿美元 （现汇率约合 10.03 万亿元人民币） 估值依然偏高 。Anthropic 拒绝就相关疑虑置评。 报道指出在冲击“史上最大 IPO”的道路上，Anthropic 的公司估值预期不断下调。Anthropic 公司原计划于 11 月 9 日当周启动路演、次周定价，争取 11 月挂牌，公司最初寻求高达 2 万亿美元 （现汇率约合 13.37 万亿元人民币） 的估值。 IT之家曾于 11 月 3 日援引《华尔街日报》报道，上周科技股的暴跌，正在改",
+      "url": "https://www.ithome.com/1/023/640.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T01:36:48.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/640.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
+      "level": "正在升温"
+    },
+    {
+      "id": "b5ed486ee255",
+      "title": "Perplexity 推出 Teammate 功能：可执行持续性复杂工作的智能体",
+      "summary": "IT之家 11 月 6 日消息，人工智能企业 Perplexity 当地时间本月 4 日宣布推出一项名为 \"Teammate\" 的功能。作为使用者的“团队成员”， Teammate 是一款能执行持续性复杂工作的智能体 ，简化了使用 Perplexity Computer 时的规划工作。 Perplexity Teammates 负责规划和协调项目，根据优先级变化灵活调整工作方向，并提交成果供审核。一位 Teammate 会协调 Computer 会话以及其它 Teammate，确保项目持续推进。用户可以在整个过程中检查并指导其工作。 Teammates 需要 Perplexity Max 订阅，这项功能最初将在网页端推出，随后扩展至",
+      "url": "https://www.ithome.com/1/023/335.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T06:58:55.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "人工智能",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/335.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
       "level": "正在升温"
     },
     {
@@ -5842,151 +5828,6 @@
       "level": "正在升温"
     },
     {
-      "id": "3ebf8969d942",
-      "title": "苹果葛越：AI 不会取代 App，将推动应用生态进一步发展",
-      "summary": "IT之家 11 月 5 日消息，据澎湃新闻报道，11 月 4 日，在 2026 年世界互联网大会乌镇峰会人工智能技术创新与治理论坛上，苹果公司副总裁、中华区董事总经理葛越表示，人工智能正在加速改变应用开发模式， 但 AI 不会取代 App，而是将推动下一代 App 变得更强大、更具个性化 ，成为人们生活中更加不可或缺的工具。 葛越表示，苹果始终相信开发者和 App 的潜力。去年，中国 App Store 生态促成的开发者营业额与销售额达到 5,620 亿美元 （IT之家注：现汇率约合 3.76 万亿元人民币） ，较上年增加 230 亿美元 （现汇率约合 1,537.65 亿元人民币） 。中国开发者的全球化步伐也在持续加快，四分之三的",
-      "url": "https://www.ithome.com/1/022/751.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:51:52.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/751.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "00e7a3fe49d7",
-      "title": "英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信",
-      "summary": "IT之家 11 月 5 日消息，英伟达于当地时间 11 月 4 日正式发布了最新的 CUDA Toolkit 13.5，为下一代 AI 计算平台 Vera Rubin 提供正式可用（GA）支持，标志着相关架构从早期开发者预览阶段进入面向企业生产环境的部署阶段。 据英伟达官方介绍，此次更新不仅完善了 Vera Rubin 平台的底层软件支持，还针对 GPU 资源调度、多 GPU 通信、数学计算库及性能分析工具进行了多项升级，重点面向大规模 AI 训练和推理场景。 在计算性能方面，CUDA 13.5 更新了 cuBLAS 的矩阵乘法启发式策略和内核调优机制，针对 Vera Rubin 架构上的 NVFP4、MXFP8 低精度矩阵运算进行",
-      "url": "https://www.ithome.com/1/022/670.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T05:27:22.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "推理"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/670.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "42a42037cee3",
-      "title": "抢先《燕云十六声》，网易《永劫无间》正式支持英伟达 DLSS 5 技术成为首款实装的国产游戏",
-      "summary": "IT之家 11 月 5 日消息，在没有任何预告的情况下，网易《永劫无间》官方刚刚宣布已正式支持英伟达 DLSS 5 技术及神经渲染（Neural Rendering）技术，早于《燕云十六声》的 11 月 24 日，并同步支持最高 6 倍插帧，成为真正的全球首批支持该技术的游戏。 网易官方表示，DLSS 5 通过 AI 模型参与画面重建，在纹理细节、皮肤次表面散射、接触阴影与头发渲染等方面带来更精细的表现。 《永劫无间》服务器原计划于 11 月 5 日早 7:00-12:00 进行停服维护，但截至IT之家发稿仍未开服。 据官方介绍，开启 DLSS 5 后，《永劫无间》聚窟洲、蓬莱岛等场景中远景建筑的结构层次、水面反射的连续性与植被纹理",
-      "url": "https://www.ithome.com/1/022/614.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T04:11:28.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/614.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "158262940e52",
-      "title": "周活全球第一：OpenAI 称印度反超美国，成 ChatGPT 最大消费者市场",
-      "summary": "IT之家 11 月 4 日消息，11 月 3 日接受《经济时报》采访时，OpenAI 印度区董事总经理普拉布吉特 · 辛格（Prabhjeet Singh）表示，印度目前的 ChatGPT 周活跃用户数已超过包括美国在内的任何国家， 而且自 1 月以来，印度用户数量已翻了一番。 辛格没有给出最新的用户数字。OpenAI 于今年 2 月曾表示印度的 ChatGPT 周活跃用户超过 1 亿。首席执行官萨姆 · 奥尔特曼 (Sam Altman) 当时称印度是 OpenAI 仅次于美国的第二大市场。 据 Indian Startup News 报道, 他还表示，印度是全球 ChatGPT 学生用户最多的国家。辛格另外对《印度时报》表示，印",
-      "url": "https://www.ithome.com/1/022/166.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T07:06:31.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "openai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/166.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "cfd1620da827",
-      "title": "借助 AI 铺路：开发者成功在微软 Win10 Mobile 15063 及更高版本运行 Android 应用，无需子系统",
-      "summary": "IT之家 11 月 4 日消息，开发者 Computershik 在 Claude 加持下打造了开源项目 Megler，旨在让 Windows 10 Mobile 1703（版本号 10.0.15063）及更高版本系统的手机直接运行 Android 应用。 据开发者介绍， 该项目无需模拟 Android 硬件，也不需要为系统添加 Android 子系统，而是通过在普通 Windows 应用中实现 Android 运行环境相关组件 ，让 Android 应用的 Java 代码和原生 ARM 代码直接在手机处理器上运行。 在技术实现方面，Android 应用通常包含 Java 字节码以及针对 ARM 架构编译的原生动态库。Megler ",
-      "url": "https://www.ithome.com/1/022/161.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T06:53:27.000Z",
-      "category": "开源项目",
-      "keywordHits": [
-        "ai",
-        "claude"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/161.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
       "id": "2de50716aa18",
       "title": "月之暗面 Kimi 发布游戏开发与创意工作解决方案：AI 可直接操作 Unity、虚幻引擎等",
       "summary": "IT之家 11 月 3 日消息，月之暗面 Kimi 昨日发布「游戏开发与创意工作解决方案」。该产品基于 Kimi K3.1 系列模型、Kimi Code 与 Kimi Work 系列 Agent 产品， 以及 Unity、虚幻引擎、Blender 等专业工具插件 ，可帮助团队更快验证玩法创意、推进工程和美术制作。 据介绍，游戏开发的第一道门槛。是创意验证的成本。一个玩法是否有趣，需要真正玩起来才能判断。但制作原型需要投入时间和人力，团队往往只能优先验证少数想法。Kimi 游戏解决方案可以帮助游戏团队高效制作项目原型，在有限时间内探索和比较更多玩法方向，从而做出更准确的业务判断。 第二道门槛来自跨岗位和跨工具的协作。策划需求，需要变成",
@@ -6049,21 +5890,214 @@
       "level": "正在升温"
     },
     {
-      "id": "c29aa55c4107",
-      "title": "响应欧盟 AI 法案，Grok 模型生成的文本将添加隐形水印",
-      "summary": "IT之家 11 月 1 日消息，SpaceXAI 将于 11 月 7 日起为 Grok 模型生成的文本添加隐形水印。检测器通过识别该信号，判断一段文本是否带有肉眼不可见水印。 官方表示，本次调整是为了响应欧盟《人工智能法案》要求，全球所有地区的 SpaceXAI API 均已启用水印，包含 grok-4.7、grok-4.6、grok-4.5、grok-4.3、grok-4.20 reasoning、grok-4.20 non-reasoning 和 grok-4.20 multi-agent 模型， 团队管理员可选择为某款模型单独关闭水印 。 IT之家注意到，这种隐藏式水印并非通过隐藏字符或元数据实现，而是融入模型生成文本时对 T",
-      "url": "https://www.ithome.com/1/020/721.htm",
+      "id": "8ee224b81c8d",
+      "title": "国内首个科技法学院在雄安新区成立，聚焦人工智能、自动驾驶等",
+      "summary": "IT之家 11 月 7 日消息，据央视新闻报道，今天（11 月 7 日），国内首个科技法学院 —— 北京科技大学科技法学院在雄安新区成立。 IT之家从报道获悉，学院内设 知识产权、科技法、科技政策、法学基础 4 个教学科研机构，与研究生招生分步推进。初期设置工法复合知识产权本科专业，专业硕士培养也将逐步布局雄安。 科技法学院未来规划逐步建成百人左右的高水平师资队伍，主干专业教师中具有产业实战经历者不低于 50%。科技法学院聚焦 人工智能、自动驾驶、新材料、绿色低碳冶金、空天信息、关键矿产 等战略技术与未来产业，推动法学与材料、冶金、矿业、计算机等优势学科深度交叉融合，着力培养“科技＋法律”复合型人才。 ▲ 北京科技大学雄安校区效果图",
+      "url": "https://www.ithome.com/1/023/680.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-01T06:11:02.000Z",
+      "publishedAt": "2026-11-07T06:01:54.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/680.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "6d50c2e86f5f",
+      "title": "CPU-Z、HWiNFO 接连加入支持，英特尔 Razor Lake 桌面及移动处理器曝光",
+      "summary": "IT之家 11 月 7 日消息，英特尔下下代处理器平台 Razor Lake 近日接连获得硬件检测工具的更新支持。 首先，CPUID 发布的 CPU-Z 3.02 已加入对 Razor Lake 的支持，HWiNFO 最新测试版 v8.55-6115 则进一步增强了对 Razor Lake-H、Razor Lake-HX 和 Razor Lake-S 的识别支持。 CPU-Z 3.02 于 11 月 4 日发布，新增 Intel Razor Lake 支持，同时加入对 AMD Radeon AI PRO R9700 显卡的识别，并修复 Broadwell-E 平台的 SPD 读取问题以及 Windows XP 下的验证问题。 HWi",
+      "url": "https://www.ithome.com/1/023/676.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T05:35:51.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/676.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "abf8173d18c1",
+      "title": "机械革命推出无界 15X 暴风雪电竞版：锐龙 AI 9 365、16GB + 1TB，首发 6499 元",
+      "summary": "IT之家 11 月 7 日消息，机械革命新上架了一款“无界 15X 暴风雪电竞版”，搭载 AMD 锐龙 AI 9 365 处理器、240Hz 电竞屏，首发价 6499 元，叠加国补后 5524.15 元。 IT之家从商品页面获悉，这款新机采用了 15.3 英寸 2.5K 240Hz 电竞屏，拥有 2560*1600 分辨率、100% sRGB 色域、500nits 亮度，支持 DC 调光 + 雾面防眩光，支持约 180° 开合；采用全金属机身，重约 1.68kg。 其他方面，该机配备 16GB 内存 + 1TB 固态硬盘，均预留拓展插槽；升级并联双热管散热架构，支持 25W/45W/65W 三档性能释放；配备 80Wh 电池、100",
+      "url": "https://www.ithome.com/1/023/668.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T04:17:07.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/668.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "1860f351825a",
+      "title": "男子利用 AI 眼镜、智能戒指驾考作弊被成都交管查获：罚款 1900 元 + 禁考一年",
+      "summary": "IT之家 11 月 7 日消息，据成都交警，近日，成都公安交管部门查处一起机动车驾驶人考试舞弊案。 10 月 16 日上午，成都公安交管十分局摩托车考场驻场民警在开展机动车驾驶员理论考试巡查过程中，发现一男子 神色紧张， 答题状态异常， 行为举止不自然， 当即对其开展核查。 男子佩戴的眼镜暗藏玄机，手上还配有一枚智能戒指，长按可触发扫描，答案就显示在眼镜上。面对询问，该男子 承认自己利用 高科技设备作弊的违法行为。 经了解，该男子早年申领汽车驾驶证时，理论科目历经四次考试才勉强通过。此次申请增驾摩托车驾驶证， 因担心再次考试失利， 心生焦虑便动起歪念， 在网络渠道购买 AI 眼镜、智能戒指等电子作弊设备，妄图借助所谓的“高科技”通过",
+      "url": "https://www.ithome.com/1/023/665.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T03:49:42.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/665.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "52ac476ada41",
+      "title": "肉眼不可见：苹果 iOS 27.2 新增隐形水印，图像工具 AI 生图 / 修图均有迹可查",
+      "summary": "IT之家 11 月 7 日消息，苹果公司于 11 月 5 日更新官方支持文档，宣布从 iOS / iPadOS / macOS 27.2 等版本系统开始， 为部分 Apple Intelligence 图像工具引入 SynthID 隐形水印。 IT之家援引博文介绍，在涉及的图像工具方面，涵盖图乐园（Image Playground）和图像魔法棒（Image Wand），以及“照片”中的清理（Clean Up）、扩展（Extend）和空间重构（Spatial Reframing）功能。 值得注意的是，标记对象并不局限于完全由 AI 生成的图片。即使是用户实际拍摄的照片， 只要使用上述指定 AI 工具进行处理，也会加入 SynthID ",
+      "url": "https://www.ithome.com/1/023/663.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T03:41:42.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/663.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "4d0f2f6ccec5",
+      "title": "美国司法部 SI 工作组投运，保护创新与防范攻击并行",
+      "summary": "IT之家 11 月 7 日消息，美国司法部于当地时间 11 月 5 日发布公告，宣布“超级智能工作组”（Super Intelligence Task Force，简称 DOJ-SITF）已投入运作， 保护创新与防范攻击并行，负责统筹司法部涉及 SI（国内主流使用 AI）的刑事和民事诉讼。 IT之家附上相关截图如下： 根据司法部公开的 10 月 13 日备忘录，工作组将协调部门内部调查与案件，提出执法优先事项，制定违法行为起诉及合规评估指引，并对接美国政府层面的“超级智能任务”（SIF）。美国反垄断局、民事局、刑事局、联邦调查局及国家安全局等司法部所属单位将派代表参与。 工作组由斯坦利 · 伍德沃德和斯蒂芬 · 韦斯牵头，将提出 S",
+      "url": "https://www.ithome.com/1/023/655.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T03:01:09.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/655.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "22b3c9e8fcff",
+      "title": "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议",
+      "summary": "IT之家 11 月 7 日消息，路透社最新发布博文， 报道称荷兰当地时间昨日（11 月 6 日）百余名活动人士聚集并闯入微软在建的数据中心工地，抗议 AI 基建扩张。 报道称百余名活动人士在现场集结，随后进入施工区域，部分人爬上起重机、悬挂气球并展示抗议标语。抗议者主要关注大型数据中心的电力、水资源消耗及环境影响，要求暂停大规模新建项目。组织方“Stop Dirty Data Centres”表示，环保与数字权利团体计划于 11 月 6 日至 7 日在 16 个国家开展行动，阿姆斯特丹的示威是其中一部分。 项目场地所有方 Pure Data Centres 计划为该项目投入超过 10 亿美元 （IT之家注：现汇率约合 66.86 亿",
+      "url": "https://www.ithome.com/1/023/650.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T02:27:50.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/650.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "37b5371f07fa",
+      "title": "保时捷推出 911 Carrera RS 2.7 联名咖啡机，单卖 48200 元",
+      "summary": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，保时捷宣布与意大利咖啡机制造商 La Marzocco 合作，推出了一款限量版 Linea Micra 意式浓缩咖啡机和 Pico 咖啡磨豆机，以及咖啡杯、咖啡师毛巾、服饰和汽车模型等周边产品。 其中 ， 磨豆机单卖 12800 元，咖啡机为 48200 元，二者组合套装为 61000 元 。 这款咖啡机以保时捷 1972 年推出的经典跑车 911 Carrera RS 2.7 为设计灵感，在机身顶部的杯架位置融入了标志性的鸭尾扰流板造型。 这款咖啡机在美国市场税前价为 7,911 美元 （IT之家注：现汇率约合 52,894 元人民币） ，欧洲为 5,790 欧元 （现汇",
+      "url": "https://www.ithome.com/1/023/632.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-07T01:06:56.000Z",
       "category": "模型发布",
       "keywordHits": [
-        "ai",
-        "人工智能",
-        "agent",
         "模型"
       ],
       "primary": false,
@@ -6072,12 +6106,152 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/020/721.htm"
+          "url": "https://www.ithome.com/1/023/632.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 35,
-      "level": "正在升温"
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "51afbd0f0397",
+      "title": "消息称台积电考虑进军先进内存芯片制造，有望为英伟达打造 3D DRAM",
+      "summary": "IT之家 11 月 7 日消息，科技媒体《The Information》昨日（11 月 6 日）援引两名知情人士报道， 台积电正考虑扩大业务版图，进军先进内存芯片制造，以在快速扩张的 AI 硬件供应链中获取更大份额。 报道称， 台积电近期已应其最大客户英伟达的要求，开始规划生产一种名为“3D DRAM”的先进内存芯片 。该架构通过垂直堆叠存储单元来提升容量，被视为应对 AI 算力对高带宽、高密度内存需求的关键方向之一。 台积电目前尚未确定量产时间，也未最终决定产能来源。IT之家援引博文介绍，台积电正在评估两条路径：一是兴建专用新厂，二是收购现有晶圆厂并改造为内存生产设施。 这一动向若落地，将意味着台积电从长期专注的晶圆代工、逻辑芯",
+      "url": "https://www.ithome.com/1/023/619.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T23:59:05.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/619.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "24f0a871f988",
+      "title": "电影《愤怒的小鸟 3》确认引进中国内地，上映时间未定",
+      "summary": "IT之家 11 月 6 日消息，爆笑合家欢喜剧电影《愤怒的小鸟 3》昨日确定引进中国内地， 上映时间暂未公布 。该片将于 2026 年 12 月 23 日在北美上映。 这部影片由约翰 · 赖斯（John Rice）执导，他曾联合执导《愤怒的小鸟 2》，并参与过《瘪四与大头蛋做宇宙》《瑞克和莫蒂》《辛普森一家》等动画作品。剧本由图鲁普 · 范 · 奥尔曼（Thurop Van Orman）执笔。本片由派拉蒙影业出品，与 Rovio Entertainment 联合制作。 在新片中，由杰森 · 苏戴奇斯（IT之家注：Jason Sudeikis）配音的胖红（Red）如今已升级为三个孩子的父亲，面临着前所未有的挑战 —— 育儿。 胖红与炫",
+      "url": "https://www.ithome.com/1/023/372.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T07:29:49.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/372.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "07a6f546f38b",
+      "title": "荣耀预告：MagicOS 11 新版本今日率先向 Magic V6 等机型推送",
+      "summary": "IT之家 11 月 6 日消息，荣耀产品维护与升级 @荣耀小芳哥 发布预告，今天 16 点开始，MagicOS 11 新版本将率先向 Magic V6、Magic8 RSR 保时捷设计、Magic8 Pro、Magic8 Pro Air、Magic8 推送；明天推送 Magic V5、Magic7 系列等机型。 据其透露， 荣耀 Magic9 系列、WIN2 系列已分别于 10 月底、11 月初推送新版本，带上了本次升级的大部分特性。下周还会再更新一个版本，带上 双卡信号堆叠 等其他特性，同时还会优化更多使用体验。 IT之家注意到，官方此前预告显示本月更新亮点包括：双卡信号堆叠、流畅效果优化、通透模式效果增强开关、PC 模式焕新等新",
+      "url": "https://www.ithome.com/1/023/341.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T07:05:10.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/341.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "1ad4ce87a703",
+      "title": "小岛秀夫：AI 能提升游戏开发效率，但可能剥夺创作中最有价值的试错过程",
+      "summary": "IT之家 11 月 6 日消息，知名游戏制作人小岛秀夫近日接受日媒 Game*Spark 采访时表示，AI 是把双刃剑，它能够提升游戏开发效率，也可能剥夺创意工作中最有价值的试错过程。如果不加以限制，AI 可能会涉足创意工作领域。 IT之家从原报道获悉，小岛秀夫认为，AI 与 Photoshop、文字处理软件的发展脉络相同，这些数字工具极大程度地方便了创作，并提升人们的效率，他并不反对。 不过这名游戏制作人的担忧点在于，AI 带来的效率提升，可能省略掉创作最有价值部分。例如在绘画中，创作的乐趣并不在于完成一幅画，而是中间的过程。 有时候，制作某样东西的过程本身才是真正在创作。因此让电脑按指令制作某些东西，如果不符合要求就让它重复一轮",
+      "url": "https://www.ithome.com/1/023/333.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T06:58:44.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/333.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "a9ea5ff72c2e",
+      "title": "西门子医疗与阿里达摩院签约：加速普及 AI“一扫多筛”，一次 CT 扫描早期发现癌症等重大疾病",
+      "summary": "IT之家 11 月 6 日消息，11 月 6 日，在上海举行的第九届中国国际进口博览会上，西门子医疗与阿里巴巴达摩院签署战略合作协议，计划将达摩院首创的“一扫多筛”AI 技术与西门子医疗的影像设备、临床应用相结合，助力癌症和心血管病等重大疾病的早期发现。 据介绍，达摩院自研基于平扫 CT + AI 的“一扫多筛”技术， 即用 AI 识别 CT 影像中肉眼难以分辨的多种细微病灶 ，先后突破消化肿瘤影像筛查、主动脉夹层预警等国际重大医学难题，相关成果登上《科学》（Science）、《自然 · 医学》（Nature Medicine）等顶级期刊，进入国家药监局的创新医疗器械审评绿色通道，并获美国 FDA“突破性医疗器械”认定。 IT之家获",
+      "url": "https://www.ithome.com/1/023/327.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-06T06:49:57.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/023/327.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
     },
     {
       "id": "1addc5d9ee78",
@@ -6304,19 +6478,21 @@
       "level": "仅记录"
     },
     {
-      "id": "410893ea872e",
-      "title": "微软官宣：AMD FSR 4.1.2 超分辨率技术首次登陆微软 XBOX Series X|S",
-      "summary": "IT之家 11 月 5 日消息，微软 XBOX 游戏及 XBOX 生态系统副总裁杰森 · 罗纳德（Jason Ronald）今天宣布，AMD FSR 4.1.2 现已向 XBOX Series X|S 开发者提供。 IT之家注意到，AMD 这边已经发布对应新闻稿，宣布 2026 年 10 月版 GDK（微软游戏开发工具包）已经支持 AMD FSR 超分辨率技术 4.1.2， 这标志着 AMD FSR 超分辨率技术首次登陆 XBOX 游戏主机 。此前在 XBOX 选择使用 AMD FSR 传统分析算法的游戏，现在可以升级方案。 在 XBOX Series X|S 主机中，开发者适配 FSR 4.1.2 时可以选择完整 INT8 模型，",
-      "url": "https://www.ithome.com/1/022/736.htm",
+      "id": "8259762bfed1",
+      "title": "AI 帮用户“越狱”跑步机：Claude 干掉了 iFIT 订阅墙",
+      "summary": "IT之家 11 月 5 日消息，网友 u/Beloved_Misanthrope 于 11 月 2 日在 Reddit 社区发帖，称其借助 AI 编程工具 Claude Code，成功越狱 NordicTrack Commercial 2250 跑步机， 绕开了设备对 iFIT 订阅的强制要求，成功将跑步机的大屏幕改造成可自由使用的流媒体界面。 IT之家援引博文介绍，本次 AI 越狱过程在约一天半内完成，相关项目已公开至 GitHub。该网友称其女友几年前购买了这台配备 10 英寸尺寸显示屏的 NordicTrack 跑步机，原本希望在运动时观看 Netflix 或 Crunchyroll。 但在实际使用体验中，即便已为流媒体服务付",
+      "url": "https://www.ithome.com/1/022/603.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-05T06:47:08.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-05T03:43:32.000Z",
+      "category": "AI Coding",
       "keywordHits": [
-        "模型"
+        "ai",
+        "claude",
+        "claude code"
       ],
       "primary": false,
       "sources": [
@@ -6324,347 +6500,11 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/022/736.htm"
+          "url": "https://www.ithome.com/1/022/603.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "4e0786b67ba7",
-      "title": "华为朱懂东预告：鸿蒙电脑颠覆性创新产品下周开始预热，非常惊艳、人见人爱",
-      "summary": "IT之家 11 月 5 日现场消息，在今日的 2026 鸿蒙办公产业峰会上，华为终端 BG 平板与 PC 产品线总裁朱懂东预告， 华为将推出一款新的颠覆性创新鸿蒙电脑产品 ，非常值得期待。 朱懂东表示，目前的小道消息说得也不那么完全正确，大家很快会看到这款产品，将于下周开始预热。“我可以跟大家保证， 这是一款非常惊艳的产品，人见人爱 。” IT之家在峰会现场看到，华为与合作伙伴共同展示了鸿蒙消费级电脑、鸿蒙商用电脑的全家族产品，首款 HarmonyOS 台式机 —— 华为擎云 HM650 系列也在现场迎来首秀 。",
-      "url": "https://www.ithome.com/1/022/720.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:41:47.000Z",
-      "category": "新产品",
-      "keywordHits": [
-        "新产品"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/720.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "5d7565b9a774",
-      "title": "丰田成立机器人部门，整合研发资源加速技术落地",
-      "summary": "IT之家 11 月 5 日消息，丰田汽车公司（Toyota Motor Corp.）成立了专门的机器人部门，加入全球主要汽车制造商的行列，加速布局机器人技术。 丰田在一份声明中表示，该部门将由公司首席生产官志贺武文（Takefumi Shiga）负责，重点推动机器人在生产一线的实际应用、商业化及部署。此举旨在将公司此前分散开展的机器人研发工作整合到统一的组织架构之下。 IT之家注意到，越来越多的汽车制造商开始押注机器人领域，希望将自身在制造工艺和运动控制方面积累的技术优势，转化为在人形机器人和工业机器人研发中的竞争力。 拥有波士顿动力（Boston Dynamics）的现代汽车集团（Hyundai Motor Co.）已将机器人业务",
-      "url": "https://www.ithome.com/1/022/709.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:38:55.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/709.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "a6b5e4ea64b8",
-      "title": "吉利星越 L PLUS 将于 11 月 12 日开启预售：Flyme Auto 座舱，千里浩瀚 H5 智驾方案",
-      "summary": "IT之家 11 月 5 日消息，据易车报道，吉利星越 L PLUS 将于 11 月 12 日开启预售。新车延续了星越 L 的家族化设计语言，将搭载千里浩瀚 H5 智驾方案。 IT之家注意到，吉利星越 L PLUS 于 9 月 5 日亮相，新车延续星越 L 的家族设计，通过大面积镀铬来营造豪华风格，长宽高分别为 4955/1960/1769mm， 轴距达到 2900mm ，车顶配备了激光雷达，支持千里浩瀚 H5 等高阶辅助驾驶功能。 新车座舱采用中控 + 副驾双联屏方案，形成 30 英寸一体式天际屏，并配有 17.3 英寸二排娱乐屏；车机搭载高通骁龙 8295 芯片、Flyme Auto 智能座舱，内置超级 Eva 智能体。 动力方面",
-      "url": "https://www.ithome.com/1/022/687.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:30:20.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "智能体"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/687.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "e72029141912",
-      "title": "《华尔街日报》预估苹果 iPhone 18 Pro 存储升级溢价约 200%",
-      "summary": "IT之家 11 月 5 日消息，《华尔街日报》于 10 月 28 日发布博文，报道称在 iPhone 18 Pro 和 iPhone 18 Pro Max 两款机型的存储容量升级上， 苹果公司仍向消费者收取约为自身直接成本 3 倍以上的价格。 AI 数据中心对内存与闪存芯片的需求激增，正在改变全球消费电子供应链的议价格局。芯片厂商过去长期向苹果让利的局面正在逆转， 苹果已难以继续以极低价格采购关键零部件 。 科技媒体 Macworld 认为苹果虽然面临成本上行，但并未真正“受伤”：其最新发布的 9 月季度创下公司史上最佳业绩，第四财季利润达 307 亿美元 （IT之家注：现汇率约合 2,052.42 亿元人民币） ，全年利润达 1,",
-      "url": "https://www.ithome.com/1/022/684.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:10:51.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/684.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "86c1e53d86ca",
-      "title": "首款 HarmonyOS 台式机亮相华为擎云 2026 鸿蒙办公产业峰会",
-      "summary": "IT之家 11 月 5 日现场消息，2026 鸿蒙办公产业峰会今日在武汉 · 中国光谷科技会展中心举行。 IT之家在峰会现场发现，首款搭载 HarmonyOS 系统的台式机也同步亮相。此次登场的鸿蒙台式机共两个型号，分别是 HM650 和 HM650G， 确认搭载华为自研麒麟 X90 芯片 。 ▲ 左边为 HM650G（面向政务客户）；右边为 HM650（面向企业客户） 据IT之家此前报道，华为官方账号“智慧办公产品经理”宣布， 鸿蒙电脑应用数突破 2.1 万款 。从宣传海报来看，鸿蒙电脑应用已覆盖办公、AI、教育、娱乐、创作等核心场景。",
-      "url": "https://www.ithome.com/1/022/681.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T06:04:08.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/681.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "0fd07f4c0c57",
-      "title": "Counterpoint：三季度全球 DRAM 营收逼近 2000 亿美元，同比大增 369% 实现超级周期",
-      "summary": "IT之家 11 月 5 日消息，市场研究机构 Counterpoint Research 今日发布的《全球内存市场追踪》报告显示，2026 年第三季度全球 DRAM 市场营收接近 2,000 亿美元 （IT之家注：现汇率约合 1.34 万亿元人民币） ，同比增长 369%，接近去年同期的 5 倍。 Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。当季 DRAM 单位出货量环比仅增长约 4%，每 Gb 平均售价则达到 1.9 美元。 高级分析师 Jeongku Choi 表示，本轮行情属于价格推动的超级周期，而不是出货量周期。“AI 已经将内存从普通大宗商品转变为高价值",
-      "url": "https://www.ithome.com/1/022/677.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T05:48:59.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/677.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "af2608692eb9",
-      "title": "OPPO Reno17 系列手机部分规格曝光，11 月 9 日新品亮相",
-      "summary": "IT之家 11 月 5 日消息，OPPO 今日官宣，Reno17 系列手机 11 月 9 日见。据博主 @体验more 透露，11 月 9 日为新品亮相，不是发布会。 该博主曝光了新机部分规格： OPPO Reno17，6.57 英寸显示屏 + 骁龙 7 Gen 4 处理器 +50MP 潜望长焦； OPPO Reno17 Pro，6.32 英寸显示屏 + 天玑 8550 处理器 +50MP 潜望长焦。 IT之家注意到，OPPO Reno17 系列手机、Watch 5 手表、Pad Air6 平板于 10 月 30 日开启预约，预计将于近期上市。据 OPPO Reno 系列产品经理张若星分享 Reno17 系列全新样张，新机将搭载“全",
-      "url": "https://www.ithome.com/1/022/672.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T05:36:48.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/672.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "c4487758abe1",
-      "title": "丰田汽车 2027 财年半年报归母净利润 2.24 万亿日元，同比增长 26.1%",
-      "summary": "IT之家 11 月 5 日消息，丰田汽车今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年报（2026 年 4 月 1 日～2026 年 9 月 30 日）报告： 营业总收入 ：26.96 万亿日元 （IT之家注：现汇率约合 1.14 万亿元人民币） ，同比增长 9.5% 归母净利润 ：2.24 万亿日元 （现汇率约合 944.74 亿元人民币） ，同比增长 26.1% 基本每股收益 ：185.97 日元 （现汇率约合 7.8 元人民币） ，同比增长 36.67% 稀释每股收益 ：185.97 日元 （现汇率约合 7.8 元人民币） ，同比增长 36.67% AI 解读 本次丰田汽车 202",
-      "url": "https://www.ithome.com/1/022/667.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-05T05:03:12.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/667.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "f980ddb18250",
-      "title": "世嘉通报公司服务器遭黑客非法访问：日服街机游戏认证服务 Aime、SEGA ID 注册功能受影响",
-      "summary": "IT之家 11 月 4 日消息，据外媒 ITMedia 报道，世嘉玩具（SEGA FAVE）于 11 月 2 日通报公司部分服务器遭到黑客非法访问。自 11 月 1 日下午 3 时起，该公司已暂停部分日服街机游戏的在线服务以及“SEGA ID”新用户注册功能。 IT之家获悉，此次受影响的系统包括用于将街机设备接入网络的“ ALL.Net ”，以及通过 IC 卡等方式识别玩家身份、管理游戏数据的用户认证系统“Aime”。自 11 月 2 日下午 6 时至今，利用 ALL.Net 的街机游戏暂时无法通过在线环境进行游玩，官方网站上的街机门店信息查询功能以及各游戏对应的“.NET”服务也均无法使用。 除此之外，此次事件还波及使用 ALL.",
-      "url": "https://www.ithome.com/1/022/164.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T07:04:15.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/164.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "33332cd305b5",
-      "title": "AI 时代下 Steam 游戏提交量显著增加，Valve 近期审核最长需 12 个工作日",
-      "summary": "IT之家 11 月 4 日消息，Valve 正在调整 Steam 游戏上线前的审核流程，以应对近期游戏商店页面和游戏构建版本提交量大幅增加带来的审核积压。 Valve 于当地时间 11 月 3 日在 Steamworks 开发者公告中公布了相关调整，称过去几个月商店页面和游戏构建版本的审核提交量显著增加。 Valve 表示，目前游戏构建版本审核通常需要 3 至 5 个工作日，但近期审核进度有所延迟，最长可能需要 12 个工作日。该公司称，审核延迟的很大一部分原因是部分游戏需要重复审核。 此次更新主要针对开发者发布前的检查清单，目的是帮助更多游戏一次性通过审核，减少因基本功能问题导致的重复审核。 根据新的要求，开发者在提交游戏审核前，",
-      "url": "https://www.ithome.com/1/022/163.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T06:57:09.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/163.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "98295b2cb205",
-      "title": "消息称部分半导体设备制造商已启动 2029 年供应谈判",
-      "summary": "IT之家 11 月 4 日消息，韩媒 ETNEWS 当地时间昨日报道称，全球五大半导体设备制造商（ASML、Applied Materials、Lam Research、TEL、KLA）已进入 2028 年设备供应合同的最终敲定阶段。 人工智能的快速发展带来了庞大的芯片产能需求，这意味着芯片制造商需要扩充产能，半导体设备制造商间接获益；反过来看， 如果半导体设备制造商无法按芯片制造商的规划交付设备 ， 那人工智能算力的增长也会受到影响 。 报道指出，传统上来说芯片制造商会在设备导入前的 6~12 个月敲定设备订单，为交付留出适当的时间。然而，由于芯片制造商的全面大幅扩产，半导体设备正处于供不应求的状态，导致交货周期大幅延长。 消息人",
-      "url": "https://www.ithome.com/1/022/148.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T06:49:50.000Z",
-      "category": "论文研究",
-      "keywordHits": [
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/148.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "ca16ab7943a2",
-      "title": "华为、阿里、腾讯、小米、百度、火山引擎等 20 家单位共同起草发布《智能体发展自律公约》，抵制利用智能体实施算法压榨、黑灰产等行为",
-      "summary": "IT之家 11 月 4 日消息，今日在世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新 —— 携手构建智能互联网论坛”上，《智能体发展自律公约》正式发布。 这一公约由中国信息通信研究院、华为、阿里、腾讯、小米、百度、火山引擎、蚂蚁、抖音等 20 家单位联合起草并发布，是中国网络社会组织联合会等组织下各方共同推动的成果。 中国信通院表示，该公约是落实《智能体规范应用与创新发展实施意见》中“强化行业自律”任务部署的具体举措，共提出八条自律措施，涵盖健全智能体信任体系、建设智能体互联基础设施、提升智能体互操作水平、提升智能体安全防护能力、健全智能体治理机制、保护智能体用户权益、加速智能体赋能千行百业、推动智能体技术普惠共享等方面。",
-      "url": "https://www.ithome.com/1/022/142.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-04T06:47:24.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "智能体"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/022/142.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
+      "score": 32,
       "level": "仅记录"
     },
     {
@@ -6785,6 +6625,151 @@
       ],
       "sourceWeight": 18,
       "score": 32,
+      "level": "仅记录"
+    },
+    {
+      "id": "3ebf8969d942",
+      "title": "苹果葛越：AI 不会取代 App，将推动应用生态进一步发展",
+      "summary": "IT之家 11 月 5 日消息，据澎湃新闻报道，11 月 4 日，在 2026 年世界互联网大会乌镇峰会人工智能技术创新与治理论坛上，苹果公司副总裁、中华区董事总经理葛越表示，人工智能正在加速改变应用开发模式， 但 AI 不会取代 App，而是将推动下一代 App 变得更强大、更具个性化 ，成为人们生活中更加不可或缺的工具。 葛越表示，苹果始终相信开发者和 App 的潜力。去年，中国 App Store 生态促成的开发者营业额与销售额达到 5,620 亿美元 （IT之家注：现汇率约合 3.76 万亿元人民币） ，较上年增加 230 亿美元 （现汇率约合 1,537.65 亿元人民币） 。中国开发者的全球化步伐也在持续加快，四分之三的",
+      "url": "https://www.ithome.com/1/022/751.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:51:52.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/751.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "00e7a3fe49d7",
+      "title": "英伟达发布 CUDA Toolkit 13.5：正式支持 Vera Rubin，升级多 GPU 通信",
+      "summary": "IT之家 11 月 5 日消息，英伟达于当地时间 11 月 4 日正式发布了最新的 CUDA Toolkit 13.5，为下一代 AI 计算平台 Vera Rubin 提供正式可用（GA）支持，标志着相关架构从早期开发者预览阶段进入面向企业生产环境的部署阶段。 据英伟达官方介绍，此次更新不仅完善了 Vera Rubin 平台的底层软件支持，还针对 GPU 资源调度、多 GPU 通信、数学计算库及性能分析工具进行了多项升级，重点面向大规模 AI 训练和推理场景。 在计算性能方面，CUDA 13.5 更新了 cuBLAS 的矩阵乘法启发式策略和内核调优机制，针对 Vera Rubin 架构上的 NVFP4、MXFP8 低精度矩阵运算进行",
+      "url": "https://www.ithome.com/1/022/670.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T05:27:22.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/670.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "42a42037cee3",
+      "title": "抢先《燕云十六声》，网易《永劫无间》正式支持英伟达 DLSS 5 技术成为首款实装的国产游戏",
+      "summary": "IT之家 11 月 5 日消息，在没有任何预告的情况下，网易《永劫无间》官方刚刚宣布已正式支持英伟达 DLSS 5 技术及神经渲染（Neural Rendering）技术，早于《燕云十六声》的 11 月 24 日，并同步支持最高 6 倍插帧，成为真正的全球首批支持该技术的游戏。 网易官方表示，DLSS 5 通过 AI 模型参与画面重建，在纹理细节、皮肤次表面散射、接触阴影与头发渲染等方面带来更精细的表现。 《永劫无间》服务器原计划于 11 月 5 日早 7:00-12:00 进行停服维护，但截至IT之家发稿仍未开服。 据官方介绍，开启 DLSS 5 后，《永劫无间》聚窟洲、蓬莱岛等场景中远景建筑的结构层次、水面反射的连续性与植被纹理",
+      "url": "https://www.ithome.com/1/022/614.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T04:11:28.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/614.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "158262940e52",
+      "title": "周活全球第一：OpenAI 称印度反超美国，成 ChatGPT 最大消费者市场",
+      "summary": "IT之家 11 月 4 日消息，11 月 3 日接受《经济时报》采访时，OpenAI 印度区董事总经理普拉布吉特 · 辛格（Prabhjeet Singh）表示，印度目前的 ChatGPT 周活跃用户数已超过包括美国在内的任何国家， 而且自 1 月以来，印度用户数量已翻了一番。 辛格没有给出最新的用户数字。OpenAI 于今年 2 月曾表示印度的 ChatGPT 周活跃用户超过 1 亿。首席执行官萨姆 · 奥尔特曼 (Sam Altman) 当时称印度是 OpenAI 仅次于美国的第二大市场。 据 Indian Startup News 报道, 他还表示，印度是全球 ChatGPT 学生用户最多的国家。辛格另外对《印度时报》表示，印",
+      "url": "https://www.ithome.com/1/022/166.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T07:06:31.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/166.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "cfd1620da827",
+      "title": "借助 AI 铺路：开发者成功在微软 Win10 Mobile 15063 及更高版本运行 Android 应用，无需子系统",
+      "summary": "IT之家 11 月 4 日消息，开发者 Computershik 在 Claude 加持下打造了开源项目 Megler，旨在让 Windows 10 Mobile 1703（版本号 10.0.15063）及更高版本系统的手机直接运行 Android 应用。 据开发者介绍， 该项目无需模拟 Android 硬件，也不需要为系统添加 Android 子系统，而是通过在普通 Windows 应用中实现 Android 运行环境相关组件 ，让 Android 应用的 Java 代码和原生 ARM 代码直接在手机处理器上运行。 在技术实现方面，Android 应用通常包含 Java 字节码以及针对 ARM 架构编译的原生动态库。Megler ",
+      "url": "https://www.ithome.com/1/022/161.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T06:53:27.000Z",
+      "category": "开源项目",
+      "keywordHits": [
+        "ai",
+        "claude"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/161.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
       "level": "仅记录"
     },
     {
@@ -7165,19 +7150,18 @@
       "level": "仅记录"
     },
     {
-      "id": "cd9a4958f908",
-      "title": "大众安徽 10 月交付汽车 1597 台，累计同比增长 52%",
-      "summary": "IT之家 11 月 1 日消息，大众安徽今日宣布， 10 月交付 1597 台，累计同比增长 52% 。 官方表示，与众 06、与众 07、与众 08、与众 09 产能持续提升，其中与众 06、与众 07 已全面复产，与众 09 逐步开启交付爬坡。 官方还预告了 11 月大事件，IT之家整理如下： 11 月 1 日，与众 08 先锋体验官第二季招募开启 11 月 8 日，与众 09 作为赛事指定用车，护航合肥马拉松 11 月 12 日，大众安徽全系车型亮相郑州车展 11 月 27 日，大众安徽全系车型亮相广州车展 与众 08 OTA 升级 VLA 2.0 大模型 相关阅读： 《 2026 年 10 月汽车销量 / 交付汇总（持续更新",
-      "url": "https://www.ithome.com/1/020/677.htm",
+      "id": "410893ea872e",
+      "title": "微软官宣：AMD FSR 4.1.2 超分辨率技术首次登陆微软 XBOX Series X|S",
+      "summary": "IT之家 11 月 5 日消息，微软 XBOX 游戏及 XBOX 生态系统副总裁杰森 · 罗纳德（Jason Ronald）今天宣布，AMD FSR 4.1.2 现已向 XBOX Series X|S 开发者提供。 IT之家注意到，AMD 这边已经发布对应新闻稿，宣布 2026 年 10 月版 GDK（微软游戏开发工具包）已经支持 AMD FSR 超分辨率技术 4.1.2， 这标志着 AMD FSR 超分辨率技术首次登陆 XBOX 游戏主机 。此前在 XBOX 选择使用 AMD FSR 传统分析算法的游戏，现在可以升级方案。 在 XBOX Series X|S 主机中，开发者适配 FSR 4.1.2 时可以选择完整 INT8 模型，",
+      "url": "https://www.ithome.com/1/022/736.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-01T02:36:26.000Z",
+      "publishedAt": "2026-11-05T06:47:08.000Z",
       "category": "模型发布",
       "keywordHits": [
-        "大模型",
         "模型"
       ],
       "primary": false,
@@ -7186,11 +7170,347 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/020/677.htm"
+          "url": "https://www.ithome.com/1/022/736.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 29,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "4e0786b67ba7",
+      "title": "华为朱懂东预告：鸿蒙电脑颠覆性创新产品下周开始预热，非常惊艳、人见人爱",
+      "summary": "IT之家 11 月 5 日现场消息，在今日的 2026 鸿蒙办公产业峰会上，华为终端 BG 平板与 PC 产品线总裁朱懂东预告， 华为将推出一款新的颠覆性创新鸿蒙电脑产品 ，非常值得期待。 朱懂东表示，目前的小道消息说得也不那么完全正确，大家很快会看到这款产品，将于下周开始预热。“我可以跟大家保证， 这是一款非常惊艳的产品，人见人爱 。” IT之家在峰会现场看到，华为与合作伙伴共同展示了鸿蒙消费级电脑、鸿蒙商用电脑的全家族产品，首款 HarmonyOS 台式机 —— 华为擎云 HM650 系列也在现场迎来首秀 。",
+      "url": "https://www.ithome.com/1/022/720.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:41:47.000Z",
+      "category": "新产品",
+      "keywordHits": [
+        "新产品"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/720.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "5d7565b9a774",
+      "title": "丰田成立机器人部门，整合研发资源加速技术落地",
+      "summary": "IT之家 11 月 5 日消息，丰田汽车公司（Toyota Motor Corp.）成立了专门的机器人部门，加入全球主要汽车制造商的行列，加速布局机器人技术。 丰田在一份声明中表示，该部门将由公司首席生产官志贺武文（Takefumi Shiga）负责，重点推动机器人在生产一线的实际应用、商业化及部署。此举旨在将公司此前分散开展的机器人研发工作整合到统一的组织架构之下。 IT之家注意到，越来越多的汽车制造商开始押注机器人领域，希望将自身在制造工艺和运动控制方面积累的技术优势，转化为在人形机器人和工业机器人研发中的竞争力。 拥有波士顿动力（Boston Dynamics）的现代汽车集团（Hyundai Motor Co.）已将机器人业务",
+      "url": "https://www.ithome.com/1/022/709.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:38:55.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/709.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "a6b5e4ea64b8",
+      "title": "吉利星越 L PLUS 将于 11 月 12 日开启预售：Flyme Auto 座舱，千里浩瀚 H5 智驾方案",
+      "summary": "IT之家 11 月 5 日消息，据易车报道，吉利星越 L PLUS 将于 11 月 12 日开启预售。新车延续了星越 L 的家族化设计语言，将搭载千里浩瀚 H5 智驾方案。 IT之家注意到，吉利星越 L PLUS 于 9 月 5 日亮相，新车延续星越 L 的家族设计，通过大面积镀铬来营造豪华风格，长宽高分别为 4955/1960/1769mm， 轴距达到 2900mm ，车顶配备了激光雷达，支持千里浩瀚 H5 等高阶辅助驾驶功能。 新车座舱采用中控 + 副驾双联屏方案，形成 30 英寸一体式天际屏，并配有 17.3 英寸二排娱乐屏；车机搭载高通骁龙 8295 芯片、Flyme Auto 智能座舱，内置超级 Eva 智能体。 动力方面",
+      "url": "https://www.ithome.com/1/022/687.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:30:20.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/687.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "e72029141912",
+      "title": "《华尔街日报》预估苹果 iPhone 18 Pro 存储升级溢价约 200%",
+      "summary": "IT之家 11 月 5 日消息，《华尔街日报》于 10 月 28 日发布博文，报道称在 iPhone 18 Pro 和 iPhone 18 Pro Max 两款机型的存储容量升级上， 苹果公司仍向消费者收取约为自身直接成本 3 倍以上的价格。 AI 数据中心对内存与闪存芯片的需求激增，正在改变全球消费电子供应链的议价格局。芯片厂商过去长期向苹果让利的局面正在逆转， 苹果已难以继续以极低价格采购关键零部件 。 科技媒体 Macworld 认为苹果虽然面临成本上行，但并未真正“受伤”：其最新发布的 9 月季度创下公司史上最佳业绩，第四财季利润达 307 亿美元 （IT之家注：现汇率约合 2,052.42 亿元人民币） ，全年利润达 1,",
+      "url": "https://www.ithome.com/1/022/684.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:10:51.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/684.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "86c1e53d86ca",
+      "title": "首款 HarmonyOS 台式机亮相华为擎云 2026 鸿蒙办公产业峰会",
+      "summary": "IT之家 11 月 5 日现场消息，2026 鸿蒙办公产业峰会今日在武汉 · 中国光谷科技会展中心举行。 IT之家在峰会现场发现，首款搭载 HarmonyOS 系统的台式机也同步亮相。此次登场的鸿蒙台式机共两个型号，分别是 HM650 和 HM650G， 确认搭载华为自研麒麟 X90 芯片 。 ▲ 左边为 HM650G（面向政务客户）；右边为 HM650（面向企业客户） 据IT之家此前报道，华为官方账号“智慧办公产品经理”宣布， 鸿蒙电脑应用数突破 2.1 万款 。从宣传海报来看，鸿蒙电脑应用已覆盖办公、AI、教育、娱乐、创作等核心场景。",
+      "url": "https://www.ithome.com/1/022/681.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T06:04:08.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/681.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "0fd07f4c0c57",
+      "title": "Counterpoint：三季度全球 DRAM 营收逼近 2000 亿美元，同比大增 369% 实现超级周期",
+      "summary": "IT之家 11 月 5 日消息，市场研究机构 Counterpoint Research 今日发布的《全球内存市场追踪》报告显示，2026 年第三季度全球 DRAM 市场营收接近 2,000 亿美元 （IT之家注：现汇率约合 1.34 万亿元人民币） ，同比增长 369%，接近去年同期的 5 倍。 Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。当季 DRAM 单位出货量环比仅增长约 4%，每 Gb 平均售价则达到 1.9 美元。 高级分析师 Jeongku Choi 表示，本轮行情属于价格推动的超级周期，而不是出货量周期。“AI 已经将内存从普通大宗商品转变为高价值",
+      "url": "https://www.ithome.com/1/022/677.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T05:48:59.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/677.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "af2608692eb9",
+      "title": "OPPO Reno17 系列手机部分规格曝光，11 月 9 日新品亮相",
+      "summary": "IT之家 11 月 5 日消息，OPPO 今日官宣，Reno17 系列手机 11 月 9 日见。据博主 @体验more 透露，11 月 9 日为新品亮相，不是发布会。 该博主曝光了新机部分规格： OPPO Reno17，6.57 英寸显示屏 + 骁龙 7 Gen 4 处理器 +50MP 潜望长焦； OPPO Reno17 Pro，6.32 英寸显示屏 + 天玑 8550 处理器 +50MP 潜望长焦。 IT之家注意到，OPPO Reno17 系列手机、Watch 5 手表、Pad Air6 平板于 10 月 30 日开启预约，预计将于近期上市。据 OPPO Reno 系列产品经理张若星分享 Reno17 系列全新样张，新机将搭载“全",
+      "url": "https://www.ithome.com/1/022/672.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T05:36:48.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/672.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "c4487758abe1",
+      "title": "丰田汽车 2027 财年半年报归母净利润 2.24 万亿日元，同比增长 26.1%",
+      "summary": "IT之家 11 月 5 日消息，丰田汽车今日发布 2027 财年（2026 年 4 月 1 日～2027 年 3 月 31 日）半年报（2026 年 4 月 1 日～2026 年 9 月 30 日）报告： 营业总收入 ：26.96 万亿日元 （IT之家注：现汇率约合 1.14 万亿元人民币） ，同比增长 9.5% 归母净利润 ：2.24 万亿日元 （现汇率约合 944.74 亿元人民币） ，同比增长 26.1% 基本每股收益 ：185.97 日元 （现汇率约合 7.8 元人民币） ，同比增长 36.67% 稀释每股收益 ：185.97 日元 （现汇率约合 7.8 元人民币） ，同比增长 36.67% AI 解读 本次丰田汽车 202",
+      "url": "https://www.ithome.com/1/022/667.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-05T05:03:12.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/667.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "f980ddb18250",
+      "title": "世嘉通报公司服务器遭黑客非法访问：日服街机游戏认证服务 Aime、SEGA ID 注册功能受影响",
+      "summary": "IT之家 11 月 4 日消息，据外媒 ITMedia 报道，世嘉玩具（SEGA FAVE）于 11 月 2 日通报公司部分服务器遭到黑客非法访问。自 11 月 1 日下午 3 时起，该公司已暂停部分日服街机游戏的在线服务以及“SEGA ID”新用户注册功能。 IT之家获悉，此次受影响的系统包括用于将街机设备接入网络的“ ALL.Net ”，以及通过 IC 卡等方式识别玩家身份、管理游戏数据的用户认证系统“Aime”。自 11 月 2 日下午 6 时至今，利用 ALL.Net 的街机游戏暂时无法通过在线环境进行游玩，官方网站上的街机门店信息查询功能以及各游戏对应的“.NET”服务也均无法使用。 除此之外，此次事件还波及使用 ALL.",
+      "url": "https://www.ithome.com/1/022/164.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T07:04:15.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/164.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "33332cd305b5",
+      "title": "AI 时代下 Steam 游戏提交量显著增加，Valve 近期审核最长需 12 个工作日",
+      "summary": "IT之家 11 月 4 日消息，Valve 正在调整 Steam 游戏上线前的审核流程，以应对近期游戏商店页面和游戏构建版本提交量大幅增加带来的审核积压。 Valve 于当地时间 11 月 3 日在 Steamworks 开发者公告中公布了相关调整，称过去几个月商店页面和游戏构建版本的审核提交量显著增加。 Valve 表示，目前游戏构建版本审核通常需要 3 至 5 个工作日，但近期审核进度有所延迟，最长可能需要 12 个工作日。该公司称，审核延迟的很大一部分原因是部分游戏需要重复审核。 此次更新主要针对开发者发布前的检查清单，目的是帮助更多游戏一次性通过审核，减少因基本功能问题导致的重复审核。 根据新的要求，开发者在提交游戏审核前，",
+      "url": "https://www.ithome.com/1/022/163.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T06:57:09.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/163.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "98295b2cb205",
+      "title": "消息称部分半导体设备制造商已启动 2029 年供应谈判",
+      "summary": "IT之家 11 月 4 日消息，韩媒 ETNEWS 当地时间昨日报道称，全球五大半导体设备制造商（ASML、Applied Materials、Lam Research、TEL、KLA）已进入 2028 年设备供应合同的最终敲定阶段。 人工智能的快速发展带来了庞大的芯片产能需求，这意味着芯片制造商需要扩充产能，半导体设备制造商间接获益；反过来看， 如果半导体设备制造商无法按芯片制造商的规划交付设备 ， 那人工智能算力的增长也会受到影响 。 报道指出，传统上来说芯片制造商会在设备导入前的 6~12 个月敲定设备订单，为交付留出适当的时间。然而，由于芯片制造商的全面大幅扩产，半导体设备正处于供不应求的状态，导致交货周期大幅延长。 消息人",
+      "url": "https://www.ithome.com/1/022/148.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T06:49:50.000Z",
+      "category": "论文研究",
+      "keywordHits": [
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/148.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "ca16ab7943a2",
+      "title": "华为、阿里、腾讯、小米、百度、火山引擎等 20 家单位共同起草发布《智能体发展自律公约》，抵制利用智能体实施算法压榨、黑灰产等行为",
+      "summary": "IT之家 11 月 4 日消息，今日在世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新 —— 携手构建智能互联网论坛”上，《智能体发展自律公约》正式发布。 这一公约由中国信息通信研究院、华为、阿里、腾讯、小米、百度、火山引擎、蚂蚁、抖音等 20 家单位联合起草并发布，是中国网络社会组织联合会等组织下各方共同推动的成果。 中国信通院表示，该公约是落实《智能体规范应用与创新发展实施意见》中“强化行业自律”任务部署的具体举措，共提出八条自律措施，涵盖健全智能体信任体系、建设智能体互联基础设施、提升智能体互操作水平、提升智能体安全防护能力、健全智能体治理机制、保护智能体用户权益、加速智能体赋能千行百业、推动智能体技术普惠共享等方面。",
+      "url": "https://www.ithome.com/1/022/142.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-04T06:47:24.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/022/142.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
       "level": "仅记录"
     },
     {
@@ -7668,90 +7988,6 @@
       "sourceWeight": 18,
       "score": 26,
       "level": "仅记录"
-    },
-    {
-      "id": "147649568a72",
-      "title": "酷冷至尊 HAF II 500 机箱白色版上架：1199 元，11 月 4 日开售",
-      "summary": "IT之家 11 月 1 日消息，Cooler Master（酷码 / 酷冷至尊）现已在电商平台上架 HAF II 500 机箱的白色版本。 这一变体型号依旧 包含前置双 Mighty40 F220 风扇和后置单 Mighty40 V180 风扇 ，售价 1,199 元，11 月 4 日 20:00 开售。 ▲ 由人工智能扩展背景并锐化主体，机箱本身效果与官方原图几乎一致 HAF II 500 拥有 8 条扩展槽，兼容部分 E-ATX 和 SSI-CEB 主板。其三维 557×262×548 (mm)，体积约 80L，显卡限长 430mm、电源限长 210mm、处理器散热器限高 220mm；提供 1 个 USB-C 20Gbps、2 ",
-      "url": "https://www.ithome.com/1/020/676.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-01T02:28:12.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/020/676.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "e6808ae49ba5",
-      "title": "高通发布骁龙 X 系列 PC 处理器 Windows 显卡驱动，改进多款游戏体验",
-      "summary": "IT之家 11 月 1 日消息，Qualcomm（高通）于当地时间 10 月 29 日发布了适用于骁龙 X 系列 PC 处理器的 2026.10.1 版本 Adreno GPU Windows 显卡驱动程序。 该驱动程序针对初代骁龙 X 和骁龙 X2 处理器有以下改进： 骁龙 X 游戏稳定性 / 质量改进 《永劫无间》(NARAKA: BLADEPOINT) 《荒野大镖客：救赎 2》(Red Dead Redemption 2) 《机械战警：暴戾都市》(RoboCop: Rogue City) 应用稳定性与性能提升 Luminar Neo Scam AI 骁龙 X2 游戏稳定性 / 质量改进 《刺客信条：黑旗记忆重置》(Assass",
-      "url": "https://www.ithome.com/1/020/667.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-01T01:54:18.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/020/667.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "b0b2917656e6",
-      "title": "搜狐张朝阳：短剧不会把长剧的需求完全侵蚀掉",
-      "summary": "IT之家 11 月 1 日消息，搜狐创始人、董事局主席兼首席执行官张朝阳在接受界面新闻等媒体采访时表示， 短剧不会把看长剧的需求完全侵蚀掉 ，依然有很多人看长剧，这是两种不同的需求。 张朝阳表示，碎片化时间消磨时光，可以看看短剧；作为一个艺术品的欣赏以及好的故事，还是要看长剧或者电影。在他看来， 国内长视频网站经济压力大，不赚钱的原因是多方面的，不是因为短剧 。 IT之家注意到，今年 8 月，张朝阳曾聊到内容从业者的 AI 焦虑，他用一个比喻做了回应：“ 现在 AI 产生的东西，让媒体和内容产生了塑料的感觉 。就像化肥催出来的西红柿，看着光鲜，吃着一点味道都没有；带点泥的胡萝卜，看着不是那么好看，但是很好吃、有味道。” 相关阅读： ",
-      "url": "https://www.ithome.com/1/020/666.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-01T01:44:27.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/020/666.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
     }
   ],
   "sources": [
@@ -7761,8 +7997,8 @@
       "platform": "official",
       "ok": true,
       "count": 1368,
-      "latencyMs": 348,
-      "checkedAt": "2026-11-07T06:45:33.067Z",
+      "latencyMs": 407,
+      "checkedAt": "2026-11-08T06:52:29.465Z",
       "note": ""
     },
     {
@@ -7771,8 +8007,8 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 929,
-      "checkedAt": "2026-11-07T06:45:33.685Z",
+      "latencyMs": 493,
+      "checkedAt": "2026-11-08T06:52:29.587Z",
       "note": ""
     },
     {
@@ -7781,8 +8017,8 @@
       "platform": "official",
       "ok": true,
       "count": 899,
-      "latencyMs": 201,
-      "checkedAt": "2026-11-07T06:45:32.958Z",
+      "latencyMs": 238,
+      "checkedAt": "2026-11-08T06:52:29.333Z",
       "note": ""
     },
     {
@@ -7791,8 +8027,8 @@
       "platform": "research",
       "ok": true,
       "count": 30,
-      "latencyMs": 357,
-      "checkedAt": "2026-11-07T06:45:33.116Z",
+      "latencyMs": 420,
+      "checkedAt": "2026-11-08T06:52:29.517Z",
       "note": ""
     },
     {
@@ -7801,8 +8037,8 @@
       "platform": "developer",
       "ok": true,
       "count": 10,
-      "latencyMs": 1186,
-      "checkedAt": "2026-11-07T06:45:33.946Z",
+      "latencyMs": 857,
+      "checkedAt": "2026-11-08T06:52:29.955Z",
       "note": ""
     },
     {
@@ -7811,8 +8047,8 @@
       "platform": "media",
       "ok": true,
       "count": 60,
-      "latencyMs": 1549,
-      "checkedAt": "2026-11-07T06:45:34.310Z",
+      "latencyMs": 802,
+      "checkedAt": "2026-11-08T06:52:29.901Z",
       "note": ""
     },
     {
@@ -7821,8 +8057,8 @@
       "platform": "media",
       "ok": true,
       "count": 0,
-      "latencyMs": 1846,
-      "checkedAt": "2026-11-07T06:45:34.608Z",
+      "latencyMs": 1582,
+      "checkedAt": "2026-11-08T06:52:30.682Z",
       "note": ""
     },
     {
@@ -7831,8 +8067,8 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 742,
-      "checkedAt": "2026-11-07T06:45:33.505Z",
+      "latencyMs": 587,
+      "checkedAt": "2026-11-08T06:52:29.688Z",
       "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
@@ -7841,8 +8077,8 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 818,
-      "checkedAt": "2026-11-07T06:45:33.582Z",
+      "latencyMs": 676,
+      "checkedAt": "2026-11-08T06:52:29.778Z",
       "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
@@ -7851,8 +8087,8 @@
       "platform": "official",
       "ok": true,
       "count": 10,
-      "latencyMs": 908,
-      "checkedAt": "2026-11-07T06:45:33.674Z",
+      "latencyMs": 634,
+      "checkedAt": "2026-11-08T06:52:29.739Z",
       "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
@@ -7886,6 +8122,12 @@
     }
   ],
   "archive": [
+    {
+      "date": "2026-11-08",
+      "itemCount": 277,
+      "headlineIds": [],
+      "updatedAt": "2026-11-08T06:52:29.054Z"
+    },
     {
       "date": "2026-11-07",
       "itemCount": 269,
