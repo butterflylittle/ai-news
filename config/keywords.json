@@ -8,6 +8,12 @@
     "agent skill", "skills", "skill.md", "插件", "plugin", "新产品"
   ],
   "exclude": ["股票荐股", "彩票", "AI换脸诈骗"],
+  "topics": {
+    "GEO": ["geo", "aeo", "llmo", "generative engine optimization", "generative engine optimisation", "answer engine optimization", "answer engine optimisation", "ai search", "ai visibility", "ai overview", "ai mode", "llm visibility", "llm citations", "生成式引擎优化", "生成式搜索优化", "答案引擎优化", "ai搜索", "ai 搜索", "ai可见性", "ai 可见性"],
+    "Shopify": ["shopify", "shop pay", "shop app"],
+    "SEO": ["seo", "seos", "search engine optimization", "search engine optimisation", "搜索引擎优化", "搜索优化", "自然流量", "搜索排名", "外链", "backlink", "search console", "googlebot", "core web vitals", "structured data", "核心算法更新"],
+    "独立站": ["独立站", "跨境电商", "品牌出海", "dtc", "d2c", "ecommerce", "e-commerce", "online store", "direct-to-consumer", "woocommerce", "bigcommerce", "conversion rate optimization", "转化率优化", "弃购", "abandoned cart", "dropshipping"]
+  },
   "categories": {
     "模型发布": ["模型", "model", "llm", "参数", "benchmark", "推理模型"],
     "产品更新": ["发布", "上线", "更新", "launch", "release", "preview"],

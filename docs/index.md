@@ -1,6 +1,9 @@
 ---
-layout: false
-title: AI 今日雷达
+title: 今日
 ---
 
-<Dashboard />
+<script setup>
+import TodayView from './.vitepress/theme/views/TodayView.vue'
+</script>
+
+<TodayView />

@@ -54,6 +54,72 @@
       "enabled": true
     },
     {
+      "id": "shopify-changelog",
+      "name": "Shopify 商家更新",
+      "url": "https://changelog.shopify.com/feed.xml",
+      "platform": "official",
+      "defaultCategory": "Shopify",
+      "weight": 32,
+      "primary": true,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
+      "id": "shopify-dev-changelog",
+      "name": "Shopify 开发者更新",
+      "url": "https://shopify.dev/changelog/feed.xml",
+      "platform": "developer",
+      "defaultCategory": "Shopify",
+      "weight": 28,
+      "primary": true,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
+      "id": "practical-ecommerce",
+      "name": "Practical Ecommerce",
+      "url": "https://www.practicalecommerce.com/feed",
+      "platform": "media",
+      "defaultCategory": "独立站",
+      "weight": 24,
+      "primary": false,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
+      "id": "google-search-central",
+      "name": "Google Search Central",
+      "url": "https://feeds.feedburner.com/blogspot/amDG",
+      "platform": "official",
+      "defaultCategory": "SEO",
+      "weight": 34,
+      "primary": true,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
+      "id": "search-engine-journal",
+      "name": "Search Engine Journal · SEO",
+      "url": "https://www.searchenginejournal.com/category/seo/feed/",
+      "platform": "media",
+      "defaultCategory": "SEO",
+      "weight": 24,
+      "primary": false,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
+      "id": "ahrefs-blog",
+      "name": "Ahrefs Blog",
+      "url": "https://ahrefs.com/blog/feed/",
+      "platform": "official",
+      "defaultCategory": "SEO",
+      "weight": 26,
+      "primary": true,
+      "allowAll": true,
+      "enabled": true
+    },
+    {
       "id": "ithome",
       "name": "IT之家",
       "url": "https://www.ithome.com/rss/",
@@ -118,7 +184,7 @@
       "primary": false,
       "allowAll": false,
       "enabled": true,
-      "note": "只保留命中 AI 关键词的全球趋势"
+      "note": "只保留命中 AI、独立站、SEO、GEO 或 Shopify 关键词的全球趋势"
     },
     {
       "id": "douyin-hot",

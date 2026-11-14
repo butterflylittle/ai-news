@@ -93,7 +93,8 @@ button { color: inherit; }
   background: rgba(255, 255, 255, 0.25);
 }
 
-.view-tabs button {
+.view-tabs a {
+  text-align: center;
   min-width: 58px;
   padding: 7px 14px;
   border: 0;
@@ -105,8 +106,9 @@ button { color: inherit; }
   transition: 160ms ease;
 }
 
-.view-tabs button:hover { color: var(--ink); }
-.view-tabs button.active { color: var(--paper); background: var(--ink); }
+.view-tabs a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
+.view-tabs a:hover { color: var(--ink); }
+.view-tabs a.active { color: var(--paper); background: var(--ink); }
 
 .refresh-button {
   justify-self: end;
@@ -188,6 +190,7 @@ button { color: inherit; }
   border-radius: 8px;
   font-size: 13px;
 }
+.desk-notice { margin: 24px 0 0; }
 .notice.error { color: #8d2716; background: #f8d9ce; }
 .notice.info { color: #344a31; background: #dde7d8; }
 
@@ -308,8 +311,8 @@ button { color: inherit; }
 .section-heading { display: flex; justify-content: space-between; align-items: end; margin-bottom: 28px; }
 .section-heading .eyebrow { margin-bottom: 7px; }
 .section-heading h3 { margin: 0; font-family: var(--display); font-size: 34px; font-weight: 400; letter-spacing: -0.035em; }
-.section-heading button { border: 0; background: none; font-size: 11px; cursor: pointer; }
-.section-heading button span { color: var(--accent); }
+.section-heading a { border: 0; background: none; font-size: 11px; cursor: pointer; }
+.section-heading a span { color: var(--accent); }
 
 .brief-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--line); border-left: 1px solid var(--line); }
 .brief-card { position: relative; display: flex; min-height: 290px; flex-direction: column; padding: 26px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); background: rgba(255,255,255,.12); transition: background 160ms ease; }
@@ -367,8 +370,8 @@ button { color: inherit; }
 .source-link { display: flex; gap: 12px; align-items: baseline; width: fit-content; padding: 0; border: 0; background: none; text-align: left; cursor: pointer; }
 .source-link span { color: var(--accent); font-size: 10px; }
 .source-link:hover strong { color: var(--accent); }
-.source-link:disabled { cursor: default; }
-.source-link:disabled strong { color: var(--muted); }
+.source-link[aria-disabled="true"] { cursor: default; }
+.source-link[aria-disabled="true"] strong { color: var(--muted); }
 .source-platform-link { justify-self: start; padding: 3px 0; border: 0; background: none; color: var(--muted); font-size: 12px; cursor: pointer; }
 .source-platform-link:hover { color: var(--accent); }
 .source-link:focus-visible, .source-platform-link:focus-visible, .source-platform-tabs button:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
@@ -404,8 +407,8 @@ button { color: inherit; }
   .desk-shell { padding: 0 24px; }
   .topbar { grid-template-columns: 1fr auto; }
   .view-tabs { position: fixed; z-index: 30; right: 18px; bottom: 18px; left: 18px; justify-content: space-around; background: rgba(23,25,22,.94); box-shadow: 0 14px 40px rgba(0,0,0,.22); backdrop-filter: blur(15px); }
-  .view-tabs button { color: #aaa99f; }
-  .view-tabs button.active { color: var(--ink); background: var(--paper); }
+  .view-tabs a { color: #aaa99f; }
+  .view-tabs a.active { color: var(--ink); background: var(--paper); }
   .lead-grid { grid-template-columns: 1fr; }
   .lead-story { min-height: 420px; padding-right: 0; border-right: 0; }
   .signal-panel { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 28px 0; }

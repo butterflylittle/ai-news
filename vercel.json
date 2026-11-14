@@ -3,6 +3,7 @@
   "installCommand": "npm ci",
   "buildCommand": "npm run build",
   "outputDirectory": "docs/.vitepress/dist",
+  "cleanUrls": true,
   "functions": {
     "api/refresh.js": {
       "maxDuration": 30

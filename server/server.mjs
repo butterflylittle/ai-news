@@ -1,9 +1,9 @@
 import { createReadStream } from 'node:fs'
-import { stat } from 'node:fs/promises'
 import { createServer } from 'node:http'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { handleApi, scheduleDaily } from './api.mjs'
+import { resolveStaticFile } from './static.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const DIST = path.join(ROOT, 'docs', '.vitepress', 'dist')
@@ -19,21 +19,18 @@ const TYPES = {
 
 async function staticFile(req, res) {
   const url = new URL(req.url, 'http://localhost')
-  const requested = decodeURIComponent(url.pathname === '/' ? '/index.html' : url.pathname)
-  const file = path.resolve(DIST, `.${requested}`)
-  if (!file.startsWith(`${DIST}${path.sep}`) && file !== path.join(DIST, 'index.html')) {
-    res.writeHead(403).end('Forbidden')
+  const { file, status } = await resolveStaticFile(DIST, url.pathname)
+  if (!file) {
+    res.writeHead(status).end(status === 403 ? 'Forbidden' : 'Bad request')
     return
   }
-  try {
-    const info = await stat(file)
-    if (!info.isFile()) throw new Error('not a file')
-    res.writeHead(200, { 'content-type': TYPES[path.extname(file)] ?? 'application/octet-stream' })
-    createReadStream(file).pipe(res)
-  } catch {
-    res.writeHead(200, { 'content-type': TYPES['.html'] })
-    createReadStream(path.join(DIST, 'index.html')).pipe(res)
-  }
+  const stream = createReadStream(file)
+  stream.on('error', () => {
+    if (!res.headersSent) res.writeHead(404)
+    res.end('Not found')
+  })
+  res.writeHead(status, { 'content-type': TYPES[path.extname(file)] ?? 'application/octet-stream' })
+  stream.pipe(res)
 }
 
 const server = createServer(async (req, res) => {

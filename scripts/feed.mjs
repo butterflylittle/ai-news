@@ -3,6 +3,7 @@ import { mkdir, readFile, rename, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { XMLParser } from 'fast-xml-parser'
+import { translateItems } from './translate.mjs'
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..')
 const CONFIG_PATH = path.join(ROOT, 'config', 'feeds.json')
@@ -137,20 +138,34 @@ function validDate(value, fallback = new Date()) {
   return Number.isNaN(date.valueOf()) ? fallback : date
 }
 
-function categoryFor(content, categories) {
-  let best = ['其他', 0]
+function matchesKeyword(content, word, wholeWords = false) {
+  const keyword = word.toLowerCase()
+  // Bound English topics/acronyms, retaining plurals such as LLMs and AI Overviews.
+  if (/^[a-z]{2,3}$/.test(keyword) || (wholeWords && /^[a-z0-9 .-]+$/.test(keyword))) {
+    const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+    return new RegExp(`(^|[^a-z0-9])${escaped}s?($|[^a-z0-9])`).test(content)
+  }
+  return content.includes(keyword)
+}
+
+function categoryFor(content, categories, wholeWords = false) {
+  let best = [null, 0]
   for (const [name, words] of Object.entries(categories)) {
-    const hits = words.filter((word) => content.includes(word.toLowerCase())).length
+    const hits = words.filter((word) => matchesKeyword(content, word, wholeWords)).length
     if (hits > best[1]) best = [name, hits]
   }
   return best[0]
 }
 
-function normalize(entry, keywords, now) {
+export function normalize(entry, keywords, now) {
   const title = compact(entry.title).replace(/^\*\*(.+)\*\*$/, '$1')
   const summary = compact(entry.summary).slice(0, 320)
   const haystack = `${title} ${summary}`.toLowerCase()
-  const keywordHits = keywords.global.filter((word) => haystack.includes(word.toLowerCase()))
+  const topics = keywords.topics ?? {}
+  const keywordHits = [
+    ...keywords.global.filter((word) => matchesKeyword(haystack, word)),
+    ...Object.values(topics).flat().filter((word) => matchesKeyword(haystack, word, true))
+  ]
   const publishedAt = validDate(entry.publishedAt, now).toISOString()
   const url = canonicalUrl(entry.url)
 
@@ -162,7 +177,7 @@ function normalize(entry, keywords, now) {
     author: entry.author,
     engagement: entry.engagement ?? {},
     publishedAt,
-    category: categoryFor(haystack, keywords.categories),
+    category: categoryFor(haystack, topics, true) ?? entry.source.defaultCategory ?? categoryFor(haystack, keywords.categories) ?? '其他',
     keywordHits: [...new Set(keywordHits)].slice(0, 8),
     primary: Boolean(entry.source.primary),
     sources: [{
@@ -279,7 +294,7 @@ async function fetchSource(source) {
   }
 }
 
-async function fetchWithTimeout(url, extraHeaders = {}) {
+export async function fetchWithTimeout(url, extraHeaders = {}) {
   const controller = new AbortController()
   const timeout = setTimeout(() => controller.abort(), 15_000)
   try {
@@ -288,7 +303,7 @@ async function fetchWithTimeout(url, extraHeaders = {}) {
       headers: { 'user-agent': 'AI-News-Desk/0.1 (+local RSS reader)', ...extraHeaders }
     })
     if (!response.ok) throw new Error(`HTTP ${response.status}`)
-    return response.text()
+    return await response.text()
   } finally {
     clearTimeout(timeout)
   }
@@ -346,12 +361,12 @@ export function renderDailyMarkdown(store, date) {
   ]
 
   for (const item of store.items.slice(0, 60)) {
-    lines.push(`## ${escapeMarkdown(item.title)}`, '')
+    lines.push(`## ${escapeMarkdown(item.titleZh || item.title)}`, '')
     lines.push(`**${item.level} · ${item.score} 分 · ${item.category}**`, '')
-    if (item.summary) lines.push(item.summary, '')
+    if (item.summaryZh || item.summary) lines.push(item.summaryZh || item.summary, '')
     lines.push(`来源：${item.sources.map((source) => source.name).join('、')} · [查看原文](${item.url})`, '')
   }
-  return `${lines.join('\n')}\n`
+  return `${lines.join('\n').trimEnd()}\n`
 }
 
 async function atomicWrite(file, content) {
@@ -400,10 +415,11 @@ export async function runPipeline({ reason = 'manual', now = new Date() } = {}) 
     .filter((item) => new Date(item.publishedAt).valueOf() >= cutoff)
 
   const existing = previous.items.filter((item) => new Date(item.publishedAt).valueOf() >= cutoff)
-  const items = clusterItems([...relevant, ...existing])
+  const rankedItems = clusterItems([...relevant, ...existing])
     .map((item) => rankItem(item, now))
     .sort((a, b) => b.score - a.score || new Date(b.publishedAt) - new Date(a.publishedAt))
     .slice(0, 400)
+  const { items, stats: translation } = await translateItems(rankedItems, previous.items)
 
   const date = shanghaiDate(now)
   const archiveEntry = {
@@ -422,6 +438,7 @@ export async function runPipeline({ reason = 'manual', now = new Date() } = {}) 
       timezone: config.timezone ?? 'Asia/Shanghai',
       enabledSources: enabled.length,
       successfulSources,
+      translation,
       nextScheduledAt: null,
       empty: items.length === 0
     },
