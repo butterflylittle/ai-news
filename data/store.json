@@ -1,16 +1,16 @@
 {
   "meta": {
-    "updatedAt": "2026-11-14T03:12:44.914Z",
+    "updatedAt": "2026-11-14T07:16:21.063Z",
     "date": "2026-11-14",
     "reason": "cli",
     "timezone": "Asia/Shanghai",
     "enabledSources": 16,
-    "successfulSources": 14,
+    "successfulSources": 16,
     "translation": {
       "provider": "google-web",
       "targetLanguage": "zh-CN",
-      "translatedFields": 121,
-      "cachedFields": 206,
+      "translatedFields": 0,
+      "cachedFields": 327,
       "pendingFields": 0,
       "lastError": null
     },
@@ -90,7 +90,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-13T09:36:00.000Z",
       "category": "Agent",
@@ -173,35 +174,6 @@
       "score": 65,
       "level": "值得看",
       "titleZh": "llama.cpp v1.0.0：为本地人工智能生态系统奠定更坚实的基础"
-    },
-    {
-      "id": "33ff1b2a72fa",
-      "title": "App security updates: Thank you, plus what's required next",
-      "summary": "Thanks to you, we've already seen the vast majority of apps that run bulk operations adopt an IP allowlist. That's a big step toward keeping merchants protected heading into the busiest weeks of the year. Here's what's required, what's new, and what's coming next. Action required All public apps that call the Admin API",
-      "url": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-14T00:00:00.000Z",
-      "category": "Shopify",
-      "keywordHits": [],
-      "primary": true,
-      "sources": [
-        {
-          "id": "shopify-dev-changelog",
-          "name": "Shopify 开发者更新",
-          "platform": "developer",
-          "url": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next"
-        }
-      ],
-      "sourceWeight": 28,
-      "score": 63,
-      "level": "值得看",
-      "titleZh": "应用程序安全更新：谢谢，以及下一步需要做什么",
-      "summaryZh": "感谢您，我们已经看到绝大多数运行批量操作的应用程序都采用了 IP 允许列表。这是在进入一年中最繁忙的几周时保护商家的一大进步。以下是需求、新内容以及接下来要做的事情。需要采取的行动 所有调用管理 API 的公共应用程序"
     },
     {
       "id": "8ab694d4c320",
@@ -452,7 +424,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-12T09:33:00.000Z",
       "category": "模型发布",
@@ -632,37 +605,33 @@
       "summaryZh": "OpenAI Academy 正在为美国五个城市的护理人员举办免费的 ChatGPT 实践研讨会，帮助他们培养日常生活中实用的人工智能技能。"
     },
     {
-      "id": "8173fbaac463",
-      "title": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
-      "summary": "IT之家 11 月 14 日消息，开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文， 宣布开源 AI 推理项目 llama.cpp 与底层机器学习引擎 ggml 的库版本迈入 1.0.0。 IT之家查询公开资料，Gerganov 是开源项目 llama.cpp 的创建者，也是 ggml、 whisper.cpp 等本地 AI 基础软件的重要开发者。他在个人 X 简介中将自己标注为 Hugging Face 工程师，GitHub 资料所在地为保加利亚索非亚。 llama.cpp 是一个主要用 C/C++ 编写的开源 AI 推理项目，核心作用是让大语言模型在个人电脑",
-      "url": "https://www.ithome.com/1/027/019.htm",
+      "id": "33ff1b2a72fa",
+      "title": "App security updates: Thank you, plus what's required next",
+      "summary": "Thanks to you, we've already seen the vast majority of apps that run bulk operations adopt an IP allowlist. That's a big step toward keeping merchants protected heading into the busiest weeks of the year. Here's what's required, what's new, and what's coming next. Action required All public apps that call the Admin API",
+      "url": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0,
         "posts": 0
       },
-      "publishedAt": "2026-11-14T00:14:06.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "大模型",
-        "模型",
-        "推理",
-        "hugging face"
-      ],
-      "primary": false,
+      "publishedAt": "2026-11-14T00:00:00.000Z",
+      "category": "Shopify",
+      "keywordHits": [],
+      "primary": true,
       "sources": [
         {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/019.htm"
+          "id": "shopify-dev-changelog",
+          "name": "Shopify 开发者更新",
+          "platform": "developer",
+          "url": "https://shopify.dev/changelog/app-security-updates-thank-you-plus-what-s-required-next"
         }
       ],
-      "sourceWeight": 18,
+      "sourceWeight": 28,
       "score": 58,
-      "level": "值得看"
+      "level": "值得看",
+      "titleZh": "应用程序安全更新：谢谢，以及下一步需要做什么",
+      "summaryZh": "感谢您，我们已经看到绝大多数运行批量操作的应用程序都采用了 IP 允许列表。这是在进入一年中最繁忙的几周时保护商家的一大进步。以下是需求、新内容以及接下来要做的事情。需要采取的行动 所有调用管理 API 的公共应用程序"
     },
     {
       "id": "56e9c6abe7c4",
@@ -902,36 +871,6 @@
       "summaryZh": "超过 20,000 名退伍军人和转业军人已申请免费一年的 ChatGPT Plus。看看他们如何利用它为平民职业做好准备。"
     },
     {
-      "id": "b22522d14a17",
-      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
-      "summary": "",
-      "url": "https://huggingface.co/blog/qvac/botpsy",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-11T05:01:16.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "agent"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "huggingface-blog",
-          "name": "Hugging Face",
-          "platform": "official",
-          "url": "https://huggingface.co/blog/qvac/botpsy"
-        }
-      ],
-      "sourceWeight": 32,
-      "score": 57,
-      "level": "值得看",
-      "titleZh": "BotPsy：具有数十亿参数代理语言模型的设备上个人助理"
-    },
-    {
       "id": "97adab01dbf7",
       "title": "Try Tabletop: Customizable, collaborative spaces for groups to plan, play and do more together.",
       "summary": "Tabletop is a new Google Labs experiment for group collaboration. Build interactive itineraries, polls, and brackets with your team. Join the waitlist.",
@@ -1086,6 +1025,37 @@
       "summaryZh": "Cogent 将 OpenAI 模型与企业环境相结合，帮助通过代理自动修复漏洞。"
     },
     {
+      "id": "4a5219d5eda7",
+      "title": "谷歌利用多个专业 AI 智能体打造 Teamwork 系统，成功验证多项复杂数学证明",
+      "summary": "IT之家 11 月 14 日消息，谷歌宣布进一步扩展旗下 Antigravity 多智能体系统，利用多个由 Gemini 模型驱动的专业智能体组成 Teamwork 系统，号称可解决“长期悬而未决的数学难题”、“验证复杂数学证明”，并优化各种软件系统性能。 例如，谷歌已成功对韦伊猜想（Weil conjectures）进行形式化证明。这是一组关于有限域上多项式方程解的数量的重要数学结论，最初由数学家皮埃尔 · 德利涅（Pierre Deligne）于 1974 年证明。谷歌 Teamwork-LEAP 系统通过约 2.88 万次子智能体调用，累计生成约 180 万行 Lean 代码，完成了相关数学成果的形式化工作。 谷歌还表示，相应",
+      "url": "https://www.ithome.com/1/027/140.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-14T06:53:32.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "智能体",
+        "模型",
+        "gemini"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/140.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 55,
+      "level": "值得看"
+    },
+    {
       "id": "2224d19e8735",
       "title": "授人以鱼不如授人以渔：我对企业级 AI 研发提效的思考与实践",
       "summary": "关于企业内部 AI 研发提效的、为什么选择做这些事，以及在业务域中实际效果如何，本文或许能够提供一些经验和参考",
@@ -1137,35 +1107,6 @@
           "name": "字节跳动技术团队",
           "platform": "official",
           "url": "https://mp.weixin.qq.com/s?__biz=MzI1MzYzMjE0MQ==&mid=2247524273&idx=1&sn=00864fccfa91a8cf8533d53cf0a3c164"
-        }
-      ],
-      "sourceWeight": 30,
-      "score": 55,
-      "level": "值得看"
-    },
-    {
-      "id": "380155fb94d7",
-      "title": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布",
-      "summary": "今天，Qwen4-Max 预览版首发上线阿里 Token Plan，Qwen Code 1.0 Preview 同步开源。",
-      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-11T03:45:00.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "qwen"
-      ],
-      "primary": true,
-      "sources": [
-        {
-          "id": "alibaba-tech",
-          "name": "阿里技术",
-          "platform": "official",
-          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58"
         }
       ],
       "sourceWeight": 30,
@@ -1268,6 +1209,39 @@
       "score": 54,
       "level": "正在升温",
       "titleZh": "3D 生成模型权威微调指南"
+    },
+    {
+      "id": "8173fbaac463",
+      "title": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
+      "summary": "IT之家 11 月 14 日消息，开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文， 宣布开源 AI 推理项目 llama.cpp 与底层机器学习引擎 ggml 的库版本迈入 1.0.0。 IT之家查询公开资料，Gerganov 是开源项目 llama.cpp 的创建者，也是 ggml、 whisper.cpp 等本地 AI 基础软件的重要开发者。他在个人 X 简介中将自己标注为 Hugging Face 工程师，GitHub 资料所在地为保加利亚索非亚。 llama.cpp 是一个主要用 C/C++ 编写的开源 AI 推理项目，核心作用是让大语言模型在个人电脑",
+      "url": "https://www.ithome.com/1/027/019.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-14T00:14:06.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "大模型",
+        "模型",
+        "推理",
+        "hugging face"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/019.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 53,
+      "level": "正在升温"
     },
     {
       "id": "8d54fca78791",
@@ -1489,53 +1463,21 @@
       "summaryZh": "Kuken Industries 使用 OpenAI API 搜索 70 年来的冷却塔图纸。工程师只需 4.5 分钟即可找到维修图纸，而时间则缩短为近一个小时。"
     },
     {
-      "id": "e8b9c9bc5510",
-      "title": "Google Explains How To Find Search Traffic In Analytics &#038; Logs via @sejournal, @MattGSouthern",
-      "summary": "A Google Search help page lists the referrer values Search traffic sends, why some visits arrive with none, and why counts differ from Search Console. The post Google Explains How To Find Search Traffic In Analytics &#038; Logs appeared first on Search Engine Journal .",
-      "url": "https://www.searchenginejournal.com/google-search-traffic-analytics-logs/597382/",
-      "author": "Matt G. Southern",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-14T00:02:10.000Z",
-      "category": "SEO",
-      "keywordHits": [
-        "search console"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "search-engine-journal",
-          "name": "Search Engine Journal · SEO",
-          "platform": "media",
-          "url": "https://www.searchenginejournal.com/google-search-traffic-analytics-logs/597382/"
-        }
-      ],
-      "sourceWeight": 24,
-      "score": 52,
-      "level": "正在升温",
-      "titleZh": "谷歌通过@sejournal、@MattGSouthern解释如何在分析和日志中查找搜索流量",
-      "summaryZh": "Google 搜索帮助页面列出了搜索流量发送的引荐来源网址值、为什么某些访问没有到达、以及计数与 Search Console 不同的原因。谷歌解释如何在分析和日志中查找搜索流量一文首先出现在搜索引擎杂志上。"
-    },
-    {
-      "id": "a93f2a785d8a",
-      "title": "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队",
-      "summary": "IT之家 11 月 14 日消息，《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。OpenAI 向该媒体确认了此次组织调整， 只是强调本次调整并非退出机器人领域，机器人仍是其长期愿景的核心，重组旨在加快研发。 在架构调整方面，机器人研究人员并入核心研究团队，向首席研究官马克 · 陈（Mark Chen）汇报；应用机器人与硬件团队则转入规模更大的应用部门，该部门由公司总裁格雷格 · 布罗克曼（Greg Brockman）负责。IT之家附上相关截图如下;d 对于本次架构调整的根源，OpenAI 官方回应称包括 GPT-6 Astra 在内，通用模型已能直接用于部分机器",
-      "url": "https://www.ithome.com/1/027/004.htm",
+      "id": "50ed1be08408",
+      "title": "谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11",
+      "summary": "IT之家 11 月 14 日消息，谷歌 AI Studio 产品与设计负责人阿马尔 · 雷希（Ammaar Reshi）于 11 月 12 日在 X 平台发布推文，分享了一段视频， 演示在苹果首款折叠手机 iPhone Duo 上运行 Windows 11 系统，并在 GitHub 上开源 WindowsiOS 项目。 雷希表示借助谷歌 Gemini 4 Carbon 模型，成功开发 WindowsiOS 项目，通过虚拟机方式，在 iPhone Duo 上运行 Windows 11 on Arm 24H2 系统镜像，并支持触控操作。 根据演示效果，在 iPhone Duo 半折叠状态下，上半屏显示系统界面，下半屏提供虚拟键盘和多点触",
+      "url": "https://www.ithome.com/1/027/118.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0,
-        "posts": 0
+        "comments": 0
       },
-      "publishedAt": "2026-11-13T23:17:38.000Z",
-      "category": "模型发布",
+      "publishedAt": "2026-11-14T05:31:28.000Z",
+      "category": "开源项目",
       "keywordHits": [
         "ai",
         "模型",
-        "openai"
+        "gemini"
       ],
       "primary": false,
       "sources": [
@@ -1543,7 +1485,7 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/027/004.htm"
+          "url": "https://www.ithome.com/1/027/118.htm"
         }
       ],
       "sourceWeight": 18,
@@ -1906,7 +1848,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-09T10:08:00.000Z",
       "category": "Agent",
@@ -2013,6 +1956,36 @@
       "level": "正在升温",
       "titleZh": "客户数据删除请求从 10 天更新为 5 天",
       "summaryZh": "自 2026 年 11 月 10 日起，客户数据删除请求将不再处于待处理状态 10 天。现在，删除请求将在提交请求后 5 天处理，无论客户最近的订单是什么时候下的。对于已计划发送的礼品卡的接收者，"
+    },
+    {
+      "id": "b22522d14a17",
+      "title": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
+      "summary": "",
+      "url": "https://huggingface.co/blog/qvac/botpsy",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-11T05:01:16.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "agent"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "huggingface-blog",
+          "name": "Hugging Face",
+          "platform": "official",
+          "url": "https://huggingface.co/blog/qvac/botpsy"
+        }
+      ],
+      "sourceWeight": 32,
+      "score": 50,
+      "level": "正在升温",
+      "titleZh": "BotPsy：具有数十亿参数代理语言模型的设备上个人助理"
     },
     {
       "id": "f9583d04963f",
@@ -2164,6 +2137,35 @@
       "summaryZh": "ChatGPT Enterprise 现已通过 AWS Marketplace 提供，帮助组织通过现有的 AWS 采购和计费关系简化采购。"
     },
     {
+      "id": "12a32142c675",
+      "title": "比亚迪辅助驾驶车型保有量超 419 万辆，天神之眼日数据达 2.6 亿公里",
+      "summary": "IT之家 11 月 14 日消息，比亚迪汽车今日公布的最新数据显示，其辅助驾驶车型保有量已超过 419 万辆，天神之眼系统每天生成的数据量超过 2.6 亿公里。 比亚迪今年 5 月彼时保有量超 315 万辆、日数据超 2 亿公里；8 月底升至 372 万辆和 2.3 亿公里；9 月底进一步达到 395 万辆和 2.4 亿公里。不到半年时间保有量净增逾百万辆，日数据生成量同步抬升。 天神之眼（IT之家注：比亚迪全栈自研的高阶智能驾驶辅助系统，按配置和品牌分为 A、B、C 三档）的规模扩张，直接对应的是真实路况数据的采集广度和长尾场景覆盖密度。 当前智驾行业正从规则驱动向端到端大模型迁移，后者依赖海量真实驾驶样本进行训练，车队规模越大，",
+      "url": "https://www.ithome.com/1/027/076.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-14T04:41:54.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "大模型",
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/076.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 49,
+      "level": "正在升温"
+    },
+    {
       "id": "c23e029fb66e",
       "title": "实现“躺平式办公”：Mac 版 Perplexity 上线“AI 队友”，组建你的全天候数字员工",
       "summary": "IT之家 11 月 14 日消息，Perplexity 今天（11 月 14 日）发布公告，邀请付费 Max 订阅用户，在 Mac 平台版 Perplexity 应用上体验 AI 智能体功能“队友”（Teammates）。 该功能此前仅支持 iOS 和网页端，如今进一步覆盖桌面办公场景。 Teammates 可以理解为一组各有分工的“AI 队友”。与需要用户反复提问、逐步下达指令的聊天方式不同，它主打围绕一项职责持续推进工作。用户交代任务后，AI 会规划执行步骤，并跟进至结果可供用户审阅。IT之家附上相关介绍视频如下： 根据 Perplexity 的介绍，用户可以让这些“队友”管理增长营销活动、分类处理新收到的软件错误报告、跟踪业务",
@@ -2217,96 +2219,6 @@
           "name": "IT之家",
           "platform": "media",
           "url": "https://www.ithome.com/1/027/038.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "4692cbe94955",
-      "title": "礼来 CEO 回应“AI 十年内攻克癌症”：愿景很美好，但不太可能",
-      "summary": "IT之家 11 月 14 日消息，礼来（Eli Lilly）董事长兼首席执行官戴夫 · 里克斯（Dave Ricks）于 11 月 12 日在 X 平台发布推文，回应 Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）有关“AI 将在不到十年内攻克癌症等疾病”的预测， 称这一愿景“令人向往”，但实现的可能性不大。 IT之家此前报道，在面向投资者的路演视频中，阿莫代伊表示癌症、阿尔茨海默病、心脏病和精神疾病，有望在不到十年内成为“过去式”。 这番对 AI 医疗前景的乐观判断，引发医药界人士质疑 。 里克斯在推文中表示：“如果这个愿景真得令人向往，但是我认为这不太可能发生”。他表示人类对生物学的认识仍有大片空",
-      "url": "https://www.ithome.com/1/027/037.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-14T01:10:57.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "anthropic"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/037.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "ac0bba6e6654",
-      "title": "马克龙宣布 12 月 2 日在法国巴黎召开科技企业会议，推动欧洲科技自主",
-      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，法国总统埃马纽埃尔 · 马克龙宣布将于 12 月 2 日与荷兰首相罗布 · 耶滕（Rob Jetten）共同在巴黎召集科技企业负责人举行会议，推动欧洲政府与科技行业加强合作，提升欧洲科技自主能力。 据英国《卫报》报道，马克龙是在爱尔兰首都都柏林出席欧盟领导人非正式会议后作出上述表态的。他还在 X 上发文并强调“我们的独立自主不能外包，必须在欧洲本土建立起来”。 此次欧盟领导人非正式会议的重要议题之一是人工智能。欧盟领导人与法国人工智能企业 Mistral AI 首席执行官阿瑟 · 门施（Arthur Mensch）等人士讨论了欧洲人工智能产业的发展，以及如何提升欧洲在全球人工智能",
-      "url": "https://www.ithome.com/1/027/009.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-13T23:36:30.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/009.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 49,
-      "level": "正在升温"
-    },
-    {
-      "id": "333e66d8210e",
-      "title": "微软就全球服务中断致歉：底层问题已解决，与网络攻击无关",
-      "summary": "IT之家 11 月 14 日消息，微软北京时间今日凌晨在 X 上发布声明，就此次全球性服务中断向客户和合作伙伴致歉，称故障由一次网络容量升级引发，与网络攻击及人工智能 / 智能体无关。 官方称，对本次事件给客户和合作伙伴造成的服务中断“深表歉意”。微软表示，公司清楚客户对其服务寄予的信任，并高度重视这一责任；目前各项服务已出现大范围恢复，并趋于稳定。 官方介绍称，此次事件由一次更早的网络容量升级中的问题引入，在近期一次网络变更后暴露。微软强调，这属于技术故障， 与网络攻击或人工智能 / 智能体无关 。 微软表示，底层问题已经解决，公司仍在为剩余受影响的客户和地区恢复服务。官方称，鉴于需求规模，恢复工作采取了逐步推进的方式，并在每个阶",
-      "url": "https://www.ithome.com/1/027/005.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-13T23:21:39.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "人工智能",
-        "智能体"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/005.htm"
         }
       ],
       "sourceWeight": 18,
@@ -2749,6 +2661,35 @@
       "summaryZh": "我们统计了 550 万个美国 ChatGPT 答案中提到每个品牌的数量。沃尔玛位居第一，共有 95,605 个答案，几乎是第二名 Target 的两倍。商店占据了前 10 名中的 6 个席位。汽车制造商占 15 个……阅读更多 ›"
     },
     {
+      "id": "380155fb94d7",
+      "title": "Qwen4-Max 预览版上线，Qwen Code 1.0 Preview 发布",
+      "summary": "今天，Qwen4-Max 预览版首发上线阿里 Token Plan，Qwen Code 1.0 Preview 同步开源。",
+      "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-11T03:45:00.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "qwen"
+      ],
+      "primary": true,
+      "sources": [
+        {
+          "id": "alibaba-tech",
+          "name": "阿里技术",
+          "platform": "official",
+          "url": "https://mp.weixin.qq.com/s?__biz=Mzg4NTczNzg2OA==&mid=2247512488&idx=1&sn=8a921e6683912e7b07038d4b16e25f58"
+        }
+      ],
+      "sourceWeight": 30,
+      "score": 48,
+      "level": "正在升温"
+    },
+    {
       "id": "02adbd087e82",
       "title": "Contrastive Discovery: Open-Ended Scientific Discovery over Competing Explanations",
       "summary": "LLM agents are increasingly used for open-ended, data-driven scientific discovery, yet most of them evaluate hypotheses pointwise, testing an empirical claim $h$ only against its complement $\\neg h$. When evidence rejects $h$, the agent learns that one explanation is unlikely but not which alternative the evidence supp",
@@ -2950,7 +2891,8 @@
       "author": "",
       "engagement": {
         "upvotes": 0,
-        "comments": 0
+        "comments": 0,
+        "posts": 0
       },
       "publishedAt": "2026-11-10T09:36:00.000Z",
       "category": "其他",
@@ -2997,6 +2939,68 @@
       ],
       "sourceWeight": 30,
       "score": 48,
+      "level": "正在升温"
+    },
+    {
+      "id": "e8b9c9bc5510",
+      "title": "Google Explains How To Find Search Traffic In Analytics &#038; Logs via @sejournal, @MattGSouthern",
+      "summary": "A Google Search help page lists the referrer values Search traffic sends, why some visits arrive with none, and why counts differ from Search Console. The post Google Explains How To Find Search Traffic In Analytics &#038; Logs appeared first on Search Engine Journal .",
+      "url": "https://www.searchenginejournal.com/google-search-traffic-analytics-logs/597382/",
+      "author": "Matt G. Southern",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-14T00:02:10.000Z",
+      "category": "SEO",
+      "keywordHits": [
+        "search console"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "search-engine-journal",
+          "name": "Search Engine Journal · SEO",
+          "platform": "media",
+          "url": "https://www.searchenginejournal.com/google-search-traffic-analytics-logs/597382/"
+        }
+      ],
+      "sourceWeight": 24,
+      "score": 47,
+      "level": "正在升温",
+      "titleZh": "谷歌通过@sejournal、@MattGSouthern解释如何在分析和日志中查找搜索流量",
+      "summaryZh": "Google 搜索帮助页面列出了搜索流量发送的引荐来源网址值、为什么某些访问没有到达、以及计数与 Search Console 不同的原因。谷歌解释如何在分析和日志中查找搜索流量一文首先出现在搜索引擎杂志上。"
+    },
+    {
+      "id": "a93f2a785d8a",
+      "title": "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队",
+      "summary": "IT之家 11 月 14 日消息，《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。OpenAI 向该媒体确认了此次组织调整， 只是强调本次调整并非退出机器人领域，机器人仍是其长期愿景的核心，重组旨在加快研发。 在架构调整方面，机器人研究人员并入核心研究团队，向首席研究官马克 · 陈（Mark Chen）汇报；应用机器人与硬件团队则转入规模更大的应用部门，该部门由公司总裁格雷格 · 布罗克曼（Greg Brockman）负责。IT之家附上相关截图如下;d 对于本次架构调整的根源，OpenAI 官方回应称包括 GPT-6 Astra 在内，通用模型已能直接用于部分机器",
+      "url": "https://www.ithome.com/1/027/004.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-13T23:17:38.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型",
+        "openai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/004.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 47,
       "level": "正在升温"
     },
     {
@@ -3204,6 +3208,90 @@
       "titleZh": "您的专家有合作伙伴。让他们在一起是有希望的"
     },
     {
+      "id": "40e41dbd732d",
+      "title": "谷歌 Gemini 个人智能功能接入 Google Wallet 钱包应用：可为用户消费习惯提供个性化分析建议",
+      "summary": "IT之家 11 月 14 日消息，谷歌宣布 Gemini 的 Personal Intelligence（个人智能）功能已正式支持 Google Wallet 钱包，用户在完成授权后，Gemini 便能根据谷歌 Gemini 个人智能功能接入 Google Wallet：可为用户消费习惯提供个性化分析建议。 谷歌表示，用户只需在 Gemini 对话中输入 @Google Wallet，即可询问个人财务状况、消费情况以及预算规划等问题。用户还可通过 Plaid 将信用卡和银行账户关联至 Google Wallet，以获取更加全面的财务信息。 在具体功能方面，例如 Gemini 可以分析用户上一季度的消费记录，并直接在对话中生成图表，展",
+      "url": "https://www.ithome.com/1/027/141.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-14T06:57:17.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "gemini"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/141.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 46,
+      "level": "正在升温"
+    },
+    {
+      "id": "b996405a39fb",
+      "title": "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑",
+      "summary": "IT之家 11 月 14 日消息，科技媒体 Windows Latest 今天（11 月 14 日）发布博文， 报道称在微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford）已离职。 他表示，离开的关键原因是研究成果看不到实际应用的路径，创新想法甚至难以获得认真考虑。 微软任职逾 14 年的 AI 科学家、AI Frontiers 实验室联合创始人约翰 · 兰福德（John Langford），图源：微软 IT之家查询公开资料，兰福德是机器学习领域资深且有影响力的研究者，长期从事机器学习与学习理论研究，其重要贡献是推进 Contextual Bandits（上下",
+      "url": "https://www.ithome.com/1/027/078.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-14T05:05:18.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/078.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 46,
+      "level": "正在升温"
+    },
+    {
+      "id": "4ddfa8409005",
+      "title": "Outlook 等服务故障期间征集 AI 技巧，微软推文变成网友吐槽现场",
+      "summary": "IT之家 11 月 14 日消息，科技媒体 Windows Latest 昨日（11 月 13 日）发布博文，报道称在 Outlook 等服务大面积宕机停服的情况下， 微软官方账号 @MicrosoftLearn 不合时宜地询问：“初学者应该尽早养成哪一个 AI 使用习惯？”。 该推文的发布时机恰好是 Outlook 等服务停服的时段，因此迅速成为网友集中表达不满的留言区。IT之家发稿前，该条推文浏览量超过 218.9 万，回复推文数量达到 1,664 条。 其中一条获得逾 4,000 次点赞的回复写道：“确保你的产品不会出故障。”回复还附上微软服务状态页面截图，列出多项服务连接异常的提示。 IT之家发稿前在微软官方推文下方并未找到",
+      "url": "https://www.ithome.com/1/027/072.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-14T03:30:13.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/072.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 46,
+      "level": "正在升温"
+    },
+    {
       "id": "79f63ca20c9c",
       "title": "苹果推送 tvOS 27.2.1 更新，第二 / 第三代 Apple TV 4K 新增 Siri AI 支持",
       "summary": "IT之家 11 月 14 日消息，科技媒体 MacRumors 今天（11 月 14 日）发布博文，报道称苹果已推送 tvOS 27.2.1 以及 HomePod Software 27.2.1，内部开发代号均为 24K157。 本次 tvOS 27.2.1 更新最大的亮点， 是苹果面向第二代和第三代 Apple TV 4K 推送 Siri AI 支持 。对这些设备的用户而言，无须更换新款硬件，即可获得此次语音助手升级。 IT之家附上更新日志内容如下： 此次更新为 Apple TV 4K 带来了更强大且更具对话性的 Siri AI。它还增加了最多四个 HomePod 扬声器连接到 Apple TV 4K（第四代）的功能，并提供了漏洞",
@@ -3255,64 +3343,6 @@
           "name": "IT之家",
           "platform": "media",
           "url": "https://www.ithome.com/1/027/047.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "1ed7181607ab",
-      "title": "工信部：将筹备成立工业操作系统标准工作组",
-      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，记者从工业和信息化部了解到，工业软件标准化技术委员会正 加快推进工业操作系统标准工作组筹建 ，同步推进重点标准研制与验证应用，为工业操作系统规模化应用提供支撑。 据悉，工业操作系统是联接装备、贯通数据、融合智能的关键底座，是人工智能赋能工业的“关键一环”。中国电子信息产业发展研究院发布的《工业操作系统技术产业探索与实践报告（2026）》显示，工业操作系统加快向工业级、专业化、一体化和智能化演进， 正在从单点应用探索向体系化产品供给转变 。 中国软件评测中心副主任翟艳芬介绍，工业操作系统正在从围绕单个项目开展建设转向通用底座和行业能力协同发展，基础软件厂商提供共性软件能力，工业技术",
-      "url": "https://www.ithome.com/1/027/011.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-13T23:47:57.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/011.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 46,
-      "level": "正在升温"
-    },
-    {
-      "id": "714f6c895f5a",
-      "title": "微软称 Outlook 等服务陆续恢复并趋稳，部分用户仍待恢复",
-      "summary": "IT之家 11 月 14 日消息，微软官方账号 @MSFT365Status 于北京时间 11 月 14 日发布的推文， 微软宣布其 Outlook 等各项服务均呈现全面恢复和稳定态势。不过，微软公开声明同时表示，仍在为剩余受影响客户和地区恢复服务。 根据微软官方 MO1550821 公告内容，本次 Microsoft 365 服务故障从美国东部时间 2026 年 11 月 12 日 13:25 左右（IT之家注：北京时间 11 月 13 日凌晨 2:25 左右）开始，影响 Outlook、Teams、Copilot、OneDrive 等多项微软服务。 此次故障最初涉及 Teams，随后微软确认 Exchange Online 和 ",
-      "url": "https://www.ithome.com/1/027/001.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0,
-        "posts": 0
-      },
-      "publishedAt": "2026-11-13T22:57:13.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "copilot"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/027/001.htm"
         }
       ],
       "sourceWeight": 18,
@@ -3920,8 +3950,8 @@
       "sourceWeight": 24,
       "score": 45,
       "level": "正在升温",
-      "summaryZh": "在任务适应的多模态模型中添加弃权可能会丢弃正确的答案，包括在适应过程中获得的能力。我们将弃权修复制定为在新丢失的正确答案的预算下最大化对无法回答的问题的正确弃权。我们提出 Refrain（无回归弃权），wh",
-      "titleZh": "保留获得的正确答案的多模式弃权"
+      "titleZh": "保留获得的正确答案的多模式弃权",
+      "summaryZh": "在任务适应的多模态模型中添加弃权可能会丢弃正确的答案，包括在适应过程中获得的能力。我们将弃权修复制定为在新丢失的正确答案的预算下最大化对无法回答的问题的正确弃权。我们提出 Refrain（无回归弃权），wh"
     },
     {
       "id": "d792a799ecba",
@@ -4142,6 +4172,96 @@
       "summaryZh": "几十年来，网表与原理图之间的差距一直是设计自动化领域的一个持续挑战，特别是对于模拟和混合信号 (AMS) 电路而言。网表对连接性进行编码，而不是视觉呈现，这使得将其手动转换为可读原理图非常耗时，并且依赖于专家惯例。钍"
     },
     {
+      "id": "4692cbe94955",
+      "title": "礼来 CEO 回应“AI 十年内攻克癌症”：愿景很美好，但不太可能",
+      "summary": "IT之家 11 月 14 日消息，礼来（Eli Lilly）董事长兼首席执行官戴夫 · 里克斯（Dave Ricks）于 11 月 12 日在 X 平台发布推文，回应 Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）有关“AI 将在不到十年内攻克癌症等疾病”的预测， 称这一愿景“令人向往”，但实现的可能性不大。 IT之家此前报道，在面向投资者的路演视频中，阿莫代伊表示癌症、阿尔茨海默病、心脏病和精神疾病，有望在不到十年内成为“过去式”。 这番对 AI 医疗前景的乐观判断，引发医药界人士质疑 。 里克斯在推文中表示：“如果这个愿景真得令人向往，但是我认为这不太可能发生”。他表示人类对生物学的认识仍有大片空",
+      "url": "https://www.ithome.com/1/027/037.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-14T01:10:57.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/037.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "ac0bba6e6654",
+      "title": "马克龙宣布 12 月 2 日在法国巴黎召开科技企业会议，推动欧洲科技自主",
+      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，法国总统埃马纽埃尔 · 马克龙宣布将于 12 月 2 日与荷兰首相罗布 · 耶滕（Rob Jetten）共同在巴黎召集科技企业负责人举行会议，推动欧洲政府与科技行业加强合作，提升欧洲科技自主能力。 据英国《卫报》报道，马克龙是在爱尔兰首都都柏林出席欧盟领导人非正式会议后作出上述表态的。他还在 X 上发文并强调“我们的独立自主不能外包，必须在欧洲本土建立起来”。 此次欧盟领导人非正式会议的重要议题之一是人工智能。欧盟领导人与法国人工智能企业 Mistral AI 首席执行官阿瑟 · 门施（Arthur Mensch）等人士讨论了欧洲人工智能产业的发展，以及如何提升欧洲在全球人工智能",
+      "url": "https://www.ithome.com/1/027/009.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-13T23:36:30.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/009.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
+      "id": "333e66d8210e",
+      "title": "微软就全球服务中断致歉：底层问题已解决，与网络攻击无关",
+      "summary": "IT之家 11 月 14 日消息，微软北京时间今日凌晨在 X 上发布声明，就此次全球性服务中断向客户和合作伙伴致歉，称故障由一次网络容量升级引发，与网络攻击及人工智能 / 智能体无关。 官方称，对本次事件给客户和合作伙伴造成的服务中断“深表歉意”。微软表示，公司清楚客户对其服务寄予的信任，并高度重视这一责任；目前各项服务已出现大范围恢复，并趋于稳定。 官方介绍称，此次事件由一次更早的网络容量升级中的问题引入，在近期一次网络变更后暴露。微软强调，这属于技术故障， 与网络攻击或人工智能 / 智能体无关 。 微软表示，底层问题已经解决，公司仍在为剩余受影响的客户和地区恢复服务。官方称，鉴于需求规模，恢复工作采取了逐步推进的方式，并在每个阶",
+      "url": "https://www.ithome.com/1/027/005.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-13T23:21:39.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "人工智能",
+        "智能体"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/005.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 44,
+      "level": "正在升温"
+    },
+    {
       "id": "1e0bc551a8e1",
       "title": "黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数",
       "summary": "IT之家 11 月 13 日消息，当地时间 12 日，据《财富》杂志报道，AI 初创企业 Anthropic 即将迎来史上最受瞩目的 IPO 之一。然而，就在上市前夕，英伟达联合创始人兼 CEO 黄仁勋突然辞职。 等到 Anthropic 正式登陆资本市场时，距离 AI 行业失去最有影响力、最擅长推销行业前景的人物之一， 仅过去一周 。 黄仁勋突然离职，给 Anthropic 的上市计划增添了新的压力。 此次 IPO 原本就被视为检验投资者对 AI 投资热情的重要考验。Anthropic 预计于 11 月 18 或 19 日上市 ，届时英伟达刚公布黄仁勋卸任 CEO 后的首份季度财报。 英伟达不仅是 Anthropic 的重要合作伙",
@@ -4197,219 +4317,6 @@
       ],
       "sourceWeight": 18,
       "score": 44,
-      "level": "正在升温"
-    },
-    {
-      "id": "0c195227ac72",
-      "title": "AI 接管手机迈出关键一步：谷歌 Gemini 自动化应用名单曝光，当前共计 134 款",
-      "summary": "IT之家 11 月 13 日消息，科技媒体 Android Authority 昨日（11 月 12 日）发布博文，报道称谷歌 Gemini 任务自动化功能适配应用清单被曝光， 共计 134 款 App，覆盖外卖、打车、购物、旅行及办公等场景，但不代表这些应用已全部开放自动操作。 IT之家援引博文介绍，截至 11 月 12 日，在稳定版安卓 17 QPR2 的目标应用列表中包含 114 个应用，而在 Android Canary 目标应用列表中，除了上述 114 款应用外，还额外覆盖 20 款应用。 在操作方面，这项功能让 Gemini 不再只提供答案或链接，而是在虚拟屏幕中打开应用，代用户完成搜索、选择商品、加入购物车等操作，并在",
-      "url": "https://www.ithome.com/1/026/752.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T06:55:27.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai",
-        "gemini"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/752.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 44,
-      "level": "正在升温"
-    },
-    {
-      "id": "6ce6c68bc5f1",
-      "title": "黄仁勋 8 月曾痛斥英伟达新临时 CEO 克雷斯，称其为“只会报账的 CFO”“被车灯照懵的鹿”",
-      "summary": "IT之家 11 月 13 日消息，英伟达联合创始人黄仁勋离职前，曾因公司激进的 AI 基础设施融资策略与时任首席财务官、如今的临时 CEO 科莱特・克雷斯（Colette Kress）发生激烈冲突。 据《华尔街日报》当地时间 11 月 12 日报道，黄仁勋曾在今年 8 月的一次高管会议上公开批评克雷斯，指责她只是一个“负责汇报的 CFO”，而不是能够帮助自己制定战略、作出决策的人。 据一位了解当时谈话内容的人士透露，在克雷斯进行汇报时，黄仁勋直接打断了她，并称她“像一头被车灯照得不知所措的鹿”。 知情人士称，今年夏天，黄仁勋曾召集英伟达多名高级财务主管开会，讨论公司在人工智能基础设施领域不断扩大的投资和融资承诺。会议期间，时任 CF",
-      "url": "https://www.ithome.com/1/026/626.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T03:45:19.000Z",
-      "category": "商业动态",
-      "keywordHits": [
-        "ai",
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/626.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 44,
-      "level": "正在升温"
-    },
-    {
-      "id": "efa339a333c9",
-      "title": "深度操作系统 deepin 25.3.0 正式版发布：新增防卡死保护，小 U 同学全面进化",
-      "summary": "IT之家 11 月 11 日消息，深度操作系统 deepin 25.3.0 正式版于今日发布， 本次更新围绕系统稳定与性能、体验与智能、生态与适配三大方向全面升级 。 小 U 同学全面进化 ：让 Agent OS 的系统级智能触手可及。全盘资料，一句话即可调取，你电脑里的每一份文档都能成为随时可用的知识；同时统一 MCP、Skills 与专职智能体能力入口，由小 U 同学根据任务自动调度所需能力，系统开始主动，工作自然更快一步。 系统稳定与性能大幅提升 ：新增防卡死保护，系统严重卡顿时仍可唤醒任务栏、启动器与系统监视器等关键组件；控制中心首页加载速度大幅提升，微信、WPS、QQ、主流浏览器等常用软件在高负载场景下依然快速启动，系统久",
-      "url": "https://www.ithome.com/1/025/472.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T07:05:42.000Z",
-      "category": "Agent",
-      "keywordHits": [
-        "agent",
-        "智能体",
-        "mcp",
-        "skills"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/472.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 42,
-      "level": "正在升温"
-    },
-    {
-      "id": "393e62d91639",
-      "title": "台积电押注 AI：批准对 Anthropic、OpenAI 最高 10 亿美元的投资计划",
-      "summary": "IT之家 11 月 11 日消息，全球最大晶圆代工厂台积电（TSMC）批准了一项最高 10 亿美元 （IT之家注：现汇率约合 66.88 亿元人民币） 的投资计划，分别向人工智能公司 Anthropic 和 OpenAI 投资最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 。在人工智能投资热潮显露疲态之际，此举无疑为市场注入了一剂强心针。 台积电周二表示，公司董事会已批准两项投资计划：分别以 Anthropic 首次公开募股（IPO）的发行价认购最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 普通股，以及投资最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 认购 OpenAI 的优先股。 Anthropi",
-      "url": "https://www.ithome.com/1/025/481.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T07:02:01.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "人工智能",
-        "openai",
-        "anthropic"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/481.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 42,
-      "level": "正在升温"
-    },
-    {
-      "id": "7cab729f0096",
-      "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
-      "summary": "IT之家 11 月 11 日消息，韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。 DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力， 至高支持 128bit 的 LPDDR5X-9600 内存 ，可本地运行超 10B 参数的 LLM 和 VLM 模型，同时功耗仅有 5W。除单芯片外，DX-M2 还将提供封装集成内存的版本。 DEEPX 表示，DX-M2 近日成功实现“光罩（掩膜）流片”，这为 2027 年初首批芯片的面世打下了基础。",
-      "url": "https://www.ithome.com/1/025/442.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T06:20:09.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "人工智能",
-        "llm",
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/442.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 42,
-      "level": "正在升温"
-    },
-    {
-      "id": "d79180c31647",
-      "title": "阿里 Qwen Code 1.0 发布：Qoder 与 Qwen Code Harness 融合开源",
-      "summary": "IT之家 11 月 11 日消息，阿里今日官宣推出 Qwen Code 1.0 版本， Qoder 与 Qwen Code 融合开源 。 阿里把在 Qoder 中打磨的 Harness 能力融入 Qwen Code，随 Qwen Code 1.0 Preview 一起开放，为开发者提供可嵌入自身产品的 Agent 运行基础。 Qwen Code 1.0 从进程内的内存事件总线起步，沿着统一事件模型向分布式演进：将接入、调度与执行分层扩展，通过“手脑分离”让推理编排与工具执行独立管理。在保留既有入口与返回方式的基础上， 从“一个进程、多个会话”走向“多个节点、更多会话” 。 Qwen Code 1.0 架构演进示意 阿里官方表示，统一",
-      "url": "https://www.ithome.com/1/025/393.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T04:20:07.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "agent",
-        "模型",
-        "推理",
-        "qwen"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/393.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 42,
-      "level": "正在升温"
-    },
-    {
-      "id": "8efbac5daae6",
-      "title": "华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端",
-      "summary": "IT之家 11 月 11 日消息，华为麒麟官方公众号今日发文，详细介绍了首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列的新一代达芬奇架构 NPU，其支持 30B 大模型端侧运行，具备不用联网、不用等云端的特性。 新一代达芬奇架构 NPU 性能提升 140%、功耗降低 66% ，支持 Transformer 引擎、超低功耗感知引擎和 CANN 异构计算架构； 业界首个 30B MoE 大模型入端 ，支持多级存算协同优化、低比特量化。 落地到具体的功能上，新一代达芬奇架构 NPU 可提供感知屏幕-AI 屏幕朗读、感知影像-Xmage 智拍 2.0、感知人眼-AI 眼动翻页、感知位置-熄屏地图 2.0 等功能。 据IT之家此前",
-      "url": "https://www.ithome.com/1/025/331.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T03:44:17.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "大模型",
-        "模型",
-        "transformer"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/331.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 42,
       "level": "正在升温"
     },
     {
@@ -5025,8 +4932,8 @@
       "sourceWeight": 24,
       "score": 42,
       "level": "正在升温",
-      "summaryZh": "仅靠答案准确性并不能区分声学感知、规则知识和规则应用方面的失败。 AuDiR（音频诊断推理）通过受控输入干预来检查这些区别。每个项目包含一个音频剪辑、一个多项选择题、一个任务一般规则和一个文本描述",
-      "titleZh": "AuDiR：通过规则和感知干预诊断音频推理"
+      "titleZh": "AuDiR：通过规则和感知干预诊断音频推理",
+      "summaryZh": "仅靠答案准确性并不能区分声学感知、规则知识和规则应用方面的失败。 AuDiR（音频诊断推理）通过受控输入干预来检查这些区别。每个项目包含一个音频剪辑、一个多项选择题、一个任务一般规则和一个文本描述"
     },
     {
       "id": "75dbae32955a",
@@ -5115,8 +5022,8 @@
       "sourceWeight": 24,
       "score": 42,
       "level": "正在升温",
-      "summaryZh": "非线性函数是现代大型语言模型中的一类重要运算。然而，迄今为止，人工智能芯片供应商仍然依赖传统的矢量或标量处理单元来实现非线性功能。这些单元的性能未能跟上矩阵乘法单元 (MMU) 的步伐，而矩阵乘法单元",
-      "titleZh": "使用 SIMD 或不使用 SIMD：比较 RVV 与 CGRA SoC 在人工智能中的非线性函数"
+      "titleZh": "使用 SIMD 或不使用 SIMD：比较 RVV 与 CGRA SoC 在人工智能中的非线性函数",
+      "summaryZh": "非线性函数是现代大型语言模型中的一类重要运算。然而，迄今为止，人工智能芯片供应商仍然依赖传统的矢量或标量处理单元来实现非线性功能。这些单元的性能未能跟上矩阵乘法单元 (MMU) 的步伐，而矩阵乘法单元"
     },
     {
       "id": "331ab12525d2",
@@ -5359,6 +5266,64 @@
       "summaryZh": "生理信号的基础模型通常在域内解释任务中进行评估，但它们在整个医疗系统中转移到纵向临床预后的能力仍然不确定。我们开发了 PACE-ECG，这是一种心电图预训练框架，它结合了跨时间性的对比学习"
     },
     {
+      "id": "1ed7181607ab",
+      "title": "工信部：将筹备成立工业操作系统标准工作组",
+      "summary": "IT之家 11 月 14 日消息，据央视新闻今日报道，记者从工业和信息化部了解到，工业软件标准化技术委员会正 加快推进工业操作系统标准工作组筹建 ，同步推进重点标准研制与验证应用，为工业操作系统规模化应用提供支撑。 据悉，工业操作系统是联接装备、贯通数据、融合智能的关键底座，是人工智能赋能工业的“关键一环”。中国电子信息产业发展研究院发布的《工业操作系统技术产业探索与实践报告（2026）》显示，工业操作系统加快向工业级、专业化、一体化和智能化演进， 正在从单点应用探索向体系化产品供给转变 。 中国软件评测中心副主任翟艳芬介绍，工业操作系统正在从围绕单个项目开展建设转向通用底座和行业能力协同发展，基础软件厂商提供共性软件能力，工业技术",
+      "url": "https://www.ithome.com/1/027/011.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-13T23:47:57.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/011.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
+      "id": "714f6c895f5a",
+      "title": "微软称 Outlook 等服务陆续恢复并趋稳，部分用户仍待恢复",
+      "summary": "IT之家 11 月 14 日消息，微软官方账号 @MSFT365Status 于北京时间 11 月 14 日发布的推文， 微软宣布其 Outlook 等各项服务均呈现全面恢复和稳定态势。不过，微软公开声明同时表示，仍在为剩余受影响客户和地区恢复服务。 根据微软官方 MO1550821 公告内容，本次 Microsoft 365 服务故障从美国东部时间 2026 年 11 月 12 日 13:25 左右（IT之家注：北京时间 11 月 13 日凌晨 2:25 左右）开始，影响 Outlook、Teams、Copilot、OneDrive 等多项微软服务。 此次故障最初涉及 Teams，随后微软确认 Exchange Online 和 ",
+      "url": "https://www.ithome.com/1/027/001.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0,
+        "posts": 0
+      },
+      "publishedAt": "2026-11-13T22:57:13.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "copilot"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/027/001.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 41,
+      "level": "正在升温"
+    },
+    {
       "id": "1e787801ab66",
       "title": "索尼：PS5 超分技术 QSSR 即将登陆《漫威蜘蛛侠 2》《ARC Raiders》等作品",
       "summary": "IT之家 11 月 13 日消息，索尼 PlayStation 今天（13 日）晚间宣布，PS5 超分技术 QSSR 即将登陆 《漫威蜘蛛侠 2》《控制：共振》《THE FINALS》《ARC Raiders》 等作品，相关游戏更新将在未来几周内陆续推出。 今年 10 月，索尼正式推出了 Quick Spectral Super Resolution（QSSR）技术，为 PS5 带来了 AI 驱动的画面超分辨率升级。 据IT之家了解，该技术和索尼 PlayStation 5 Pro 上使用的 PSSR 类似，可以提升输出画面的清晰度。 QSSR 基于 PS5 Pro 所采用的 PSSR 光谱超分辨率技术的 相同底层架构 开发。与传统",
@@ -5465,230 +5430,6 @@
           "name": "IT之家",
           "platform": "media",
           "url": "https://www.ithome.com/1/026/959.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "80fc46bc631d",
-      "title": "Cerebras 宣布签约微软，2026Q3 末剩余履约义务 261 亿美元",
-      "summary": "IT之家 11 月 13 日消息，晶圆级 AI 芯片企业 Cerebras 当地时间昨日在 2026Q3 财报电话会议上宣布， 其成功与 Microsoft（微软）签署协议 ，获得继 AWS 和 Oracle 后的第三家超大规模云计算客户。 该企业 2026Q3 实现了约 2.3 亿美元的核心总收入，同比增长 20%；其中云服务及其它占到 1.45 亿美元，同比增长 272%。截至 2026 年 9 月 30 日，该企业剩余履约义务为 261 亿美元。 Cerebras 预计其 2026 全年核心营收为 9.4~9.6 亿美元、核心毛利率 42~44%、核心营业利润率 8~10%。其已确保到 2027 年交付 700MW 数据中心容",
-      "url": "https://www.ithome.com/1/026/741.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T06:41:28.000Z",
-      "category": "商业动态",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/741.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "c6ca94a89839",
-      "title": "迎接《GTA 6》发售：《幻兽帕鲁》开发商 Pocketpair 为全体员工安排 5 天“特别假期”",
-      "summary": "IT之家 11 月 13 日消息，《幻兽帕鲁（Palworld）》开发商 Pocketpair 在 X 平台发文，称为迎接《侠盗猎车手 6》（GTA 6）发售，公司将安排为期 5 天的特别假期，让对这款游戏期待已久的员工能够放心游玩。 Pocketpair 表示，《GTA 6》是全球玩家高度关注的游戏作品，发售当天势必会有不少人坐在学校或办公室里，望着窗外期待新一代游戏体验的到来。如此重要的时刻值得大家全心投入，因此公司决定让员工暂时放下日常工作，前往游戏中的罪恶城（Vice City）“出差”。 具体来看，此次特别假期从 11 月 19 日持续至 23 日，适用于所有有意游玩《GTA 6》的公司员工。由于假期涵盖周末，实际相当于额",
-      "url": "https://www.ithome.com/1/026/734.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T06:20:13.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/734.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "7b29dd9271da",
-      "title": "警惕“扫码领现金”，抖音配合警方打击仿冒礼品卡涉诈链条",
-      "summary": "IT之家 11 月 13 日消息，据抖音黑板报，今年以来，针对不法分子冒用抖音名义寄送“礼品卡”“现金卡”、以“扫码领现金”为诱饵为境外诈骗团伙引流的行为，抖音持续配合多地警方开展线下打击，捣毁多个涉诈团伙。抖音提醒： 抖音官方不会以邮寄卡片、附赠小礼品等方式 ，引导用户扫码进入第三方页面领取福利，切勿轻信“扫码领奖”“添加客服兑现”等诈骗话术。 针对此类仿冒抖音的诈骗，抖音反诈中心搭建“涉诈小卡片”线索挖掘模型，精准识别出一批设计制作、印刷、快递分发小卡片的黑灰产人员，并将线索上报当地公安。2026 年 9 月，汕尾警方抓获嫌疑人钟某。 经查，钟某通过境外社交软件“接单”，累计使用 5 个抖音账号扫码 6581 次、测试 1157",
-      "url": "https://www.ithome.com/1/026/707.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T06:08:11.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/707.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "f9e51446010a",
-      "title": "微软 Outlook 等服务今日大范围故障，受影响企业可申请费用抵扣",
-      "summary": "IT之家 11 月 13 日消息，科技媒体 Windows Latest 今天（11 月 13 日）发布博文，报道称针对 Microsoft 365 办公服务大范围、长时间故障， 将为受影响、且提交申请的企业客户提供费用抵扣，但个人用户恐难以获得赔偿。 根据微软官方 MO1550821 公告内容，本次 Microsoft 365 服务故障从美国东部时间 2026 年 11 月 12 日 13:25 左右（IT之家注：北京时间 11 月 13 日凌晨 2:25 左右）开始，影响 Outlook、Teams、Copilot、OneDrive 等多项微软服务。 在问题根源方面，微软执行副总裁查尔斯 · 拉曼纳（Charles Lamann",
-      "url": "https://www.ithome.com/1/026/683.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T06:00:06.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "copilot"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/683.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "b04ca40f1f02",
-      "title": "微软高管回应 Outlook 等服务中断：深感遗憾，正全力修复",
-      "summary": "IT之家 11 月 13 日消息，微软执行副总裁查尔斯 · 拉曼纳（Charles Lamanna）今天（11 月 13 日）在 X 平台发布推文， 就本次 Outlook、Exchange Online 等办公服务出现故障公开致歉，团队正在努力解决问题，并持续通报最新修复状态。 此次故障最初涉及 Teams，随后微软确认 Exchange Online 和 Outlook 也受到影响。故障还波及邮件之外的办公功能。Teams、SharePoint Online、Microsoft 365 Copilot 等服务中，部分依赖 Exchange 的功能受到牵连。 截至IT之家发稿前，相关服务故障仍未完全解决。微软承认，先前部署的部分修",
-      "url": "https://www.ithome.com/1/026/678.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T05:21:09.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "copilot"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/678.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "303f5ea10ba8",
-      "title": "Anthropic IPO 认购需求约为 6 倍：拟募资最高 644 亿美元，目标估值约 1.4 万亿美元",
-      "summary": "IT之家 11 月 13 日消息，据彭博社今日报道，Anthropic 计划进行的首次公开募股（IPO）认购需求持续增长，目前投资者提交的认购订单数量已达到可供认购股份数量的约 6 倍。 根据 Anthropic 提交的文件，公司及其联合创始人计划通过 IPO 募资最高 644 亿美元 （现汇率约合 4,305.19 亿元人民币） ，同时通过同步进行的私募配售募资 260 亿美元，两项融资合计最高达 904 亿美元。 Anthropic 目前的目标完全稀释后估值约为 1.4 万亿美元 （IT之家注：现汇率约合 9.36 万亿元人民币） 。这一估值低于此前部分投资者预期的水平。 随着认购需求超过可供认购股份数量，部分潜在投资者可能无法",
-      "url": "https://www.ithome.com/1/026/671.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T04:49:58.000Z",
-      "category": "商业动态",
-      "keywordHits": [
-        "anthropic"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/671.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "68a30248314b",
-      "title": "AMD \"Siren Halo\" 处理器曝光：支持 LPDDR + GDDR 双类型内存",
-      "summary": "IT之家 11 月 13 日消息，X 平台消息人士 @Gotou_kai3 昨日 曝光了 AMD \"Siren Halo\" 处理器 ，这一型号旨在接替已从规划中移除的 \"Medusa Halo\" 处理器。 另一方面，对应的 \"Siren Point\" 则会是 \"Medusa Point\" 的刷新版 。这也暗示 \"Siren Halo\" 更可能指向 2028 年的发布窗口。 @Gotou_kai3 表示， \"Siren Halo\" 将同时支持 LPDRAM 和 VRAM ，其中 VRAM 确定是 GDDR7。LPDRAM 是 LPDDR5X 还是 LPDDR6 尚不明确。 @Gotou_kai3 还提到，其认为 \"Siren Halo",
-      "url": "https://www.ithome.com/1/026/592.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T03:36:25.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/592.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 41,
-      "level": "正在升温"
-    },
-    {
-      "id": "ffd318492979",
-      "title": "主导苹果 M1 芯片的传奇架构师谈 AI 电力危机：用造 iPhone 芯片的“抠门”哲学建超算",
-      "summary": "IT之家 11 月 13 日消息，在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）邀请苹果前 CPU 首席架构师杰拉德 · 威廉姆斯三世（Gerard Williams III）作客，探讨当前的 AI 浪潮。 IT之家查询公开资料，Williams 是一位深耕 CPU 架构数十年的芯片工程师，也是苹果自研芯片从手机走向 Mac 的关键人物之一。他曾在苹果主导 A 系列和 M 系列处理器的 CPU 架构，后创办 AI 数据中心芯片公司 NUVACORE ，主张把“每瓦性能”从移动设备带入云端。 2019 年离开苹果联合创立 NUVIA，公司后被高通收购，他主导了 Oryon CPU 架构；2",
-      "url": "https://www.ithome.com/1/026/591.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-13T03:33:29.000Z",
-      "category": "商业动态",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/026/591.htm"
         }
       ],
       "sourceWeight": 18,
@@ -5973,36 +5714,6 @@
       "summaryZh": "谷歌分析了数百万条 Nano Banana 提示，并发现企业如何利用它进行营销。谷歌发现人工智能图像生成中的意外模式一文首先出现在搜索引擎杂志上。"
     },
     {
-      "id": "cc0235b404ab",
-      "title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重",
-      "summary": "IT之家 11 月 11 日消息，百度文心大模型今日发布 ERNIE 5.5 Flash Preview ，这是基于此前发布的 Base 模型 的首个后训练版本。 该模型总参数 280B，激活参数 14B，支持 1M 上下文，官方称在编程、3D 建模、知识工作、内容创作等方面表现出色。 据介绍，ERNIE 5.5 Flash Preview 兼顾了智能水平和推理效率。在多项基准测试中，ERNIE 5.5 Flash Preview 取得了具有竞争力的得分，同时保持了极致的解码速度。模型 API 已在 千帆平台 上线， 权重将于 11 月 25 日前开源 。 IT之家附基准测试结果如下： 官方表示，ERNIE 5.5 Flash Pr",
-      "url": "https://www.ithome.com/1/025/451.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T06:35:18.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "大模型",
-        "模型",
-        "推理"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/451.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 39,
-      "level": "正在升温"
-    },
-    {
       "id": "128f161620ef",
       "title": "One Policy for 100 Household Tasks: Our Solution for the 2026 BEHAVIOR Challenge",
       "summary": "We describe our solution for the 2026 BEHAVIOR Challenge: 100 long-horizon household tasks in the OmniGibson simulator. We placed 9th on the final leaderboard, the only independent team in the top 10. The core of the solution is a single vision-language-action (VLA) model, one checkpoint for all 100 tasks, built on our",
@@ -6171,8 +5882,8 @@
       "sourceWeight": 24,
       "score": 39,
       "level": "正在升温",
-      "summaryZh": "这项工作提出了 WaveGen，这是一种基于频谱强迫的完全端到端扩散的文本到波形框架，它在单个模型中联合学习内部频谱轨迹和目标波形轨迹，从而实现直接的端到端文本到波形生成。与最近的 TTS 管道不同，WaveGen",
-      "titleZh": "WaveGen：通过内部频谱轨迹学习生成真正的端到端波形"
+      "titleZh": "WaveGen：通过内部频谱轨迹学习生成真正的端到端波形",
+      "summaryZh": "这项工作提出了 WaveGen，这是一种基于频谱强迫的完全端到端扩散的文本到波形框架，它在单个模型中联合学习内部频谱轨迹和目标波形轨迹，从而实现直接的端到端文本到波形生成。与最近的 TTS 管道不同，WaveGen"
     },
     {
       "id": "9d56e2fb8aa7",
@@ -6444,6 +6155,64 @@
       "summaryZh": "排名数据可能携带单字结果和重定向 URL。其他更新包括 PageSpeed 实验室分数、共享 AI 培训选择退出、技术 SEO 和 AI 搜索。 Google 排名数据问题、Lighthouse 更新和 AI 选择退出 - SEO 脉冲一文首先出现在搜索引擎杂志上。"
     },
     {
+      "id": "0c195227ac72",
+      "title": "AI 接管手机迈出关键一步：谷歌 Gemini 自动化应用名单曝光，当前共计 134 款",
+      "summary": "IT之家 11 月 13 日消息，科技媒体 Android Authority 昨日（11 月 12 日）发布博文，报道称谷歌 Gemini 任务自动化功能适配应用清单被曝光， 共计 134 款 App，覆盖外卖、打车、购物、旅行及办公等场景，但不代表这些应用已全部开放自动操作。 IT之家援引博文介绍，截至 11 月 12 日，在稳定版安卓 17 QPR2 的目标应用列表中包含 114 个应用，而在 Android Canary 目标应用列表中，除了上述 114 款应用外，还额外覆盖 20 款应用。 在操作方面，这项功能让 Gemini 不再只提供答案或链接，而是在虚拟屏幕中打开应用，代用户完成搜索、选择商品、加入购物车等操作，并在",
+      "url": "https://www.ithome.com/1/026/752.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T06:55:27.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai",
+        "gemini"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/752.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
+      "level": "正在升温"
+    },
+    {
+      "id": "6ce6c68bc5f1",
+      "title": "黄仁勋 8 月曾痛斥英伟达新临时 CEO 克雷斯，称其为“只会报账的 CFO”“被车灯照懵的鹿”",
+      "summary": "IT之家 11 月 13 日消息，英伟达联合创始人黄仁勋离职前，曾因公司激进的 AI 基础设施融资策略与时任首席财务官、如今的临时 CEO 科莱特・克雷斯（Colette Kress）发生激烈冲突。 据《华尔街日报》当地时间 11 月 12 日报道，黄仁勋曾在今年 8 月的一次高管会议上公开批评克雷斯，指责她只是一个“负责汇报的 CFO”，而不是能够帮助自己制定战略、作出决策的人。 据一位了解当时谈话内容的人士透露，在克雷斯进行汇报时，黄仁勋直接打断了她，并称她“像一头被车灯照得不知所措的鹿”。 知情人士称，今年夏天，黄仁勋曾召集英伟达多名高级财务主管开会，讨论公司在人工智能基础设施领域不断扩大的投资和融资承诺。会议期间，时任 CF",
+      "url": "https://www.ithome.com/1/026/626.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T03:45:19.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai",
+        "人工智能"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/626.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 36,
+      "level": "正在升温"
+    },
+    {
       "id": "e3565c75cc93",
       "title": "Top Million Sites Lost 12% Of Visits; Top 100&#8217;s Share Barely Moved via @sejournal, @MattGSouthern",
       "summary": "Data shows visits to the world's top million websites declined from an earlier peak, visits going to sites outside the top 100 barely changed. The post Top Million Sites Lost 12% Of Visits; Top 100&#8217;s Share Barely Moved appeared first on Search Engine Journal .",
@@ -6618,20 +6387,146 @@
       "level": "正在升温"
     },
     {
-      "id": "9aa4397ad61d",
-      "title": "腾讯全新搜索产品“元宝搜索”正式上线：能搜微信公众号、视频号，广告与答案明确区分",
-      "summary": "IT之家 11 月 11 日消息，腾讯云今日宣布， 腾讯全新搜索产品「元宝搜索」正式上线 。在任意浏览器地址栏输入网址 so.qq.com 即可使用；也可将 QQ 浏览器升级至最新版本，在引擎设置选项中切换为“元宝搜索”。 IT之家获悉，元宝搜索基于元宝的大模型能力，重新构建了从理解、检索、排序到答案组织的整条搜索链路。依托千亿级索引， 搜索范围覆盖全网网页、公众号、视频号等腾讯生态内容和学术文献 。 在结果呈现上，元宝搜索优先展示权威机构与官方来源的内容， 并将广告与答案明确区分 ，支持「收起广告」，整块折叠。 据介绍，元宝搜索接入 157 个权威信源；能搜公众号、视频号；学术内容更好搜，通俗解读论文结论、保留原文依据，支持英文一",
-      "url": "https://www.ithome.com/1/025/471.htm",
+      "id": "efa339a333c9",
+      "title": "深度操作系统 deepin 25.3.0 正式版发布：新增防卡死保护，小 U 同学全面进化",
+      "summary": "IT之家 11 月 11 日消息，深度操作系统 deepin 25.3.0 正式版于今日发布， 本次更新围绕系统稳定与性能、体验与智能、生态与适配三大方向全面升级 。 小 U 同学全面进化 ：让 Agent OS 的系统级智能触手可及。全盘资料，一句话即可调取，你电脑里的每一份文档都能成为随时可用的知识；同时统一 MCP、Skills 与专职智能体能力入口，由小 U 同学根据任务自动调度所需能力，系统开始主动，工作自然更快一步。 系统稳定与性能大幅提升 ：新增防卡死保护，系统严重卡顿时仍可唤醒任务栏、启动器与系统监视器等关键组件；控制中心首页加载速度大幅提升，微信、WPS、QQ、主流浏览器等常用软件在高负载场景下依然快速启动，系统久",
+      "url": "https://www.ithome.com/1/025/472.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-11T06:47:56.000Z",
+      "publishedAt": "2026-11-11T07:05:42.000Z",
+      "category": "Agent",
+      "keywordHits": [
+        "agent",
+        "智能体",
+        "mcp",
+        "skills"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/472.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 35,
+      "level": "正在升温"
+    },
+    {
+      "id": "393e62d91639",
+      "title": "台积电押注 AI：批准对 Anthropic、OpenAI 最高 10 亿美元的投资计划",
+      "summary": "IT之家 11 月 11 日消息，全球最大晶圆代工厂台积电（TSMC）批准了一项最高 10 亿美元 （IT之家注：现汇率约合 66.88 亿元人民币） 的投资计划，分别向人工智能公司 Anthropic 和 OpenAI 投资最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 。在人工智能投资热潮显露疲态之际，此举无疑为市场注入了一剂强心针。 台积电周二表示，公司董事会已批准两项投资计划：分别以 Anthropic 首次公开募股（IPO）的发行价认购最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 普通股，以及投资最多 5 亿美元 （现汇率约合 33.44 亿元人民币） 认购 OpenAI 的优先股。 Anthropi",
+      "url": "https://www.ithome.com/1/025/481.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T07:02:01.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "人工智能",
+        "openai",
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/481.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 35,
+      "level": "正在升温"
+    },
+    {
+      "id": "7cab729f0096",
+      "title": "DEEPX 2nm 低功耗 AI 芯片 DX-M2 实物芯片预计 2027 年初面世",
+      "summary": "IT之家 11 月 11 日消息，韩国边缘能效 AI 芯片开发商 DEEPX 昨日宣布，其下一代芯片 DX-M2 荣获 CES 2027 人工智能类别创新奖。 DX-M2 基于三星晶圆代工 2nm 工艺，集成 80TOPs NPU 算力， 至高支持 128bit 的 LPDDR5X-9600 内存 ，可本地运行超 10B 参数的 LLM 和 VLM 模型，同时功耗仅有 5W。除单芯片外，DX-M2 还将提供封装集成内存的版本。 DEEPX 表示，DX-M2 近日成功实现“光罩（掩膜）流片”，这为 2027 年初首批芯片的面世打下了基础。",
+      "url": "https://www.ithome.com/1/025/442.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T06:20:09.000Z",
       "category": "模型发布",
       "keywordHits": [
+        "ai",
+        "人工智能",
+        "llm",
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/442.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 35,
+      "level": "正在升温"
+    },
+    {
+      "id": "d79180c31647",
+      "title": "阿里 Qwen Code 1.0 发布：Qoder 与 Qwen Code Harness 融合开源",
+      "summary": "IT之家 11 月 11 日消息，阿里今日官宣推出 Qwen Code 1.0 版本， Qoder 与 Qwen Code 融合开源 。 阿里把在 Qoder 中打磨的 Harness 能力融入 Qwen Code，随 Qwen Code 1.0 Preview 一起开放，为开发者提供可嵌入自身产品的 Agent 运行基础。 Qwen Code 1.0 从进程内的内存事件总线起步，沿着统一事件模型向分布式演进：将接入、调度与执行分层扩展，通过“手脑分离”让推理编排与工具执行独立管理。在保留既有入口与返回方式的基础上， 从“一个进程、多个会话”走向“多个节点、更多会话” 。 Qwen Code 1.0 架构演进示意 阿里官方表示，统一",
+      "url": "https://www.ithome.com/1/025/393.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T04:20:07.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "agent",
+        "模型",
+        "推理",
+        "qwen"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/393.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 35,
+      "level": "正在升温"
+    },
+    {
+      "id": "8efbac5daae6",
+      "title": "华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端",
+      "summary": "IT之家 11 月 11 日消息，华为麒麟官方公众号今日发文，详细介绍了首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列的新一代达芬奇架构 NPU，其支持 30B 大模型端侧运行，具备不用联网、不用等云端的特性。 新一代达芬奇架构 NPU 性能提升 140%、功耗降低 66% ，支持 Transformer 引擎、超低功耗感知引擎和 CANN 异构计算架构； 业界首个 30B MoE 大模型入端 ，支持多级存算协同优化、低比特量化。 落地到具体的功能上，新一代达芬奇架构 NPU 可提供感知屏幕-AI 屏幕朗读、感知影像-Xmage 智拍 2.0、感知人眼-AI 眼动翻页、感知位置-熄屏地图 2.0 等功能。 据IT之家此前",
+      "url": "https://www.ithome.com/1/025/331.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T03:44:17.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
         "大模型",
-        "模型"
+        "模型",
+        "transformer"
       ],
       "primary": false,
       "sources": [
@@ -6639,98 +6534,11 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/025/471.htm"
+          "url": "https://www.ithome.com/1/025/331.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "08b1cd0e5aee",
-      "title": "亚马逊 Ring 推出两款安防机器人：一款飞着看家，一款巡逻商铺",
-      "summary": "IT之家 11 月 11 日消息，亚马逊旗下安防品牌 Ring 昨日（11 月 10 日）宣布扩展推出 Ring Robotics 产品线， 首批产品包括面向家庭的飞行摄像头 Drone Cam，以及面向商业场所的轮式机器人 Rover Cam。 两款设备均搭载 AI Pilot 系统，结合摄像头、传感器、视觉模型和云端处理实现自主导航。首次设置后，设备会绘制室内地图，建议重点监控门窗、走廊等位置；配置完成后，可自主避障，并响应现有 Ring 设备发出的警报。 Drone Cam 配备 2K 摄像头，支持 148 度视角和 360 度旋转，弱光下可自动开启 LED 灯。用户可通过应用设置飞行路线、安排巡逻，或派它前往指定位置查看；不",
-      "url": "https://www.ithome.com/1/025/465.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T06:41:37.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "ai",
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/465.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "b79013cc8fb8",
-      "title": "Nordic 推出支持边缘 AI 推理的 Wi-Fi SoC「nRF71」系列，待机功耗最高降低 1/20",
-      "summary": "IT之家 11 月 11 日消息，Nordic Semiconductor（IT之家注：诺迪克半导体）现已推出 nRF71 系列 Wi-Fi SoC，该产品内置 NPU，可直接在芯片上执行 AI 推理。 据介绍，该系列芯片包含 nRF7120、nRF7120E 两种型号。前者支持双频 Wi-Fi 6，后者支持三频 Wi-Fi 6E，并搭载用于加速边缘 AI 推理的 Axon NPU。该系列芯片均支持低功耗蓝牙、Thread 和 Matter，并配备 4MB 片上非易失性存储器，以及 1MB 可供用户使用的内存。 同时，该系列产品拥有超低功耗特性。与 nRF70 相比，nRF71 的待机功耗最高降低 1/20。借助内置 NPU，设备可",
-      "url": "https://www.ithome.com/1/025/414.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T05:53:04.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "推理"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/414.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
-      "level": "正在升温"
-    },
-    {
-      "id": "8650a57649a1",
-      "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
-      "summary": "IT之家 11 月 11 日消息，美国当地时间昨日（11 月 10 日）召开的 Adobe MAX 2026 大会上， Adobe 宣布为 Photoshop、Premiere、Lightroom、Illustrator、InDesign 等创意软件带来一波 AI 新功能，覆盖照片重打光、视频拆音轨、闭眼修复、自动剪辑和多人协同设计等场景。 IT之家援引博文介绍，Photoshop 新增“重新调光”（Relight）工具，可为照片添加光源，并调整位置、颜色和亮度，且修改不破坏原图；“生成式重塑”（Generative Restyle）则能根据文字描述生成多种风格变化，再用滑块调整强度。 升级后的“移除”（Remove Tool）工具",
-      "url": "https://www.ithome.com/1/025/403.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T05:34:37.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai",
-        "生成式"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/403.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 36,
+      "score": 35,
       "level": "正在升温"
     },
     {
@@ -6794,6 +6602,230 @@
       "sourceWeight": 18,
       "score": 35,
       "level": "正在升温"
+    },
+    {
+      "id": "80fc46bc631d",
+      "title": "Cerebras 宣布签约微软，2026Q3 末剩余履约义务 261 亿美元",
+      "summary": "IT之家 11 月 13 日消息，晶圆级 AI 芯片企业 Cerebras 当地时间昨日在 2026Q3 财报电话会议上宣布， 其成功与 Microsoft（微软）签署协议 ，获得继 AWS 和 Oracle 后的第三家超大规模云计算客户。 该企业 2026Q3 实现了约 2.3 亿美元的核心总收入，同比增长 20%；其中云服务及其它占到 1.45 亿美元，同比增长 272%。截至 2026 年 9 月 30 日，该企业剩余履约义务为 261 亿美元。 Cerebras 预计其 2026 全年核心营收为 9.4~9.6 亿美元、核心毛利率 42~44%、核心营业利润率 8~10%。其已确保到 2027 年交付 700MW 数据中心容",
+      "url": "https://www.ithome.com/1/026/741.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T06:41:28.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/741.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "c6ca94a89839",
+      "title": "迎接《GTA 6》发售：《幻兽帕鲁》开发商 Pocketpair 为全体员工安排 5 天“特别假期”",
+      "summary": "IT之家 11 月 13 日消息，《幻兽帕鲁（Palworld）》开发商 Pocketpair 在 X 平台发文，称为迎接《侠盗猎车手 6》（GTA 6）发售，公司将安排为期 5 天的特别假期，让对这款游戏期待已久的员工能够放心游玩。 Pocketpair 表示，《GTA 6》是全球玩家高度关注的游戏作品，发售当天势必会有不少人坐在学校或办公室里，望着窗外期待新一代游戏体验的到来。如此重要的时刻值得大家全心投入，因此公司决定让员工暂时放下日常工作，前往游戏中的罪恶城（Vice City）“出差”。 具体来看，此次特别假期从 11 月 19 日持续至 23 日，适用于所有有意游玩《GTA 6》的公司员工。由于假期涵盖周末，实际相当于额",
+      "url": "https://www.ithome.com/1/026/734.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T06:20:13.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/734.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "7b29dd9271da",
+      "title": "警惕“扫码领现金”，抖音配合警方打击仿冒礼品卡涉诈链条",
+      "summary": "IT之家 11 月 13 日消息，据抖音黑板报，今年以来，针对不法分子冒用抖音名义寄送“礼品卡”“现金卡”、以“扫码领现金”为诱饵为境外诈骗团伙引流的行为，抖音持续配合多地警方开展线下打击，捣毁多个涉诈团伙。抖音提醒： 抖音官方不会以邮寄卡片、附赠小礼品等方式 ，引导用户扫码进入第三方页面领取福利，切勿轻信“扫码领奖”“添加客服兑现”等诈骗话术。 针对此类仿冒抖音的诈骗，抖音反诈中心搭建“涉诈小卡片”线索挖掘模型，精准识别出一批设计制作、印刷、快递分发小卡片的黑灰产人员，并将线索上报当地公安。2026 年 9 月，汕尾警方抓获嫌疑人钟某。 经查，钟某通过境外社交软件“接单”，累计使用 5 个抖音账号扫码 6581 次、测试 1157",
+      "url": "https://www.ithome.com/1/026/707.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T06:08:11.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/707.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "f9e51446010a",
+      "title": "微软 Outlook 等服务今日大范围故障，受影响企业可申请费用抵扣",
+      "summary": "IT之家 11 月 13 日消息，科技媒体 Windows Latest 今天（11 月 13 日）发布博文，报道称针对 Microsoft 365 办公服务大范围、长时间故障， 将为受影响、且提交申请的企业客户提供费用抵扣，但个人用户恐难以获得赔偿。 根据微软官方 MO1550821 公告内容，本次 Microsoft 365 服务故障从美国东部时间 2026 年 11 月 12 日 13:25 左右（IT之家注：北京时间 11 月 13 日凌晨 2:25 左右）开始，影响 Outlook、Teams、Copilot、OneDrive 等多项微软服务。 在问题根源方面，微软执行副总裁查尔斯 · 拉曼纳（Charles Lamann",
+      "url": "https://www.ithome.com/1/026/683.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T06:00:06.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "copilot"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/683.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "b04ca40f1f02",
+      "title": "微软高管回应 Outlook 等服务中断：深感遗憾，正全力修复",
+      "summary": "IT之家 11 月 13 日消息，微软执行副总裁查尔斯 · 拉曼纳（Charles Lamanna）今天（11 月 13 日）在 X 平台发布推文， 就本次 Outlook、Exchange Online 等办公服务出现故障公开致歉，团队正在努力解决问题，并持续通报最新修复状态。 此次故障最初涉及 Teams，随后微软确认 Exchange Online 和 Outlook 也受到影响。故障还波及邮件之外的办公功能。Teams、SharePoint Online、Microsoft 365 Copilot 等服务中，部分依赖 Exchange 的功能受到牵连。 截至IT之家发稿前，相关服务故障仍未完全解决。微软承认，先前部署的部分修",
+      "url": "https://www.ithome.com/1/026/678.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T05:21:09.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "copilot"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/678.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "303f5ea10ba8",
+      "title": "Anthropic IPO 认购需求约为 6 倍：拟募资最高 644 亿美元，目标估值约 1.4 万亿美元",
+      "summary": "IT之家 11 月 13 日消息，据彭博社今日报道，Anthropic 计划进行的首次公开募股（IPO）认购需求持续增长，目前投资者提交的认购订单数量已达到可供认购股份数量的约 6 倍。 根据 Anthropic 提交的文件，公司及其联合创始人计划通过 IPO 募资最高 644 亿美元 （现汇率约合 4,305.19 亿元人民币） ，同时通过同步进行的私募配售募资 260 亿美元，两项融资合计最高达 904 亿美元。 Anthropic 目前的目标完全稀释后估值约为 1.4 万亿美元 （IT之家注：现汇率约合 9.36 万亿元人民币） 。这一估值低于此前部分投资者预期的水平。 随着认购需求超过可供认购股份数量，部分潜在投资者可能无法",
+      "url": "https://www.ithome.com/1/026/671.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T04:49:58.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "anthropic"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/671.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "68a30248314b",
+      "title": "AMD \"Siren Halo\" 处理器曝光：支持 LPDDR + GDDR 双类型内存",
+      "summary": "IT之家 11 月 13 日消息，X 平台消息人士 @Gotou_kai3 昨日 曝光了 AMD \"Siren Halo\" 处理器 ，这一型号旨在接替已从规划中移除的 \"Medusa Halo\" 处理器。 另一方面，对应的 \"Siren Point\" 则会是 \"Medusa Point\" 的刷新版 。这也暗示 \"Siren Halo\" 更可能指向 2028 年的发布窗口。 @Gotou_kai3 表示， \"Siren Halo\" 将同时支持 LPDRAM 和 VRAM ，其中 VRAM 确定是 GDDR7。LPDRAM 是 LPDDR5X 还是 LPDDR6 尚不明确。 @Gotou_kai3 还提到，其认为 \"Siren Halo",
+      "url": "https://www.ithome.com/1/026/592.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T03:36:25.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/592.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
+    },
+    {
+      "id": "ffd318492979",
+      "title": "主导苹果 M1 芯片的传奇架构师谈 AI 电力危机：用造 iPhone 芯片的“抠门”哲学建超算",
+      "summary": "IT之家 11 月 13 日消息，在最新一期 Power On 访谈节目中，彭博社的马克 · 古尔曼（Mark Gurman）邀请苹果前 CPU 首席架构师杰拉德 · 威廉姆斯三世（Gerard Williams III）作客，探讨当前的 AI 浪潮。 IT之家查询公开资料，Williams 是一位深耕 CPU 架构数十年的芯片工程师，也是苹果自研芯片从手机走向 Mac 的关键人物之一。他曾在苹果主导 A 系列和 M 系列处理器的 CPU 架构，后创办 AI 数据中心芯片公司 NUVACORE ，主张把“每瓦性能”从移动设备带入云端。 2019 年离开苹果联合创立 NUVIA，公司后被高通收购，他主导了 Oryon CPU 架构；2",
+      "url": "https://www.ithome.com/1/026/591.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-13T03:33:29.000Z",
+      "category": "商业动态",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/026/591.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 33,
+      "level": "仅记录"
     },
     {
       "id": "614305d5d293",
@@ -7300,47 +7332,21 @@
       "level": "仅记录"
     },
     {
-      "id": "de85a902ba83",
-      "title": "IDC：2030 年，全球数据中心机柜量将达 5800 万架",
-      "summary": "IT之家 11 月 11 日消息，IDC《全球半年度数据中心设施跟踪报告》数据显示，全球已配置机柜数量预计将从 2026 年的约 2500 万架 增长至 2030 年的 5800 万架。 同期，全球数据中心年度能源消耗预计将从 2025 年的 519 太瓦时（TWh）增长至 2030 年的 1308 太瓦时；全球数据中心设施资本支出预计将从 2025 年的 2,760 亿美元 （IT之家注：现汇率约合 1.85 万亿元人民币） 增长至 2030 年的 6,550 亿美元 （现汇率约合 4.38 万亿元人民币） 。 该统计不含服务器、GPU 等 IT 基础设施投入，主要反映电力、制冷、建筑等物理设施的建设需求。 AI 基础设施扩张不仅",
-      "url": "https://www.ithome.com/1/025/483.htm",
+      "id": "cc0235b404ab",
+      "title": "百度文心发布 ERNIE 5.5 Flash Preview 模型，11 月 25 日前开源权重",
+      "summary": "IT之家 11 月 11 日消息，百度文心大模型今日发布 ERNIE 5.5 Flash Preview ，这是基于此前发布的 Base 模型 的首个后训练版本。 该模型总参数 280B，激活参数 14B，支持 1M 上下文，官方称在编程、3D 建模、知识工作、内容创作等方面表现出色。 据介绍，ERNIE 5.5 Flash Preview 兼顾了智能水平和推理效率。在多项基准测试中，ERNIE 5.5 Flash Preview 取得了具有竞争力的得分，同时保持了极致的解码速度。模型 API 已在 千帆平台 上线， 权重将于 11 月 25 日前开源 。 IT之家附基准测试结果如下： 官方表示，ERNIE 5.5 Flash Pr",
+      "url": "https://www.ithome.com/1/025/451.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-11T07:12:30.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/483.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "6bfda5195975",
-      "title": "部分 Win11 用户反馈安装微软 11 月累积更新报错，故障指向沙盒功能",
-      "summary": "IT之家 11 月 11 日消息，科技媒体 NeoWin 今天（11 月 11 日）发布博文，报道称部分 Windows 11 设备用户反馈，无法正常安装微软 11 月累积更新（ 包括 KB5132061 和 KB5131087 ）， 安装过程遇到 0x800f0989、0x800f0915 和 0x80070306 等错误。 网友 Forceflow 随后在 elevenforum 论坛上发帖，通过调用 Claude 扫描 CBS.log 文件查找异常，初步锁定本次安装报错是由于 Windows Sandbox 兼容性故障导致的。 日志提示，系统组件目录中缺少 Professional.xml 文件，并出现“无法重新创建容器基础镜",
-      "url": "https://www.ithome.com/1/025/445.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T06:27:32.000Z",
+      "publishedAt": "2026-11-11T06:35:18.000Z",
       "category": "产品更新",
       "keywordHits": [
-        "claude"
+        "大模型",
+        "模型",
+        "推理"
       ],
       "primary": false,
       "sources": [
@@ -7348,151 +7354,11 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/025/445.htm"
+          "url": "https://www.ithome.com/1/025/451.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "7e385e25e41f",
-      "title": "北京：建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业",
-      "summary": "IT之家 11 月 11 日消息，为加快推动北京市具身智能机器人产业高质量发展，北京市经济和信息化局今日印发《北京市具身智能机器人产业高质量发展行动方案（2026-2028 年）》。 IT之家注意到， 该《行动方案》提到建立具身智能机器人企业上市“一对一”服务机制 ， 培育优势龙头企业 。在整机、关键零部件、具身智能模型和数据采集等重点领域，培育不少于 200 家科技和创新型中小企业、高新技术企业、专精特新中小企业、专精特新“小巨人”企业、制造业单项冠军企业。 同时，该《行动方案》还提到支持视觉语言动作模型（VLA）、世界模型（WM）、强化学习等多技术路线布局和技术融合发展，引领各主要路线技术创新。支持攻关多源信息融合、物理空间理解",
-      "url": "https://www.ithome.com/1/025/432.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T06:04:35.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/432.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "5a031b316c67",
-      "title": "特斯拉推出 Cybertruck 遥控模型车、2.5 代人形机器人摆件，199 元起",
-      "summary": "IT之家 11 月 11 日消息，特斯拉今日宣布在官网商城推出 Cybertruck 遥控模型车、全新 2.5 代特斯拉人形机器人摆件。 IT之家从商品页面了解到，Tesla Cybertruck 遥控模型车 1:10 还原标志性不锈钢棱角造型，PC 材质车壳，尺寸为 56.5 x 25.0 x 20.5 cm， 定价 1,769 元 。 Tesla Cybertruck 遥控模型车搭载 无刷电机、四轮驱动和独立悬挂 ；2.4G 遥控系统，最远 99.4 米控制距离；配合陀螺仪防甩尾功能，帮助防止甩尾。 Tesla Cybertruck 遥控模型车内置 11.1V 3400mAh 锂电池， 最高时速可达 60km/h，续航最长达 2",
-      "url": "https://www.ithome.com/1/025/401.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T05:21:50.000Z",
-      "category": "模型发布",
-      "keywordHits": [
-        "模型"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/401.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "b23dcff3c81f",
-      "title": "2026 世界计算大会 11 月 19 日长沙举行：首设太空计算论坛，具身智能机器人、脑机接口将亮相",
-      "summary": "IT之家 11 月 11 日消息，湖南省政府新闻办今日召开新闻发布会，宣布 2026 世界计算大会将于 11 月 19 日至 21 日在长沙国际会议中心举行。 本届大会以“计算万物湘约未来 —— 打造智能经济新形态”为主题，设置“1+5+N+1”共 21 场主题活动。 大会核心议程围绕“十五五”时期计算产业发展方向展开解读，将集中发布计算产业分析、算力发展趋势、计算行业标准等一批研究报告，以及算电协同、基础设施、计算软硬件等产业成果。 主题论坛覆盖计算芯片、算电协同、AI 服务器、具身智能计算等领域，其中太空计算与海洋计算声学为首次设立。开幕式暨主旨论坛拟邀请诺贝尔奖获得者、中外院士及国内外领军企业家发表演讲，议题聚焦智能制造、半导",
-      "url": "https://www.ithome.com/1/025/399.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T04:53:19.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/399.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "00f74ddcf336",
-      "title": "AirPods 耳机充电盒秒变苹果 Mac 无线鼠标：体感移动 + 轻敲点击，还能“打鸭子”",
-      "summary": "IT之家 11 月 11 日消息，一位名叫 Andy Gao 的开发者本月上传了一个开源项目 AirPointer ，可以把苹果 AirPods 无线耳机的充电盒变成 Mac 电脑的鼠标。 从演示可以看到，Mac 电脑连接到 AirPods 充电盒后，电脑屏幕顶部显示弹窗，提示旋转充电盒，然后就可以用体感来移动电脑鼠标，轻敲充电盒就是点击鼠标。 听起来似乎很鸡肋，但 Andy Gao 反手给出了一个使用场景 —— 玩游戏 。他上传了一段视频，借助这套工具，可以实现类似 Wii 等早期游戏机的“打鸭子”玩法。 IT之家查询该项目页面了解到，用户需要将 AirPointer 放进 Mac 的无障碍软件名单，这是实现操控鼠标的第一步。然后",
-      "url": "https://www.ithome.com/1/025/398.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T04:48:13.000Z",
-      "category": "开源项目",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/398.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
-      "level": "仅记录"
-    },
-    {
-      "id": "45708fc69551",
-      "title": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
-      "summary": "IT之家 11 月 11 日消息，消息源 @itspdfu 今天（11 月 11 日）在 X 平台发布推文，爆料称在 iOS 27.3 首个开发者预览版 Beta 中， 苹果为 Siri AI 加入了读取“健康”（Health）应用的相关功能 Flag，不过目前均处于禁用状态。 IT之家援引官方支持文档介绍， 当前 Siri AI 尚不支持读取健康 Health 应用数据。 用户可以设置 Siri 访问“健康”应用数据，但 Siri AI 目前尚不支持。 而在 iOS 27.3 首个开发者预览版 Beta 中，苹果公司引入名为“IF / HealthSearch”的功能 Flag，可以将健康信息添加到 Siri 的“查找”工具中，检",
-      "url": "https://www.ithome.com/1/025/392.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-11T04:18:10.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/025/392.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 33,
+      "score": 32,
       "level": "仅记录"
     },
     {
@@ -7772,21 +7638,20 @@
       "level": "仅记录"
     },
     {
-      "id": "4445b6a3fdeb",
-      "title": "曝 Anthropic 计划下周启动 IPO 路演，目标是在感恩节前完成上市",
-      "summary": "IT之家 11 月 7 日消息，据 The Information 今日报道，美国人工智能初创公司 Anthropic 正加快推进首次公开募股（IPO）计划。 消息人士称，Anthropic 计划于下周启动 IPO 正式推介，向潜在投资者介绍公司业务及上市计划，计划于 11 月 16 日当周在美国资本市场挂牌，争取在美国感恩节（11 月 26 日）假期前完成上市。 不过，近期美国科技股市场波动加剧，投资者对 AI 企业巨额资本开支及商业回报的担忧也在增加，可能影响此次 IPO 的估值和融资规模。 此前市场预计，Anthropic 此次 IPO 估值约为 1.5 万亿美元 （IT之家注：现汇率约合 10.03 万亿元人民币） ，融资金",
-      "url": "https://www.ithome.com/1/023/672.htm",
+      "id": "9aa4397ad61d",
+      "title": "腾讯全新搜索产品“元宝搜索”正式上线：能搜微信公众号、视频号，广告与答案明确区分",
+      "summary": "IT之家 11 月 11 日消息，腾讯云今日宣布， 腾讯全新搜索产品「元宝搜索」正式上线 。在任意浏览器地址栏输入网址 so.qq.com 即可使用；也可将 QQ 浏览器升级至最新版本，在引擎设置选项中切换为“元宝搜索”。 IT之家获悉，元宝搜索基于元宝的大模型能力，重新构建了从理解、检索、排序到答案组织的整条搜索链路。依托千亿级索引， 搜索范围覆盖全网网页、公众号、视频号等腾讯生态内容和学术文献 。 在结果呈现上，元宝搜索优先展示权威机构与官方来源的内容， 并将广告与答案明确区分 ，支持「收起广告」，整块折叠。 据介绍，元宝搜索接入 157 个权威信源；能搜公众号、视频号；学术内容更好搜，通俗解读论文结论、保留原文依据，支持英文一",
+      "url": "https://www.ithome.com/1/025/471.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T05:17:43.000Z",
-      "category": "商业动态",
+      "publishedAt": "2026-11-11T06:47:56.000Z",
+      "category": "模型发布",
       "keywordHits": [
-        "ai",
-        "人工智能",
-        "anthropic"
+        "大模型",
+        "模型"
       ],
       "primary": false,
       "sources": [
@@ -7794,11 +7659,98 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/672.htm"
+          "url": "https://www.ithome.com/1/025/471.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 32,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "08b1cd0e5aee",
+      "title": "亚马逊 Ring 推出两款安防机器人：一款飞着看家，一款巡逻商铺",
+      "summary": "IT之家 11 月 11 日消息，亚马逊旗下安防品牌 Ring 昨日（11 月 10 日）宣布扩展推出 Ring Robotics 产品线， 首批产品包括面向家庭的飞行摄像头 Drone Cam，以及面向商业场所的轮式机器人 Rover Cam。 两款设备均搭载 AI Pilot 系统，结合摄像头、传感器、视觉模型和云端处理实现自主导航。首次设置后，设备会绘制室内地图，建议重点监控门窗、走廊等位置；配置完成后，可自主避障，并响应现有 Ring 设备发出的警报。 Drone Cam 配备 2K 摄像头，支持 148 度视角和 360 度旋转，弱光下可自动开启 LED 灯。用户可通过应用设置飞行路线、安排巡逻，或派它前往指定位置查看；不",
+      "url": "https://www.ithome.com/1/025/465.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T06:41:37.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "ai",
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/465.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "b79013cc8fb8",
+      "title": "Nordic 推出支持边缘 AI 推理的 Wi-Fi SoC「nRF71」系列，待机功耗最高降低 1/20",
+      "summary": "IT之家 11 月 11 日消息，Nordic Semiconductor（IT之家注：诺迪克半导体）现已推出 nRF71 系列 Wi-Fi SoC，该产品内置 NPU，可直接在芯片上执行 AI 推理。 据介绍，该系列芯片包含 nRF7120、nRF7120E 两种型号。前者支持双频 Wi-Fi 6，后者支持三频 Wi-Fi 6E，并搭载用于加速边缘 AI 推理的 Axon NPU。该系列芯片均支持低功耗蓝牙、Thread 和 Matter，并配备 4MB 片上非易失性存储器，以及 1MB 可供用户使用的内存。 同时，该系列产品拥有超低功耗特性。与 nRF70 相比，nRF71 的待机功耗最高降低 1/20。借助内置 NPU，设备可",
+      "url": "https://www.ithome.com/1/025/414.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T05:53:04.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "推理"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/414.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
+      "level": "仅记录"
+    },
+    {
+      "id": "8650a57649a1",
+      "title": "Adobe Photoshop 迎来 AI 进化：照片能重新打光，删物体还能清理倒影",
+      "summary": "IT之家 11 月 11 日消息，美国当地时间昨日（11 月 10 日）召开的 Adobe MAX 2026 大会上， Adobe 宣布为 Photoshop、Premiere、Lightroom、Illustrator、InDesign 等创意软件带来一波 AI 新功能，覆盖照片重打光、视频拆音轨、闭眼修复、自动剪辑和多人协同设计等场景。 IT之家援引博文介绍，Photoshop 新增“重新调光”（Relight）工具，可为照片添加光源，并调整位置、颜色和亮度，且修改不破坏原图；“生成式重塑”（Generative Restyle）则能根据文字描述生成多种风格变化，再用滑块调整强度。 升级后的“移除”（Remove Tool）工具",
+      "url": "https://www.ithome.com/1/025/403.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T05:34:37.000Z",
+      "category": "其他",
+      "keywordHits": [
+        "ai",
+        "生成式"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/403.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 29,
       "level": "仅记录"
     },
     {
@@ -8237,20 +8189,19 @@
       "level": "仅记录"
     },
     {
-      "id": "0bb4e4f8d516",
-      "title": "OpenAI 窃听案进入抗辩阶段：被告拒不认罪，若定罪最高监禁五年",
-      "summary": "北京时间 11 月 7 日，据《华尔街日报》报道，沙特公民阿卜杜勒拉赫曼 · 阿尔福赞 (Abdulrahman Alfozan) 被指控在 OpenAI 一间限制进入的会议室内安装窃听设备。当地时间周五，他在旧金山联邦法院出庭，对相关指控表示不认罪。 周五，阿尔福赞参加了美国联邦治安法官的提审听证会。他的律师戴维 ·W· 里兹 (David W. Rizk) 表示，其当事人对检方提出的唯一一项指控拒不认罪。该罪名为截取口头通信内容，最高可判处 5 年监禁，并处以 25 万美元罚款。 阿尔福赞目前被联邦执法部门羁押，下一次出庭时间将是 11 月 17 日。 阿尔福赞被指控在今年 9 月 28 日前后，将一块拇指大小的电路板和麦克风用",
-      "url": "https://www.ithome.com/1/023/674.htm",
+      "id": "de85a902ba83",
+      "title": "IDC：2030 年，全球数据中心机柜量将达 5800 万架",
+      "summary": "IT之家 11 月 11 日消息，IDC《全球半年度数据中心设施跟踪报告》数据显示，全球已配置机柜数量预计将从 2026 年的约 2500 万架 增长至 2030 年的 5800 万架。 同期，全球数据中心年度能源消耗预计将从 2025 年的 519 太瓦时（TWh）增长至 2030 年的 1308 太瓦时；全球数据中心设施资本支出预计将从 2025 年的 2,760 亿美元 （IT之家注：现汇率约合 1.85 万亿元人民币） 增长至 2030 年的 6,550 亿美元 （现汇率约合 4.38 万亿元人民币） 。 该统计不含服务器、GPU 等 IT 基础设施投入，主要反映电力、制冷、建筑等物理设施的建设需求。 AI 基础设施扩张不仅",
+      "url": "https://www.ithome.com/1/025/483.htm",
       "author": "",
       "engagement": {
         "upvotes": 0,
         "comments": 0
       },
-      "publishedAt": "2026-11-07T05:22:44.000Z",
+      "publishedAt": "2026-11-11T07:12:30.000Z",
       "category": "其他",
       "keywordHits": [
-        "ai",
-        "openai"
+        "ai"
       ],
       "primary": false,
       "sources": [
@@ -8258,11 +8209,179 @@
           "id": "ithome",
           "name": "IT之家",
           "platform": "media",
-          "url": "https://www.ithome.com/1/023/674.htm"
+          "url": "https://www.ithome.com/1/025/483.htm"
         }
       ],
       "sourceWeight": 18,
-      "score": 29,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "6bfda5195975",
+      "title": "部分 Win11 用户反馈安装微软 11 月累积更新报错，故障指向沙盒功能",
+      "summary": "IT之家 11 月 11 日消息，科技媒体 NeoWin 今天（11 月 11 日）发布博文，报道称部分 Windows 11 设备用户反馈，无法正常安装微软 11 月累积更新（ 包括 KB5132061 和 KB5131087 ）， 安装过程遇到 0x800f0989、0x800f0915 和 0x80070306 等错误。 网友 Forceflow 随后在 elevenforum 论坛上发帖，通过调用 Claude 扫描 CBS.log 文件查找异常，初步锁定本次安装报错是由于 Windows Sandbox 兼容性故障导致的。 日志提示，系统组件目录中缺少 Professional.xml 文件，并出现“无法重新创建容器基础镜",
+      "url": "https://www.ithome.com/1/025/445.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T06:27:32.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "claude"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/445.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "7e385e25e41f",
+      "title": "北京：建立具身智能机器人企业上市“一对一”服务机制，培育优势龙头企业",
+      "summary": "IT之家 11 月 11 日消息，为加快推动北京市具身智能机器人产业高质量发展，北京市经济和信息化局今日印发《北京市具身智能机器人产业高质量发展行动方案（2026-2028 年）》。 IT之家注意到， 该《行动方案》提到建立具身智能机器人企业上市“一对一”服务机制 ， 培育优势龙头企业 。在整机、关键零部件、具身智能模型和数据采集等重点领域，培育不少于 200 家科技和创新型中小企业、高新技术企业、专精特新中小企业、专精特新“小巨人”企业、制造业单项冠军企业。 同时，该《行动方案》还提到支持视觉语言动作模型（VLA）、世界模型（WM）、强化学习等多技术路线布局和技术融合发展，引领各主要路线技术创新。支持攻关多源信息融合、物理空间理解",
+      "url": "https://www.ithome.com/1/025/432.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T06:04:35.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/432.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "5a031b316c67",
+      "title": "特斯拉推出 Cybertruck 遥控模型车、2.5 代人形机器人摆件，199 元起",
+      "summary": "IT之家 11 月 11 日消息，特斯拉今日宣布在官网商城推出 Cybertruck 遥控模型车、全新 2.5 代特斯拉人形机器人摆件。 IT之家从商品页面了解到，Tesla Cybertruck 遥控模型车 1:10 还原标志性不锈钢棱角造型，PC 材质车壳，尺寸为 56.5 x 25.0 x 20.5 cm， 定价 1,769 元 。 Tesla Cybertruck 遥控模型车搭载 无刷电机、四轮驱动和独立悬挂 ；2.4G 遥控系统，最远 99.4 米控制距离；配合陀螺仪防甩尾功能，帮助防止甩尾。 Tesla Cybertruck 遥控模型车内置 11.1V 3400mAh 锂电池， 最高时速可达 60km/h，续航最长达 2",
+      "url": "https://www.ithome.com/1/025/401.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T05:21:50.000Z",
+      "category": "模型发布",
+      "keywordHits": [
+        "模型"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/401.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "b23dcff3c81f",
+      "title": "2026 世界计算大会 11 月 19 日长沙举行：首设太空计算论坛，具身智能机器人、脑机接口将亮相",
+      "summary": "IT之家 11 月 11 日消息，湖南省政府新闻办今日召开新闻发布会，宣布 2026 世界计算大会将于 11 月 19 日至 21 日在长沙国际会议中心举行。 本届大会以“计算万物湘约未来 —— 打造智能经济新形态”为主题，设置“1+5+N+1”共 21 场主题活动。 大会核心议程围绕“十五五”时期计算产业发展方向展开解读，将集中发布计算产业分析、算力发展趋势、计算行业标准等一批研究报告，以及算电协同、基础设施、计算软硬件等产业成果。 主题论坛覆盖计算芯片、算电协同、AI 服务器、具身智能计算等领域，其中太空计算与海洋计算声学为首次设立。开幕式暨主旨论坛拟邀请诺贝尔奖获得者、中外院士及国内外领军企业家发表演讲，议题聚焦智能制造、半导",
+      "url": "https://www.ithome.com/1/025/399.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T04:53:19.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/399.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "00f74ddcf336",
+      "title": "AirPods 耳机充电盒秒变苹果 Mac 无线鼠标：体感移动 + 轻敲点击，还能“打鸭子”",
+      "summary": "IT之家 11 月 11 日消息，一位名叫 Andy Gao 的开发者本月上传了一个开源项目 AirPointer ，可以把苹果 AirPods 无线耳机的充电盒变成 Mac 电脑的鼠标。 从演示可以看到，Mac 电脑连接到 AirPods 充电盒后，电脑屏幕顶部显示弹窗，提示旋转充电盒，然后就可以用体感来移动电脑鼠标，轻敲充电盒就是点击鼠标。 听起来似乎很鸡肋，但 Andy Gao 反手给出了一个使用场景 —— 玩游戏 。他上传了一段视频，借助这套工具，可以实现类似 Wii 等早期游戏机的“打鸭子”玩法。 IT之家查询该项目页面了解到，用户需要将 AirPointer 放进 Mac 的无障碍软件名单，这是实现操控鼠标的第一步。然后",
+      "url": "https://www.ithome.com/1/025/398.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T04:48:13.000Z",
+      "category": "开源项目",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/398.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
+      "level": "仅记录"
+    },
+    {
+      "id": "45708fc69551",
+      "title": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
+      "summary": "IT之家 11 月 11 日消息，消息源 @itspdfu 今天（11 月 11 日）在 X 平台发布推文，爆料称在 iOS 27.3 首个开发者预览版 Beta 中， 苹果为 Siri AI 加入了读取“健康”（Health）应用的相关功能 Flag，不过目前均处于禁用状态。 IT之家援引官方支持文档介绍， 当前 Siri AI 尚不支持读取健康 Health 应用数据。 用户可以设置 Siri 访问“健康”应用数据，但 Siri AI 目前尚不支持。 而在 iOS 27.3 首个开发者预览版 Beta 中，苹果公司引入名为“IF / HealthSearch”的功能 Flag，可以将健康信息添加到 Siri 的“查找”工具中，检",
+      "url": "https://www.ithome.com/1/025/392.htm",
+      "author": "",
+      "engagement": {
+        "upvotes": 0,
+        "comments": 0
+      },
+      "publishedAt": "2026-11-11T04:18:10.000Z",
+      "category": "产品更新",
+      "keywordHits": [
+        "ai"
+      ],
+      "primary": false,
+      "sources": [
+        {
+          "id": "ithome",
+          "name": "IT之家",
+          "platform": "media",
+          "url": "https://www.ithome.com/1/025/392.htm"
+        }
+      ],
+      "sourceWeight": 18,
+      "score": 26,
       "level": "仅记录"
     },
     {
@@ -9076,146 +9195,6 @@
       "sourceWeight": 18,
       "score": 26,
       "level": "仅记录"
-    },
-    {
-      "id": "8ee224b81c8d",
-      "title": "国内首个科技法学院在雄安新区成立，聚焦人工智能、自动驾驶等",
-      "summary": "IT之家 11 月 7 日消息，据央视新闻报道，今天（11 月 7 日），国内首个科技法学院 —— 北京科技大学科技法学院在雄安新区成立。 IT之家从报道获悉，学院内设 知识产权、科技法、科技政策、法学基础 4 个教学科研机构，与研究生招生分步推进。初期设置工法复合知识产权本科专业，专业硕士培养也将逐步布局雄安。 科技法学院未来规划逐步建成百人左右的高水平师资队伍，主干专业教师中具有产业实战经历者不低于 50%。科技法学院聚焦 人工智能、自动驾驶、新材料、绿色低碳冶金、空天信息、关键矿产 等战略技术与未来产业，推动法学与材料、冶金、矿业、计算机等优势学科深度交叉融合，着力培养“科技＋法律”复合型人才。 ▲ 北京科技大学雄安校区效果图",
-      "url": "https://www.ithome.com/1/023/680.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T06:01:54.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "人工智能"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/680.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "6d50c2e86f5f",
-      "title": "CPU-Z、HWiNFO 接连加入支持，英特尔 Razor Lake 桌面及移动处理器曝光",
-      "summary": "IT之家 11 月 7 日消息，英特尔下下代处理器平台 Razor Lake 近日接连获得硬件检测工具的更新支持。 首先，CPUID 发布的 CPU-Z 3.02 已加入对 Razor Lake 的支持，HWiNFO 最新测试版 v8.55-6115 则进一步增强了对 Razor Lake-H、Razor Lake-HX 和 Razor Lake-S 的识别支持。 CPU-Z 3.02 于 11 月 4 日发布，新增 Intel Razor Lake 支持，同时加入对 AMD Radeon AI PRO R9700 显卡的识别，并修复 Broadwell-E 平台的 SPD 读取问题以及 Windows XP 下的验证问题。 HWi",
-      "url": "https://www.ithome.com/1/023/676.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T05:35:51.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/676.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "abf8173d18c1",
-      "title": "机械革命推出无界 15X 暴风雪电竞版：锐龙 AI 9 365、16GB + 1TB，首发 6499 元",
-      "summary": "IT之家 11 月 7 日消息，机械革命新上架了一款“无界 15X 暴风雪电竞版”，搭载 AMD 锐龙 AI 9 365 处理器、240Hz 电竞屏，首发价 6499 元，叠加国补后 5524.15 元。 IT之家从商品页面获悉，这款新机采用了 15.3 英寸 2.5K 240Hz 电竞屏，拥有 2560*1600 分辨率、100% sRGB 色域、500nits 亮度，支持 DC 调光 + 雾面防眩光，支持约 180° 开合；采用全金属机身，重约 1.68kg。 其他方面，该机配备 16GB 内存 + 1TB 固态硬盘，均预留拓展插槽；升级并联双热管散热架构，支持 25W/45W/65W 三档性能释放；配备 80Wh 电池、100",
-      "url": "https://www.ithome.com/1/023/668.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T04:17:07.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/668.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "1860f351825a",
-      "title": "男子利用 AI 眼镜、智能戒指驾考作弊被成都交管查获：罚款 1900 元 + 禁考一年",
-      "summary": "IT之家 11 月 7 日消息，据成都交警，近日，成都公安交管部门查处一起机动车驾驶人考试舞弊案。 10 月 16 日上午，成都公安交管十分局摩托车考场驻场民警在开展机动车驾驶员理论考试巡查过程中，发现一男子 神色紧张， 答题状态异常， 行为举止不自然， 当即对其开展核查。 男子佩戴的眼镜暗藏玄机，手上还配有一枚智能戒指，长按可触发扫描，答案就显示在眼镜上。面对询问，该男子 承认自己利用 高科技设备作弊的违法行为。 经了解，该男子早年申领汽车驾驶证时，理论科目历经四次考试才勉强通过。此次申请增驾摩托车驾驶证， 因担心再次考试失利， 心生焦虑便动起歪念， 在网络渠道购买 AI 眼镜、智能戒指等电子作弊设备，妄图借助所谓的“高科技”通过",
-      "url": "https://www.ithome.com/1/023/665.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T03:49:42.000Z",
-      "category": "其他",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/665.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
-    },
-    {
-      "id": "52ac476ada41",
-      "title": "肉眼不可见：苹果 iOS 27.2 新增隐形水印，图像工具 AI 生图 / 修图均有迹可查",
-      "summary": "IT之家 11 月 7 日消息，苹果公司于 11 月 5 日更新官方支持文档，宣布从 iOS / iPadOS / macOS 27.2 等版本系统开始， 为部分 Apple Intelligence 图像工具引入 SynthID 隐形水印。 IT之家援引博文介绍，在涉及的图像工具方面，涵盖图乐园（Image Playground）和图像魔法棒（Image Wand），以及“照片”中的清理（Clean Up）、扩展（Extend）和空间重构（Spatial Reframing）功能。 值得注意的是，标记对象并不局限于完全由 AI 生成的图片。即使是用户实际拍摄的照片， 只要使用上述指定 AI 工具进行处理，也会加入 SynthID ",
-      "url": "https://www.ithome.com/1/023/663.htm",
-      "author": "",
-      "engagement": {
-        "upvotes": 0,
-        "comments": 0
-      },
-      "publishedAt": "2026-11-07T03:41:42.000Z",
-      "category": "产品更新",
-      "keywordHits": [
-        "ai"
-      ],
-      "primary": false,
-      "sources": [
-        {
-          "id": "ithome",
-          "name": "IT之家",
-          "platform": "media",
-          "url": "https://www.ithome.com/1/023/663.htm"
-        }
-      ],
-      "sourceWeight": 18,
-      "score": 26,
-      "level": "仅记录"
     }
   ],
   "sources": [
@@ -9225,8 +9204,8 @@
       "platform": "official",
       "ok": true,
       "count": 1387,
-      "latencyMs": 547,
-      "checkedAt": "2026-11-14T03:12:45.464Z",
+      "latencyMs": 332,
+      "checkedAt": "2026-11-14T07:16:21.398Z",
       "note": ""
     },
     {
@@ -9235,8 +9214,8 @@
       "platform": "official",
       "ok": true,
       "count": 20,
-      "latencyMs": 826,
-      "checkedAt": "2026-11-14T03:12:45.769Z",
+      "latencyMs": 710,
+      "checkedAt": "2026-11-14T07:16:21.853Z",
       "note": ""
     },
     {
@@ -9245,8 +9224,8 @@
       "platform": "official",
       "ok": true,
       "count": 907,
-      "latencyMs": 542,
-      "checkedAt": "2026-11-14T03:12:45.486Z",
+      "latencyMs": 308,
+      "checkedAt": "2026-11-14T07:16:21.452Z",
       "note": ""
     },
     {
@@ -9255,8 +9234,8 @@
       "platform": "research",
       "ok": true,
       "count": 30,
-      "latencyMs": 703,
-      "checkedAt": "2026-11-14T03:12:45.647Z",
+      "latencyMs": 265,
+      "checkedAt": "2026-11-14T07:16:21.409Z",
       "note": ""
     },
     {
@@ -9265,8 +9244,8 @@
       "platform": "developer",
       "ok": true,
       "count": 10,
-      "latencyMs": 1514,
-      "checkedAt": "2026-11-14T03:12:46.459Z",
+      "latencyMs": 904,
+      "checkedAt": "2026-11-14T07:16:22.049Z",
       "note": ""
     },
     {
@@ -9275,8 +9254,8 @@
       "platform": "official",
       "ok": true,
       "count": 1660,
-      "latencyMs": 3700,
-      "checkedAt": "2026-11-14T03:12:48.646Z",
+      "latencyMs": 1516,
+      "checkedAt": "2026-11-14T07:16:22.661Z",
       "note": ""
     },
     {
@@ -9285,8 +9264,8 @@
       "platform": "developer",
       "ok": true,
       "count": 815,
-      "latencyMs": 789,
-      "checkedAt": "2026-11-14T03:12:45.735Z",
+      "latencyMs": 3069,
+      "checkedAt": "2026-11-14T07:16:24.215Z",
       "note": ""
     },
     {
@@ -9295,8 +9274,8 @@
       "platform": "media",
       "ok": true,
       "count": 30,
-      "latencyMs": 384,
-      "checkedAt": "2026-11-14T03:12:45.330Z",
+      "latencyMs": 368,
+      "checkedAt": "2026-11-14T07:16:21.514Z",
       "note": ""
     },
     {
@@ -9305,8 +9284,8 @@
       "platform": "official",
       "ok": true,
       "count": 10,
-      "latencyMs": 1367,
-      "checkedAt": "2026-11-14T03:12:46.314Z",
+      "latencyMs": 487,
+      "checkedAt": "2026-11-14T07:16:21.634Z",
       "note": ""
     },
     {
@@ -9315,8 +9294,8 @@
       "platform": "media",
       "ok": true,
       "count": 20,
-      "latencyMs": 447,
-      "checkedAt": "2026-11-14T03:12:45.396Z",
+      "latencyMs": 423,
+      "checkedAt": "2026-11-14T07:16:21.571Z",
       "note": ""
     },
     {
@@ -9325,8 +9304,8 @@
       "platform": "official",
       "ok": true,
       "count": 10,
-      "latencyMs": 809,
-      "checkedAt": "2026-11-14T03:12:45.758Z",
+      "latencyMs": 489,
+      "checkedAt": "2026-11-14T07:16:21.638Z",
       "note": ""
     },
     {
@@ -9335,8 +9314,8 @@
       "platform": "media",
       "ok": true,
       "count": 60,
-      "latencyMs": 366,
-      "checkedAt": "2026-11-14T03:12:45.316Z",
+      "latencyMs": 878,
+      "checkedAt": "2026-11-14T07:16:22.028Z",
       "note": ""
     },
     {
@@ -9345,31 +9324,29 @@
       "platform": "media",
       "ok": true,
       "count": 0,
-      "latencyMs": 274,
-      "checkedAt": "2026-11-14T03:12:45.224Z",
+      "latencyMs": 1674,
+      "checkedAt": "2026-11-14T07:16:22.824Z",
       "note": ""
     },
     {
       "id": "bytedance-tech",
       "name": "字节跳动技术团队",
       "platform": "official",
-      "ok": false,
-      "count": 0,
-      "latencyMs": 15009,
-      "checkedAt": "2026-11-14T03:12:59.959Z",
-      "note": "官方公众号文章，经第三方 RSS 转换",
-      "error": "请求超时"
+      "ok": true,
+      "count": 20,
+      "latencyMs": 738,
+      "checkedAt": "2026-11-14T07:16:21.889Z",
+      "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
       "id": "tencent-tech",
       "name": "腾讯技术工程",
       "platform": "official",
-      "ok": false,
-      "count": 0,
-      "latencyMs": 15010,
-      "checkedAt": "2026-11-14T03:12:59.960Z",
-      "note": "官方公众号文章，经第三方 RSS 转换",
-      "error": "请求超时"
+      "ok": true,
+      "count": 20,
+      "latencyMs": 730,
+      "checkedAt": "2026-11-14T07:16:21.881Z",
+      "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
       "id": "alibaba-tech",
@@ -9377,8 +9354,8 @@
       "platform": "official",
       "ok": true,
       "count": 10,
-      "latencyMs": 2855,
-      "checkedAt": "2026-11-14T03:12:47.806Z",
+      "latencyMs": 872,
+      "checkedAt": "2026-11-14T07:16:22.023Z",
       "note": "官方公众号文章，经第三方 RSS 转换"
     },
     {
@@ -9399,7 +9376,7 @@
       "pending": true,
       "count": 0,
       "checkedAt": null,
-      "note": "待配置 RSSHUB_BASE · 从配置的 AI 创作者账号池中按点赞数选出热门笔记"
+      "note": "待配置 XIAOHONGSHU_USER_IDS · 从配置的 AI 创作者账号池中按点赞数选出热门笔记"
     },
     {
       "id": "douyin-hot",
@@ -9414,9 +9391,9 @@
   "archive": [
     {
       "date": "2026-11-14",
-      "itemCount": 309,
+      "itemCount": 308,
       "headlineIds": [],
-      "updatedAt": "2026-11-14T03:12:44.914Z"
+      "updatedAt": "2026-11-14T07:16:21.063Z"
     },
     {
       "date": "2026-11-13",
